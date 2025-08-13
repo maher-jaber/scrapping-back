@@ -262,19 +262,27 @@ def save_results(results, query, location):
     try:
         df = pd.DataFrame(results)
         
-        # Supprimer les lignes où toutes les colonnes (sauf l'heure de scraping) sont None
-        cols_to_check = ['Nom', 'Adresse', 'Téléphone', 'Site Web']
+        # Supprimer les lignes où toutes les colonnes (sauf l'heure de scraping et Sponsorisé) sont None
+        cols_to_check = [col for col in df.columns if col not in ['Heure de scraping', 'Sponsorisé']]
         df = df.dropna(subset=cols_to_check, how='all')
         
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"google_maps_{query}_{location}_{timestamp}.xlsx"
+        if df.empty:
+            logger.warning("Aucune donnée valide après nettoyage")
+            return None
+            
+        # Nettoyage des noms de fichiers
+        safe_query = "".join(x for x in query if x.isalnum() or x in " _-")
+        safe_location = "".join(x for x in location if x.isalnum() or x in " _-")
         
-        # Correction pour l'export Excel (erreur d'encoding dans les logs)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"google_maps_{safe_query}_{safe_location}_{timestamp}.xlsx"
+        
+        # Correction pour l'export Excel
         df.to_excel(filename, index=False, engine='openpyxl')
         logger.info(f"Données sauvegardées dans {filename} ({len(df)} entrées valides)")
         
         return filename
     except Exception as e:
-        logger.error(f"Erreur lors de la sauvegarde: {str(e)}")
+        logger.error(f"Erreur lors de la sauvegarde: {str(e)}", exc_info=True)
         return None
 
