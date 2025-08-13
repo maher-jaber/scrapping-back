@@ -1,203 +1,147 @@
-2025-08-13 10:07:39,453 - INFO - D�but du scraping Google Maps
-2025-08-13 10:07:39,453 - INFO - ====== WebDriver manager ======
-2025-08-13 10:07:39,929 - INFO - Get LATEST chromedriver version for google-chrome
-2025-08-13 10:07:40,112 - INFO - Get LATEST chromedriver version for google-chrome
-2025-08-13 10:07:40,257 - INFO - Driver [C:\Users\mjaber\.wdm\drivers\chromedriver\win64\139.0.7258.68\chromedriver-win32/chromedriver.exe] found in cache
-2025-08-13 10:07:41,303 - INFO - Recherche: plombier � Paris (max 50 r�sultats)
-2025-08-13 10:08:03,428 - ERROR - Timeout attente r�sultats: Message: 
+2025-08-13 14:32:58,918 - INFO - Recherche: Restaurants à Paris
+2025-08-13 14:33:13,334 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
+2025-08-13 14:33:13,392 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire (Sponsorisé)
+2025-08-13 14:33:14,479 - INFO - 2/10: the friendly kitchen (Sponsorisé)
+2025-08-13 14:33:15,739 - INFO - 3/10: Le Tout-Paris 
+2025-08-13 14:33:16,350 - INFO - 4/10: Bouillon République 
+2025-08-13 14:33:17,050 - INFO - 5/10: Le Ju' 
+2025-08-13 14:33:17,883 - INFO - 6/10: Le Marais Restaurant Paris 
+2025-08-13 14:33:18,614 - INFO - 7/10: Au Pied de Cochon 
+2025-08-13 14:33:19,621 - INFO - 8/10: Brasserie Dubillot 
+2025-08-13 14:33:20,594 - INFO - 9/10: Les Parisiens Restaurant by Thibault Sombardier 
+2025-08-13 14:33:21,662 - INFO - 10/10: Chouchou 
+2025-08-13 14:33:24,654 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_143324.xlsx (10 entrées valides)
+2025-08-13 14:43:10,324 - INFO - Recherche: Restaurants à Paris
+2025-08-13 14:43:21,929 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
+2025-08-13 14:43:25,143 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire 
+2025-08-13 14:43:26,165 - ERROR - Erreur sur l'élément 2: Message: stale element reference: stale element not found in the current frame
+  (Session info: chro...
+2025-08-13 14:43:26,171 - ERROR - Erreur sur l'élément 3: Message: stale element reference: stale element not found in the current frame
+  (Session info: chro...
+2025-08-13 14:43:26,174 - ERROR - Erreur sur l'élément 4: Message: stale element reference: stale element not found in the current frame
+  (Session info: chro...
+2025-08-13 14:43:26,176 - ERROR - Erreur sur l'élément 5: Message: stale element reference: stale element not found in the current frame
+  (Session info: chro...
+2025-08-13 14:43:26,179 - ERROR - Erreur sur l'élément 6: Message: stale element reference: stale element not found in the current frame
+  (Session info: chro...
+2025-08-13 14:43:26,182 - ERROR - Erreur sur l'élément 7: Message: stale element reference: stale element not found in the current frame
+  (Session info: chro...
+2025-08-13 14:43:26,185 - ERROR - Erreur sur l'élément 8: Message: stale element reference: stale element not found in the current frame
+  (Session info: chro...
+2025-08-13 14:43:26,189 - ERROR - Erreur sur l'élément 9: Message: stale element reference: stale element not found in the current frame
+  (Session info: chro...
+2025-08-13 14:43:26,191 - ERROR - Erreur sur l'élément 10: Message: stale element reference: stale element not found in the current frame
+  (Session info: chro...
+2025-08-13 14:43:28,455 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_144328.xlsx (1 entrées valides)
+2025-08-13 14:48:57,234 - INFO - Recherche: Restaurants à Paris
+2025-08-13 14:49:10,617 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
+2025-08-13 14:49:12,313 - INFO - 2/10: Le Restaurant Campanile Prime - Paris La Villette
+2025-08-13 14:49:15,801 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_144915.xlsx (1 entrées valides)
+2025-08-13 14:51:13,712 - INFO - Recherche: Restaurants à Paris
+2025-08-13 14:51:25,210 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire
+2025-08-13 14:51:28,029 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_145127.xlsx (1 entrées valides)
+2025-08-13 14:54:39,208 - INFO - Recherche: Restaurants à Paris
+2025-08-13 14:54:54,537 - INFO - 1/10: Vita Ristorante
+2025-08-13 14:54:57,496 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_145457.xlsx (1 entrées valides)
+2025-08-13 14:57:49,915 - INFO - Recherche: Restaurants à Paris
+2025-08-13 14:58:04,988 - INFO - 1/10: Vita Ristorante
+2025-08-13 14:58:04,995 - WARNING - Impossible de revenir à la liste, tentative de scroll
+2025-08-13 14:58:46,986 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_145846.xlsx (1 entrées valides)
+2025-08-13 15:06:19,254 - INFO - Recherche: Restaurants à Paris
+2025-08-13 15:06:35,056 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire
+2025-08-13 15:06:46,235 - WARNING - Échec de fermeture standard: Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x114fd33+62915]
 	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xfcc89e]
-	(No symbol) [0x0xfccc3b]
-	(No symbol) [0x0x1014ec2]
-	(No symbol) [0x0xff1424]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 10:08:05,559 - WARNING - Aucun r�sultat obtenu - V�rifiez les logs pour les erreurs
-2025-08-13 10:12:05,829 - INFO - === Début du scraping ===
-2025-08-13 10:12:05,829 - INFO - ====== WebDriver manager ======
-2025-08-13 10:12:06,308 - INFO - Get LATEST chromedriver version for google-chrome
-2025-08-13 10:12:06,455 - INFO - Get LATEST chromedriver version for google-chrome
-2025-08-13 10:12:06,567 - INFO - Driver [C:\Users\mjaber\.wdm\drivers\chromedriver\win64\139.0.7258.68\chromedriver-win32/chromedriver.exe] found in cache
-2025-08-13 10:12:07,548 - INFO - Accès à l'URL: https://www.google.com/maps/search/plombier+Paris
-2025-08-13 10:12:10,463 - INFO - Attente initiale de 5.79s
-2025-08-13 10:12:16,290 - INFO - Élément trouvé: Résultats principaux ([role="feed"])
-2025-08-13 10:12:29,285 - INFO - 7 éléments trouvés
-2025-08-13 10:12:29,367 - INFO - 1/7: Non disponible
-2025-08-13 10:12:32,039 - INFO - 2/7: Non disponible
-2025-08-13 10:12:32,600 - INFO - 3/7: Marc B Plombier issy-les-Moulineaux
-2025-08-13 10:12:32,988 - INFO - 4/7: Marc B Plombier issy-les-Moulineaux
-2025-08-13 10:12:34,939 - INFO - 5/7: Marc B Plombier issy-les-Moulineaux
-2025-08-13 10:12:36,257 - INFO - 6/7: Non disponible
-2025-08-13 10:12:38,859 - INFO - 7/7: PLOMBIER PARIS 24/7 paris 17
-2025-08-13 10:17:36,430 - INFO - === Début du scraping Google Maps ===
-2025-08-13 10:17:38,102 - INFO - Recherche: plombier à Paris
-2025-08-13 10:17:41,072 - INFO - Attente initiale de 3.99s
-2025-08-13 10:17:45,101 - INFO - Élément trouvé: Conteneur principal
-2025-08-13 10:17:50,303 - INFO - 7 entreprises trouvées
-2025-08-13 10:17:50,400 - INFO - 1/7: Non disponible
-2025-08-13 10:17:51,875 - INFO - 2/7: Non disponible
-2025-08-13 10:17:53,251 - INFO - 3/7: Arti-Pro Plombier Paris 16.
-2025-08-13 10:17:55,105 - INFO - 4/7: Arti-Pro Plombier Paris 16.
-2025-08-13 10:17:56,323 - INFO - 5/7: Arti-Pro Plombier Paris 16.
-2025-08-13 10:17:57,649 - INFO - 6/7: Non disponible
-2025-08-13 10:17:58,265 - INFO - 7/7: PLOMBIER PARIS 24/7 paris 17
-2025-08-13 10:18:01,921 - ERROR - Erreur lors de la sauvegarde: No module named 'openpyxl'
-2025-08-13 10:21:00,845 - INFO - === Début du scraping Google Maps ===
-2025-08-13 10:21:02,521 - INFO - Recherche: plombier à Paris
-2025-08-13 10:21:06,433 - INFO - Attente initiale de 4.57s
-2025-08-13 10:21:11,041 - INFO - Élément trouvé: Conteneur principal
-2025-08-13 10:21:22,395 - INFO - 6 entreprises trouvées
-2025-08-13 10:21:22,494 - INFO - 1/6: Non disponible
-2025-08-13 10:21:23,739 - INFO - 2/6: Non disponible
-2025-08-13 10:21:24,778 - INFO - 3/6: Marc B Plombier issy-les-Moulineaux
-2025-08-13 10:21:25,515 - INFO - 4/6: Marc B Plombier issy-les-Moulineaux
-2025-08-13 10:21:27,351 - INFO - 5/6: Marc B Plombier issy-les-Moulineaux
-2025-08-13 10:21:29,343 - INFO - 6/6: Non disponible
-2025-08-13 10:21:32,238 - INFO - Données sauvegardées dans google_maps_plombier_Paris_20250813_102132.xlsx
-2025-08-13 10:21:32,239 - INFO - Scraping réussi - 6 résultats sauvegardés
-2025-08-13 10:21:32,239 - INFO - Temps total: 31.39 secondes
-2025-08-13 11:15:33,816 - INFO - Recherche: plombier à Paris
-2025-08-13 11:25:46,459 - INFO - Recherche: plombier à Paris
-2025-08-13 11:25:50,031 - INFO - Attente initiale de 5.95s
-2025-08-13 11:25:56,019 - INFO - Élément trouvé: Conteneur principal
-2025-08-13 11:26:08,372 - INFO - 6 entreprises trouvées
-2025-08-13 11:26:08,474 - INFO - 1/6: Non disponible
-2025-08-13 11:26:09,322 - INFO - 2/6: Non disponible
-2025-08-13 11:26:10,139 - INFO - 3/6: Marc B Plombier issy-les-Moulineaux
-2025-08-13 11:26:10,706 - INFO - 4/6: Marc B Plombier issy-les-Moulineaux
-2025-08-13 11:26:11,296 - INFO - 5/6: Marc B Plombier issy-les-Moulineaux
-2025-08-13 11:26:13,264 - INFO - 6/6: Non disponible
-2025-08-13 11:26:16,324 - INFO - Données sauvegardées dans google_maps_plombier_Paris_20250813_112616.xlsx
-2025-08-13 11:33:57,913 - INFO - Recherche: plombier à Paris
-2025-08-13 11:34:02,028 - INFO - Attente initiale de 5.16s
-2025-08-13 11:34:07,231 - INFO - Élément trouvé: Conteneur principal
-2025-08-13 11:34:17,351 - INFO - 6 entreprises trouvées
-2025-08-13 11:34:21,112 - INFO - 3/6: Marc B Plombier issy-les-Moulineaux
-2025-08-13 11:34:29,779 - INFO - Données sauvegardées dans google_maps_plombier_Paris_20250813_113429.xlsx (1 entrées valides)
-2025-08-13 11:45:22,649 - INFO - Recherche: Restaurants à Paris
-2025-08-13 11:45:27,408 - INFO - Attente initiale de 5.88s
-2025-08-13 11:45:33,357 - INFO - Élément trouvé: Conteneur principal
-2025-08-13 11:45:36,324 - INFO - 10 entreprises trouvées
-2025-08-13 11:45:38,716 - INFO - 3/10: Hôtel Bachaumont
-2025-08-13 11:45:52,903 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_114552.xlsx (1 entrées valides)
-2025-08-13 11:55:29,802 - INFO - Recherche: Restaurants à Paris
-2025-08-13 11:55:33,756 - INFO - Attente initiale de 6.14s
-2025-08-13 11:55:39,973 - INFO - Élément trouvé: Conteneur principal
-2025-08-13 11:55:42,941 - ERROR - Erreur majeure: cannot access local variable 'items' where it is not associated with a value
-Traceback (most recent call last):
-  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\gmaps.py", line 222, in scrape_google_maps
-    if len(new_items) > len(items):
-                            ^^^^^
-UnboundLocalError: cannot access local variable 'items' where it is not associated with a value
-2025-08-13 11:56:49,044 - INFO - Recherche: Restaurants à Paris
-2025-08-13 11:56:53,185 - INFO - Attente initiale de 3.30s
-2025-08-13 11:56:56,563 - INFO - Élément trouvé: Conteneur principal
-2025-08-13 11:56:59,159 - INFO - 10 entreprises trouvées
-2025-08-13 11:57:01,833 - INFO - 3/10: Eiffel Croisières - Péniche Ivoire
-2025-08-13 11:57:12,563 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_115712.xlsx (1 entrées valides)
-2025-08-13 11:57:57,791 - INFO - Recherche: Restaurants à Paris
-2025-08-13 11:57:59,968 - INFO - Attente initiale de 6.33s
-2025-08-13 11:58:06,368 - INFO - Élément trouvé: Conteneur principal
-2025-08-13 11:58:09,179 - INFO - 10 entreprises trouvées
-2025-08-13 11:58:12,134 - INFO - 3/10: Eiffel Croisières - Péniche Ivoire
-2025-08-13 11:58:25,827 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_115825.xlsx (1 entrées valides)
-2025-08-13 12:07:52,525 - INFO - Recherche: Restaurants à Paris
-2025-08-13 12:08:07,429 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
-2025-08-13 12:08:07,488 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire (Sponsorisé)
-2025-08-13 12:08:08,581 - INFO - 2/10: the friendly kitchen (Sponsorisé)
-2025-08-13 12:08:09,287 - INFO - 3/10: Les Parisiens Restaurant by Thibault Sombardier 
-2025-08-13 12:08:10,579 - INFO - 4/10: Le Tout-Paris 
-2025-08-13 12:08:11,976 - INFO - 5/10: Bouillon République 
-2025-08-13 12:08:13,227 - INFO - 6/10: La Table de Colette 
-2025-08-13 12:08:14,669 - INFO - 7/10: Palais Royal Restaurant Paris 
-2025-08-13 12:08:15,819 - INFO - 8/10: Le Ju' 
-2025-08-13 12:08:17,289 - INFO - 9/10: Le Marais Restaurant Paris 
-2025-08-13 12:08:18,158 - INFO - 10/10: Au Pied de Cochon 
-2025-08-13 12:08:21,093 - ERROR - Erreur lors de la sauvegarde: ['Téléphone', 'Site Web']
-2025-08-13 12:10:36,465 - INFO - Recherche: Restaurants à Paris
-2025-08-13 12:10:51,429 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
-2025-08-13 12:10:51,479 - INFO - 1/10: Vita Ristorante 
-2025-08-13 12:10:52,453 - INFO - 2/10: Eiffel Croisières - Péniche Ivoire 
-2025-08-13 12:10:53,619 - INFO - 3/10: Les Parisiens Restaurant by Thibault Sombardier 
-2025-08-13 12:10:54,757 - INFO - 4/10: Le Tout-Paris 
-2025-08-13 12:10:56,153 - INFO - 5/10: Bouillon République 
-2025-08-13 12:10:57,623 - INFO - 6/10: La Table de Colette 
-2025-08-13 12:10:58,354 - INFO - 7/10: Palais Royal Restaurant Paris 
-2025-08-13 12:10:59,149 - INFO - 8/10: Le Ju' 
-2025-08-13 12:11:00,057 - INFO - 9/10: Le Marais Restaurant Paris 
-2025-08-13 12:11:01,306 - INFO - 10/10: Au Pied de Cochon 
-2025-08-13 12:11:04,782 - ERROR - Erreur lors de la sauvegarde: ['Téléphone', 'Site Web']
-2025-08-13 12:13:53,847 - INFO - Recherche: Restaurants à Paris
-2025-08-13 12:14:08,026 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
-2025-08-13 12:14:08,107 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire 
-2025-08-13 12:14:09,022 - INFO - 2/10: IDA by Denny Imbroisi 
-2025-08-13 12:14:10,274 - INFO - 3/10: Les Parisiens Restaurant by Thibault Sombardier 
-2025-08-13 12:14:11,424 - INFO - 4/10: Le Tout-Paris 
-2025-08-13 12:14:12,313 - INFO - 5/10: Bouillon République 
-2025-08-13 12:14:13,857 - INFO - 6/10: La Table de Colette 
-2025-08-13 12:14:14,880 - INFO - 7/10: Palais Royal Restaurant Paris 
-2025-08-13 12:14:16,257 - INFO - 8/10: Le Ju' 
-2025-08-13 12:14:17,240 - INFO - 9/10: Le Marais Restaurant Paris 
-2025-08-13 12:14:18,156 - INFO - 10/10: Au Pied de Cochon 
-2025-08-13 12:14:21,283 - ERROR - Erreur lors de la sauvegarde: ['Téléphone', 'Site Web']
-2025-08-13 12:43:42,020 - INFO - Recherche: Restaurants à Paris
-2025-08-13 12:43:55,746 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
-2025-08-13 12:43:55,766 - ERROR - Erreur sur l'élément 1: name 'driver' is not defined...
-2025-08-13 12:43:55,778 - ERROR - Erreur sur l'élément 2: name 'driver' is not defined...
-2025-08-13 12:43:55,790 - ERROR - Erreur sur l'élément 3: name 'driver' is not defined...
-2025-08-13 12:43:55,803 - ERROR - Erreur sur l'élément 4: name 'driver' is not defined...
-2025-08-13 12:43:55,816 - ERROR - Erreur sur l'élément 5: name 'driver' is not defined...
-2025-08-13 12:43:55,830 - ERROR - Erreur sur l'élément 6: name 'driver' is not defined...
-2025-08-13 12:43:55,843 - ERROR - Erreur sur l'élément 7: name 'driver' is not defined...
-2025-08-13 12:43:55,856 - ERROR - Erreur sur l'élément 8: name 'driver' is not defined...
-2025-08-13 12:43:55,869 - ERROR - Erreur sur l'élément 9: name 'driver' is not defined...
-2025-08-13 12:43:55,882 - ERROR - Erreur sur l'élément 10: name 'driver' is not defined...
-2025-08-13 12:44:53,617 - INFO - Recherche: Restaurants à Paris
-2025-08-13 12:45:08,082 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
-2025-08-13 12:45:08,083 - ERROR - Erreur sur l'élément 1: extract_business_data() missing 1 required positional argument: 'item'...
-2025-08-13 12:45:08,083 - ERROR - Erreur sur l'élément 2: extract_business_data() missing 1 required positional argument: 'item'...
-2025-08-13 12:45:08,083 - ERROR - Erreur sur l'élément 3: extract_business_data() missing 1 required positional argument: 'item'...
-2025-08-13 12:45:08,083 - ERROR - Erreur sur l'élément 4: extract_business_data() missing 1 required positional argument: 'item'...
-2025-08-13 12:45:08,083 - ERROR - Erreur sur l'élément 5: extract_business_data() missing 1 required positional argument: 'item'...
-2025-08-13 12:45:08,084 - ERROR - Erreur sur l'élément 6: extract_business_data() missing 1 required positional argument: 'item'...
-2025-08-13 12:45:08,084 - ERROR - Erreur sur l'élément 7: extract_business_data() missing 1 required positional argument: 'item'...
-2025-08-13 12:45:08,084 - ERROR - Erreur sur l'élément 8: extract_business_data() missing 1 required positional argument: 'item'...
-2025-08-13 12:45:08,084 - ERROR - Erreur sur l'élément 9: extract_business_data() missing 1 required positional argument: 'item'...
-2025-08-13 12:45:08,084 - ERROR - Erreur sur l'élément 10: extract_business_data() missing 1 required positional argument: 'item'...
-2025-08-13 12:47:50,967 - INFO - Recherche: Restaurants à Paris
-2025-08-13 12:48:04,778 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
-2025-08-13 12:48:06,489 - ERROR - Erreur sur l'élément 1: 'Adresse'...
-2025-08-13 12:48:06,540 - ERROR - Erreur extraction téléphone: Message: stale element reference: stale element not found in the current frame
+...
+2025-08-13 15:06:46,240 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 15:06:55,876 - INFO - 2/10: IDA by Denny Imbroisi
+2025-08-13 15:07:07,043 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:07:07,047 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 15:07:17,533 - INFO - 3/10: Le Tout-Paris
+2025-08-13 15:07:28,702 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:07:28,706 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 15:07:38,288 - INFO - 4/10: Bouillon République
+2025-08-13 15:07:49,461 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:07:49,465 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 15:07:58,954 - INFO - 5/10: Le Ju'
+2025-08-13 15:08:10,156 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:08:10,161 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 15:08:18,413 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_150818.xlsx (5 entrées valides)
+2025-08-13 15:21:23,537 - INFO - Recherche: Restaurants à Paris
+2025-08-13 15:21:37,759 - INFO - 1/10: the friendly kitchen
+2025-08-13 15:21:42,435 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_152142.xlsx (1 entrées valides)
+2025-08-13 15:22:48,553 - INFO - Recherche: Restaurants à Paris
+2025-08-13 15:23:04,036 - INFO - 1/10: the friendly kitchen
+2025-08-13 15:23:15,217 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:23:15,224 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 15:23:36,048 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:23:36,053 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 15:23:45,495 - INFO - 3/10: Le Tout-Paris
+2025-08-13 15:23:56,662 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:26:26,401 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 15:26:36,200 - INFO - 4/10: Bouillon République
+2025-08-13 15:26:45,874 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C75F8FFA90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c070db0e4d962aece0901be1212aaa24/element
+2025-08-13 15:26:49,937 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C75F914B10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c070db0e4d962aece0901be1212aaa24/element
+2025-08-13 15:28:53,660 - INFO - Recherche: Restaurants à Paris
+2025-08-13 15:29:04,577 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-13 15:29:15,769 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:29:15,775 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 15:29:25,280 - INFO - 2/2: Vita Ristorante
+2025-08-13 15:29:36,446 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:29:36,450 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 15:29:44,785 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_152944.xlsx (2 entrées valides)
+2025-08-13 15:36:37,603 - INFO - Recherche: Restaurants à Paris
+2025-08-13 15:36:49,392 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-13 15:36:53,570 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_153653.xlsx (1 entrées valides)
+2025-08-13 15:40:02,771 - INFO - Recherche: Restaurants à Paris
+2025-08-13 15:40:14,194 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-13 15:40:16,291 - ERROR - Erreur sur un élément : Message: stale element reference: stale element not found in the current frame
   (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
 Stacktrace:
 	GetHandleVerifier [0x0x114fd33+62915]
 	GetHandleVerifier [0x0x114fd74+62980]
 	(No symbol) [0x0xf83e13]
 	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
+	(No symbol) [0x0xf8cb93]
+	(No symbol) [0x0x10136e4]
 	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
 	(No symbol) [0x0x10126ea]
 	(No symbol) [0x0xff11d6]
 	(No symbol) [0x0xfc0833]
@@ -214,21 +158,91 @@ Stacktrace:
 	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
 	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
 
-2025-08-13 12:48:06,562 - ERROR - Erreur sur l'élément 2: 'Nom'...
-2025-08-13 12:48:06,603 - ERROR - Erreur extraction téléphone: Message: stale element reference: stale element not found in the current frame
+2025-08-13 15:40:18,550 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_154018.xlsx (1 entrées valides)
+2025-08-13 15:50:09,571 - INFO - Recherche: Restaurants à Paris
+2025-08-13 15:50:18,610 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-13 15:50:28,718 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:50:33,391 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_155033.xlsx (1 entrées valides)
+2025-08-13 15:51:51,619 - INFO - Recherche: Restaurants à Paris
+2025-08-13 15:52:02,341 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-13 15:52:02,347 - WARNING - Échec de fermeture standard: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[aria...
+2025-08-13 15:52:07,037 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_155206.xlsx (1 entrées valides)
+2025-08-13 15:52:57,601 - INFO - Recherche: Restaurants à Paris
+2025-08-13 15:53:10,696 - INFO - 1/2: the friendly kitchen
+2025-08-13 15:53:20,802 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 15:53:25,584 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_155325.xlsx (1 entrées valides)
+2025-08-13 16:03:45,292 - INFO - Recherche: Restaurants à Paris
+2025-08-13 16:03:55,953 - INFO - 1/2: the friendly kitchen
+2025-08-13 16:04:06,061 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 16:04:10,223 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_160410.xlsx (1 entrées valides)
+2025-08-13 16:04:42,617 - INFO - Recherche: Restaurants à Paris
+2025-08-13 16:04:56,437 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-13 16:05:07,617 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 16:05:11,931 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_160511.xlsx (1 entrées valides)
+2025-08-13 16:06:10,433 - INFO - Recherche: Restaurants à Paris
+2025-08-13 16:06:22,316 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-13 16:06:22,322 - WARNING - Impossible de revenir à la liste, tentative de scroll
+2025-08-13 16:07:03,417 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_160703.xlsx (1 entrées valides)
+2025-08-13 16:07:58,023 - INFO - Recherche: Restaurants à Paris
+2025-08-13 16:08:10,233 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA8902F90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a/element
+2025-08-13 16:08:14,293 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA8760790>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a/element
+2025-08-13 16:08:18,370 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA89145D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a/element
+2025-08-13 16:08:22,443 - ERROR - Timeout en attente des résultats
+2025-08-13 16:08:26,478 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA8915A50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a
+2025-08-13 16:08:30,540 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA8916210>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a
+2025-08-13 16:08:34,603 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA8916890>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a
+2025-08-13 16:08:51,799 - INFO - Recherche: Restaurants à Paris
+2025-08-13 16:09:03,161 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-13 16:09:14,346 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 16:09:18,810 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_160918.xlsx (1 entrées valides)
+2025-08-13 16:10:36,844 - INFO - Recherche: Restaurants à Paris
+2025-08-13 16:10:49,783 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-13 16:11:00,974 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 16:11:00,980 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 16:11:11,418 - INFO - 2/2: IDA by Denny Imbroisi
+2025-08-13 16:11:22,600 - WARNING - Échec de fermeture standard: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+...
+2025-08-13 16:11:22,605 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-13 16:11:30,737 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_161130.xlsx (2 entrées valides)
+2025-08-13 16:16:54,802 - INFO - Recherche: Restaurants à Paris
+2025-08-13 16:17:06,452 - INFO - 1/2: the friendly kitchen
+2025-08-13 16:17:07,709 - ERROR - Erreur sur l'élément 2: Message: stale element reference: stale element not found in the current frame
   (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
 Stacktrace:
 	GetHandleVerifier [0x0x114fd33+62915]
 	GetHandleVerifier [0x0x114fd74+62980]
 	(No symbol) [0x0xf83e13]
 	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
+	(No symbol) [0x0xf8cb93]
+	(No symbol) [0x0x10136e4]
 	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
 	(No symbol) [0x0x10126ea]
 	(No symbol) [0x0xff11d6]
 	(No symbol) [0x0xfc0833]
@@ -245,784 +259,7 @@ Stacktrace:
 	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
 	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
 
-2025-08-13 12:48:06,639 - ERROR - Erreur sur l'élément 3: 'Nom'...
-2025-08-13 12:48:06,669 - ERROR - Erreur extraction téléphone: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 12:48:06,692 - ERROR - Erreur sur l'élément 4: 'Nom'...
-2025-08-13 12:48:06,722 - ERROR - Erreur extraction téléphone: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 12:48:06,745 - ERROR - Erreur sur l'élément 5: 'Nom'...
-2025-08-13 12:48:06,773 - ERROR - Erreur extraction téléphone: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 12:48:06,798 - ERROR - Erreur sur l'élément 6: 'Nom'...
-2025-08-13 12:48:06,826 - ERROR - Erreur extraction téléphone: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 12:48:06,850 - ERROR - Erreur sur l'élément 7: 'Nom'...
-2025-08-13 12:48:06,876 - ERROR - Erreur extraction téléphone: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 12:48:06,902 - ERROR - Erreur sur l'élément 8: 'Nom'...
-2025-08-13 12:48:06,929 - ERROR - Erreur extraction téléphone: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 12:48:06,953 - ERROR - Erreur sur l'élément 9: 'Nom'...
-2025-08-13 12:48:06,982 - ERROR - Erreur extraction téléphone: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 12:48:07,003 - ERROR - Erreur sur l'élément 10: 'Nom'...
-2025-08-13 13:00:48,631 - INFO - Recherche: Restaurants à Paris
-2025-08-13 13:01:02,519 - INFO - 10 entreprises trouvées
-2025-08-13 13:01:11,303 - INFO - 1/10: Vita Ristorante
-2025-08-13 13:01:13,012 - WARNING - Tentative 1 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:14,025 - WARNING - Tentative 2 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:16,257 - WARNING - Tentative 1 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:17,270 - WARNING - Tentative 2 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:20,270 - WARNING - Tentative 1 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:21,283 - WARNING - Tentative 2 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:23,953 - WARNING - Tentative 1 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:24,965 - WARNING - Tentative 2 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:27,249 - WARNING - Tentative 1 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:28,262 - WARNING - Tentative 2 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:31,118 - WARNING - Tentative 1 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:32,130 - WARNING - Tentative 2 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:34,811 - WARNING - Tentative 1 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:35,824 - WARNING - Tentative 2 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:38,607 - WARNING - Tentative 1 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:39,619 - WARNING - Tentative 2 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:42,533 - WARNING - Tentative 1 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:43,546 - WARNING - Tentative 2 échouée: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8c94a]
-	(No symbol) [0x0xf8c9c7]
-	(No symbol) [0x0xfce56a]
-	(No symbol) [0x0xfc24ea]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0xfc1ff4]
-	(No symbol) [0x0xff1654]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 13:01:47,793 - ERROR - Erreur lors de la sauvegarde: ['Adresse', 'Téléphone', 'Site Web']
-2025-08-13 13:03:02,941 - INFO - Recherche: Restaurants à Paris
-2025-08-13 13:03:06,256 - INFO - Attente initiale de 3.73s
-2025-08-13 13:03:10,067 - INFO - Élément trouvé: Conteneur principal
-2025-08-13 13:03:17,851 - INFO - 8 entreprises trouvées
-2025-08-13 13:03:20,348 - INFO - 3/8: Vita Ristorante
-2025-08-13 13:03:32,533 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_130332.xlsx (1 entrées valides)
-2025-08-13 14:02:02,581 - INFO - Recherche: Restaurants à Paris
-2025-08-13 14:02:18,313 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
-2025-08-13 14:02:18,376 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire (Sponsorisé)
-2025-08-13 14:02:19,045 - INFO - 2/10: the friendly kitchen (Sponsorisé)
-2025-08-13 14:02:20,526 - INFO - 3/10: Le Tout-Paris 
-2025-08-13 14:02:21,538 - INFO - 4/10: Bouillon République 
-2025-08-13 14:02:22,125 - INFO - 5/10: Le Ju' 
-2025-08-13 14:02:23,539 - INFO - 6/10: Les Parisiens Restaurant by Thibault Sombardier 
-2025-08-13 14:02:24,929 - INFO - 7/10: ONYX 
-2025-08-13 14:02:26,321 - INFO - 8/10: Le Marais Restaurant Paris 
-2025-08-13 14:02:27,451 - INFO - 9/10: Au Pied de Cochon 
-2025-08-13 14:02:28,551 - INFO - 10/10: Brasserie Dubillot 
-2025-08-13 14:02:32,047 - ERROR - Erreur lors de la sauvegarde: ['Téléphone', 'Site Web']
+2025-08-13 16:17:13,906 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_161713.xlsx (1 entrées valides)
+2025-08-13 16:21:03,963 - INFO - Recherche: Restaurants à Paris
+2025-08-13 16:21:09,995 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-13 16:21:12,242 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_162112.xlsx (1 entrées valides)
