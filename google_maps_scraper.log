@@ -263,3 +263,170 @@ Stacktrace:
 2025-08-13 16:21:03,963 - INFO - Recherche: Restaurants à Paris
 2025-08-13 16:21:09,995 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
 2025-08-13 16:21:12,242 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_162112.xlsx (1 entrées valides)
+2025-08-13 16:31:28,393 - INFO - Recherche Pages Jaunes: Restaurants à Paris
+2025-08-13 16:31:52,398 - ERROR - Erreur majeure: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfcc89e]
+	(No symbol) [0x0xfccc3b]
+	(No symbol) [0x0x1014ec2]
+	(No symbol) [0x0xff1424]
+	(No symbol) [0x0x10126ea]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d23+2590131]
+	GetHandleVerifier [0x0x13b3f6a+2570234]
+	GetHandleVerifier [0x0x11759ea+217722]
+	GetHandleVerifier [0x0x1166058+153832]
+	GetHandleVerifier [0x0x116c4bd+179533]
+	GetHandleVerifier [0x0x1157738+94152]
+	GetHandleVerifier [0x0x11578c2+94546]
+	GetHandleVerifier [0x0x1142bda+9322]
+	BaseThreadInitThunk [0x0x7700fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
+Traceback (most recent call last):
+  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\pagesjaunes.py", line 80, in scrape_pages_jaunes
+    WebDriverWait(driver, 15).until(
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfcc89e]
+	(No symbol) [0x0xfccc3b]
+	(No symbol) [0x0x1014ec2]
+	(No symbol) [0x0xff1424]
+	(No symbol) [0x0x10126ea]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d23+2590131]
+	GetHandleVerifier [0x0x13b3f6a+2570234]
+	GetHandleVerifier [0x0x11759ea+217722]
+	GetHandleVerifier [0x0x1166058+153832]
+	GetHandleVerifier [0x0x116c4bd+179533]
+	GetHandleVerifier [0x0x1157738+94152]
+	GetHandleVerifier [0x0x11578c2+94546]
+	GetHandleVerifier [0x0x1142bda+9322]
+	BaseThreadInitThunk [0x0x7700fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
+
+2025-08-13 16:32:27,422 - INFO - Recherche Pages Jaunes: Restaurants à Paris
+2025-08-13 16:32:50,428 - ERROR - Erreur majeure: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfcc89e]
+	(No symbol) [0x0xfccc3b]
+	(No symbol) [0x0x1014ec2]
+	(No symbol) [0x0xff1424]
+	(No symbol) [0x0x10126ea]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d23+2590131]
+	GetHandleVerifier [0x0x13b3f6a+2570234]
+	GetHandleVerifier [0x0x11759ea+217722]
+	GetHandleVerifier [0x0x1166058+153832]
+	GetHandleVerifier [0x0x116c4bd+179533]
+	GetHandleVerifier [0x0x1157738+94152]
+	GetHandleVerifier [0x0x11578c2+94546]
+	GetHandleVerifier [0x0x1142bda+9322]
+	BaseThreadInitThunk [0x0x7700fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
+Traceback (most recent call last):
+  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\pagesjaunes.py", line 80, in scrape_pages_jaunes
+    WebDriverWait(driver, 15).until(
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfcc89e]
+	(No symbol) [0x0xfccc3b]
+	(No symbol) [0x0x1014ec2]
+	(No symbol) [0x0xff1424]
+	(No symbol) [0x0x10126ea]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d23+2590131]
+	GetHandleVerifier [0x0x13b3f6a+2570234]
+	GetHandleVerifier [0x0x11759ea+217722]
+	GetHandleVerifier [0x0x1166058+153832]
+	GetHandleVerifier [0x0x116c4bd+179533]
+	GetHandleVerifier [0x0x1157738+94152]
+	GetHandleVerifier [0x0x11578c2+94546]
+	GetHandleVerifier [0x0x1142bda+9322]
+	BaseThreadInitThunk [0x0x7700fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
+
+2025-08-13 16:38:11,811 - INFO - Recherche Pages Jaunes: Restaurants à Paris
+2025-08-13 16:38:27,803 - WARNING - Échec acceptation cookies: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+
+2025-08-13 16:38:48,011 - ERROR - Timeout en attente des résultats: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfcc89e]
+	(No symbol) [0x0xfccc3b]
+	(No symbol) [0x0x1014ec2]
+	(No symbol) [0x0xff1424]
+	(No symbol) [0x0x10126ea]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d23+2590131]
+	GetHandleVerifier [0x0x13b3f6a+2570234]
+	GetHandleVerifier [0x0x11759ea+217722]
+	GetHandleVerifier [0x0x1166058+153832]
+	GetHandleVerifier [0x0x116c4bd+179533]
+	GetHandleVerifier [0x0x1157738+94152]
+	GetHandleVerifier [0x0x11578c2+94546]
+	GetHandleVerifier [0x0x1142bda+9322]
+	BaseThreadInitThunk [0x0x7700fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
+
+2025-08-13 16:53:34,262 - INFO - Recherche mobile Pages Jaunes: Restaurants à Paris
+2025-08-13 16:54:15,514 - ERROR - Timeout résultats: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfcc89e]
+	(No symbol) [0x0xfccc3b]
+	(No symbol) [0x0x1014ec2]
+	(No symbol) [0x0xff1424]
+	(No symbol) [0x0x10126ea]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d23+2590131]
+	GetHandleVerifier [0x0x13b3f6a+2570234]
+	GetHandleVerifier [0x0x11759ea+217722]
+	GetHandleVerifier [0x0x1166058+153832]
+	GetHandleVerifier [0x0x116c4bd+179533]
+	GetHandleVerifier [0x0x1157738+94152]
+	GetHandleVerifier [0x0x11578c2+94546]
+	GetHandleVerifier [0x0x1142bda+9322]
+	BaseThreadInitThunk [0x0x7700fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
+
