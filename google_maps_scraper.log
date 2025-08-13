@@ -430,3 +430,64 @@ Stacktrace:
 	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
 	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
 
+2025-08-13 17:02:28,829 - INFO - Résultat 1: Café du Commerce
+2025-08-13 17:02:28,923 - INFO - Résultat 2: Restaurant Tipaza
+2025-08-13 17:02:31,063 - INFO - Fichier sauvegardé : pagesjaunes_Restaurants_Paris_20250813_1702.csv (2 résultats)
+2025-08-13 17:11:02,894 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
+2025-08-13 17:11:02,895 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
+2025-08-13 17:11:05,376 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
+2025-08-13 17:11:05,376 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
+2025-08-13 17:11:08,328 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
+2025-08-13 17:11:08,328 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
+2025-08-13 17:11:11,042 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
+2025-08-13 17:11:11,043 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
+2025-08-13 17:15:14,860 - INFO - Début du scraping pour Restaurants à Paris
+2025-08-13 17:15:27,540 - WARNING - Gestion des cookies non nécessaire ou échouée
+2025-08-13 17:15:31,934 - WARNING - Erreur sur téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_
+2025-08-13 17:15:31,941 - WARNING - Erreur sur site web: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[data-omni
+2025-08-13 17:15:31,957 - WARNING - Erreur sur note: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span.note_m
+2025-08-13 17:15:31,957 - INFO - Résultat 1: Le Sirocco
+2025-08-13 17:15:31,978 - WARNING - Erreur sur téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_
+2025-08-13 17:15:31,982 - WARNING - Erreur sur site web: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[data-omni
+2025-08-13 17:15:31,998 - INFO - Résultat 2: Santa Carne
+2025-08-13 17:15:34,121 - INFO - Fichier sauvegardé : pagesjaunes_Restaurants_Paris_20250813_1715.csv (2 résultats)
+2025-08-13 17:38:46,683 - ERROR - Erreur majeure: Message: session not created: DevToolsActivePort file doesn't exist; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x114fd33+62915]
+	GetHandleVerifier [0x0x114fd74+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfbc8e9]
+	(No symbol) [0x0xfb841a]
+	(No symbol) [0x0xfb31e9]
+	(No symbol) [0x0xffce32]
+	(No symbol) [0x0xffc74a]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d23+2590131]
+	GetHandleVerifier [0x0x13b3f6a+2570234]
+	GetHandleVerifier [0x0x11759ea+217722]
+	GetHandleVerifier [0x0x1166058+153832]
+	GetHandleVerifier [0x0x116c4bd+179533]
+	GetHandleVerifier [0x0x1157738+94152]
+	GetHandleVerifier [0x0x11578c2+94546]
+	GetHandleVerifier [0x0x1142bda+9322]
+	BaseThreadInitThunk [0x0x7700fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
+
+2025-08-13 17:39:10,182 - INFO - Début du scraping pour Restaurants à Paris
+2025-08-13 17:39:35,661 - WARNING - Gestion des cookies non nécessaire ou échouée
+2025-08-13 17:39:39,173 - WARNING - Erreur extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_
+2025-08-13 17:39:39,203 - INFO - Résultat 1: Grand Zino
+2025-08-13 17:39:39,217 - WARNING - Erreur extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_
+2025-08-13 17:39:39,239 - INFO - Résultat 2: Café du Commerce
+2025-08-13 17:39:41,346 - INFO - Fichier sauvegardé : pagesjaunes_Restaurants_Paris_20250813_1739.csv (2 résultats)
+2025-08-13 17:47:21,040 - ERROR - Erreur majeure: ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+2025-08-13 17:47:36,959 - INFO - Lancement du scraping pour Restaurants à Paris
+2025-08-13 17:48:01,131 - WARNING - Gestion des cookies non nécessaire
+2025-08-13 17:48:04,628 - ERROR - Échec extraction téléphone: name 'ActionChains' is not defined
+2025-08-13 17:48:04,656 - INFO - Extrait: Gabriela | Tel: None
+2025-08-13 17:48:05,177 - ERROR - Échec extraction téléphone: name 'ActionChains' is not defined
+2025-08-13 17:48:05,198 - INFO - Extrait: Nanwich Riquet | Tel: None
+2025-08-13 17:48:07,335 - INFO - Fichier sauvegardé : pagesjaunes_Restaurants_Paris_20250813_1748.csv (2 résultats)
