@@ -81,100 +81,95 @@ def configure_driver():
     return driver
 
 def wait_for_results(driver):
-    """Attente intelligente des résultats avec timeout progressif"""
-    selectors = [
-        ('div[role="feed"]', "Conteneur principal"),
-        ('div[role="article"]', "Fiche entreprise"),
-        ('div.Q2HXcd', "Conteneur résultats"),
-        ('div.m6QErb', "Conteneur résultats alternatif")
-    ]
-    
-    for selector, description in selectors:
-        try:
-            WebDriverWait(driver, 15).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, selector)))
-            logger.info(f"Élément trouvé: {description}")
-            return True
-        except:
-            continue
-    
-    logger.error("Aucun sélecteur valide trouvé")
-    return False
+    """Nouvelle version avec timeout adaptatif"""
+    try:
+        WebDriverWait(driver, 20).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, '[role="feed"], div.m6QErb.DxyBCb')))
+        return True
+    except:
+        logger.error("Timeout en attente des résultats")
+        return False
 
+def extract_all_businesses(driver):
+    """Récupère tous les éléments business (sponsorisés et organiques)"""
+    return driver.find_elements(
+        By.CSS_SELECTOR, 
+        '[role="article"], div.Nv2PK.THOPZb.CpccDe'
+    )
+    
 def extract_business_data(item):
-    """Extraction robuste des données avec gestion des erreurs"""
+    """Version améliorée avec détection du type de résultat"""
+    is_sponsored = "Sponsorisé" in item.get_attribute('innerHTML')
+    
     data = {
-        'Nom': None,  # Changé à None au lieu de "Non disponible"
-        'Adresse': None,
-        'Téléphone': None,
-        'Site Web': None,
+        'Nom': extract_with_selectors(item, [
+            'div.qBF1Pd.fontHeadlineSmall',
+            'h1', 'h2', 'h3'
+        ]),
+        'Adresse': extract_with_selectors(item, [
+            'div.W4Efsd > span:nth-of-type(2)',
+            '[aria-label*="adresse"]',
+            'div.fontBodyMedium > div'
+        ]),
+        'Téléphone': extract_phone(item),
+        'Site Web': extract_website(item),
+        'Note': extract_rating(item),
+        'Prix': extract_price(item),
+        'Sponsorisé': is_sponsored,
         'Heure de scraping': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     }
-    
-    # Extraction du nom
-    name_selectors = [
-        'div.fontHeadlineSmall',
-        'h1', 'h2', 'h3',
-        '[aria-label*="nom"]',
-        '[aria-label*="title"]'
-    ]
-    for selector in name_selectors:
-        try:
-            name = item.find_element(By.CSS_SELECTOR, selector).text.strip()
-            if name:  # Vérifie que le nom n'est pas vide
-                data['Nom'] = name
-                break
-        except:
-            continue
-    
-    # Extraction de l'adresse
-    address_selectors = [
-        'div.fontBodyMedium > div:nth-of-type(1)',
-        '[aria-label*="adresse"]',
-        '[aria-label*="address"]',
-        'div.W4Efsd:nth-of-type(1)'
-    ]
-    for selector in address_selectors:
-        try:
-            address = item.find_element(By.CSS_SELECTOR, selector).text.strip()
-            if address:  # Vérifie que l'adresse n'est pas vide
-                data['Adresse'] = address
-                break
-        except:
-            continue
-    
-    # Extraction du téléphone
-    phone_selectors = [
-        'div.fontBodyMedium > div:nth-of-type(2)',
-        '[aria-label*="téléphone"]',
-        '[aria-label*="phone"]',
-        'div.W4Efsd:nth-of-type(2)',
-        'button[aria-label*="phone"]'
-    ]
-    for selector in phone_selectors:
-        try:
-            phone_text = item.find_element(By.CSS_SELECTOR, selector).text.strip()
-            if any(c.isdigit() for c in phone_text):  # Vérifie qu'il y a des chiffres
-                data['Téléphone'] = phone_text
-                break
-        except:
-            continue
-    
-    # Extraction du site web
-    try:
-        website_elem = item.find_element(By.CSS_SELECTOR, 'a[href*="https://www.google.com/url"]')
-        website_url = website_elem.get_attribute('href')
-        if website_url:
-            decoded_url = urllib.parse.unquote(website_url.split('url=')[1].split('&')[0])
-            if decoded_url.startswith(('http://', 'https://')):
-                data['Site Web'] = decoded_url
-    except:
-        pass
-    
-    return data
+    return {k: v for k, v in data.items() if v is not None}
 
-def scrape_google_maps(query, location, max_results=20):
-    """Fonction principale de scraping"""
+def extract_with_selectors(item, selectors):
+    """Helper pour extraire avec plusieurs sélecteurs"""
+    for selector in selectors:
+        try:
+            element = item.find_element(By.CSS_SELECTOR, selector)
+            text = element.text.strip()
+            if text:
+                return text
+        except:
+            continue
+    return None
+def extract_phone(item):
+    """Extraction spécialisée du téléphone"""
+    try:
+        phone_btn = item.find_element(
+            By.CSS_SELECTOR, 'button[aria-label*="phone"], button[aria-label*="téléphone"]')
+        return phone_btn.get_attribute('aria-label').replace('Téléphone: ', '')
+    except:
+        return None
+def extract_website(item):
+    """Extraction robuste du site web"""
+    try:
+        website_btn = item.find_element(
+            By.CSS_SELECTOR, 'a[href*="url?q="], a[aria-label*="site web"]')
+        url = website_btn.get_attribute('href')
+        if url and 'url?q=' in url:
+            return urllib.parse.unquote(url.split('url?q=')[1].split('&')[0])
+    except:
+        return None
+
+def extract_rating(item):
+    """Extraction de la note"""
+    try:
+        rating_elem = item.find_element(
+            By.CSS_SELECTOR, 'span.MW4etd, span.ZkP5Je')
+        return rating_elem.text.strip()
+    except:
+        return None
+
+def extract_price(item):
+    """Extraction de la fourchette de prix"""
+    try:
+        price_elem = item.find_element(
+            By.CSS_SELECTOR, 'span[aria-label*="€"], span[aria-label*="prix"]')
+        return price_elem.get_attribute('aria-label')
+    except:
+        return None
+      
+def scrape_google_maps(query, location, max_results=50):
+    """Fonction principale révisée"""
     driver = None
     try:
         driver = configure_driver()
@@ -185,77 +180,72 @@ def scrape_google_maps(query, location, max_results=20):
         logger.info(f"Recherche: {query} à {location}")
         driver.get(url)
         
-        # Attente initiale dynamique
-        initial_wait = random.uniform(3, 7)
-        logger.info(f"Attente initiale de {initial_wait:.2f}s")
-        time.sleep(initial_wait)
+        # Attente intelligente
+        time.sleep(random.uniform(3, 5))
         
-        # Vérification CAPTCHA
-        if "captcha" in driver.page_source.lower():
-            logger.error("CAPTCHA détecté! Solutions possibles:")
-            logger.error("1. Augmenter les délais (paramètre delay)")
-            logger.error("2. Utiliser un proxy rotatif")
-            logger.error("3. Résoudre manuellement avec headless=False")
-            return []
-        
-        # Attente des résultats
         if not wait_for_results(driver):
-            logger.error("Échec de chargement des résultats")
             return []
-        
-        # Scroll progressif
-        scroll_pause = random.uniform(1, 3)
-        last_height = driver.execute_script("return document.body.scrollHeight")
+
+        # Nouvelle méthode de scroll
+        last_height = 0
         scroll_attempts = 0
+        max_attempts = 15
         
-        while scroll_attempts < 5:
-            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(scroll_pause)
-            new_height = driver.execute_script("return document.body.scrollHeight")
+        while scroll_attempts < max_attempts:
+            # Scroll spécifique à la sidebar
+            driver.execute_script("""
+                const sidebar = document.querySelector('div[role="feed"]');
+                if (sidebar) sidebar.scrollTop = sidebar.scrollHeight;
+            """)
             
-            if new_height == last_height:
+            time.sleep(random.uniform(2, 4))
+            
+            # Vérification du chargement
+            current_height = driver.execute_script("""
+                const sidebar = document.querySelector('div[role="feed"]');
+                return sidebar ? sidebar.scrollHeight : 0;
+            """)
+            
+            if current_height == last_height:
                 scroll_attempts += 1
             else:
                 scroll_attempts = 0
+                last_height = current_height
             
-            last_height = new_height
-            
-            # Vérifier si assez de résultats
-            items = driver.find_elements(By.CSS_SELECTOR, '[role="article"], div.Q2HXcd, div.m6QErb')
+            # Vérification du nombre de résultats
+            items = extract_all_businesses(driver)
             if len(items) >= max_results:
                 break
-        
-        # Extraction des données
-        items = driver.find_elements(By.CSS_SELECTOR, '[role="article"], div.Q2HXcd, div.m6QErb')[:max_results]
-        logger.info(f"{len(items)} entreprises trouvées")
+
+        # Extraction finale
+        items = extract_all_businesses(driver)[:max_results]
+        logger.info(f"{len(items)} entreprises trouvées (dont {sum('Sponsorisé' in i.get_attribute('innerHTML') for i in items)} sponsorisées)")
         
         results = []
-        seen_names = set()  # Pour éviter les doublons
+        seen_names = set()
         
         for idx, item in enumerate(items, 1):
             try:
                 business_data = extract_business_data(item)
                 
-                # Vérifier si l'entreprise a un nom et n'est pas déjà dans les résultats
-                if business_data['Nom'] and business_data['Nom'] not in seen_names:
-                    seen_names.add(business_data['Nom'])
+                # Filtrage des doublons et entrées incomplètes
+                if (business_data['Nom'] and 
+                    business_data['Nom'] not in seen_names and
+                    (business_data['Adresse'] or business_data['Téléphone'])):
                     
-                    # Ne garder que les entrées avec au moins une information utile (autre que le nom)
-                    if any(business_data[key] for key in ['Adresse', 'Téléphone', 'Site Web']):
-                        results.append(business_data)
-                        logger.info(f"{idx}/{len(items)}: {business_data['Nom']}")
-                    else:
-                        logger.info(f"{idx}/{len(items)}: {business_data['Nom']} - Pas d'informations utiles, ignoré")
+                    seen_names.add(business_data['Nom'])
+                    results.append(business_data)
+                    logger.info(f"{idx}/{len(items)}: {business_data['Nom']} {'(Sponsorisé)' if business_data.get('Sponsorisé') else ''}")
                 
-                # Délai aléatoire entre les extractions
-                time.sleep(random.uniform(0.5, 2))
+                # Délai aléatoire
+                time.sleep(random.uniform(0.5, 1.5))
                 
             except Exception as e:
                 logger.error(f"Erreur sur l'élément {idx}: {str(e)[:100]}...")
                 continue
         
         return results
-        
+
     except Exception as e:
         logger.error(f"Erreur majeure: {str(e)}", exc_info=True)
         return []
