@@ -6,6 +6,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
@@ -23,7 +25,6 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
-
 logging.getLogger('WDM').setLevel(logging.WARNING)
 logging.getLogger('selenium').setLevel(logging.WARNING)
 
@@ -48,6 +49,8 @@ def configure_driver():
     chrome_options.add_argument("--log-level=3")
     chrome_options.add_argument("--output=/dev/null")
     chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--window-size=390,844")
+
 
     service = Service(
         ChromeDriverManager().install(),
@@ -67,7 +70,8 @@ def configure_driver():
 def wait_for_results(driver):
     try:
         WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, '[role="feed"], div.m6QErb.DxyBCb')))
+            EC.presence_of_element_located((By.CSS_SELECTOR, '[role="feed"], div.m6QErb.DxyBCb'))
+        )
         return True
     except:
         logger.error("Timeout en attente des résultats")
@@ -120,50 +124,29 @@ def extract_business_details(driver):
             continue
     details["Heure de scraping"] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     return details
-def handle_panel_closure(driver, url):
-    """Gère la fermeture du panneau détaillé avec plusieurs méthodes de secours"""
-    max_attempts = 3
-    for attempt in range(max_attempts):
-        try:
-            # Méthode 1: Bouton de fermeture standard
-            try:
-                close_btn = WebDriverWait(driver, 3).until(
-                    EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[aria-label="Fermer"], button[aria-label="Close"]'))
-                )
-                close_btn.click()
-                time.sleep(1)
-                return True
-            except:
-                pass
 
-            # Méthode 2: Clic sur le fond (si overlay présent)
-            try:
-                overlay = driver.find_element(By.CSS_SELECTOR, 'div[role="dialog"] > div[aria-modal="true"]')
-                ActionChains(driver).move_to_element_with_offset(overlay, 10, 10).click().perform()
-                time.sleep(1)
-                return True
-            except:
-                pass
+def close_details_panel(driver):
+    """Ferme la fiche en gérant mode desktop et mobile"""
+    try:
+        # Essai 1 : bouton Fermer (desktop)
+       
 
-            # Méthode 3: Touche Échap
-            try:
-                driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
-                time.sleep(1)
-                return True
-            except:
-                pass
+        # Essai 2 : bouton Retour (mobile)
+        back_btn = driver.find_elements(By.CSS_SELECTOR, 'button[aria-label="Retour"]')
+        if back_btn:
+            back_btn[0].click()
+            logger.info("Retour à la liste (mobile).")
+            return True
 
-            # Méthode 4: Rechargement complet (dernier recours)
-            if attempt == max_attempts - 1:
-                driver.get(url)
-                wait_for_results(driver)
-                time.sleep(3)
-                return True
+        # Essai 3 : touche Échap
+        driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
+        logger.info("Fermeture via ESC.")
+        return True
 
-        except Exception as e:
-            logger.warning(f"Tentative {attempt + 1} échouée: {str(e)[:100]}...")
-    
-    return False
+    except Exception as e:
+        logger.warning(f"Impossible de fermer la fiche : {e}")
+        return False
+
 
 
 def scrape_google_maps(query, location, max_results=50):
@@ -185,60 +168,47 @@ def scrape_google_maps(query, location, max_results=50):
         results = []
         seen_names = set()
 
-        for idx in range(max_results):
+        idx = 0
+        while idx < max_results:
             try:
                 items = extract_all_businesses(driver)
                 if idx >= len(items):
                     break
 
                 item = items[idx]
-                # Scroll plus doux et centré
                 driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", item)
                 time.sleep(0.8)
                 item.click()
 
-                # Attente des détails
                 WebDriverWait(driver, 10).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.DUwDvf'))
                 )
-                time.sleep(2)  # Délai accru pour le chargement
+                time.sleep(1.5)
 
-                # Extraction des données
                 business_data = extract_business_details(driver)
 
                 if business_data.get('Nom') and business_data['Nom'] not in seen_names:
                     seen_names.add(business_data['Nom'])
                     results.append(business_data)
-                    logger.info(f"{idx+1}/{max_results}: {business_data['Nom']}")
+                    logger.info(f"{len(results)}/{max_results}: {business_data['Nom']}")
 
-                # Fermeture du panneau détaillé
-                try:
-                    close_btn = WebDriverWait(driver, 10).until(
-                        EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[aria-label="Fermer"]'))
-                    )
-                    close_btn.click()
-                    time.sleep(1)
-                    
-                    WebDriverWait(driver, 10).until(
-                        EC.presence_of_element_located((By.CSS_SELECTOR, '[role="feed"]'))
-                    )
-                except Exception as e:
-                    logger.warning(f"Échec de fermeture standard: {str(e)[:100]}...")
-                    # Méthodes de secours
+                # Fermeture propre du panneau
+                if not close_details_panel(driver):
+                    logger.warning(f"Saut de l'élément {idx+1} (fermeture impossible)")
+                else:
                     try:
-                        driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
-                        time.sleep(1)
+                        WebDriverWait(driver, 5).until(
+                            EC.presence_of_element_located((By.CSS_SELECTOR, '[role="feed"]'))
+                        )
                     except:
-                        logger.warning("Échec de ESC, tentative de rechargement")
-                        driver.get(url)
-                        wait_for_results(driver)
-                        time.sleep(3)
+                        logger.warning("Liste non réapparue, saut forcé")
 
-                time.sleep(random.uniform(1, 1.5))
+                time.sleep(random.uniform(0.8, 1.3))
 
             except Exception as e:
                 logger.error(f"Erreur sur l'élément {idx+1}: {str(e)}")
-                continue
+            finally:
+                idx += 1  # Passe à l'élément suivant quoi qu'il arrive
 
         return results
 
@@ -249,24 +219,7 @@ def scrape_google_maps(query, location, max_results=50):
         if driver:
             driver.quit()
 
+
 def save_results(results, query, location):
-    if not results:
-        logger.warning("Aucune donnée à sauvegarder")
-        return None
-    try:
-        df = pd.DataFrame(results)
-        cols_to_check = [col for col in df.columns if col not in ['Heure de scraping']]
-        df = df.dropna(subset=cols_to_check, how='all')
-        if df.empty:
-            logger.warning("Aucune donnée valide après nettoyage")
-            return None
-        safe_query = "".join(x for x in query if x.isalnum() or x in " _-")
-        safe_location = "".join(x for x in location if x.isalnum() or x in " _-")
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"google_maps_{safe_query}_{safe_location}_{timestamp}.xlsx"
-        df.to_excel(filename, index=False, engine='openpyxl')
-        logger.info(f"Données sauvegardées dans {filename} ({len(df)} entrées valides)")
-        return filename
-    except Exception as e:
-        logger.error(f"Erreur lors de la sauvegarde: {str(e)}", exc_info=True)
-        return None
+    
+    return None

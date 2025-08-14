@@ -1,493 +1,118 @@
-2025-08-13 14:32:58,918 - INFO - Recherche: Restaurants à Paris
-2025-08-13 14:33:13,334 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
-2025-08-13 14:33:13,392 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire (Sponsorisé)
-2025-08-13 14:33:14,479 - INFO - 2/10: the friendly kitchen (Sponsorisé)
-2025-08-13 14:33:15,739 - INFO - 3/10: Le Tout-Paris 
-2025-08-13 14:33:16,350 - INFO - 4/10: Bouillon République 
-2025-08-13 14:33:17,050 - INFO - 5/10: Le Ju' 
-2025-08-13 14:33:17,883 - INFO - 6/10: Le Marais Restaurant Paris 
-2025-08-13 14:33:18,614 - INFO - 7/10: Au Pied de Cochon 
-2025-08-13 14:33:19,621 - INFO - 8/10: Brasserie Dubillot 
-2025-08-13 14:33:20,594 - INFO - 9/10: Les Parisiens Restaurant by Thibault Sombardier 
-2025-08-13 14:33:21,662 - INFO - 10/10: Chouchou 
-2025-08-13 14:33:24,654 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_143324.xlsx (10 entrées valides)
-2025-08-13 14:43:10,324 - INFO - Recherche: Restaurants à Paris
-2025-08-13 14:43:21,929 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
-2025-08-13 14:43:25,143 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire 
-2025-08-13 14:43:26,165 - ERROR - Erreur sur l'élément 2: Message: stale element reference: stale element not found in the current frame
-  (Session info: chro...
-2025-08-13 14:43:26,171 - ERROR - Erreur sur l'élément 3: Message: stale element reference: stale element not found in the current frame
-  (Session info: chro...
-2025-08-13 14:43:26,174 - ERROR - Erreur sur l'élément 4: Message: stale element reference: stale element not found in the current frame
-  (Session info: chro...
-2025-08-13 14:43:26,176 - ERROR - Erreur sur l'élément 5: Message: stale element reference: stale element not found in the current frame
-  (Session info: chro...
-2025-08-13 14:43:26,179 - ERROR - Erreur sur l'élément 6: Message: stale element reference: stale element not found in the current frame
-  (Session info: chro...
-2025-08-13 14:43:26,182 - ERROR - Erreur sur l'élément 7: Message: stale element reference: stale element not found in the current frame
-  (Session info: chro...
-2025-08-13 14:43:26,185 - ERROR - Erreur sur l'élément 8: Message: stale element reference: stale element not found in the current frame
-  (Session info: chro...
-2025-08-13 14:43:26,189 - ERROR - Erreur sur l'élément 9: Message: stale element reference: stale element not found in the current frame
-  (Session info: chro...
-2025-08-13 14:43:26,191 - ERROR - Erreur sur l'élément 10: Message: stale element reference: stale element not found in the current frame
-  (Session info: chro...
-2025-08-13 14:43:28,455 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_144328.xlsx (1 entrées valides)
-2025-08-13 14:48:57,234 - INFO - Recherche: Restaurants à Paris
-2025-08-13 14:49:10,617 - INFO - 10 entreprises trouvées (dont 2 sponsorisées)
-2025-08-13 14:49:12,313 - INFO - 2/10: Le Restaurant Campanile Prime - Paris La Villette
-2025-08-13 14:49:15,801 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_144915.xlsx (1 entrées valides)
-2025-08-13 14:51:13,712 - INFO - Recherche: Restaurants à Paris
-2025-08-13 14:51:25,210 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire
-2025-08-13 14:51:28,029 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_145127.xlsx (1 entrées valides)
-2025-08-13 14:54:39,208 - INFO - Recherche: Restaurants à Paris
-2025-08-13 14:54:54,537 - INFO - 1/10: Vita Ristorante
-2025-08-13 14:54:57,496 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_145457.xlsx (1 entrées valides)
-2025-08-13 14:57:49,915 - INFO - Recherche: Restaurants à Paris
-2025-08-13 14:58:04,988 - INFO - 1/10: Vita Ristorante
-2025-08-13 14:58:04,995 - WARNING - Impossible de revenir à la liste, tentative de scroll
-2025-08-13 14:58:46,986 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_145846.xlsx (1 entrées valides)
-2025-08-13 15:06:19,254 - INFO - Recherche: Restaurants à Paris
-2025-08-13 15:06:35,056 - INFO - 1/10: Eiffel Croisières - Péniche Ivoire
-2025-08-13 15:06:46,235 - WARNING - Échec de fermeture standard: Message: 
+2025-08-14 09:13:29,335 - INFO - Lancement du scraping pour Restaurants à Paris
+2025-08-14 09:13:48,860 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-14 09:13:50,994 - INFO - Extrait: Le 59 | Tel: 01 80 50 00 29
+2025-08-14 09:13:53,139 - INFO - Fichier sauvegardé : pagesjaunes_Restaurants_Paris_20250814_0913.csv (2 résultats)
+2025-08-14 09:14:18,172 - INFO - Lancement du scraping pour Restaurants à Paris
+2025-08-14 09:14:35,613 - INFO - Extrait: Gabriela | Tel: 01 42 80 28 14
+2025-08-14 09:14:37,732 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-14 09:14:39,864 - INFO - Extrait: Le Moghol | Tel: 01 40 06 90 36
+2025-08-14 09:14:41,981 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-14 09:14:44,095 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-14 09:14:46,207 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
+2025-08-14 09:14:48,327 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-14 09:14:50,455 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-14 09:14:52,576 - INFO - Extrait: Nanwich Riquet | Tel: 01 44 53 91 70, 07 53 82 93 01
+2025-08-14 09:14:54,699 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-14 09:14:56,825 - INFO - Fichier sauvegardé : pagesjaunes_Restaurants_Paris_20250814_0914.csv (10 résultats)
+2025-08-14 09:36:26,018 - INFO - Recherche: Restaurants à Paris
+2025-08-14 09:36:37,555 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-14 09:36:48,781 - WARNING - Échec de fermeture standard: Message: 
 Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:06:46,240 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 15:06:55,876 - INFO - 2/10: IDA by Denny Imbroisi
-2025-08-13 15:07:07,043 - WARNING - Échec de fermeture standard: Message: 
+	GetHandleVerifier [0x0xa2fd33+62915]
+	GetHandleVerifier [0x0xa2fd74+62980]
+	(...
+2025-08-14 09:36:48,787 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-14 09:37:09,415 - WARNING - Échec de fermeture standard: Message: 
 Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:07:07,047 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 15:07:17,533 - INFO - 3/10: Le Tout-Paris
-2025-08-13 15:07:28,702 - WARNING - Échec de fermeture standard: Message: 
+	GetHandleVerifier [0x0xa2fd33+62915]
+	GetHandleVerifier [0x0xa2fd74+62980]
+	(...
+2025-08-14 09:37:09,419 - WARNING - Échec de ESC, tentative de rechargement
+2025-08-14 09:37:17,825 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250814_093717.xlsx (1 entrées valides)
+2025-08-14 09:44:51,497 - INFO - Recherche: Restaurants à Paris
+2025-08-14 09:45:04,063 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-14 09:45:14,271 - ERROR - Erreur sur l'élément 1: Message: 
 Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:07:28,706 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 15:07:38,288 - INFO - 4/10: Bouillon République
-2025-08-13 15:07:49,461 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:07:49,465 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 15:07:58,954 - INFO - 5/10: Le Ju'
-2025-08-13 15:08:10,156 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:08:10,161 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 15:08:18,413 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_150818.xlsx (5 entrées valides)
-2025-08-13 15:21:23,537 - INFO - Recherche: Restaurants à Paris
-2025-08-13 15:21:37,759 - INFO - 1/10: the friendly kitchen
-2025-08-13 15:21:42,435 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_152142.xlsx (1 entrées valides)
-2025-08-13 15:22:48,553 - INFO - Recherche: Restaurants à Paris
-2025-08-13 15:23:04,036 - INFO - 1/10: the friendly kitchen
-2025-08-13 15:23:15,217 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:23:15,224 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 15:23:36,048 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:23:36,053 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 15:23:45,495 - INFO - 3/10: Le Tout-Paris
-2025-08-13 15:23:56,662 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:26:26,401 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 15:26:36,200 - INFO - 4/10: Bouillon République
-2025-08-13 15:26:45,874 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C75F8FFA90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c070db0e4d962aece0901be1212aaa24/element
-2025-08-13 15:26:49,937 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C75F914B10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c070db0e4d962aece0901be1212aaa24/element
-2025-08-13 15:28:53,660 - INFO - Recherche: Restaurants à Paris
-2025-08-13 15:29:04,577 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
-2025-08-13 15:29:15,769 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:29:15,775 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 15:29:25,280 - INFO - 2/2: Vita Ristorante
-2025-08-13 15:29:36,446 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:29:36,450 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 15:29:44,785 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_152944.xlsx (2 entrées valides)
-2025-08-13 15:36:37,603 - INFO - Recherche: Restaurants à Paris
-2025-08-13 15:36:49,392 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
-2025-08-13 15:36:53,570 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_153653.xlsx (1 entrées valides)
-2025-08-13 15:40:02,771 - INFO - Recherche: Restaurants à Paris
-2025-08-13 15:40:14,194 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
-2025-08-13 15:40:16,291 - ERROR - Erreur sur un élément : Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8cb93]
-	(No symbol) [0x0x10136e4]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
+	GetHandleVerifier [0x0xa2fd33+62915]
+	GetHandleVerifier [0x0xa2fd74+62980]
+	(No symbol) [0x0x863e13]
+	(No symbol) [0x0x8ac89e]
+	(No symbol) [0x0x8acc3b]
+	(No symbol) [0x0x8f4ec2]
+	(No symbol) [0x0x8d1424]
+	(No symbol) [0x0x8f26ea]
+	(No symbol) [0x0x8d11d6]
+	(No symbol) [0x0x8a0833]
+	(No symbol) [0x0x8a16a4]
+	GetHandleVerifier [0x0xc98d23+2590131]
+	GetHandleVerifier [0x0xc93f6a+2570234]
+	GetHandleVerifier [0x0xa559ea+217722]
+	GetHandleVerifier [0x0xa46058+153832]
+	GetHandleVerifier [0x0xa4c4bd+179533]
+	GetHandleVerifier [0x0xa37738+94152]
+	GetHandleVerifier [0x0xa378c2+94546]
+	GetHandleVerifier [0x0xa22bda+9322]
+	BaseThreadInitThunk [0x0x761ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770882ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7708827e+238]
 
-2025-08-13 15:40:18,550 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_154018.xlsx (1 entrées valides)
-2025-08-13 15:50:09,571 - INFO - Recherche: Restaurants à Paris
-2025-08-13 15:50:18,610 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
-2025-08-13 15:50:28,718 - WARNING - Échec de fermeture standard: Message: 
+2025-08-14 09:45:16,547 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250814_094516.xlsx (1 entrées valides)
+2025-08-14 09:46:34,907 - INFO - Recherche: Restaurants à Paris
+2025-08-14 09:46:45,715 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-14 09:46:50,877 - WARNING - Liste non réapparue, saut forcé
+2025-08-14 09:46:54,036 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250814_094653.xlsx (1 entrées valides)
+2025-08-14 09:58:18,780 - INFO - Recherche: Restaurants à Paris
+2025-08-14 09:58:28,886 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-14 09:58:28,973 - INFO - Fiche fermée (desktop).
+2025-08-14 09:58:32,472 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250814_095832.xlsx (1 entrées valides)
+2025-08-14 09:59:09,086 - INFO - Recherche: Restaurants à Paris
+2025-08-14 09:59:18,768 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-14 09:59:18,835 - INFO - Fiche fermée (desktop).
+2025-08-14 09:59:23,926 - WARNING - Liste non réapparue, saut forcé
+2025-08-14 09:59:27,084 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250814_095926.xlsx (1 entrées valides)
+2025-08-14 10:10:29,354 - INFO - Recherche: Restaurants à Paris
+2025-08-14 10:11:55,248 - INFO - Recherche: Restaurants à Paris
+2025-08-14 10:12:04,542 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-14 10:12:05,580 - WARNING - Impossible de fermer la fiche : Message: element click intercepted: Element <button class="yAuNSb vF7Cdb" jsaction="omnibox.clear; mouseover:omnibox.showTooltip; mouseout:omnibox.hideTooltip; focus:omnibox.showTooltip; blur:omnibox.hideTooltip" aria-label="Fermer">...</button> is not clickable at point (329, 25). Other element would receive the click: <a class="gb_B" aria-label="Applications Google" guidedhelpid="gbawb" href="https://www.google.tn/intl/fr/about/products?tab=lh" aria-expanded="false" role="button" tabindex="0">...</a>
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
 Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:50:33,391 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_155033.xlsx (1 entrées valides)
-2025-08-13 15:51:51,619 - INFO - Recherche: Restaurants à Paris
-2025-08-13 15:52:02,341 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
-2025-08-13 15:52:02,347 - WARNING - Échec de fermeture standard: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[aria...
-2025-08-13 15:52:07,037 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_155206.xlsx (1 entrées valides)
-2025-08-13 15:52:57,601 - INFO - Recherche: Restaurants à Paris
-2025-08-13 15:53:10,696 - INFO - 1/2: the friendly kitchen
-2025-08-13 15:53:20,802 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 15:53:25,584 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_155325.xlsx (1 entrées valides)
-2025-08-13 16:03:45,292 - INFO - Recherche: Restaurants à Paris
-2025-08-13 16:03:55,953 - INFO - 1/2: the friendly kitchen
-2025-08-13 16:04:06,061 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 16:04:10,223 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_160410.xlsx (1 entrées valides)
-2025-08-13 16:04:42,617 - INFO - Recherche: Restaurants à Paris
-2025-08-13 16:04:56,437 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
-2025-08-13 16:05:07,617 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 16:05:11,931 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_160511.xlsx (1 entrées valides)
-2025-08-13 16:06:10,433 - INFO - Recherche: Restaurants à Paris
-2025-08-13 16:06:22,316 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
-2025-08-13 16:06:22,322 - WARNING - Impossible de revenir à la liste, tentative de scroll
-2025-08-13 16:07:03,417 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_160703.xlsx (1 entrées valides)
-2025-08-13 16:07:58,023 - INFO - Recherche: Restaurants à Paris
-2025-08-13 16:08:10,233 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA8902F90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a/element
-2025-08-13 16:08:14,293 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA8760790>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a/element
-2025-08-13 16:08:18,370 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA89145D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a/element
-2025-08-13 16:08:22,443 - ERROR - Timeout en attente des résultats
-2025-08-13 16:08:26,478 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA8915A50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a
-2025-08-13 16:08:30,540 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA8916210>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a
-2025-08-13 16:08:34,603 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA8916890>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/85022ef9249bc163e3996bd0c725393a
-2025-08-13 16:08:51,799 - INFO - Recherche: Restaurants à Paris
-2025-08-13 16:09:03,161 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
-2025-08-13 16:09:14,346 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 16:09:18,810 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_160918.xlsx (1 entrées valides)
-2025-08-13 16:10:36,844 - INFO - Recherche: Restaurants à Paris
-2025-08-13 16:10:49,783 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
-2025-08-13 16:11:00,974 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 16:11:00,980 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 16:11:11,418 - INFO - 2/2: IDA by Denny Imbroisi
-2025-08-13 16:11:22,600 - WARNING - Échec de fermeture standard: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-...
-2025-08-13 16:11:22,605 - WARNING - Échec de ESC, tentative de rechargement
-2025-08-13 16:11:30,737 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_161130.xlsx (2 entrées valides)
-2025-08-13 16:16:54,802 - INFO - Recherche: Restaurants à Paris
-2025-08-13 16:17:06,452 - INFO - 1/2: the friendly kitchen
-2025-08-13 16:17:07,709 - ERROR - Erreur sur l'élément 2: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xf8a619]
-	(No symbol) [0x0xf8cb93]
-	(No symbol) [0x0x10136e4]
-	(No symbol) [0x0xff13dc]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
+	GetHandleVerifier [0x0xa2fd33+62915]
+	GetHandleVerifier [0x0xa2fd74+62980]
+	(No symbol) [0x0x863e13]
+	(No symbol) [0x0x8b2be0]
+	(No symbol) [0x0x8b0f9a]
+	(No symbol) [0x0x8aeaf7]
+	(No symbol) [0x0x8addb4]
+	(No symbol) [0x0x8a2565]
+	(No symbol) [0x0x8d13dc]
+	(No symbol) [0x0x8a1ff4]
+	(No symbol) [0x0x8d1654]
+	(No symbol) [0x0x8f26ea]
+	(No symbol) [0x0x8d11d6]
+	(No symbol) [0x0x8a0833]
+	(No symbol) [0x0x8a16a4]
+	GetHandleVerifier [0x0xc98d23+2590131]
+	GetHandleVerifier [0x0xc93f6a+2570234]
+	GetHandleVerifier [0x0xa559ea+217722]
+	GetHandleVerifier [0x0xa46058+153832]
+	GetHandleVerifier [0x0xa4c4bd+179533]
+	GetHandleVerifier [0x0xa37738+94152]
+	GetHandleVerifier [0x0xa378c2+94546]
+	GetHandleVerifier [0x0xa22bda+9322]
+	BaseThreadInitThunk [0x0x761ffcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770882ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7708827e+238]
 
-2025-08-13 16:17:13,906 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_161713.xlsx (1 entrées valides)
-2025-08-13 16:21:03,963 - INFO - Recherche: Restaurants à Paris
-2025-08-13 16:21:09,995 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
-2025-08-13 16:21:12,242 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250813_162112.xlsx (1 entrées valides)
-2025-08-13 16:31:28,393 - INFO - Recherche Pages Jaunes: Restaurants à Paris
-2025-08-13 16:31:52,398 - ERROR - Erreur majeure: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xfcc89e]
-	(No symbol) [0x0xfccc3b]
-	(No symbol) [0x0x1014ec2]
-	(No symbol) [0x0xff1424]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-Traceback (most recent call last):
-  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\pagesjaunes.py", line 80, in scrape_pages_jaunes
-    WebDriverWait(driver, 15).until(
-  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xfcc89e]
-	(No symbol) [0x0xfccc3b]
-	(No symbol) [0x0x1014ec2]
-	(No symbol) [0x0xff1424]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 16:32:27,422 - INFO - Recherche Pages Jaunes: Restaurants à Paris
-2025-08-13 16:32:50,428 - ERROR - Erreur majeure: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xfcc89e]
-	(No symbol) [0x0xfccc3b]
-	(No symbol) [0x0x1014ec2]
-	(No symbol) [0x0xff1424]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-Traceback (most recent call last):
-  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\pagesjaunes.py", line 80, in scrape_pages_jaunes
-    WebDriverWait(driver, 15).until(
-  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xfcc89e]
-	(No symbol) [0x0xfccc3b]
-	(No symbol) [0x0x1014ec2]
-	(No symbol) [0x0xff1424]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 16:38:11,811 - INFO - Recherche Pages Jaunes: Restaurants à Paris
-2025-08-13 16:38:27,803 - WARNING - Échec acceptation cookies: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-
-2025-08-13 16:38:48,011 - ERROR - Timeout en attente des résultats: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xfcc89e]
-	(No symbol) [0x0xfccc3b]
-	(No symbol) [0x0x1014ec2]
-	(No symbol) [0x0xff1424]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 16:53:34,262 - INFO - Recherche mobile Pages Jaunes: Restaurants à Paris
-2025-08-13 16:54:15,514 - ERROR - Timeout résultats: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xfcc89e]
-	(No symbol) [0x0xfccc3b]
-	(No symbol) [0x0x1014ec2]
-	(No symbol) [0x0xff1424]
-	(No symbol) [0x0x10126ea]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 17:02:28,829 - INFO - Résultat 1: Café du Commerce
-2025-08-13 17:02:28,923 - INFO - Résultat 2: Restaurant Tipaza
-2025-08-13 17:02:31,063 - INFO - Fichier sauvegardé : pagesjaunes_Restaurants_Paris_20250813_1702.csv (2 résultats)
-2025-08-13 17:11:02,894 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
-2025-08-13 17:11:02,895 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
-2025-08-13 17:11:05,376 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
-2025-08-13 17:11:05,376 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
-2025-08-13 17:11:08,328 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
-2025-08-13 17:11:08,328 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
-2025-08-13 17:11:11,042 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
-2025-08-13 17:11:11,043 - WARNING - Erreur sur carte: extract_card_data() missing 1 required positional argument: 'card'
-2025-08-13 17:15:14,860 - INFO - Début du scraping pour Restaurants à Paris
-2025-08-13 17:15:27,540 - WARNING - Gestion des cookies non nécessaire ou échouée
-2025-08-13 17:15:31,934 - WARNING - Erreur sur téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_
-2025-08-13 17:15:31,941 - WARNING - Erreur sur site web: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[data-omni
-2025-08-13 17:15:31,957 - WARNING - Erreur sur note: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span.note_m
-2025-08-13 17:15:31,957 - INFO - Résultat 1: Le Sirocco
-2025-08-13 17:15:31,978 - WARNING - Erreur sur téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_
-2025-08-13 17:15:31,982 - WARNING - Erreur sur site web: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[data-omni
-2025-08-13 17:15:31,998 - INFO - Résultat 2: Santa Carne
-2025-08-13 17:15:34,121 - INFO - Fichier sauvegardé : pagesjaunes_Restaurants_Paris_20250813_1715.csv (2 résultats)
-2025-08-13 17:38:46,683 - ERROR - Erreur majeure: Message: session not created: DevToolsActivePort file doesn't exist; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
-Stacktrace:
-	GetHandleVerifier [0x0x114fd33+62915]
-	GetHandleVerifier [0x0x114fd74+62980]
-	(No symbol) [0x0xf83e13]
-	(No symbol) [0x0xfbc8e9]
-	(No symbol) [0x0xfb841a]
-	(No symbol) [0x0xfb31e9]
-	(No symbol) [0x0xffce32]
-	(No symbol) [0x0xffc74a]
-	(No symbol) [0x0xff11d6]
-	(No symbol) [0x0xfc0833]
-	(No symbol) [0x0xfc16a4]
-	GetHandleVerifier [0x0x13b8d23+2590131]
-	GetHandleVerifier [0x0x13b3f6a+2570234]
-	GetHandleVerifier [0x0x11759ea+217722]
-	GetHandleVerifier [0x0x1166058+153832]
-	GetHandleVerifier [0x0x116c4bd+179533]
-	GetHandleVerifier [0x0x1157738+94152]
-	GetHandleVerifier [0x0x11578c2+94546]
-	GetHandleVerifier [0x0x1142bda+9322]
-	BaseThreadInitThunk [0x0x7700fcc9+25]
-	RtlGetAppContainerNamedObjectPath [0x0x77a482ae+286]
-	RtlGetAppContainerNamedObjectPath [0x0x77a4827e+238]
-
-2025-08-13 17:39:10,182 - INFO - Début du scraping pour Restaurants à Paris
-2025-08-13 17:39:35,661 - WARNING - Gestion des cookies non nécessaire ou échouée
-2025-08-13 17:39:39,173 - WARNING - Erreur extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_
-2025-08-13 17:39:39,203 - INFO - Résultat 1: Grand Zino
-2025-08-13 17:39:39,217 - WARNING - Erreur extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_
-2025-08-13 17:39:39,239 - INFO - Résultat 2: Café du Commerce
-2025-08-13 17:39:41,346 - INFO - Fichier sauvegardé : pagesjaunes_Restaurants_Paris_20250813_1739.csv (2 résultats)
-2025-08-13 17:47:21,040 - ERROR - Erreur majeure: ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
-2025-08-13 17:47:36,959 - INFO - Lancement du scraping pour Restaurants à Paris
-2025-08-13 17:48:01,131 - WARNING - Gestion des cookies non nécessaire
-2025-08-13 17:48:04,628 - ERROR - Échec extraction téléphone: name 'ActionChains' is not defined
-2025-08-13 17:48:04,656 - INFO - Extrait: Gabriela | Tel: None
-2025-08-13 17:48:05,177 - ERROR - Échec extraction téléphone: name 'ActionChains' is not defined
-2025-08-13 17:48:05,198 - INFO - Extrait: Nanwich Riquet | Tel: None
-2025-08-13 17:48:07,335 - INFO - Fichier sauvegardé : pagesjaunes_Restaurants_Paris_20250813_1748.csv (2 résultats)
+2025-08-14 10:12:05,582 - WARNING - Saut de l'élément 1 (fermeture impossible)
+2025-08-14 10:12:08,910 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250814_101208.xlsx (1 entrées valides)
+2025-08-14 10:12:57,473 - INFO - Recherche: Restaurants à Paris
+2025-08-14 10:13:06,644 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-14 10:13:06,719 - INFO - Retour à la liste (mobile).
+2025-08-14 10:13:10,968 - INFO - 2/2: Vita Ristorante
+2025-08-14 10:13:11,012 - INFO - Retour à la liste (mobile).
+2025-08-14 10:13:14,648 - INFO - Données sauvegardées dans google_maps_Restaurants_Paris_20250814_101314.xlsx (2 entrées valides)
+2025-08-14 10:32:32,910 - INFO - Recherche: Restaurants à Paris
+2025-08-14 10:32:45,018 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-14 10:32:45,084 - INFO - Retour à la liste (mobile).
+2025-08-14 10:32:49,810 - INFO - 2/2: L'Osteria Paris Chatelet
+2025-08-14 10:32:49,856 - INFO - Retour à la liste (mobile).

@@ -208,19 +208,5 @@ def scrape_pages_jaunes(query, location, max_results=20):
             driver.quit()
 
 def save_pj_results(results, query, location):
-    if not results:
-        logger.warning("Aucune donnée à sauvegarder")
-        return None
-    try:
-        df = pd.DataFrame(results)
-        df = df.dropna(axis=1, how='all')
-        if df.empty:
-            logger.warning("DataFrame vide après nettoyage")
-            return None
-        filename = f"pagesjaunes_{query[:20]}_{location[:10]}_{datetime.now().strftime('%Y%m%d_%H%M')}.csv"
-        df.to_csv(filename, index=False, encoding='utf-8-sig')
-        logger.info(f"Fichier sauvegardé : {filename} ({len(df)} résultats)")
-        return filename
-    except Exception as e:
-        logger.error(f"Erreur sauvegarde : {str(e)}")
-        return None
+    
+    return None
