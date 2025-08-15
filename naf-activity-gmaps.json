@@ -12735,7 +12735,7 @@
     "id": "86.21Z",
     "label": "Activité des médecins généralistes",
     "gmaps_keywords": [
-      "Médecin généraliste"
+      "médecins généralistes"
     ]
   },
   {
@@ -12758,23 +12758,14 @@
     "id": "86.22C",
     "label": "Autres activités des médecins spécialistes",
     "gmaps_keywords": [
-      "Cardiologue", "Dermatologue", "Ophtalmologiste"
+      "médecins spécialistes" 
     ]
   }
   ,{
     "id": "86.23Z",
     "label": "Pratique dentaire",
     "gmaps_keywords": [
-      "dentiste",
-      "cabinet dentaire",
-      "clinique dentaire",
-      "orthodontiste",
-      "chirurgien-dentiste",
-      "parodontiste",
-      "dentisterie",
-      "soins dentaires",
-      "centre dentaire",
-      "urgence dentaire"
+      "Chirurgien dentiste" 
     ]
   },
   {

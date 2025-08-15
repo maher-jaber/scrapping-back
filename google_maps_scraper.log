@@ -1467,3 +1467,171 @@ Stacktrace:
 2025-08-15 12:44:02,713 - INFO - Recherche:  à 
 2025-08-15 12:44:18,374 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018E7C5EEC50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/ee0c14692921bf72c0b119fc47794f5c/element
 2025-08-15 12:44:22,433 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018E7C5ED990>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/ee0c14692921bf72c0b119fc47794f5c/element
+2025-08-15 12:56:16,172 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 12:56:18,116 - INFO - Recherche: café bar à Ain
+2025-08-15 12:56:50,609 - INFO - 1/50: L'aincontournable
+2025-08-15 12:56:50,660 - INFO - Retour à la liste (mobile).
+2025-08-15 12:56:55,108 - INFO - 2/50: Café Du Champ De Foire
+2025-08-15 12:56:55,149 - INFO - Retour à la liste (mobile).
+2025-08-15 12:56:59,778 - INFO - 3/50: Brasserie l'Ain Pression - Malt Emoi
+2025-08-15 12:56:59,821 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:04,221 - INFO - 4/50: Le Savarin
+2025-08-15 12:57:04,263 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:08,847 - INFO - 5/50: Auberg'in Café Restaurant
+2025-08-15 12:57:08,891 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:13,180 - INFO - 6/50: La Bicyclette Bleue
+2025-08-15 12:57:13,221 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:17,810 - INFO - 7/50: Bistrot 1900 Ain
+2025-08-15 12:57:17,852 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:22,884 - INFO - 8/50: Le Central bar
+2025-08-15 12:57:22,926 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:27,344 - INFO - 9/50: Aficionado coffee shop & brunch
+2025-08-15 12:57:27,387 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:31,790 - INFO - 10/50: Café Restaurant de la Préfecture
+2025-08-15 12:57:31,834 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:36,292 - INFO - 11/50: Restaurant Le Terminus
+2025-08-15 12:57:36,334 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:40,788 - INFO - 12/50: Le Bar'occ
+2025-08-15 12:57:40,832 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:45,543 - INFO - 13/50: Café de Campagne
+2025-08-15 12:57:45,589 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:50,730 - INFO - 14/50: Cafe de France
+2025-08-15 12:57:50,785 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:55,083 - INFO - 15/50: Restaurant le Troquet des amis
+2025-08-15 12:57:55,127 - INFO - Retour à la liste (mobile).
+2025-08-15 12:57:59,705 - INFO - 16/50: Le Bar À Créations
+2025-08-15 12:57:59,751 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:04,217 - INFO - 17/50: Bar Le Sarrazin Restaurant
+2025-08-15 12:58:04,259 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:08,551 - INFO - 18/50: L'Ain Très Table
+2025-08-15 12:58:08,598 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:13,351 - INFO - 19/50: La Buvette
+2025-08-15 12:58:13,399 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:17,994 - INFO - 20/50: Sans Pression
+2025-08-15 12:58:18,043 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:22,333 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:26,722 - INFO - 21/50: LE COFY
+2025-08-15 12:58:26,768 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:31,154 - INFO - 22/50: La Bressane - Brasserie Saint Clair
+2025-08-15 12:58:31,199 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:35,585 - INFO - 23/50: AU SOLEIL by Fanny
+2025-08-15 12:58:35,630 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:40,348 - INFO - 24/50: La Grange
+2025-08-15 12:58:40,393 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:45,697 - INFO - 25/50: Le Bar de L'apothicare
+2025-08-15 12:58:45,743 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:50,329 - INFO - 26/50: Au Bureau - Pub et Brasserie
+2025-08-15 12:58:50,375 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:55,109 - INFO - Retour à la liste (mobile).
+2025-08-15 12:58:59,497 - INFO - 27/50: La Cour de Récré
+2025-08-15 12:58:59,544 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:03,870 - INFO - 28/50: Le Nabu
+2025-08-15 12:59:03,916 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:08,539 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:12,973 - INFO - 29/50: Le Carbet
+2025-08-15 12:59:13,021 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:17,322 - INFO - 30/50: L’Atelier
+2025-08-15 12:59:17,367 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:22,033 - INFO - 31/50: Café Bernolin - « Chez la Jeanne »
+2025-08-15 12:59:22,079 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:26,454 - INFO - 32/50: Brasserie L'Etape
+2025-08-15 12:59:26,500 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:30,777 - INFO - 33/50: Brasserie Kooka
+2025-08-15 12:59:30,824 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:35,407 - INFO - 34/50: Rivière d'Ain (Brasserie artisanale)
+2025-08-15 12:59:35,456 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:39,903 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:44,581 - INFO - 35/50: Le loup
+2025-08-15 12:59:44,627 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:49,220 - INFO - 36/50: Le barbara
+2025-08-15 12:59:49,269 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:53,880 - INFO - 37/50: Coffee-Webstore
+2025-08-15 12:59:53,927 - INFO - Retour à la liste (mobile).
+2025-08-15 12:59:58,552 - INFO - Retour à la liste (mobile).
+2025-08-15 13:00:02,861 - INFO - 38/50: Le Bienvenu chez Francky
+2025-08-15 13:00:02,908 - INFO - Retour à la liste (mobile).
+2025-08-15 13:00:07,408 - INFO - Retour à la liste (mobile).
+2025-08-15 13:00:11,920 - INFO - 39/50: La Fora Gîte et Café
+2025-08-15 13:00:11,967 - INFO - Retour à la liste (mobile).
+2025-08-15 13:00:16,444 - INFO - 40/50: Diner 66
+2025-08-15 13:00:16,492 - INFO - Retour à la liste (mobile).
+2025-08-15 13:00:20,819 - INFO - 41/50: Le Seymard
+2025-08-15 13:00:20,867 - INFO - Retour à la liste (mobile).
+2025-08-15 13:00:25,376 - INFO - 42/50: Café Kouli'Z
+2025-08-15 13:00:25,423 - INFO - Retour à la liste (mobile).
+2025-08-15 13:00:30,128 - INFO - 43/50: Hopper Bourg
+2025-08-15 13:00:30,177 - INFO - Retour à la liste (mobile).
+2025-08-15 13:00:34,829 - INFO - 44/50: L'Aquarelle
+2025-08-15 13:00:34,878 - INFO - Retour à la liste (mobile).
+2025-08-15 13:00:38,558 - INFO - --- Recherche pour mot-clé: brasserie ---
+2025-08-15 13:00:40,382 - INFO - Recherche: brasserie à Ain
+2025-08-15 13:00:51,015 - INFO - 1/6: Brasserie l'Ain Pression - Malt Emoi
+2025-08-15 13:00:51,071 - INFO - Retour à la liste (mobile).
+2025-08-15 13:00:55,779 - INFO - 2/6: Rivière d'Ain (Brasserie artisanale)
+2025-08-15 13:00:55,820 - INFO - Retour à la liste (mobile).
+2025-08-15 13:01:00,220 - INFO - 3/6: La Bressane - Brasserie Saint Clair
+2025-08-15 13:01:00,265 - INFO - Retour à la liste (mobile).
+2025-08-15 13:01:04,528 - INFO - 4/6: L'Ancienne Auberge 1900 · Brasserie Georges Blanc
+2025-08-15 13:01:04,573 - INFO - Retour à la liste (mobile).
+2025-08-15 13:01:09,295 - INFO - 5/6: Brasserie l'Etincelle
+2025-08-15 13:01:09,338 - INFO - Retour à la liste (mobile).
+2025-08-15 13:01:13,737 - INFO - 6/6: Restaurant Brasserie des Terreaux
+2025-08-15 13:01:15,852 - INFO - --- Recherche pour mot-clé: caviste ---
+2025-08-15 13:01:17,581 - INFO - Recherche: caviste à Ain
+2025-08-15 13:01:31,372 - INFO - 1/3: Cave du Val d'Or
+2025-08-15 13:01:31,421 - INFO - Retour à la liste (mobile).
+2025-08-15 13:01:36,159 - INFO - 2/3: La Cave d'August
+2025-08-15 13:01:36,205 - INFO - Retour à la liste (mobile).
+2025-08-15 13:01:40,932 - INFO - 3/3: Cave Vins de France
+2025-08-15 13:59:36,570 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 13:59:38,454 - INFO - Recherche: dentiste à Ain
+2025-08-15 14:01:08,073 - INFO - 1/50: Gazel-Sarrazin Laurence - Chirurgien-dentiste
+2025-08-15 14:01:08,121 - INFO - Retour à la liste (mobile).
+2025-08-15 14:01:12,714 - INFO - 2/50: Cabinet Dentaire IES
+2025-08-15 14:01:12,755 - INFO - Retour à la liste (mobile).
+2025-08-15 14:01:17,143 - INFO - 3/50: Cabinet Dentaire du 917
+2025-08-15 14:01:17,186 - INFO - Retour à la liste (mobile).
+2025-08-15 14:01:21,509 - INFO - 4/50: Cabinet Dentaire Beligneux - Dr FRANGIONE, Dr BISWANG & Dr MANFELLOTTO
+2025-08-15 14:01:21,550 - INFO - Retour à la liste (mobile).
+2025-08-15 14:01:26,592 - INFO - 5/50: Dr Camille ARMANDON
+2025-08-15 14:01:26,631 - INFO - Retour à la liste (mobile).
+2025-08-15 14:01:45,987 - INFO - --- Recherche pour mot-clé: Médecin généraliste ---
+2025-08-15 14:01:47,706 - INFO - Recherche: Médecin généraliste à Ain
+2025-08-15 14:02:00,332 - INFO - 1/5: Dr Besson Maxence
+2025-08-15 14:02:00,403 - INFO - Retour à la liste (mobile).
+2025-08-15 14:02:04,896 - INFO - 2/5: Docteur Fey Hadrien
+2025-08-15 14:02:04,937 - INFO - Retour à la liste (mobile).
+2025-08-15 14:02:09,426 - INFO - 3/5: Docteur Oualid Bel Kamel
+2025-08-15 14:02:09,473 - INFO - Retour à la liste (mobile).
+2025-08-15 14:02:33,832 - INFO - --- Recherche pour mot-clé: Cardiologue ---
+2025-08-15 14:02:35,607 - INFO - Recherche: Cardiologue à Ain
+2025-08-15 14:02:45,925 - INFO - 1/5: CardioParc Saint-Maurice-de-Beynost
+2025-08-15 14:02:45,978 - INFO - Retour à la liste (mobile).
+2025-08-15 14:02:50,568 - INFO - 2/5: Dr BERRICHE Cabinet de Cardiologie et Maladies vasculaires
+2025-08-15 14:02:50,616 - INFO - Retour à la liste (mobile).
+2025-08-15 14:02:55,302 - INFO - 3/5: Maison du Cœur et des Vaisseaux
+2025-08-15 14:02:55,343 - INFO - Retour à la liste (mobile).
+2025-08-15 14:02:59,684 - INFO - 4/5: Docteur Camelia Ez Zemmam
+2025-08-15 14:02:59,725 - INFO - Retour à la liste (mobile).
+2025-08-15 14:03:04,104 - INFO - 5/5: Docteur Christophe Robin
+2025-08-15 14:10:50,504 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 14:10:52,318 - INFO - Recherche: café bar à Centre-Val de Loire
+2025-08-15 14:11:04,091 - INFO - 1/10: Le Café Chaud
+2025-08-15 14:11:04,141 - INFO - Retour à la liste (mobile).
+2025-08-15 14:11:08,543 - INFO - 2/10: Le Tandem Café-Vélo
+2025-08-15 14:11:08,584 - INFO - Retour à la liste (mobile).
+2025-08-15 14:11:12,828 - INFO - 3/10: Taverne
+2025-08-15 14:11:12,874 - INFO - Retour à la liste (mobile).
+2025-08-15 14:11:17,517 - INFO - 4/10: Piraat
+2025-08-15 14:11:17,560 - INFO - Retour à la liste (mobile).
+2025-08-15 14:11:22,048 - INFO - 5/10: Garden Ice Café
+2025-08-15 14:11:22,091 - INFO - Retour à la liste (mobile).
+2025-08-15 14:11:26,555 - INFO - 6/10: La Jeune France
+2025-08-15 14:11:26,597 - INFO - Retour à la liste (mobile).
+2025-08-15 14:11:30,995 - INFO - 7/10: Chez Soan
+2025-08-15 14:11:31,037 - INFO - Retour à la liste (mobile).
+2025-08-15 14:11:35,563 - INFO - 8/10: Le Saint Germain
+2025-08-15 14:11:35,606 - INFO - Retour à la liste (mobile).
+2025-08-15 14:11:40,024 - INFO - 9/10: Au Café Chaud
+2025-08-15 14:11:40,065 - INFO - Retour à la liste (mobile).
+2025-08-15 14:11:44,711 - INFO - 10/10: Beurre Noisette
