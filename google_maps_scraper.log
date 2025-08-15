@@ -1635,3 +1635,29 @@ Stacktrace:
 2025-08-15 14:11:40,024 - INFO - 9/10: Au Café Chaud
 2025-08-15 14:11:40,065 - INFO - Retour à la liste (mobile).
 2025-08-15 14:11:44,711 - INFO - 10/10: Beurre Noisette
+2025-08-15 16:14:22,202 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 16:14:24,108 - INFO - Recherche: café bar à Paris
+2025-08-15 16:14:36,662 - INFO - 1/2: Café de Paris V
+2025-08-15 16:14:36,728 - INFO - Retour à la liste (mobile).
+2025-08-15 16:14:41,070 - INFO - 2/2: Carpe Diem Café - Paris
+2025-08-15 16:56:31,264 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 16:56:33,081 - INFO - Recherche: café bar à Centre-Val de Loire
+2025-08-15 16:56:46,668 - INFO - 1/10: Piraat
+2025-08-15 16:56:46,720 - INFO - Retour à la liste (mobile).
+2025-08-15 16:56:51,200 - INFO - 2/10: Le Café Chaud
+2025-08-15 16:56:51,244 - INFO - Retour à la liste (mobile).
+2025-08-15 16:56:55,537 - INFO - 3/10: Le Tandem Café-Vélo
+2025-08-15 16:56:55,580 - INFO - Retour à la liste (mobile).
+2025-08-15 16:57:00,299 - INFO - 4/10: Taverne
+2025-08-15 16:57:00,345 - INFO - Retour à la liste (mobile).
+2025-08-15 16:57:04,844 - INFO - 5/10: Garden Ice Café
+2025-08-15 16:57:04,886 - INFO - Retour à la liste (mobile).
+2025-08-15 16:57:09,125 - INFO - 6/10: La Jeune France
+2025-08-15 16:57:09,166 - INFO - Retour à la liste (mobile).
+2025-08-15 16:57:13,614 - INFO - 7/10: Chez Soan
+2025-08-15 16:57:13,657 - INFO - Retour à la liste (mobile).
+2025-08-15 16:57:18,057 - INFO - 8/10: Le Saint Germain
+2025-08-15 16:57:18,101 - INFO - Retour à la liste (mobile).
+2025-08-15 16:57:22,779 - INFO - 9/10: Au Café Chaud
+2025-08-15 16:57:22,820 - INFO - Retour à la liste (mobile).
+2025-08-15 16:57:27,081 - INFO - 10/10: Beurre Noisette

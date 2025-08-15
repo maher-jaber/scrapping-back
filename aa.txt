@@ -1,0 +1,92 @@
+#!/bin/bash
+# ==========================================
+# Setup Instance Linux Ubuntu 22.04 LTS
+# Pour projet scraping Google Maps Selenium
+# ==========================================
+
+# -------------------------------
+# 1️⃣ Mise à jour et outils de base
+# -------------------------------
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install -y \
+    wget \
+    curl \
+    unzip \
+    git \
+    build-essential \
+    python3 \
+    python3-pip \
+    python3-venv \
+    software-properties-common \
+    net-tools \
+    htop
+
+# -------------------------------
+# 2️⃣ Création d'un environnement Python
+# -------------------------------
+python3 -m venv ~/scraper_env
+source ~/scraper_env/bin/activate
+pip install --upgrade pip
+
+# -------------------------------
+# 3️⃣ Installation des dépendances Python
+# -------------------------------
+# Adapter requirements.txt si nécessaire
+pip install selenium pandas webdriver-manager requests
+
+# -------------------------------
+# 4️⃣ Installation Chrome Headless
+# -------------------------------
+mkdir -p ~/bin
+cd ~/bin
+
+# Téléchargement Chrome officiel pour tests
+curl -Lo chrome-linux64.zip \
+    https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/linux64/chrome-linux64.zip
+
+unzip chrome-linux64.zip
+rm chrome-linux64.zip
+
+# Téléchargement Chromedriver correspondant
+curl -Lo chromedriver-linux64.zip \
+    https://chromedriver.storage.googleapis.com/126.0.6478.182/chromedriver_linux64.zip
+unzip chromedriver-linux64.zip
+rm chromedriver-linux64.zip
+
+# Permissions exécutables
+chmod +x ~/bin/chrome-linux64/chrome
+chmod +x ~/bin/chromedriver-linux64/chromedriver
+
+# -------------------------------
+# 5️⃣ Variables d'environnement
+# -------------------------------
+echo "export PATH=\$PATH:~/bin/chrome-linux64" >> ~/.bashrc
+echo "export PATH=\$PATH:~/bin/chromedriver-linux64" >> ~/.bashrc
+source ~/.bashrc
+
+# -------------------------------
+# 6️⃣ Swap (optionnel, si RAM < 16 Go)
+# -------------------------------
+sudo fallocate -l 4G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
+# -------------------------------
+# 7️⃣ Vérifications
+# -------------------------------
+echo "✅ Chrome version:"
+~/bin/chrome-linux64/chrome --version
+echo "✅ Chromedriver version:"
+~/bin/chromedriver-linux64/chromedriver --version
+echo "✅ Python version:"
+python --version
+echo "✅ Pip version:"
+pip --version
+
+echo "===================================="
+echo "Instance prête pour scraping Google Maps avec Selenium !"
+echo "Pour activer l'environnement Python: source ~/scraper_env/bin/activate"
+echo "Pour lancer ton script: python main.py"
