@@ -7,15 +7,26 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import logging
 from datetime import datetime
 import sys
+import json
 
-# Logging
+# ==== Chargement fichier NAF enrichi ====
+with open("naf-activity-gmaps.json", "r", encoding="utf-8") as f:
+    naf_keywords_map = json.load(f)
+
+def get_keywords_for_label(label):
+    """Retourne la liste des mots-clés Google Maps pour un label NAF donné."""
+    for entry in naf_keywords_map:
+        if entry["label"].lower() == label.lower():
+            return entry["gmaps_keywords"]
+    return [label]  # fallback
+
+# ==== Logging ====
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -51,7 +62,6 @@ def configure_driver():
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--window-size=390,844")
 
-
     service = Service(
         ChromeDriverManager().install(),
         service_args=['--disable-logging', '--silent']
@@ -70,7 +80,10 @@ def configure_driver():
 def wait_for_results(driver):
     try:
         WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, '[role="feed"], div.m6QErb.DxyBCb'))
+            EC.any_of(
+                EC.presence_of_element_located((By.CSS_SELECTOR, 'div[aria-label^="Résultats pour"]')),
+                EC.presence_of_element_located((By.CSS_SELECTOR, '[role="article"], div.Nv2PK.THOPZb.CpccDe'))
+            )
         )
         return True
     except:
@@ -78,22 +91,18 @@ def wait_for_results(driver):
         return False
 
 def extract_all_businesses(driver):
-    return driver.find_elements(By.CSS_SELECTOR, '[role="article"], div.Nv2PK.THOPZb.CpccDe')
+    container = driver.find_element(By.CSS_SELECTOR, 'div[aria-label^="Résultats pour"]')
+    return container.find_elements(By.CSS_SELECTOR, '[role="article"], div.Nv2PK.THOPZb.CpccDe')
 
 def scroll_to_load_results(driver, max_results):
+    container = driver.find_element(By.CSS_SELECTOR, 'div[aria-label^="Résultats pour"]')
     last_height = 0
     scroll_attempts = 0
     max_scroll_attempts = 15
     while len(extract_all_businesses(driver)) < max_results and scroll_attempts < max_scroll_attempts:
-        driver.execute_script("""
-            const sidebar = document.querySelector('div[role="feed"]');
-            if (sidebar) sidebar.scrollTop = sidebar.scrollHeight;
-        """)
+        driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight;", container)
         time.sleep(random.uniform(2, 3))
-        current_height = driver.execute_script("""
-            const sidebar = document.querySelector('div[role="feed"]');
-            return sidebar ? sidebar.scrollHeight : 0;
-        """)
+        current_height = driver.execute_script("return arguments[0].scrollHeight;", container)
         if current_height == last_height:
             scroll_attempts += 1
         else:
@@ -126,28 +135,18 @@ def extract_business_details(driver):
     return details
 
 def close_details_panel(driver):
-    """Ferme la fiche en gérant mode desktop et mobile"""
     try:
-        # Essai 1 : bouton Fermer (desktop)
-       
-
-        # Essai 2 : bouton Retour (mobile)
         back_btn = driver.find_elements(By.CSS_SELECTOR, 'button[aria-label="Retour"]')
         if back_btn:
             back_btn[0].click()
             logger.info("Retour à la liste (mobile).")
             return True
-
-        # Essai 3 : touche Échap
         driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
         logger.info("Fermeture via ESC.")
         return True
-
     except Exception as e:
         logger.warning(f"Impossible de fermer la fiche : {e}")
         return False
-
-
 
 def scrape_google_maps(query, location, max_results=50):
     driver = None
@@ -192,7 +191,6 @@ def scrape_google_maps(query, location, max_results=50):
                     results.append(business_data)
                     logger.info(f"{len(results)}/{max_results}: {business_data['Nom']}")
 
-                # Fermeture propre du panneau
                 if not close_details_panel(driver):
                     logger.warning(f"Saut de l'élément {idx+1} (fermeture impossible)")
                 else:
@@ -208,7 +206,7 @@ def scrape_google_maps(query, location, max_results=50):
             except Exception as e:
                 logger.error(f"Erreur sur l'élément {idx+1}: {str(e)}")
             finally:
-                idx += 1  # Passe à l'élément suivant quoi qu'il arrive
+                idx += 1
 
         return results
 
@@ -218,6 +216,22 @@ def scrape_google_maps(query, location, max_results=50):
     finally:
         if driver:
             driver.quit()
+
+# ==== Scraping multi-requêtes à partir d'un label NAF ====
+def scrape_by_label(label, location, max_results=50):
+    keywords = get_keywords_for_label(label)
+    all_results = []
+    seen_names = set()
+
+    for kw in keywords:
+        logger.info(f"--- Recherche pour mot-clé: {kw} ---")
+        results = scrape_google_maps(kw, location, max_results)
+        for r in results:
+            if r['Nom'] not in seen_names:
+                seen_names.add(r['Nom'])
+                all_results.append(r)
+
+    return all_results
 
 
 def save_results(results, query, location):

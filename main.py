@@ -1,9 +1,27 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from gmaps import scrape_google_maps, save_results
+from gmaps import scrape_google_maps, scrape_by_label, save_results
 from pagesjaunes import scrape_pages_jaunes, save_pj_results
 
 app = FastAPI()
+
+# --- CORS ---
+origins = [
+    "*",
+    "http://localhost:8000",  # Ton front Symfony
+    "http://127.0.0.1:8000",  # Variante localhost
+    # Tu peux ajouter d'autres domaines si besoin
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],   # GET, POST, etc.
+    allow_headers=["*"],   # Autorise tous les headers
+)
+# --- /CORS ---
 
 class SearchRequest(BaseModel):
     query: str
@@ -12,8 +30,8 @@ class SearchRequest(BaseModel):
 
 @app.post("/scrape/googlemaps")
 def scrape_gmaps(request: SearchRequest):
-    results = scrape_google_maps(
-        query=request.query,
+    results = scrape_by_label(
+        label=request.query,
         location=request.location,
         max_results=request.max_results
     )
