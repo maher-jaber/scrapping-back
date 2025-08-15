@@ -1113,3 +1113,357 @@ urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5269
 2025-08-15 11:27:27,226 - INFO - 1/2: Cafés Méo Saint Lazare
 2025-08-15 11:27:27,296 - INFO - Retour à la liste (mobile).
 2025-08-15 11:27:31,405 - INFO - 2/2: Terres de Café Paris Saint-Honoré
+2025-08-15 11:44:43,803 - INFO - Mots-clés utilisés pour 'Café': ['Café']
+2025-08-15 11:44:43,804 - INFO - Scraping 'Café' - 2 résultats restants
+2025-08-15 11:44:45,598 - INFO - Recherche: Café à Paris
+2025-08-15 11:44:55,305 - INFO - 1/2: Coutume Babylone | Torréfacteur | Coffee shop | Brunch
+2025-08-15 11:44:57,403 - ERROR - Erreur sur l'élément 1: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x11afd33+62915]
+	GetHandleVerifier [0x0x11afd74+62980]
+	(No symbol) [0x0xfe3e13]
+	(No symbol) [0x0xfea619]
+	(No symbol) [0x0xfecb93]
+	(No symbol) [0x0x10736e4]
+	(No symbol) [0x0x10513dc]
+	(No symbol) [0x0x10726ea]
+	(No symbol) [0x0x10511d6]
+	(No symbol) [0x0x1020833]
+	(No symbol) [0x0x10216a4]
+	GetHandleVerifier [0x0x1418d23+2590131]
+	GetHandleVerifier [0x0x1413f6a+2570234]
+	GetHandleVerifier [0x0x11d59ea+217722]
+	GetHandleVerifier [0x0x11c6058+153832]
+	GetHandleVerifier [0x0x11cc4bd+179533]
+	GetHandleVerifier [0x0x11b7738+94152]
+	GetHandleVerifier [0x0x11b78c2+94546]
+	GetHandleVerifier [0x0x11a2bda+9322]
+	BaseThreadInitThunk [0x0x7631fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77bc82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77bc827e+238]
+
+2025-08-15 11:51:57,627 - INFO - --- Recherche pour mot-clé: Café ---
+2025-08-15 11:51:59,481 - INFO - Recherche: Café à Paris
+2025-08-15 11:52:08,047 - INFO - 1/2: Résultats
+2025-08-15 11:52:08,097 - INFO - Fermeture via ESC.
+2025-08-15 11:52:10,702 - INFO - Fermeture via ESC.
+2025-08-15 11:52:15,290 - INFO - 2/2: Terres de Café Paris Saint-Honoré
+2025-08-15 11:52:15,345 - INFO - Retour à la liste (mobile).
+2025-08-15 11:53:10,778 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 11:53:12,568 - INFO - Recherche: dentiste à Paris
+2025-08-15 11:53:22,233 - INFO - 1/2: Résultats
+2025-08-15 11:53:22,272 - INFO - Fermeture via ESC.
+2025-08-15 11:53:25,680 - INFO - Fermeture via ESC.
+2025-08-15 11:53:31,106 - INFO - Fermeture via ESC.
+2025-08-15 11:53:36,214 - INFO - Fermeture via ESC.
+2025-08-15 11:53:41,177 - INFO - Fermeture via ESC.
+2025-08-15 11:53:46,251 - INFO - Fermeture via ESC.
+2025-08-15 11:53:50,826 - INFO - Fermeture via ESC.
+2025-08-15 11:53:55,528 - INFO - Fermeture via ESC.
+2025-08-15 11:54:00,499 - INFO - Fermeture via ESC.
+2025-08-15 11:54:05,323 - INFO - Fermeture via ESC.
+2025-08-15 11:54:11,321 - INFO - Fermeture via ESC.
+2025-08-15 11:54:16,202 - INFO - Fermeture via ESC.
+2025-08-15 11:54:20,924 - INFO - Fermeture via ESC.
+2025-08-15 11:54:25,183 - INFO - Fermeture via ESC.
+2025-08-15 11:54:29,621 - INFO - Fermeture via ESC.
+2025-08-15 11:54:34,405 - INFO - Fermeture via ESC.
+2025-08-15 11:54:39,437 - INFO - Fermeture via ESC.
+2025-08-15 11:54:44,305 - INFO - Fermeture via ESC.
+2025-08-15 11:54:49,075 - INFO - Fermeture via ESC.
+2025-08-15 11:54:54,362 - INFO - Fermeture via ESC.
+2025-08-15 11:54:58,948 - INFO - Fermeture via ESC.
+2025-08-15 11:55:03,413 - INFO - --- Recherche pour mot-clé: cabinet dentaire ---
+2025-08-15 11:55:05,157 - INFO - Recherche: cabinet dentaire à Paris
+2025-08-15 11:55:16,967 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002717575EE10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3ef4cb3a2fcae281224f9786079252a3/element
+2025-08-15 11:55:21,021 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027176C78050>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3ef4cb3a2fcae281224f9786079252a3/element
+2025-08-15 11:55:25,081 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027176C792D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3ef4cb3a2fcae281224f9786079252a3/element
+2025-08-15 11:55:29,132 - ERROR - Timeout en attente des résultats
+2025-08-15 11:55:33,187 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027176C7A590>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3ef4cb3a2fcae281224f9786079252a3
+2025-08-15 11:55:37,248 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027176C7AC50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3ef4cb3a2fcae281224f9786079252a3
+2025-08-15 11:55:41,303 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027176C7B350>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3ef4cb3a2fcae281224f9786079252a3
+2025-08-15 11:55:45,360 - INFO - --- Recherche pour mot-clé: clinique dentaire ---
+2025-08-15 11:55:47,108 - INFO - Recherche: clinique dentaire à Paris
+2025-08-15 11:55:55,395 - INFO - 1/1: Résultats
+2025-08-15 11:55:55,433 - INFO - Fermeture via ESC.
+2025-08-15 11:55:58,031 - INFO - --- Recherche pour mot-clé: orthodontiste ---
+2025-08-15 11:55:59,776 - INFO - Recherche: orthodontiste à Paris
+2025-08-15 11:56:09,005 - INFO - 1/1: Résultats
+2025-08-15 11:56:09,042 - INFO - Fermeture via ESC.
+2025-08-15 11:56:11,671 - INFO - --- Recherche pour mot-clé: chirurgien-dentiste ---
+2025-08-15 11:56:13,328 - INFO - Recherche: chirurgien-dentiste à Paris
+2025-08-15 11:56:22,462 - INFO - 1/1: Dentimad - Centre dentaire Chatelet Rivoli Paris 1er
+2025-08-15 11:56:22,537 - INFO - Retour à la liste (mobile).
+2025-08-15 11:57:46,868 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 11:57:48,681 - INFO - Recherche: dentiste à Paris
+2025-08-15 11:58:28,520 - INFO - --- Recherche pour mot-clé: cabinet dentaire ---
+2025-08-15 11:58:30,172 - INFO - Recherche: cabinet dentaire à Paris
+2025-08-15 11:58:52,487 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 11:58:54,249 - INFO - Recherche: dentiste à Paris
+2025-08-15 11:59:31,163 - INFO - --- Recherche pour mot-clé: cabinet dentaire ---
+2025-08-15 11:59:32,903 - INFO - Recherche: cabinet dentaire à Paris
+2025-08-15 12:00:19,539 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 12:00:21,325 - INFO - Recherche: dentiste à Paris
+2025-08-15 12:00:30,715 - INFO - 1/2: Résultats
+2025-08-15 12:00:30,752 - INFO - Fermeture via ESC.
+2025-08-15 12:00:33,883 - INFO - Fermeture via ESC.
+2025-08-15 12:00:38,956 - INFO - Fermeture via ESC.
+2025-08-15 12:00:44,356 - INFO - Fermeture via ESC.
+2025-08-15 12:00:48,554 - INFO - Fermeture via ESC.
+2025-08-15 12:00:54,046 - INFO - Fermeture via ESC.
+2025-08-15 12:00:59,376 - INFO - Fermeture via ESC.
+2025-08-15 12:01:05,329 - INFO - Fermeture via ESC.
+2025-08-15 12:01:10,751 - INFO - Fermeture via ESC.
+2025-08-15 12:01:15,255 - INFO - Fermeture via ESC.
+2025-08-15 12:01:20,107 - INFO - Fermeture via ESC.
+2025-08-15 12:01:25,863 - INFO - Fermeture via ESC.
+2025-08-15 12:01:31,853 - INFO - Fermeture via ESC.
+2025-08-15 12:01:37,506 - INFO - Fermeture via ESC.
+2025-08-15 12:01:42,836 - INFO - Fermeture via ESC.
+2025-08-15 12:01:48,433 - INFO - Fermeture via ESC.
+2025-08-15 12:01:55,251 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FE1351FD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/5df3b20cdaf67ef8a555df8cef4edc69/elements
+2025-08-15 12:01:59,309 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FE12C28D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/5df3b20cdaf67ef8a555df8cef4edc69/elements
+2025-08-15 12:02:03,354 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FE12C2D10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/5df3b20cdaf67ef8a555df8cef4edc69/elements
+2025-08-15 12:02:07,415 - WARNING - Impossible de trouver les business cards : HTTPConnectionPool(host='localhost', port=55981): Max retries exceeded with url: /session/5df3b20cdaf67ef8a555df8cef4edc69/elements (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FE12C33D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-15 12:02:11,478 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FE12C3F10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/5df3b20cdaf67ef8a555df8cef4edc69/element
+2025-08-15 12:02:15,529 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FE12561D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/5df3b20cdaf67ef8a555df8cef4edc69/element
+2025-08-15 12:02:23,399 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 12:02:25,194 - INFO - Recherche: dentiste à Paris
+2025-08-15 12:03:08,436 - INFO - --- Recherche pour mot-clé: cabinet dentaire ---
+2025-08-15 12:03:10,250 - INFO - Recherche: cabinet dentaire à Paris
+2025-08-15 12:03:27,234 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0D4534390>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/2363db7f5c4804090c45bb577c517817/elements
+2025-08-15 12:03:31,274 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0D4537990>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/2363db7f5c4804090c45bb577c517817/elements
+2025-08-15 12:03:35,335 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0D4536150>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/2363db7f5c4804090c45bb577c517817/elements
+2025-08-15 12:03:39,392 - WARNING - Impossible de trouver les business cards : HTTPConnectionPool(host='localhost', port=56240): Max retries exceeded with url: /session/2363db7f5c4804090c45bb577c517817/elements (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0D4536350>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-15 12:03:43,447 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0D4446E10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/2363db7f5c4804090c45bb577c517817/element
+2025-08-15 12:03:47,493 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0D44B9C50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/2363db7f5c4804090c45bb577c517817/element
+2025-08-15 12:03:51,538 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0D44B8D90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/2363db7f5c4804090c45bb577c517817/element
+2025-08-15 12:03:59,652 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0D44BA550>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/2363db7f5c4804090c45bb577c517817
+2025-08-15 12:04:03,691 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0D44BAAD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/2363db7f5c4804090c45bb577c517817
+2025-08-15 12:04:07,740 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0D44BB150>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/2363db7f5c4804090c45bb577c517817
+2025-08-15 12:04:11,788 - INFO - --- Recherche pour mot-clé: clinique dentaire ---
+2025-08-15 12:04:13,566 - INFO - Recherche: clinique dentaire à Paris
+2025-08-15 12:04:55,520 - INFO - --- Recherche pour mot-clé: orthodontiste ---
+2025-08-15 12:04:57,263 - INFO - Recherche: orthodontiste à Paris
+2025-08-15 12:05:40,984 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 12:05:42,776 - INFO - Recherche: café bar à Ain
+2025-08-15 12:05:52,965 - INFO - 1/5: L'aincontournable
+2025-08-15 12:05:53,028 - INFO - Retour à la liste (mobile).
+2025-08-15 12:05:57,702 - INFO - 2/5: Café Du Champ De Foire
+2025-08-15 12:05:57,744 - INFO - Retour à la liste (mobile).
+2025-08-15 12:06:02,071 - INFO - 3/5: Brasserie l'Ain Pression - Malt Emoi
+2025-08-15 12:06:02,114 - INFO - Retour à la liste (mobile).
+2025-08-15 12:06:06,400 - INFO - 4/5: Le Savarin
+2025-08-15 12:06:06,443 - INFO - Retour à la liste (mobile).
+2025-08-15 12:06:10,933 - INFO - 5/5: Le Central bar
+2025-08-15 12:06:29,083 - INFO - Lancement du scraping pour Débits de boissons à Ain
+2025-08-15 12:07:01,083 - INFO - Extrait: La Terrasse | Tel: 04 72 26 10 33
+2025-08-15 12:07:03,228 - INFO - Extrait: Le Français | Tel: 04 74 22 55 14
+2025-08-15 12:07:05,359 - INFO - Extrait: La Bicyclette Bleue | Tel:     04 74 98 21 48
+2025-08-15 12:07:07,491 - INFO - Extrait: La Réserve | Tel: 04 74 73 44 84
+2025-08-15 12:07:09,623 - INFO - Extrait: Le Chaudron | Tel:     04 74 00 43 52
+2025-08-15 12:19:21,226 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 12:19:22,989 - INFO - Recherche: dentiste à Ain
+2025-08-15 12:19:35,950 - INFO - 1/5: Cabinet Dentaire IES
+2025-08-15 12:19:36,005 - INFO - Retour à la liste (mobile).
+2025-08-15 12:19:40,509 - INFO - 2/5: Gazel-Sarrazin Laurence - Chirurgien-dentiste
+2025-08-15 12:19:40,550 - INFO - Retour à la liste (mobile).
+2025-08-15 12:19:46,846 - INFO - 3/5: Cabinet Dentaire du 917
+2025-08-15 12:19:46,891 - INFO - Retour à la liste (mobile).
+2025-08-15 12:19:51,601 - INFO - 4/5: Cabinet Dentaire Beligneux - Dr FRANGIONE, Dr BISWANG & Dr MANFELLOTTO
+2025-08-15 12:19:51,641 - INFO - Retour à la liste (mobile).
+2025-08-15 12:19:55,494 - INFO - --- Recherche pour mot-clé: cabinet dentaire ---
+2025-08-15 12:19:57,231 - INFO - Recherche: cabinet dentaire à Ain
+2025-08-15 12:20:07,331 - INFO - 1/1: Cabinet Dentaire IES
+2025-08-15 12:20:10,994 - INFO - --- Recherche pour mot-clé: clinique dentaire ---
+2025-08-15 12:20:12,733 - INFO - Recherche: clinique dentaire à Ain
+2025-08-15 12:20:22,121 - INFO - 1/1: Cabinet Dentaire IES
+2025-08-15 12:20:24,210 - INFO - --- Recherche pour mot-clé: orthodontiste ---
+2025-08-15 12:20:25,917 - INFO - Recherche: orthodontiste à Ain
+2025-08-15 12:20:36,044 - INFO - 1/1: Cabinet d'Orthodontie Miribel - Dr Mouna REMORINI
+2025-08-15 12:21:23,607 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 12:21:25,279 - INFO - Recherche: dentiste à Ain
+2025-08-15 12:21:38,282 - INFO - 1/10: Cabinet Dentaire IES
+2025-08-15 12:21:38,334 - INFO - Retour à la liste (mobile).
+2025-08-15 12:21:43,050 - INFO - 2/10: Gazel-Sarrazin Laurence - Chirurgien-dentiste
+2025-08-15 12:21:43,089 - INFO - Retour à la liste (mobile).
+2025-08-15 12:21:47,665 - INFO - 3/10: Cabinet Dentaire du 917
+2025-08-15 12:21:47,706 - INFO - Retour à la liste (mobile).
+2025-08-15 12:21:52,046 - INFO - 4/10: Cabinet Dentaire Beligneux - Dr FRANGIONE, Dr BISWANG & Dr MANFELLOTTO
+2025-08-15 12:21:52,101 - INFO - Retour à la liste (mobile).
+2025-08-15 12:21:55,884 - INFO - --- Recherche pour mot-clé: cabinet dentaire ---
+2025-08-15 12:21:57,664 - INFO - Recherche: cabinet dentaire à Ain
+2025-08-15 12:22:10,634 - INFO - 1/6: Cabinet Dentaire IES
+2025-08-15 12:22:10,683 - INFO - Retour à la liste (mobile).
+2025-08-15 12:22:14,982 - INFO - 2/6: Cabinet Dentaire Étoile Du Léman
+2025-08-15 12:22:15,022 - INFO - Retour à la liste (mobile).
+2025-08-15 12:22:19,582 - INFO - 3/6: Cabinet Dentaire du 917
+2025-08-15 12:22:19,624 - INFO - Retour à la liste (mobile).
+2025-08-15 12:22:23,884 - INFO - 4/6: Cabinet Dentaire Beligneux - Dr FRANGIONE, Dr BISWANG & Dr MANFELLOTTO
+2025-08-15 12:22:23,921 - INFO - Retour à la liste (mobile).
+2025-08-15 12:22:28,323 - INFO - 5/6: Gazel-Sarrazin Laurence - Chirurgien-dentiste
+2025-08-15 12:22:28,366 - INFO - Retour à la liste (mobile).
+2025-08-15 12:22:32,762 - INFO - 6/6: Centre Dentaire Saint Genis Pouilly
+2025-08-15 12:22:34,861 - INFO - --- Recherche pour mot-clé: clinique dentaire ---
+2025-08-15 12:22:36,533 - INFO - Recherche: clinique dentaire à Ain
+2025-08-15 12:22:47,117 - INFO - 1/4: Cabinet Dentaire IES
+2025-08-15 12:22:47,165 - INFO - Retour à la liste (mobile).
+2025-08-15 12:22:51,672 - INFO - 2/4: Centre Dentaire et d'orthodontie
+2025-08-15 12:22:51,717 - INFO - Retour à la liste (mobile).
+2025-08-15 12:22:56,031 - INFO - 3/4: Cabinet Dentaire du 917
+2025-08-15 12:22:56,070 - INFO - Retour à la liste (mobile).
+2025-08-15 12:23:00,640 - INFO - 4/4: Cabinet Dentaire Étoile Du Léman
+2025-08-15 12:23:02,724 - INFO - --- Recherche pour mot-clé: orthodontiste ---
+2025-08-15 12:23:04,359 - INFO - Recherche: orthodontiste à Ain
+2025-08-15 12:23:13,097 - INFO - 1/3: Cabinet d'Orthodontie Miribel - Dr Mouna REMORINI
+2025-08-15 12:23:13,164 - INFO - Retour à la liste (mobile).
+2025-08-15 12:23:16,994 - INFO - 2/3: Dr Olivier Quinty
+2025-08-15 12:23:17,034 - INFO - Retour à la liste (mobile).
+2025-08-15 12:23:21,468 - INFO - 3/3: Cabinet d’orthodontie Montluel Dr Camille Servant
+2025-08-15 12:29:17,814 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 12:29:19,584 - INFO - Recherche: dentiste à Ain
+2025-08-15 12:29:35,375 - INFO - 1/10: Cabinet Dentaire IES
+2025-08-15 12:29:35,424 - INFO - Retour à la liste (mobile).
+2025-08-15 12:29:40,079 - INFO - 2/10: Gazel-Sarrazin Laurence - Chirurgien-dentiste
+2025-08-15 12:29:40,121 - INFO - Retour à la liste (mobile).
+2025-08-15 12:29:44,378 - INFO - 3/10: Cabinet Dentaire du 917
+2025-08-15 12:29:44,421 - INFO - Retour à la liste (mobile).
+2025-08-15 12:29:49,015 - INFO - 4/10: Cabinet Dentaire Beligneux - Dr FRANGIONE, Dr BISWANG & Dr MANFELLOTTO
+2025-08-15 12:29:49,055 - INFO - Retour à la liste (mobile).
+2025-08-15 12:29:52,771 - INFO - --- Recherche pour mot-clé: cabinet dentaire ---
+2025-08-15 12:29:54,408 - INFO - Recherche: cabinet dentaire à Ain
+2025-08-15 12:30:08,948 - INFO - 1/6: Cabinet Dentaire Étoile Du Léman
+2025-08-15 12:30:08,997 - INFO - Retour à la liste (mobile).
+2025-08-15 12:30:13,338 - INFO - 2/6: Cabinet Dentaire IES
+2025-08-15 12:30:13,381 - INFO - Retour à la liste (mobile).
+2025-08-15 12:30:18,082 - INFO - 3/6: Cabinet Dentaire Beligneux - Dr FRANGIONE, Dr BISWANG & Dr MANFELLOTTO
+2025-08-15 12:30:18,124 - INFO - Retour à la liste (mobile).
+2025-08-15 12:30:22,377 - INFO - 4/6: Gazel-Sarrazin Laurence - Chirurgien-dentiste
+2025-08-15 12:30:22,417 - INFO - Retour à la liste (mobile).
+2025-08-15 12:30:26,739 - INFO - 5/6: Centre Dentaire Saint Genis Pouilly
+2025-08-15 12:30:26,782 - INFO - Retour à la liste (mobile).
+2025-08-15 12:30:31,258 - INFO - 6/6: Cabinet Dentaire du 917
+2025-08-15 12:30:33,358 - INFO - --- Recherche pour mot-clé: clinique dentaire ---
+2025-08-15 12:30:35,083 - INFO - Recherche: clinique dentaire à Ain
+2025-08-15 12:30:46,334 - INFO - 1/4: Cabinet Dentaire IES
+2025-08-15 12:30:46,385 - INFO - Retour à la liste (mobile).
+2025-08-15 12:30:50,970 - INFO - 2/4: Centre Dentaire et d'orthodontie
+2025-08-15 12:30:51,013 - INFO - Retour à la liste (mobile).
+2025-08-15 12:30:55,547 - INFO - 3/4: Cabinet Dentaire Étoile Du Léman
+2025-08-15 12:30:55,587 - INFO - Retour à la liste (mobile).
+2025-08-15 12:31:00,055 - INFO - 4/4: Centre Dentaire BOURG EN BRESSE Mutualité Française Ain SSAM
+2025-08-15 12:31:02,166 - INFO - --- Recherche pour mot-clé: orthodontiste ---
+2025-08-15 12:31:03,836 - INFO - Recherche: orthodontiste à Ain
+2025-08-15 12:31:16,475 - INFO - 1/2: Cabinet d'Orthodontie Miribel - Dr Mouna REMORINI
+2025-08-15 12:31:16,525 - INFO - Retour à la liste (mobile).
+2025-08-15 12:31:20,999 - INFO - 2/2: Dr Olivier Quinty
+2025-08-15 12:35:29,875 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 12:35:31,637 - INFO - Recherche: café bar à Paris
+2025-08-15 12:36:02,018 - INFO - 1/50: Café de Paris V
+2025-08-15 12:36:02,070 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:06,810 - INFO - 2/50: Carpe Diem Café - Paris
+2025-08-15 12:36:06,853 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:11,376 - INFO - 3/50: Cubana Café , Soirées Salsa, Bar à Cocktails, Bar de nuit, Fumoir, Restaurant Montparnasse, Evjf,Evg.
+2025-08-15 12:36:11,418 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:15,810 - INFO - 4/50: Restaurant Café Joséphine Paris 1
+2025-08-15 12:36:15,852 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:20,302 - INFO - 5/50: Café A
+2025-08-15 12:36:20,346 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:24,877 - INFO - 6/50: The Wellington
+2025-08-15 12:36:24,920 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:29,352 - INFO - 7/50: Café Sans Nom - Brasserie Paris 20
+2025-08-15 12:36:29,395 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:33,841 - INFO - 8/50: Bar La Petite
+2025-08-15 12:36:33,884 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:38,260 - INFO - 9/50: Le Peloton Café
+2025-08-15 12:36:38,303 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:42,891 - INFO - 10/50: Le Piment Café
+2025-08-15 12:36:42,933 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:47,631 - INFO - 11/50: Le Bar
+2025-08-15 12:36:47,676 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:51,988 - INFO - 12/50: The Hood Paris
+2025-08-15 12:36:52,031 - INFO - Retour à la liste (mobile).
+2025-08-15 12:36:57,182 - INFO - 13/50: Café Madame Restaurant
+2025-08-15 12:36:57,225 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:01,538 - INFO - 14/50: Le Petit Café
+2025-08-15 12:37:01,580 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:06,450 - INFO - 15/50: Paris Beaubourg
+2025-08-15 12:37:06,493 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:10,782 - INFO - 16/50: Café d’Auteur - Specialty Coffee shop & roaster
+2025-08-15 12:37:10,828 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:15,213 - INFO - 17/50: Le Café de Paris Friedland
+2025-08-15 12:37:15,253 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:19,827 - INFO - 18/50: BRASSERIE LE QUARTIER GÉNÉRAL
+2025-08-15 12:37:19,872 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:24,384 - INFO - 19/50: Café Louise
+2025-08-15 12:37:24,425 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:28,744 - INFO - 20/50: Solera Paris : Bar à Cocktail
+2025-08-15 12:37:28,789 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:33,055 - INFO - 21/50: Café Petite
+2025-08-15 12:37:33,098 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:37,613 - INFO - 22/50: Café Méricourt
+2025-08-15 12:37:37,655 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:42,113 - INFO - 23/50: Le 153
+2025-08-15 12:37:42,157 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:46,916 - INFO - 24/50: OUISTITI Paris
+2025-08-15 12:37:46,960 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:51,753 - INFO - 25/50: Le Paris Café
+2025-08-15 12:37:51,799 - INFO - Retour à la liste (mobile).
+2025-08-15 12:37:56,058 - INFO - 26/50: Le Dream Café
+2025-08-15 12:37:56,103 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:00,470 - INFO - 27/50: The Place to... Gare de l'Est - Restaurant Pub Paris 10
+2025-08-15 12:38:00,515 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:05,184 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:09,810 - INFO - 28/50: Kaffee bar 19
+2025-08-15 12:38:09,853 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:14,160 - INFO - 29/50: La petite dernière - Bar Paris 18
+2025-08-15 12:38:14,204 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:18,809 - INFO - 30/50: Capitole café - Sébastopol
+2025-08-15 12:38:18,853 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:24,067 - INFO - 31/50: Chouchou
+2025-08-15 12:38:24,113 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:28,416 - INFO - 32/50: Café Mélody
+2025-08-15 12:38:28,462 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:33,218 - INFO - 33/50: Velvet Bar Paris
+2025-08-15 12:38:33,264 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:37,921 - INFO - 34/50: BDJ café
+2025-08-15 12:38:37,966 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:43,216 - INFO - 35/50: Jozi Brunch Panthéon
+2025-08-15 12:38:43,263 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:48,002 - INFO - 36/50: Le Subterfuge
+2025-08-15 12:38:48,047 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:52,325 - INFO - 37/50: Rosa Bonheur sur Seine
+2025-08-15 12:38:52,371 - INFO - Retour à la liste (mobile).
+2025-08-15 12:38:56,799 - INFO - 38/50: The Hideout Paris Gare du Nord - Pub Paris
+2025-08-15 12:38:56,847 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:01,917 - INFO - 39/50: Louise
+2025-08-15 12:39:01,964 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:06,303 - INFO - 40/50: Le Calbar
+2025-08-15 12:39:06,349 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:10,907 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:15,473 - INFO - 41/50: Matamata - Coffee Bar
+2025-08-15 12:39:15,519 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:20,224 - INFO - 42/50: Le Marilyn - Terrasse - Bar dansant - Salle privatisable
+2025-08-15 12:39:20,272 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:24,549 - INFO - 43/50: Arty caffe
+2025-08-15 12:39:24,596 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:28,978 - INFO - 44/50: Le Café Noir
+2025-08-15 12:39:29,024 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:33,561 - INFO - 45/50: Social Bar
+2025-08-15 12:39:33,608 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:38,359 - INFO - 46/50: Le Relais Du Vin - Paris
+2025-08-15 12:39:38,413 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:42,774 - INFO - 47/50: Café Panis.
+2025-08-15 12:39:42,837 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:47,170 - INFO - 48/50: Fitzgerald
+2025-08-15 12:39:47,223 - INFO - Retour à la liste (mobile).
+2025-08-15 12:39:51,088 - INFO - --- Recherche pour mot-clé: brasserie ---
+2025-08-15 12:39:52,848 - INFO - Recherche: brasserie à Paris
+2025-08-15 12:40:05,689 - INFO - 1/2: Eiffel Croisières - Péniche Ivoire
+2025-08-15 12:40:05,745 - INFO - Retour à la liste (mobile).
+2025-08-15 12:40:10,354 - INFO - 2/2: Paris Pyla
+2025-08-15 12:44:00,939 - INFO - --- Recherche pour mot-clé:  ---
+2025-08-15 12:44:02,713 - INFO - Recherche:  à 
+2025-08-15 12:44:18,374 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018E7C5EEC50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/ee0c14692921bf72c0b119fc47794f5c/element
+2025-08-15 12:44:22,433 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018E7C5ED990>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/ee0c14692921bf72c0b119fc47794f5c/element

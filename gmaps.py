@@ -117,18 +117,21 @@ def extract_all_businesses(driver):
 
 def scroll_to_load_results(driver, max_results):
     container = driver.find_element(By.CSS_SELECTOR, 'div[aria-label^="Résultats pour"]')
-    last_height = 0
+    seen = set()
     scroll_attempts = 0
-    max_scroll_attempts = 15
-    while len(extract_all_businesses(driver)) < max_results and scroll_attempts < max_scroll_attempts:
+    max_scroll_attempts = 20
+
+    while len(seen) < max_results and scroll_attempts < max_scroll_attempts:
+        items = extract_all_businesses(driver)
+        for it in items:
+            seen.add(it)
         driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight;", container)
-        time.sleep(random.uniform(2, 3))
-        current_height = driver.execute_script("return arguments[0].scrollHeight;", container)
-        if current_height == last_height:
+        time.sleep(random.uniform(1.5, 3))
+        new_count = len(extract_all_businesses(driver))
+        if new_count == len(seen):
             scroll_attempts += 1
         else:
             scroll_attempts = 0
-            last_height = current_height
 
 def extract_business_details(driver):
     """Extracts business details, handling both café and dental cabinet formats."""
@@ -327,9 +330,10 @@ def scrape_by_label(label, location, max_results=50):
             if r['Nom'] not in seen_names:
                 seen_names.add(r['Nom'])
                 all_results.append(r)
-                # 🛑 Stop si on a atteint le quota
                 if len(all_results) >= max_results:
-                    return all_results
+                    break  # on sort juste de la boucle du mot-clé
+        if len(all_results) >= max_results:
+            break  # on sort si le quota global est atteint
 
     return all_results
 
