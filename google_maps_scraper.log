@@ -859,3 +859,257 @@ urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4970
 2025-08-15 10:30:08,877 - INFO - Recherche: Parodontiste à Paris
 2025-08-15 10:31:37,448 - INFO - --- Recherche pour mot-clé: Chirurgien dentiste ---
 2025-08-15 10:31:39,120 - INFO - Recherche: Chirurgien dentiste à Paris
+2025-08-15 10:37:53,837 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 10:37:55,614 - INFO - Recherche: café bar à Ain
+2025-08-15 10:38:07,296 - INFO - 1/5: Café La Sirène
+2025-08-15 10:38:07,348 - INFO - Retour à la liste (mobile).
+2025-08-15 10:38:11,806 - INFO - 2/5: Aoussou Café Bar
+2025-08-15 10:38:11,848 - INFO - Retour à la liste (mobile).
+2025-08-15 10:38:16,158 - INFO - 3/5: café bar Paris
+2025-08-15 10:38:16,199 - INFO - Retour à la liste (mobile).
+2025-08-15 10:38:20,690 - INFO - 4/5: Café resto La Sirène
+2025-08-15 10:38:20,731 - INFO - Retour à la liste (mobile).
+2025-08-15 10:38:25,091 - INFO - 5/5: Espresso Café Restaurant
+2025-08-15 10:38:25,132 - INFO - Retour à la liste (mobile).
+2025-08-15 10:38:28,584 - INFO - --- Recherche pour mot-clé: brasserie ---
+2025-08-15 10:38:30,307 - INFO - Recherche: brasserie à Ain
+2025-08-15 10:38:40,418 - INFO - 1/5: La Bressane - Brasserie Saint Clair
+2025-08-15 10:38:40,472 - INFO - Retour à la liste (mobile).
+2025-08-15 10:38:45,116 - INFO - 2/5: Brasserie l'Ain Pression - Malt Emoi
+2025-08-15 10:38:45,162 - INFO - Retour à la liste (mobile).
+2025-08-15 10:38:49,463 - INFO - 3/5: Rivière d'Ain (Brasserie artisanale)
+2025-08-15 10:38:49,501 - INFO - Retour à la liste (mobile).
+2025-08-15 10:38:54,173 - INFO - 4/5: Brasserie l'Etincelle
+2025-08-15 10:38:54,218 - INFO - Retour à la liste (mobile).
+2025-08-15 10:38:58,796 - INFO - 5/5: Brasserie Artisanale Piva
+2025-08-15 10:38:58,848 - INFO - Retour à la liste (mobile).
+2025-08-15 10:39:02,720 - INFO - --- Recherche pour mot-clé: caviste ---
+2025-08-15 10:39:04,359 - INFO - Recherche: caviste à Ain
+2025-08-15 10:39:14,313 - INFO - 1/5: Cave du Val d'Or
+2025-08-15 10:39:14,366 - INFO - Retour à la liste (mobile).
+2025-08-15 10:39:18,679 - INFO - 2/5: La Cave d'August
+2025-08-15 10:39:18,720 - INFO - Retour à la liste (mobile).
+2025-08-15 10:39:23,152 - INFO - 3/5: Epicerie & Cave Chez Nathalie - Vente et Dégustation
+2025-08-15 10:39:23,195 - INFO - Retour à la liste (mobile).
+2025-08-15 10:39:27,816 - INFO - 4/5: La Cave D ' Epicure
+2025-08-15 10:39:27,857 - INFO - Retour à la liste (mobile).
+2025-08-15 10:39:32,531 - INFO - 5/5: Cave Bresse Revermont
+2025-08-15 10:39:32,575 - INFO - Retour à la liste (mobile).
+2025-08-15 10:39:36,800 - INFO - --- Recherche pour mot-clé: caféteria ---
+2025-08-15 10:39:38,483 - INFO - Recherche: caféteria à Ain
+2025-08-15 10:44:54,942 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 10:44:56,745 - INFO - Recherche: café bar à Ain
+2025-08-15 10:45:06,890 - INFO - 1/5: Aoussou Café Bar
+2025-08-15 10:45:06,945 - INFO - Retour à la liste (mobile).
+2025-08-15 10:45:11,540 - INFO - 2/5: La Fougère - Salon de The & Restaurant Lounge
+2025-08-15 10:45:11,583 - INFO - Retour à la liste (mobile).
+2025-08-15 10:45:16,270 - INFO - 3/5: Café La Sirène
+2025-08-15 10:45:16,311 - INFO - Retour à la liste (mobile).
+2025-08-15 10:45:20,588 - INFO - 4/5: café bar Paris
+2025-08-15 10:45:20,630 - INFO - Retour à la liste (mobile).
+2025-08-15 10:45:24,902 - INFO - 5/5: Espresso Café Restaurant
+2025-08-15 10:51:46,906 - INFO - --- Recherche pour mot-clé: Orthodontiste ---
+2025-08-15 10:51:48,601 - INFO - Recherche: Orthodontiste à Paris
+2025-08-15 10:52:44,458 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000167E7158890>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/4a70330325682efda790b026c6aba056/execute/sync
+2025-08-15 10:52:48,526 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000167E715A850>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/4a70330325682efda790b026c6aba056/execute/sync
+2025-08-15 10:52:52,582 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000167E715B750>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/4a70330325682efda790b026c6aba056/execute/sync
+2025-08-15 10:52:56,611 - ERROR - Erreur majeure: HTTPConnectionPool(host='localhost', port=51517): Max retries exceeded with url: /session/4a70330325682efda790b026c6aba056/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000167E64C9310>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 494, in request
+    self.endheaders()
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1041, in _send_output
+    self.send(msg)
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 979, in send
+    self.connect()
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 325, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000167E64C9310>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\gmaps.py", line 165, in scrape_google_maps
+    scroll_to_load_results(driver, max_results)
+  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\gmaps.py", line 105, in scroll_to_load_results
+    current_height = driver.execute_script("return arguments[0].scrollHeight;", container)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 555, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 406, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 430, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=51517): Max retries exceeded with url: /session/4a70330325682efda790b026c6aba056/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000167E64C9310>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-15 10:53:00,556 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 10:53:02,685 - INFO - Recherche: café bar à Paris
+2025-08-15 10:53:12,837 - INFO - 1/2: Café de Paris V
+2025-08-15 10:53:12,913 - INFO - Retour à la liste (mobile).
+2025-08-15 10:53:16,982 - INFO - 2/2: café bar Paris
+2025-08-15 10:53:27,347 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 10:53:29,067 - INFO - Recherche: café bar à Ain
+2025-08-15 10:53:38,400 - INFO - 1/2: Aoussou Café Bar
+2025-08-15 10:53:38,450 - INFO - Retour à la liste (mobile).
+2025-08-15 10:53:42,710 - INFO - 2/2: La Fougère - Salon de The & Restaurant Lounge
+2025-08-15 10:54:04,094 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-15 10:54:05,769 - INFO - Recherche: café bar à Ain
+2025-08-15 10:54:15,765 - INFO - 1/2: L'aincontournable
+2025-08-15 10:54:15,816 - INFO - Retour à la liste (mobile).
+2025-08-15 10:54:20,477 - INFO - 2/2: Café Du Champ De Foire
+2025-08-15 11:06:06,275 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 11:06:08,577 - INFO - Recherche: dentiste à Paris
+2025-08-15 11:07:39,802 - INFO - --- Recherche pour mot-clé: cabinet dentaire ---
+2025-08-15 11:07:41,547 - INFO - Recherche: cabinet dentaire à Paris
+2025-08-15 11:09:08,395 - INFO - --- Recherche pour mot-clé: clinique dentaire ---
+2025-08-15 11:09:10,152 - INFO - Recherche: clinique dentaire à Paris
+2025-08-15 11:10:08,539 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C801A15010>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f1aaf4c26ed28ffd8a940eb094f3acdc/execute/sync
+2025-08-15 11:10:12,585 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C801A15690>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f1aaf4c26ed28ffd8a940eb094f3acdc/execute/sync
+2025-08-15 11:10:16,642 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C801995490>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f1aaf4c26ed28ffd8a940eb094f3acdc/execute/sync
+2025-08-15 11:10:20,697 - ERROR - Erreur majeure: HTTPConnectionPool(host='localhost', port=52692): Max retries exceeded with url: /session/f1aaf4c26ed28ffd8a940eb094f3acdc/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C801940B90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 494, in request
+    self.endheaders()
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1041, in _send_output
+    self.send(msg)
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 979, in send
+    self.connect()
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 325, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001C801940B90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\gmaps.py", line 165, in scrape_google_maps
+    scroll_to_load_results(driver, max_results)
+  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\gmaps.py", line 105, in scroll_to_load_results
+    current_height = driver.execute_script("return arguments[0].scrollHeight;", container)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 555, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 406, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 430, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=52692): Max retries exceeded with url: /session/f1aaf4c26ed28ffd8a940eb094f3acdc/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C801940B90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-15 11:10:24,761 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C8019A1850>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f1aaf4c26ed28ffd8a940eb094f3acdc
+2025-08-15 11:10:28,812 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C8019A9FD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f1aaf4c26ed28ffd8a940eb094f3acdc
+2025-08-15 11:10:32,859 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C801A28090>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f1aaf4c26ed28ffd8a940eb094f3acdc
+2025-08-15 11:10:36,917 - INFO - --- Recherche pour mot-clé: orthodontiste ---
+2025-08-15 11:10:45,260 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 11:10:47,166 - INFO - Recherche: dentiste à Paris
+2025-08-15 11:12:20,486 - INFO - --- Recherche pour mot-clé: cabinet dentaire ---
+2025-08-15 11:12:22,149 - INFO - Recherche: cabinet dentaire à Paris
+2025-08-15 11:26:31,135 - INFO - --- Recherche pour mot-clé: dentiste ---
+2025-08-15 11:26:33,349 - INFO - Recherche: dentiste à Paris
+2025-08-15 11:26:45,489 - INFO - 1/2: Clinique des Champs Elysées Paris 3ème Sébastopol - Médecine esthétique
+2025-08-15 11:26:45,548 - INFO - Retour à la liste (mobile).
+2025-08-15 11:26:49,958 - INFO - 2/2: Centre médical, dentaire et radiologique Jack Senet
+2025-08-15 11:27:15,996 - INFO - --- Recherche pour mot-clé: Café ---
+2025-08-15 11:27:17,696 - INFO - Recherche: Café à Paris
+2025-08-15 11:27:27,226 - INFO - 1/2: Cafés Méo Saint Lazare
+2025-08-15 11:27:27,296 - INFO - Retour à la liste (mobile).
+2025-08-15 11:27:31,405 - INFO - 2/2: Terres de Café Paris Saint-Honoré

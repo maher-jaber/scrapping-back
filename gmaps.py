@@ -91,8 +91,29 @@ def wait_for_results(driver):
         return False
 
 def extract_all_businesses(driver):
-    container = driver.find_element(By.CSS_SELECTOR, 'div[aria-label^="Résultats pour"]')
-    return container.find_elements(By.CSS_SELECTOR, '[role="article"], div.Nv2PK.THOPZb.CpccDe')
+    """Extracts all business cards from the results page, handling both formats."""
+    try:
+        # First try the standard container
+        container = driver.find_element(By.CSS_SELECTOR, 'div[aria-label^="Résultats pour"]')
+        
+        # Try both types of business cards
+        business_cards = container.find_elements(
+            By.CSS_SELECTOR, 
+            '[role="article"], div.Nv2PK.THOPZb.CpccDe, div.Nv2PK.tH5CWc.THOPZb'
+        )
+        
+        # For dental cabinets, sometimes there's an additional wrapper
+        if not business_cards:
+            business_cards = container.find_elements(
+                By.CSS_SELECTOR, 
+                'div.Nv2PK.tH5CWc.THOPZb > a.hfpxzc'
+            )
+        
+        return business_cards
+    
+    except Exception as e:
+        logger.warning(f"Error finding business cards: {str(e)}")
+        return []
 
 def scroll_to_load_results(driver, max_results):
     container = driver.find_element(By.CSS_SELECTOR, 'div[aria-label^="Résultats pour"]')
@@ -110,27 +131,98 @@ def scroll_to_load_results(driver, max_results):
             last_height = current_height
 
 def extract_business_details(driver):
+    """Extracts business details, handling both café and dental cabinet formats."""
     details = {}
-    selectors = {
-        "Nom": 'h1.DUwDvf',
-        "Adresse": 'button[data-item-id="address"] div.Io6YTe',
-        "Téléphone": 'button[data-item-id^="phone:"] div.Io6YTe',
-        "Site Web": 'a[data-item-id="authority"] div.Io6YTe',
-        "Menu": 'a[data-item-id="menu"] div.Io6YTe',
-        "Commander": 'a[data-item-id^="action:4"] div.Io6YTe',
-        "Plus Code": 'button[data-item-id="oloc"] div.Io6YTe',
-        "Horaires": 'button[data-item-id="oh"] div.Io6YTe',
-        "Note": 'div.F7nice span[aria-hidden="true"]',
-        "Prix": 'span[aria-label*="€"], span[aria-label*="prix"]'
-    }
-    for key, selector in selectors.items():
-        try:
-            elem = driver.find_element(By.CSS_SELECTOR, selector)
-            text = elem.text.strip()
-            if text:
-                details[key] = text
-        except:
-            continue
+    
+    # Name extraction
+    try:
+        name = driver.find_element(
+            By.CSS_SELECTOR, 
+            'h1.DUwDvf, div.qBF1Pd.fontHeadlineSmall, h1.fontHeadlineLarge'
+        ).text.strip()
+        details["Nom"] = name
+    except:
+        pass
+    
+    # Address extraction
+    try:
+        address = driver.find_element(
+            By.CSS_SELECTOR, 
+            'button[data-item-id="address"] div.Io6YTe, '
+            'div.W4Efsd > span:nth-child(2), '
+            'div.W4Efsd > span > span:nth-child(3)'
+        ).text.strip()
+        details["Adresse"] = address
+    except:
+        pass
+    
+    # Phone extraction
+    try:
+        phone = driver.find_element(
+            By.CSS_SELECTOR, 
+            'button[data-item-id^="phone:"] div.Io6YTe, '
+            'span.UsdlK, '
+            'div[aria-label*="Téléphone"]'
+        ).text.strip()
+        details["Téléphone"] = phone
+    except:
+        pass
+    
+    # Website extraction
+    try:
+        website = driver.find_element(
+            By.CSS_SELECTOR, 
+            'a[data-item-id="authority"] div.Io6YTe, '
+            'a.lcr4fd.S9kvJb div.R8c4Qb'
+        ).text.strip()
+        details["Site Web"] = website
+    except:
+        pass
+    
+    # Rating extraction
+    try:
+        rating = driver.find_element(
+            By.CSS_SELECTOR, 
+            'div.F7nice span[aria-hidden="true"], '
+            'span.MW4etd'
+        ).text.strip()
+        details["Note"] = rating
+    except:
+        pass
+    
+    # Review count extraction
+    try:
+        reviews = driver.find_element(
+            By.CSS_SELECTOR, 
+            'div.F7nice span[aria-label*="avis"], '
+            'span.UY7F9'
+        ).text.strip()
+        details["Nombre d'avis"] = reviews
+    except:
+        pass
+    
+    # Business type extraction
+    try:
+        business_type = driver.find_element(
+            By.CSS_SELECTOR, 
+            'div.W4Efsd > span > span:first-child, '
+            'div.W4Efsd > span:first-child > span:first-child'
+        ).text.strip()
+        details["Type"] = business_type
+    except:
+        pass
+    
+    # Opening hours extraction
+    try:
+        hours = driver.find_element(
+            By.CSS_SELECTOR, 
+            'div.W4Efsd > span > span > span, '
+            'div[aria-label*="Heures"]'
+        ).text.strip()
+        details["Horaires"] = hours
+    except:
+        pass
+    
     details["Heure de scraping"] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     return details
 
@@ -154,7 +246,7 @@ def scrape_google_maps(query, location, max_results=50):
         driver = configure_driver()
         encoded_query = urllib.parse.quote_plus(query)
         encoded_location = urllib.parse.quote_plus(location)
-        url = f"https://www.google.com/maps/search/{encoded_query}+{encoded_location}"
+        url = f"https://www.google.com/maps/search/{encoded_query}+{encoded_location}+France"
         logger.info(f"Recherche: {query} à {location}")
         driver.get(url)
 
@@ -166,8 +258,8 @@ def scrape_google_maps(query, location, max_results=50):
 
         results = []
         seen_names = set()
-
         idx = 0
+
         while idx < max_results:
             try:
                 items = extract_all_businesses(driver)
@@ -191,12 +283,16 @@ def scrape_google_maps(query, location, max_results=50):
                     results.append(business_data)
                     logger.info(f"{len(results)}/{max_results}: {business_data['Nom']}")
 
+                # 🛑 Stop direct si on a atteint max_results
+                if len(results) >= max_results:
+                    break
+
                 if not close_details_panel(driver):
                     logger.warning(f"Saut de l'élément {idx+1} (fermeture impossible)")
                 else:
                     try:
                         WebDriverWait(driver, 5).until(
-                            EC.presence_of_element_located((By.CSS_SELECTOR, '[role="feed"]'))
+                            EC.presence_of_element_located((By.CSS_SELECTOR, 'div[aria-label^=\"Résultats pour\"]'))
                         )
                     except:
                         logger.warning("Liste non réapparue, saut forcé")
@@ -217,6 +313,7 @@ def scrape_google_maps(query, location, max_results=50):
         if driver:
             driver.quit()
 
+
 # ==== Scraping multi-requêtes à partir d'un label NAF ====
 def scrape_by_label(label, location, max_results=50):
     keywords = get_keywords_for_label(label)
@@ -225,13 +322,17 @@ def scrape_by_label(label, location, max_results=50):
 
     for kw in keywords:
         logger.info(f"--- Recherche pour mot-clé: {kw} ---")
-        results = scrape_google_maps(kw, location, max_results)
+        results = scrape_google_maps(kw, location, max_results - len(all_results))
         for r in results:
             if r['Nom'] not in seen_names:
                 seen_names.add(r['Nom'])
                 all_results.append(r)
+                # 🛑 Stop si on a atteint le quota
+                if len(all_results) >= max_results:
+                    return all_results
 
     return all_results
+
 
 
 def save_results(results, query, location):

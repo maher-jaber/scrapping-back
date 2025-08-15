@@ -12760,12 +12760,21 @@
     "gmaps_keywords": [
       "Cardiologue", "Dermatologue", "Ophtalmologiste"
     ]
-  },
-  {
+  }
+  ,{
     "id": "86.23Z",
     "label": "Pratique dentaire",
     "gmaps_keywords": [
-      "Orthodontiste", "Parodontiste", "Chirurgien dentiste"
+      "dentiste",
+      "cabinet dentaire",
+      "clinique dentaire",
+      "orthodontiste",
+      "chirurgien-dentiste",
+      "parodontiste",
+      "dentisterie",
+      "soins dentaires",
+      "centre dentaire",
+      "urgence dentaire"
     ]
   },
   {
