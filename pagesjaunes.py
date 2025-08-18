@@ -13,7 +13,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import logging
 from datetime import datetime
 import sys
-
+import os
+import json
 
 # Configuration du logging
 logging.basicConfig(
@@ -269,5 +270,25 @@ def scrape_pages_jaunes(query, location, max_results=20):
 
 
 def save_pj_results(results, query, location):
-    
-    return None
+    """
+    Sauvegarde les résultats Pages Jaunes dans un fichier JSON sous data/.
+    """
+    # Crée le dossier data s'il n'existe pas
+    os.makedirs("data", exist_ok=True)
+
+    # Timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    # Nettoyage des noms (éviter espaces ou /)
+    safe_query = query.replace(" ", "_").replace("/", "-")
+    safe_location = location.replace(" ", "_").replace("/", "-")
+
+    # Nom fichier
+    filename = f"data/PJ_{safe_query}_{safe_location}_{timestamp}.json"
+
+    # Sauvegarde en JSON
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+    logger.info(f"Résultats PJ sauvegardés dans {filename}")
+    return filename

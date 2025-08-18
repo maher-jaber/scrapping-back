@@ -1,0 +1,45 @@
+[
+  {
+    "Nom": "Le comptoir de charnoz",
+    "Adresse": "30 Rue Général Messimy, 01800 Charnoz-sur-Ain, France",
+    "Téléphone": "+33 4 74 61 02 16",
+    "Note": "4,4",
+    "Nombre d'avis": "(264)",
+    "Heure de scraping": "2025-08-18 15:13:54"
+  },
+  {
+    "Nom": "Restaurant Le Terminus",
+    "Adresse": "71 Rue Saint-Exupéry, 01160 Pont-d'Ain, France",
+    "Téléphone": "+33 4 37 86 19 63",
+    "Note": "4,6",
+    "Nombre d'avis": "(281)",
+    "Heure de scraping": "2025-08-18 15:13:58"
+  },
+  {
+    "Nom": "AinTimiste",
+    "Adresse": "4 Rue de la Pompe, 01450 Poncin, France",
+    "Téléphone": "+33 4 74 38 06 66",
+    "Site Web": "aintimiste.fr",
+    "Note": "4,9",
+    "Nombre d'avis": "(1 193)",
+    "Heure de scraping": "2025-08-18 15:14:03"
+  },
+  {
+    "Nom": "Auberge du Mail",
+    "Adresse": "48 Pl. du Mail, 01150 Chazey-sur-Ain, France",
+    "Téléphone": "+33 4 74 61 06 96",
+    "Site Web": "aubergedumail.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(463)",
+    "Heure de scraping": "2025-08-18 15:14:08"
+  },
+  {
+    "Nom": "L'O à la bouche.",
+    "Adresse": "56 Rue Saint-Exupéry, 01160 Pont-d'Ain, France",
+    "Téléphone": "+33 4 74 36 66 14",
+    "Site Web": "eatbu.com",
+    "Note": "4,6",
+    "Nombre d'avis": "(214)",
+    "Heure de scraping": "2025-08-18 15:14:13"
+  }
+]

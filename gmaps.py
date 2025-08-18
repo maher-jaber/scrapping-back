@@ -14,6 +14,7 @@ import logging
 from datetime import datetime
 import sys
 import json
+import os
 
 # ==== Chargement fichier NAF enrichi ====
 with open("naf-activity-gmaps.json", "r", encoding="utf-8") as f:
@@ -243,7 +244,7 @@ def close_details_panel(driver):
         logger.warning(f"Impossible de fermer la fiche : {e}")
         return False
 
-def scrape_google_maps(query, location, max_results=50):
+def scrape_google_maps(query, location, max_results):
     driver = None
     try:
         driver = configure_driver()
@@ -318,7 +319,7 @@ def scrape_google_maps(query, location, max_results=50):
 
 
 # ==== Scraping multi-requêtes à partir d'un label NAF ====
-def scrape_by_label(label, location, max_results=50):
+def scrape_by_label(label, location, max_results):
     keywords = get_keywords_for_label(label)
     all_results = []
     seen_names = set()
@@ -340,5 +341,23 @@ def scrape_by_label(label, location, max_results=50):
 
 
 def save_results(results, query, location):
-    
-    return None
+    """
+    Sauvegarde les résultats dans un fichier JSON sous data/ avec horodatage.
+    """
+    # Crée le dossier data s'il n'existe pas
+    os.makedirs("data", exist_ok=True)
+
+    # Timestamp pour rendre le fichier unique
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    # Nom du fichier : query_location_timestamp.json
+    safe_query = query.replace(" ", "_").replace("/", "-")
+    safe_location = location.replace(" ", "_").replace("/", "-")
+    filename = f"data/{safe_query}_{safe_location}_{timestamp}.json"
+
+    # Sauvegarde en JSON lisible
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+    logger.info(f"Résultats sauvegardés dans {filename}")
+    return filename
