@@ -1661,3 +1661,1342 @@ Stacktrace:
 2025-08-15 16:57:22,779 - INFO - 9/10: Au Café Chaud
 2025-08-15 16:57:22,820 - INFO - Retour à la liste (mobile).
 2025-08-15 16:57:27,081 - INFO - 10/10: Beurre Noisette
+2025-08-18 09:38:59,314 - INFO - --- Recherche pour mot-clé: restauration ---
+2025-08-18 09:39:04,173 - INFO - Recherche: restauration à Centre-Val de Loire
+2025-08-18 09:39:16,141 - INFO - 1/5: Entre Loire Et Sologne
+2025-08-18 09:39:16,196 - INFO - Retour à la liste (mobile).
+2025-08-18 09:39:20,769 - INFO - 2/5: Chez Vero et Gaela
+2025-08-18 09:39:20,812 - INFO - Retour à la liste (mobile).
+2025-08-18 09:39:25,456 - INFO - 3/5: Le Saint Christophe
+2025-08-18 09:39:25,500 - INFO - Retour à la liste (mobile).
+2025-08-18 09:39:30,065 - INFO - 4/5: À la maison
+2025-08-18 09:39:30,109 - INFO - Retour à la liste (mobile).
+2025-08-18 09:39:34,461 - INFO - 5/5: Le Lièvre Gourmand
+2025-08-18 09:42:55,613 - INFO - Lancement du scraping pour Restauration à Centre-Val de Loire
+2025-08-18 09:43:14,485 - INFO - Extrait: Brasserie Restaurant Du Château | Tel: 02 38 85 08 03
+2025-08-18 09:43:16,647 - INFO - Extrait: La P'tite Marmite | Tel: 02 54 88 01 94
+2025-08-18 09:43:18,780 - INFO - Extrait: Grand Hôtel du Lion D'Or | Tel: 02 54 94 15 15
+2025-08-18 09:43:20,916 - INFO - Extrait: La Locomotive | Tel:     02 54 21 11 59
+2025-08-18 09:43:23,054 - INFO - Extrait: Le Sully | Tel: 02 37 36 99 56
+2025-08-18 10:05:00,971 - INFO - Lancement du scraping pour Restauration à Paris
+2025-08-18 10:05:21,696 - INFO - Extrait: Le Moghol | Tel: 01 40 06 90 36
+2025-08-18 10:05:23,851 - INFO - Extrait: Sweet And Salty | Tel: 01 43 47 12 98
+2025-08-18 10:05:26,003 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-18 10:05:28,148 - INFO - Extrait: Nanwich Riquet | Tel: 01 44 53 91 70, 07 53 82 93 01
+2025-08-18 10:05:30,288 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-18 10:05:32,429 - INFO - Extrait: Grand Zino | Tel: 01 44 40 45 10, 01 45 78 92 37
+2025-08-18 10:05:34,573 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-18 10:05:36,708 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-18 10:05:38,878 - INFO - Extrait: Bal Du Moulin Rouge | Tel: 01 77 12 85 90, 01 53 09 82 82
+2025-08-18 10:05:41,020 - INFO - Extrait: Kitchen Company | Tel: 06 74 18 18 48
+2025-08-18 10:05:43,183 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-18 10:05:45,333 - INFO - Extrait: Les Editeurs | Tel: 01 43 26 67 76
+2025-08-18 10:05:47,473 - INFO - Extrait: Le 59 | Tel: 01 80 50 00 29
+2025-08-18 10:05:49,630 - INFO - Extrait: Le Sirocco | Tel: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05
+2025-08-18 10:05:51,767 - INFO - Extrait: L'Entracte | Tel: 01 47 42 26 25
+2025-08-18 10:05:53,911 - INFO - Extrait: Ty Louis | Tel: 06 73 08 54 13
+2025-08-18 10:05:56,048 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-18 10:05:58,186 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
+2025-08-18 10:06:00,329 - INFO - Extrait: Gabriela | Tel: 01 42 80 28 14
+2025-08-18 10:06:02,478 - INFO - Extrait: Restaurant Tipaza | Tel: 01 45 54 01 17
+2025-08-18 10:07:11,278 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC783D6090>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/346e118ee29c41a3bfdfd3395bf82bc9/elements
+2025-08-18 10:07:15,320 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC782DD750>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/346e118ee29c41a3bfdfd3395bf82bc9/elements
+2025-08-18 10:07:19,383 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC783419D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/346e118ee29c41a3bfdfd3395bf82bc9/elements
+2025-08-18 10:07:23,439 - ERROR - ERREUR GLOBALE: HTTPConnectionPool(host='localhost', port=51533): Max retries exceeded with url: /session/346e118ee29c41a3bfdfd3395bf82bc9/elements (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC78342F50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-18 10:07:27,477 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC78342750>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/346e118ee29c41a3bfdfd3395bf82bc9/screenshot
+2025-08-18 10:07:31,519 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC783C8390>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/346e118ee29c41a3bfdfd3395bf82bc9/screenshot
+2025-08-18 10:07:35,563 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC783C8A50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/346e118ee29c41a3bfdfd3395bf82bc9/screenshot
+2025-08-18 10:07:43,667 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC783CB550>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/346e118ee29c41a3bfdfd3395bf82bc9
+2025-08-18 10:07:47,735 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC783CA090>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/346e118ee29c41a3bfdfd3395bf82bc9
+2025-08-18 10:07:51,775 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC783CA590>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/346e118ee29c41a3bfdfd3395bf82bc9
+2025-08-18 10:12:07,280 - INFO - Lancement du scraping pour Restauration à Paris
+2025-08-18 10:13:02,388 - INFO - Scraping page 1 ...
+2025-08-18 10:13:04,604 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-18 10:13:06,746 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
+2025-08-18 10:13:08,896 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-18 10:13:11,038 - INFO - Extrait: Les Editeurs | Tel: 01 43 26 67 76
+2025-08-18 10:13:13,186 - INFO - Extrait: Le Sirocco | Tel: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05
+2025-08-18 10:13:15,325 - INFO - Extrait: Sweet And Salty | Tel: 01 43 47 12 98
+2025-08-18 10:13:17,457 - INFO - Extrait: Le Moghol | Tel: 01 40 06 90 36
+2025-08-18 10:13:19,603 - INFO - Extrait: Ty Louis | Tel: 06 73 08 54 13
+2025-08-18 10:13:21,747 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-18 10:13:23,886 - INFO - Extrait: Bal Du Moulin Rouge | Tel: 01 77 12 85 90, 01 53 09 82 82
+2025-08-18 10:13:26,022 - INFO - Extrait: Kitchen Company | Tel: 06 74 18 18 48
+2025-08-18 10:13:28,185 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-18 10:13:30,334 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-18 10:13:32,483 - INFO - Extrait: Grand Zino | Tel: 01 44 40 45 10, 01 45 78 92 37
+2025-08-18 10:13:34,621 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-18 10:13:36,786 - INFO - Extrait: Nanwich Riquet | Tel: 01 44 53 91 70, 07 53 82 93 01
+2025-08-18 10:13:38,919 - INFO - Extrait: Restaurant Tipaza | Tel: 01 45 54 01 17
+2025-08-18 10:13:41,057 - INFO - Extrait: Gabriela | Tel: 01 42 80 28 14
+2025-08-18 10:13:43,193 - INFO - Extrait: L'Entracte | Tel: 01 47 42 26 25
+2025-08-18 10:13:45,334 - INFO - Extrait: Le 59 | Tel: 01 80 50 00 29
+2025-08-18 10:13:49,946 - INFO - Scraping page 2 ...
+2025-08-18 10:13:50,275 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:50,297 - INFO - Extrait: Le Caveau de l'Isle | Tel: None
+2025-08-18 10:13:50,621 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:50,643 - INFO - Extrait: Santa Carne | Tel: None
+2025-08-18 10:13:50,965 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:50,989 - INFO - Extrait: Café le Marivaux | Tel: None
+2025-08-18 10:13:51,311 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:51,334 - INFO - Extrait: Les Editeurs | Tel: None
+2025-08-18 10:13:51,659 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:51,685 - INFO - Extrait: Le Sirocco | Tel: None
+2025-08-18 10:13:52,009 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:52,033 - INFO - Extrait: Sweet And Salty | Tel: None
+2025-08-18 10:13:52,357 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:52,380 - INFO - Extrait: Le Moghol | Tel: None
+2025-08-18 10:13:52,704 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:52,729 - INFO - Extrait: Ty Louis | Tel: None
+2025-08-18 10:13:53,054 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:53,078 - INFO - Extrait: Truffes Folies | Tel: None
+2025-08-18 10:13:53,401 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:53,424 - INFO - Extrait: Bal Du Moulin Rouge | Tel: None
+2025-08-18 10:13:53,747 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:53,770 - INFO - Extrait: Kitchen Company | Tel: None
+2025-08-18 10:13:54,093 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:54,115 - INFO - Extrait: Café du Commerce | Tel: None
+2025-08-18 10:13:54,440 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:54,465 - INFO - Extrait: Espace Aurore | Tel: None
+2025-08-18 10:13:54,795 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:54,816 - INFO - Extrait: Grand Zino | Tel: None
+2025-08-18 10:13:55,139 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:55,162 - INFO - Extrait: SAS TABLE NEUF | Tel: None
+2025-08-18 10:13:55,486 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:55,508 - INFO - Extrait: Nanwich Riquet | Tel: None
+2025-08-18 10:13:55,830 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:55,853 - INFO - Extrait: Restaurant Tipaza | Tel: None
+2025-08-18 10:13:56,177 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:56,200 - INFO - Extrait: Gabriela | Tel: None
+2025-08-18 10:13:56,529 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:56,551 - INFO - Extrait: L'Entracte | Tel: None
+2025-08-18 10:13:56,874 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:13:56,896 - INFO - Extrait: Le 59 | Tel: None
+2025-08-18 10:14:00,906 - INFO - Scraping page 3 ...
+2025-08-18 10:14:01,235 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:14:01,257 - INFO - Extrait: Le Caveau de l'Isle | Tel: None
+2025-08-18 10:14:01,581 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:14:01,603 - INFO - Extrait: Santa Carne | Tel: None
+2025-08-18 10:14:01,928 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:14:01,952 - INFO - Extrait: Café le Marivaux | Tel: None
+2025-08-18 10:14:02,285 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:14:02,309 - INFO - Extrait: Les Editeurs | Tel: None
+2025-08-18 10:14:02,633 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:14:02,657 - INFO - Extrait: Le Sirocco | Tel: None
+2025-08-18 10:14:02,981 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:14:03,003 - INFO - Extrait: Sweet And Salty | Tel: None
+2025-08-18 10:14:03,327 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:14:03,349 - INFO - Extrait: Le Moghol | Tel: None
+2025-08-18 10:14:03,672 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:14:03,694 - INFO - Extrait: Ty Louis | Tel: None
+2025-08-18 10:14:04,017 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:14:04,042 - INFO - Extrait: Truffes Folies | Tel: None
+2025-08-18 10:14:04,365 - ERROR - Échec extraction téléphone: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=139.0.7258.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x98fd33+62915]
+	GetHandleVerifier [0x0x98fd74+62980]
+	(No symbol) [0x0x7c3e13]
+	(No symbol) [0x0x7ca619]
+	(No symbol) [0x0x7cc94a]
+	(No symbol) [0x0x7cc9c7]
+	(No symbol) [0x0x8122f4]
+	(No symbol) [0x0x811867]
+	(No symbol) [0x0x85b088]
+	(No symbol) [0x0x8313dc]
+	(No symbol) [0x0x8526ea]
+	(No symbol) [0x0x8311d6]
+	(No symbol) [0x0x800833]
+	(No symbol) [0x0x8016a4]
+	GetHandleVerifier [0x0xbf8d23+2590131]
+	GetHandleVerifier [0x0xbf3f6a+2570234]
+	GetHandleVerifier [0x0x9b59ea+217722]
+	GetHandleVerifier [0x0x9a6058+153832]
+	GetHandleVerifier [0x0x9ac4bd+179533]
+	GetHandleVerifier [0x0x997738+94152]
+	GetHandleVerifier [0x0x9978c2+94546]
+	GetHandleVerifier [0x0x982bda+9322]
+	BaseThreadInitThunk [0x0x76fdfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775b827e+238]
+
+2025-08-18 10:14:04,388 - INFO - Extrait: Bal Du Moulin Rouge | Tel: None
+2025-08-18 10:26:39,040 - INFO - Lancement du scraping pour Restauration à Paris
+2025-08-18 10:27:04,105 - INFO - Scraping page 1 ...
+2025-08-18 10:27:04,649 - INFO - Extrait: Kitchen Company | Tel: 06 74 18 18 48
+2025-08-18 10:27:05,166 - INFO - Extrait: Sweet And Salty | Tel: 01 43 47 12 98
+2025-08-18 10:27:05,676 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-18 10:27:06,191 - INFO - Extrait: Le Sirocco | Tel: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05
+2025-08-18 10:27:06,703 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-18 10:27:07,231 - INFO - Extrait: Grand Zino | Tel: 01 44 40 45 10, 01 45 78 92 37
+2025-08-18 10:27:07,744 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-18 10:27:08,262 - INFO - Extrait: Restaurant Tipaza | Tel: 01 45 54 01 17
+2025-08-18 10:27:08,777 - INFO - Extrait: L'Entracte | Tel: 01 47 42 26 25
+2025-08-18 10:27:09,292 - INFO - Extrait: Ty Louis | Tel: 06 73 08 54 13
+2025-08-18 10:27:09,804 - INFO - Extrait: Gabriela | Tel: 01 42 80 28 14
+2025-08-18 10:27:10,322 - INFO - Extrait: Le Moghol | Tel: 01 40 06 90 36
+2025-08-18 10:27:10,838 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-18 10:27:11,354 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-18 10:27:11,867 - INFO - Extrait: Bal Du Moulin Rouge | Tel: 01 77 12 85 90, 01 53 09 82 82
+2025-08-18 10:27:12,387 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-18 10:27:12,900 - INFO - Extrait: Les Editeurs | Tel: 01 43 26 67 76
+2025-08-18 10:27:13,404 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
+2025-08-18 10:27:13,923 - INFO - Extrait: Nanwich Riquet | Tel: 01 44 53 91 70, 07 53 82 93 01
+2025-08-18 10:27:14,430 - INFO - Extrait: Le 59 | Tel: 01 80 50 00 29
+2025-08-18 10:27:19,035 - INFO - Scraping page 2 ...
+2025-08-18 10:27:27,617 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:27:27,638 - INFO - Extrait: Kitchen Company | Tel: None
+2025-08-18 10:27:36,187 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:27:36,208 - INFO - Extrait: Sweet And Salty | Tel: None
+2025-08-18 10:27:44,764 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:27:44,789 - INFO - Extrait: Le Caveau de l'Isle | Tel: None
+2025-08-18 10:27:53,350 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:27:53,373 - INFO - Extrait: Le Sirocco | Tel: None
+2025-08-18 10:28:01,927 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:28:01,949 - INFO - Extrait: Café du Commerce | Tel: None
+2025-08-18 10:28:10,507 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:28:10,529 - INFO - Extrait: Grand Zino | Tel: None
+2025-08-18 10:28:19,088 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:28:19,113 - INFO - Extrait: SAS TABLE NEUF | Tel: None
+2025-08-18 10:28:27,665 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:28:27,688 - INFO - Extrait: Restaurant Tipaza | Tel: None
+2025-08-18 10:28:36,249 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:28:36,270 - INFO - Extrait: L'Entracte | Tel: None
+2025-08-18 10:28:44,824 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:28:44,844 - INFO - Extrait: Ty Louis | Tel: None
+2025-08-18 10:28:53,403 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:28:53,423 - INFO - Extrait: Gabriela | Tel: None
+2025-08-18 10:29:01,980 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:29:02,002 - INFO - Extrait: Le Moghol | Tel: None
+2025-08-18 10:29:10,559 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:29:10,582 - INFO - Extrait: Café le Marivaux | Tel: None
+2025-08-18 10:29:19,137 - ERROR - Échec extraction téléphone: Message: 
+
+2025-08-18 10:29:19,161 - INFO - Extrait: Truffes Folies | Tel: None
+2025-08-18 10:29:24,644 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70CE20D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/execute/sync
+2025-08-18 10:29:28,699 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70C5BF90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/execute/sync
+2025-08-18 10:29:32,749 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B708C4610>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/execute/sync
+2025-08-18 10:29:40,875 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70CD4F90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/execute/sync
+2025-08-18 10:29:44,921 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70CD7510>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/execute/sync
+2025-08-18 10:29:48,966 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70CD5DD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/execute/sync
+2025-08-18 10:29:53,036 - ERROR - Échec extraction téléphone: HTTPConnectionPool(host='localhost', port=51334): Max retries exceeded with url: /session/c4fa93d1b8ef2007a34b56ff6a13f107/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70CD5490>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-18 10:29:57,077 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70C909D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/element/f.21BE49853690597A5B3B5A80BDC5CE0C.d.31ED737245C6C9860A8DF7D40819A867.e.92/element
+2025-08-18 10:30:01,129 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70C91550>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/element/f.21BE49853690597A5B3B5A80BDC5CE0C.d.31ED737245C6C9860A8DF7D40819A867.e.92/element
+2025-08-18 10:30:05,220 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70C92050>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/element/f.21BE49853690597A5B3B5A80BDC5CE0C.d.31ED737245C6C9860A8DF7D40819A867.e.92/element
+2025-08-18 10:30:13,316 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70C937D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/element/f.21BE49853690597A5B3B5A80BDC5CE0C.d.31ED737245C6C9860A8DF7D40819A867.e.92/element
+2025-08-18 10:30:17,364 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70CA3C90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/element/f.21BE49853690597A5B3B5A80BDC5CE0C.d.31ED737245C6C9860A8DF7D40819A867.e.92/element
+2025-08-18 10:30:21,403 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70CA3190>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/element/f.21BE49853690597A5B3B5A80BDC5CE0C.d.31ED737245C6C9860A8DF7D40819A867.e.92/element
+2025-08-18 10:30:29,530 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B6FFA72D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/element/f.21BE49853690597A5B3B5A80BDC5CE0C.d.31ED737245C6C9860A8DF7D40819A867.e.92/element
+2025-08-18 10:30:33,605 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B70BF6F10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/element/f.21BE49853690597A5B3B5A80BDC5CE0C.d.31ED737245C6C9860A8DF7D40819A867.e.92/element
+2025-08-18 10:30:37,645 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B71174790>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/c4fa93d1b8ef2007a34b56ff6a13f107/element/f.21BE49853690597A5B3B5A80BDC5CE0C.d.31ED737245C6C9860A8DF7D40819A867.e.92/element
+2025-08-18 10:30:41,691 - INFO - Extrait: Bal Du Moulin Rouge | Tel: None
+2025-08-18 10:30:54,929 - INFO - Lancement du scraping pour Restauration à Paris
+2025-08-18 10:31:13,546 - INFO - Scraping page 1 ...
+2025-08-18 10:31:14,106 - INFO - Extrait: Le 59 | Tel: 01 80 50 00 29
+2025-08-18 10:31:16,614 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-18 10:31:19,123 - INFO - Extrait: Sweet And Salty | Tel: 01 43 47 12 98
+2025-08-18 10:31:21,636 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-18 10:31:24,151 - INFO - Extrait: Grand Zino | Tel: 01 44 40 45 10, 01 45 78 92 37
+2025-08-18 10:31:26,673 - INFO - Extrait: Le Sirocco | Tel: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05
+2025-08-18 10:31:29,187 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-18 10:31:31,700 - INFO - Extrait: Gabriela | Tel: 01 42 80 28 14
+2025-08-18 10:31:34,234 - INFO - Extrait: Les Editeurs | Tel: 01 43 26 67 76
+2025-08-18 10:31:36,748 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-18 10:31:39,261 - INFO - Extrait: Ty Louis | Tel: 06 73 08 54 13
+2025-08-18 10:31:41,781 - INFO - Extrait: Kitchen Company | Tel: 06 74 18 18 48
+2025-08-18 10:31:44,293 - INFO - Extrait: Le Moghol | Tel: 01 40 06 90 36
+2025-08-18 10:31:46,802 - INFO - Extrait: Restaurant Tipaza | Tel: 01 45 54 01 17
+2025-08-18 10:31:49,317 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-18 10:31:51,829 - INFO - Extrait: Bal Du Moulin Rouge | Tel: 01 77 12 85 90, 01 53 09 82 82
+2025-08-18 10:31:54,335 - INFO - Extrait: L'Entracte | Tel: 01 47 42 26 25
+2025-08-18 10:31:56,852 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
+2025-08-18 10:31:59,363 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-18 10:32:01,878 - INFO - Extrait: Nanwich Riquet | Tel: 01 44 53 91 70, 07 53 82 93 01
+2025-08-18 10:32:06,064 - INFO - Scraping page 2 ...
+2025-08-18 10:32:12,622 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:12,644 - INFO - Extrait: Le 59 | Tel: None
+2025-08-18 10:32:17,173 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:17,194 - INFO - Extrait: Le Caveau de l'Isle | Tel: None
+2025-08-18 10:32:21,717 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:21,743 - INFO - Extrait: Sweet And Salty | Tel: None
+2025-08-18 10:32:26,267 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:26,288 - INFO - Extrait: Café du Commerce | Tel: None
+2025-08-18 10:32:30,819 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:30,839 - INFO - Extrait: Grand Zino | Tel: None
+2025-08-18 10:32:35,367 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:35,394 - INFO - Extrait: Le Sirocco | Tel: None
+2025-08-18 10:32:39,917 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:39,938 - INFO - Extrait: Truffes Folies | Tel: None
+2025-08-18 10:32:44,463 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:44,487 - INFO - Extrait: Gabriela | Tel: None
+2025-08-18 10:32:49,007 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:49,031 - INFO - Extrait: Les Editeurs | Tel: None
+2025-08-18 10:32:53,551 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:53,572 - INFO - Extrait: Espace Aurore | Tel: None
+2025-08-18 10:32:58,093 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:32:58,114 - INFO - Extrait: Ty Louis | Tel: None
+2025-08-18 10:33:02,644 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:33:02,668 - INFO - Extrait: Kitchen Company | Tel: None
+2025-08-18 10:33:07,190 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:33:07,213 - INFO - Extrait: Le Moghol | Tel: None
+2025-08-18 10:33:11,739 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:33:11,763 - INFO - Extrait: Restaurant Tipaza | Tel: None
+2025-08-18 10:33:16,283 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:33:16,303 - INFO - Extrait: Café le Marivaux | Tel: None
+2025-08-18 10:33:20,823 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:33:20,843 - INFO - Extrait: Bal Du Moulin Rouge | Tel: None
+2025-08-18 10:33:25,367 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:33:25,388 - INFO - Extrait: L'Entracte | Tel: None
+2025-08-18 10:33:29,907 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:33:29,929 - INFO - Extrait: Santa Carne | Tel: None
+2025-08-18 10:33:34,447 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:33:34,468 - INFO - Extrait: SAS TABLE NEUF | Tel: None
+2025-08-18 10:33:38,990 - WARNING - Conteneur téléphone introuvable
+2025-08-18 10:33:39,011 - INFO - Extrait: Nanwich Riquet | Tel: None
+2025-08-18 10:33:43,557 - INFO - Scraping page 3 ...
+2025-08-18 10:33:44,078 - INFO - Extrait: Le 59 | Tel: 01 80 50 00 29
+2025-08-18 10:33:46,589 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-18 10:33:49,106 - INFO - Extrait: Sweet And Salty | Tel: 01 43 47 12 98
+2025-08-18 10:33:51,621 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-18 10:33:54,135 - INFO - Extrait: Grand Zino | Tel: 01 44 40 45 10, 01 45 78 92 37
+2025-08-18 10:33:56,651 - INFO - Extrait: Le Sirocco | Tel: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05
+2025-08-18 10:33:59,166 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-18 10:34:01,676 - INFO - Extrait: Gabriela | Tel: 01 42 80 28 14
+2025-08-18 10:34:04,191 - INFO - Extrait: Les Editeurs | Tel: 01 43 26 67 76
+2025-08-18 10:34:06,702 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-18 10:39:45,888 - INFO - Lancement du scraping pour Restauration à Paris
+2025-08-18 10:40:16,813 - INFO - Scraping page 1 ...
+2025-08-18 10:40:17,475 - INFO - Extrait: Sweet And Salty | Tel: 01 43 47 12 98
+2025-08-18 10:40:18,135 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-18 10:40:18,947 - INFO - Extrait: Ty Louis | Tel: 06 73 08 54 13
+2025-08-18 10:40:19,729 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
+2025-08-18 10:40:20,485 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-18 10:40:21,298 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-18 10:40:22,151 - INFO - Extrait: Nanwich Riquet | Tel: 01 44 53 91 70, 07 53 82 93 01
+2025-08-18 10:40:22,902 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-18 10:40:23,818 - INFO - Extrait: Le Moghol | Tel: 01 40 06 90 36
+2025-08-18 10:40:24,427 - INFO - Extrait: L'Entracte | Tel: 01 47 42 26 25
+2025-08-18 10:40:25,246 - INFO - Extrait: Le 59 | Tel: 01 80 50 00 29
+2025-08-18 10:40:26,085 - INFO - Extrait: Bal Du Moulin Rouge | Tel: 01 77 12 85 90, 01 53 09 82 82
+2025-08-18 10:40:27,160 - INFO - Extrait: Le Sirocco | Tel: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05
+2025-08-18 10:40:28,162 - INFO - Extrait: Restaurant Tipaza | Tel: 01 45 54 01 17
+2025-08-18 10:40:29,225 - INFO - Extrait: Grand Zino | Tel: 01 44 40 45 10, 01 45 78 92 37
+2025-08-18 10:40:30,159 - INFO - Extrait: Kitchen Company | Tel: 06 74 18 18 48
+2025-08-18 10:40:31,205 - INFO - Extrait: Gabriela | Tel: 01 42 80 28 14
+2025-08-18 10:40:31,887 - INFO - Extrait: Les Editeurs | Tel: 01 43 26 67 76
+2025-08-18 10:40:32,586 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-18 10:40:33,545 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-18 10:40:37,882 - INFO - Scraping page 2 ...
+2025-08-18 10:40:48,692 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:40:48,715 - INFO - Extrait: Sweet And Salty | Tel: None
+2025-08-18 10:40:59,881 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:40:59,902 - INFO - Extrait: Le Caveau de l'Isle | Tel: None
+2025-08-18 10:41:10,810 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:41:10,832 - INFO - Extrait: Ty Louis | Tel: None
+2025-08-18 10:41:21,977 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:41:21,999 - INFO - Extrait: Santa Carne | Tel: None
+2025-08-18 10:41:32,769 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:41:32,791 - INFO - Extrait: SAS TABLE NEUF | Tel: None
+2025-08-18 10:41:43,933 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:41:43,955 - INFO - Extrait: Café le Marivaux | Tel: None
+2025-08-18 10:41:55,116 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:41:55,139 - INFO - Extrait: Nanwich Riquet | Tel: None
+2025-08-18 10:42:05,859 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:42:05,881 - INFO - Extrait: Truffes Folies | Tel: None
+2025-08-18 10:42:17,062 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:42:17,083 - INFO - Extrait: Le Moghol | Tel: None
+2025-08-18 10:42:27,990 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:42:28,012 - INFO - Extrait: L'Entracte | Tel: None
+2025-08-18 10:42:38,717 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:42:38,738 - INFO - Extrait: Le 59 | Tel: None
+2025-08-18 10:42:49,777 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:42:49,801 - INFO - Extrait: Bal Du Moulin Rouge | Tel: None
+2025-08-18 10:43:00,883 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:43:00,903 - INFO - Extrait: Le Sirocco | Tel: None
+2025-08-18 10:43:11,620 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:43:11,641 - INFO - Extrait: Restaurant Tipaza | Tel: None
+2025-08-18 10:43:22,520 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:43:22,549 - INFO - Extrait: Grand Zino | Tel: None
+2025-08-18 10:43:33,733 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:43:33,755 - INFO - Extrait: Kitchen Company | Tel: None
+2025-08-18 10:43:44,836 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:43:44,857 - INFO - Extrait: Gabriela | Tel: None
+2025-08-18 10:43:55,976 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:43:55,998 - INFO - Extrait: Les Editeurs | Tel: None
+2025-08-18 10:44:06,955 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:44:06,979 - INFO - Extrait: Café du Commerce | Tel: None
+2025-08-18 10:44:17,744 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:44:17,765 - INFO - Extrait: Espace Aurore | Tel: None
+2025-08-18 10:44:22,921 - INFO - Scraping page 3 ...
+2025-08-18 10:44:23,810 - INFO - Extrait: Sweet And Salty | Tel: 01 43 47 12 98
+2025-08-18 10:44:24,395 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-18 10:44:25,174 - INFO - Extrait: Ty Louis | Tel: 06 73 08 54 13
+2025-08-18 10:44:25,771 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
+2025-08-18 10:44:26,535 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-18 10:44:27,220 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-18 10:44:27,996 - INFO - Extrait: Nanwich Riquet | Tel: 01 44 53 91 70, 07 53 82 93 01
+2025-08-18 10:44:28,880 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-18 10:44:29,828 - INFO - Extrait: Le Moghol | Tel: 01 40 06 90 36
+2025-08-18 10:44:30,629 - INFO - Extrait: L'Entracte | Tel: 01 47 42 26 25
+2025-08-18 10:51:23,347 - INFO - Lancement du scraping pour Restauration à Paris
+2025-08-18 10:51:42,119 - INFO - Scraping page 1 ...
+2025-08-18 10:51:43,016 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-18 10:51:43,790 - INFO - Extrait: Le 59 | Tel: 01 80 50 00 29
+2025-08-18 10:51:44,801 - INFO - Extrait: Le Moghol | Tel: 01 40 06 90 36
+2025-08-18 10:51:45,797 - INFO - Extrait: Restaurant Tipaza | Tel: 01 45 54 01 17
+2025-08-18 10:51:46,697 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-18 10:51:47,489 - INFO - Extrait: Sweet And Salty | Tel: 01 43 47 12 98
+2025-08-18 10:51:48,091 - INFO - Extrait: Kitchen Company | Tel: 06 74 18 18 48
+2025-08-18 10:51:48,750 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-18 10:51:49,705 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
+2025-08-18 10:51:50,491 - INFO - Extrait: Gabriela | Tel: 01 42 80 28 14
+2025-08-18 10:51:51,183 - INFO - Extrait: Nanwich Riquet | Tel: 01 44 53 91 70, 07 53 82 93 01
+2025-08-18 10:51:52,203 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-18 10:51:53,130 - INFO - Extrait: Bal Du Moulin Rouge | Tel: 01 77 12 85 90, 01 53 09 82 82
+2025-08-18 10:51:53,992 - INFO - Extrait: Le Sirocco | Tel: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05
+2025-08-18 10:51:54,745 - INFO - Extrait: L'Entracte | Tel: 01 47 42 26 25
+2025-08-18 10:51:55,727 - INFO - Extrait: Ty Louis | Tel: 06 73 08 54 13
+2025-08-18 10:51:56,626 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-18 10:51:57,291 - INFO - Extrait: Grand Zino | Tel: 01 44 40 45 10, 01 45 78 92 37
+2025-08-18 10:51:58,183 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-18 10:51:59,001 - INFO - Extrait: Les Editeurs | Tel: 01 43 26 67 76
+2025-08-18 10:52:05,537 - INFO - Scraping page 2 ...
+2025-08-18 10:52:16,526 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:52:16,546 - INFO - Extrait: SAS TABLE NEUF | Tel: None
+2025-08-18 10:52:27,311 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:52:27,332 - INFO - Extrait: Le 59 | Tel: None
+2025-08-18 10:52:38,252 - WARNING - Conteneur téléphone introuvable après retry
+2025-08-18 10:52:38,273 - INFO - Extrait: Le Moghol | Tel: None
+2025-08-18 11:00:17,170 - INFO - Lancement du scraping pour Restauration à Paris
+2025-08-18 11:00:32,605 - INFO - Scraping page 1 ...
+2025-08-18 11:00:32,684 - INFO - Extrait: Restaurant Tipaza | Tel: None
+2025-08-18 11:00:32,732 - INFO - Extrait: Les Editeurs | Tel: None
+2025-08-18 11:00:32,782 - INFO - Extrait: Gabriela | Tel: None
+2025-08-18 11:00:32,833 - INFO - Extrait: Truffes Folies | Tel: None
+2025-08-18 11:00:32,886 - INFO - Extrait: Grand Zino | Tel: None
+2025-08-18 11:00:32,940 - INFO - Extrait: Espace Aurore | Tel: None
+2025-08-18 11:00:32,989 - INFO - Extrait: Le Moghol | Tel: None
+2025-08-18 11:00:33,036 - INFO - Extrait: Le Caveau de l'Isle | Tel: None
+2025-08-18 11:00:33,087 - INFO - Extrait: Sweet And Salty | Tel: None
+2025-08-18 11:00:33,138 - INFO - Extrait: Nanwich Riquet | Tel: None
+2025-08-18 11:00:33,186 - INFO - Extrait: Santa Carne | Tel: None
+2025-08-18 11:00:33,244 - INFO - Extrait: Le Sirocco | Tel: None
+2025-08-18 11:00:33,290 - INFO - Extrait: Kitchen Company | Tel: None
+2025-08-18 11:00:33,344 - INFO - Extrait: Café le Marivaux | Tel: None
+2025-08-18 11:00:33,392 - INFO - Extrait: SAS TABLE NEUF | Tel: None
+2025-08-18 11:00:33,440 - INFO - Extrait: Café du Commerce | Tel: None
+2025-08-18 11:00:33,505 - INFO - Extrait: Bal Du Moulin Rouge | Tel: None
+2025-08-18 11:00:33,554 - INFO - Extrait: Le 59 | Tel: None
+2025-08-18 11:00:33,602 - INFO - Extrait: L'Entracte | Tel: None
+2025-08-18 11:00:33,652 - INFO - Extrait: Ty Louis | Tel: None
+2025-08-18 11:00:39,472 - INFO - Scraping page 2 ...
+2025-08-18 11:00:39,526 - INFO - Extrait: Restaurant Tipaza | Tel: None
+2025-08-18 11:00:39,580 - INFO - Extrait: Les Editeurs | Tel: None
+2025-08-18 11:00:39,626 - INFO - Extrait: Gabriela | Tel: None
+2025-08-18 11:00:39,676 - INFO - Extrait: Truffes Folies | Tel: None
+2025-08-18 11:00:39,725 - INFO - Extrait: Grand Zino | Tel: None
+2025-08-18 11:00:39,775 - INFO - Extrait: Espace Aurore | Tel: None
+2025-08-18 11:00:39,820 - INFO - Extrait: Le Moghol | Tel: None
+2025-08-18 11:00:39,868 - INFO - Extrait: Le Caveau de l'Isle | Tel: None
+2025-08-18 11:00:39,916 - INFO - Extrait: Sweet And Salty | Tel: None
+2025-08-18 11:00:39,965 - INFO - Extrait: Nanwich Riquet | Tel: None
+2025-08-18 11:00:40,014 - INFO - Extrait: Santa Carne | Tel: None
+2025-08-18 11:00:40,066 - INFO - Extrait: Le Sirocco | Tel: None
+2025-08-18 11:00:40,113 - INFO - Extrait: Kitchen Company | Tel: None
+2025-08-18 11:00:40,164 - INFO - Extrait: Café le Marivaux | Tel: None
+2025-08-18 11:00:40,210 - INFO - Extrait: SAS TABLE NEUF | Tel: None
+2025-08-18 11:00:40,258 - INFO - Extrait: Café du Commerce | Tel: None
+2025-08-18 11:00:40,308 - INFO - Extrait: Bal Du Moulin Rouge | Tel: None
+2025-08-18 11:00:40,355 - INFO - Extrait: Le 59 | Tel: None
+2025-08-18 11:00:40,411 - INFO - Extrait: L'Entracte | Tel: None
+2025-08-18 11:00:40,459 - INFO - Extrait: Ty Louis | Tel: None
+2025-08-18 11:00:46,831 - INFO - Scraping page 3 ...
+2025-08-18 11:00:46,882 - INFO - Extrait: Restaurant Tipaza | Tel: None
+2025-08-18 11:00:46,932 - INFO - Extrait: Les Editeurs | Tel: None
+2025-08-18 11:00:46,977 - INFO - Extrait: Gabriela | Tel: None
+2025-08-18 11:00:47,035 - INFO - Extrait: Truffes Folies | Tel: None
+2025-08-18 11:00:47,084 - INFO - Extrait: Grand Zino | Tel: None
+2025-08-18 11:00:47,133 - INFO - Extrait: Espace Aurore | Tel: None
+2025-08-18 11:00:47,180 - INFO - Extrait: Le Moghol | Tel: None
+2025-08-18 11:00:47,226 - INFO - Extrait: Le Caveau de l'Isle | Tel: None
+2025-08-18 11:00:47,281 - INFO - Extrait: Sweet And Salty | Tel: None
+2025-08-18 11:00:47,331 - INFO - Extrait: Nanwich Riquet | Tel: None
+2025-08-18 11:04:39,149 - INFO - Lancement du scraping pour Restauration à Paris
+2025-08-18 11:04:53,116 - INFO - Scraping page 1 ...
+2025-08-18 11:04:53,797 - INFO - Extrait: Ty Louis | Tel: 06 73 08 54 13
+2025-08-18 11:04:54,456 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-18 11:04:55,046 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-18 11:04:55,643 - INFO - Extrait: L'Entracte | Tel: 01 47 42 26 25
+2025-08-18 11:04:56,327 - INFO - Extrait: Le Sirocco | Tel: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05
+2025-08-18 11:04:57,167 - INFO - Extrait: Restaurant Tipaza | Tel: 01 45 54 01 17
+2025-08-18 11:04:57,920 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-18 11:04:58,738 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-18 11:04:59,419 - INFO - Extrait: Grand Zino | Tel: 01 44 40 45 10, 01 45 78 92 37
+2025-08-18 11:05:00,374 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
+2025-08-18 11:05:01,225 - INFO - Extrait: Le Moghol | Tel: 01 40 06 90 36
+2025-08-18 11:05:01,864 - INFO - Extrait: Kitchen Company | Tel: 06 74 18 18 48
+2025-08-18 11:05:02,636 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-18 11:05:03,551 - INFO - Extrait: Nanwich Riquet | Tel: 01 44 53 91 70, 07 53 82 93 01
+2025-08-18 11:05:04,240 - INFO - Extrait: Bal Du Moulin Rouge | Tel: 01 77 12 85 90, 01 53 09 82 82
+2025-08-18 11:05:05,268 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-18 11:05:06,046 - INFO - Extrait: Le 59 | Tel: 01 80 50 00 29
+2025-08-18 11:05:07,065 - INFO - Extrait: Sweet And Salty | Tel: 01 43 47 12 98
+2025-08-18 11:05:07,949 - INFO - Extrait: Gabriela | Tel: 01 42 80 28 14
+2025-08-18 11:05:08,800 - INFO - Extrait: Les Editeurs | Tel: 01 43 26 67 76
+2025-08-18 11:05:14,923 - INFO - Scraping page 2 ...
+2025-08-18 11:05:14,967 - INFO - Extrait: Ty Louis | Tel: 06 73 08 54 13
+2025-08-18 11:05:15,010 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-18 11:05:15,046 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-18 11:05:15,087 - INFO - Extrait: L'Entracte | Tel: 01 47 42 26 25
+2025-08-18 11:05:15,134 - INFO - Extrait: Le Sirocco | Tel: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05
+2025-08-18 11:05:15,173 - INFO - Extrait: Restaurant Tipaza | Tel: 01 45 54 01 17
+2025-08-18 11:05:15,215 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-18 11:05:15,255 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-18 11:05:15,297 - INFO - Extrait: Grand Zino | Tel: 01 44 40 45 10, 01 45 78 92 37
+2025-08-18 11:05:15,343 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
+2025-08-18 11:05:15,382 - INFO - Extrait: Le Moghol | Tel: 01 40 06 90 36
+2025-08-18 11:05:15,422 - INFO - Extrait: Kitchen Company | Tel: 06 74 18 18 48
+2025-08-18 11:05:15,459 - INFO - Extrait: Le Caveau de l'Isle | Tel: 01 43 25 10 26
+2025-08-18 11:05:15,502 - INFO - Extrait: Nanwich Riquet | Tel: 01 44 53 91 70, 07 53 82 93 01
+2025-08-18 11:05:15,546 - INFO - Extrait: Bal Du Moulin Rouge | Tel: 01 77 12 85 90, 01 53 09 82 82
+2025-08-18 11:05:15,597 - INFO - Extrait: Truffes Folies | Tel: 01 44 18 05 41, 06 03 26 56 24
+2025-08-18 11:05:15,635 - INFO - Extrait: Le 59 | Tel: 01 80 50 00 29
+2025-08-18 11:05:15,673 - INFO - Extrait: Sweet And Salty | Tel: 01 43 47 12 98
+2025-08-18 11:05:15,712 - INFO - Extrait: Gabriela | Tel: 01 42 80 28 14
+2025-08-18 11:05:15,751 - INFO - Extrait: Les Editeurs | Tel: 01 43 26 67 76
+2025-08-18 11:05:21,807 - INFO - Scraping page 3 ...
+2025-08-18 11:05:21,857 - INFO - Extrait: Ty Louis | Tel: 06 73 08 54 13
+2025-08-18 11:05:21,902 - INFO - Extrait: Café le Marivaux | Tel: 01 42 96 40 66, 09 67 41 40 66
+2025-08-18 11:05:21,941 - INFO - Extrait: Café du Commerce | Tel: 07 72 17 02 88
+2025-08-18 11:05:21,979 - INFO - Extrait: L'Entracte | Tel: 01 47 42 26 25
+2025-08-18 11:05:22,027 - INFO - Extrait: Le Sirocco | Tel: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05
+2025-08-18 11:05:22,067 - INFO - Extrait: Restaurant Tipaza | Tel: 01 45 54 01 17
+2025-08-18 11:05:22,109 - INFO - Extrait: Espace Aurore | Tel: 01 53 94 51 00, 01 53 94 51 02
+2025-08-18 11:05:22,146 - INFO - Extrait: SAS TABLE NEUF | Tel:     01 83 89 08 78
+2025-08-18 11:05:22,190 - INFO - Extrait: Grand Zino | Tel: 01 44 40 45 10, 01 45 78 92 37
+2025-08-18 11:05:22,227 - INFO - Extrait: Santa Carne | Tel: 01 42 72 03 07
