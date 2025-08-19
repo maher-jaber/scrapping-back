@@ -1,0 +1,1007 @@
+[
+  {
+    "Nom": "ASPIC",
+    "Adresse": "24 Rue Louise-Émilie de la Tour d'Auvergne, 75009 Paris, France",
+    "Téléphone": "+33 9 82 49 30 98",
+    "Site Web": "aspic-restaurant.fr",
+    "Note": "4,8",
+    "Nombre d'avis": "(669)",
+    "Heure de scraping": "2025-08-18 16:58:19"
+  },
+  {
+    "Nom": "Le Pavé",
+    "Adresse": "7 Rue des Lombards, 75004 Paris, France",
+    "Téléphone": "+33 1 44 54 07 20",
+    "Site Web": "wiicmenu-qrcode.com",
+    "Note": "4,3",
+    "Nombre d'avis": "(841)",
+    "Heure de scraping": "2025-08-18 16:58:23"
+  },
+  {
+    "Nom": "Bistrot du Jardin",
+    "Adresse": "33 Rue Berger, 75001 Paris, France",
+    "Téléphone": "+33 9 85 12 30 66",
+    "Site Web": "bistrot-du-jardin.fr",
+    "Note": "4,2",
+    "Nombre d'avis": "(913)",
+    "Heure de scraping": "2025-08-18 16:58:27"
+  },
+  {
+    "Nom": "Le Marais Restaurant Paris",
+    "Adresse": "47 R. de Turbigo, 75003 Paris, France",
+    "Téléphone": "+33 9 87 36 09 13",
+    "Site Web": "privateaser.com",
+    "Note": "4,5",
+    "Nombre d'avis": "(1 772)",
+    "Heure de scraping": "2025-08-18 16:58:32"
+  },
+  {
+    "Nom": "L'Alsace",
+    "Adresse": "39 Av. des Champs-Élysées, 75008 Paris, France",
+    "Téléphone": "+33 1 53 93 97 00",
+    "Site Web": "restaurantalsace.com",
+    "Note": "4,5",
+    "Nombre d'avis": "(16 942)",
+    "Heure de scraping": "2025-08-18 16:58:36"
+  },
+  {
+    "Nom": "Resto Beyrouth",
+    "Adresse": "4 Rue Saint-Merri, 75004 Paris, France",
+    "Téléphone": "+33 1 42 77 25 45",
+    "Note": "4,6",
+    "Nombre d'avis": "(436)",
+    "Heure de scraping": "2025-08-18 16:58:40"
+  },
+  {
+    "Nom": "Le Zinc d'Honoré",
+    "Adresse": "36 Pl. du Marché Saint-Honoré, 75001 Paris, France",
+    "Téléphone": "+33 1 49 27 05 00",
+    "Note": "4,2",
+    "Nombre d'avis": "(1 433)",
+    "Heure de scraping": "2025-08-18 16:58:45"
+  },
+  {
+    "Nom": "PLAN B PARIS",
+    "Adresse": "3 Rue de Compiègne, 75010 Paris, France",
+    "Téléphone": "+33 6 95 35 08 10",
+    "Site Web": "plan-b.com.tn",
+    "Note": "4,7",
+    "Nombre d'avis": "(1 200)",
+    "Heure de scraping": "2025-08-18 16:58:49"
+  },
+  {
+    "Nom": "PNY",
+    "Adresse": "1 Rue Perrée, 75003 Paris, France",
+    "Téléphone": "+33 1 88 47 98 12",
+    "Site Web": "restaurants.pnyburger.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(2 692)",
+    "Heure de scraping": "2025-08-18 16:58:54"
+  },
+  {
+    "Nom": "Restaurant flunch Paris Beaubourg",
+    "Adresse": "Rue Beaubourg 21, 75003 Paris, France",
+    "Téléphone": "+33 1 40 29 09 78",
+    "Site Web": "restaurant.flunch.fr",
+    "Note": "3,3",
+    "Nombre d'avis": "(3 891)",
+    "Heure de scraping": "2025-08-18 16:58:58"
+  },
+  {
+    "Nom": "Little Havana - Street Food Paris 2",
+    "Adresse": "67 Rue d'Argout, 75002 Paris, France",
+    "Téléphone": "+33 9 74 64 08 84",
+    "Site Web": "site.bykomdab.com",
+    "Note": "4,7",
+    "Nombre d'avis": "(504)",
+    "Heure de scraping": "2025-08-18 16:59:02"
+  },
+  {
+    "Nom": "F.I.E.F. / Fait Ici En France",
+    "Adresse": "44 Rue de la Folie Méricourt, 75011 Paris, France",
+    "Téléphone": "+33 1 47 00 03 22",
+    "Site Web": "fiefrestaurant.fr",
+    "Note": "4,8",
+    "Nombre d'avis": "(1 078)",
+    "Heure de scraping": "2025-08-18 16:59:07"
+  },
+  {
+    "Nom": "Paris Resto Cuisines",
+    "Adresse": "5 Rue d'Alsace, 75010 Paris, France",
+    "Téléphone": "+33 1 85 55 39 19",
+    "Site Web": "paris-resto-cuisines.fr",
+    "Note": "3,8",
+    "Nombre d'avis": "(12)",
+    "Heure de scraping": "2025-08-18 16:59:11"
+  },
+  {
+    "Nom": "Va te faire food",
+    "Adresse": "58 Blvd Marguerite de Rochechouart, 75018 Paris, France",
+    "Téléphone": "+33 7 66 64 74 81",
+    "Site Web": "va-te-faire-food.mywhop.com",
+    "Note": "4,6",
+    "Nombre d'avis": "(470)",
+    "Heure de scraping": "2025-08-18 16:59:15"
+  },
+  {
+    "Nom": "L'As du Fallafel",
+    "Adresse": "34 Rue des Rosiers, 75004 Paris, France",
+    "Téléphone": "+33 1 48 87 63 60",
+    "Site Web": "asdufallafel.com",
+    "Note": "4,3",
+    "Nombre d'avis": "(13 657)",
+    "Heure de scraping": "2025-08-18 16:59:19"
+  },
+  {
+    "Nom": "Poulette",
+    "Adresse": "3 Rue Étienne Marcel, 75001 Paris, France",
+    "Téléphone": "+33 9 53 62 89 17",
+    "Site Web": "pouletterestaurant.com",
+    "Note": "4,5",
+    "Nombre d'avis": "(1 046)",
+    "Heure de scraping": "2025-08-18 16:59:23"
+  },
+  {
+    "Nom": "La Diva-des-Prés",
+    "Adresse": "79 Rue de Seine, 75006 Paris, France",
+    "Téléphone": "+33 1 42 03 94 59",
+    "Site Web": "ladivadespres.com",
+    "Note": "4,3",
+    "Nombre d'avis": "(2 106)",
+    "Heure de scraping": "2025-08-18 16:59:27"
+  },
+  {
+    "Nom": "Le Train Bleu",
+    "Adresse": "Gare de Lyon, Pl. Louis Armand hall 1, 75012 Paris, France",
+    "Téléphone": "+33 1 43 43 09 06",
+    "Site Web": "le-train-bleu.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(15 509)",
+    "Heure de scraping": "2025-08-18 16:59:31"
+  },
+  {
+    "Nom": "Restaurant H",
+    "Adresse": "13 Rue Jean Beausire, 75004 Paris, France",
+    "Téléphone": "+33 1 43 48 80 96",
+    "Site Web": "restauranth.com",
+    "Note": "4,7",
+    "Nombre d'avis": "(623)",
+    "Heure de scraping": "2025-08-18 16:59:35"
+  },
+  {
+    "Nom": "Mon Paris !",
+    "Adresse": "6 Rue Édouard VII, 75009 Paris, France",
+    "Téléphone": "+33 1 42 94 86 03",
+    "Site Web": "mon-paris.fr",
+    "Note": "4,2",
+    "Nombre d'avis": "(1 444)",
+    "Heure de scraping": "2025-08-18 16:59:39"
+  },
+  {
+    "Nom": "Bistrot Victoires",
+    "Adresse": "6 Rue de la Vrillière, 75001 Paris, France",
+    "Téléphone": "+33 1 42 61 43 78",
+    "Site Web": "paris-bistro.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(6 381)",
+    "Heure de scraping": "2025-08-18 16:59:52"
+  },
+  {
+    "Nom": "La Tour Montlhéry - Chez Denise",
+    "Adresse": "5 Rue des Prouvaires, 75001 Paris, France",
+    "Téléphone": "+33 1 42 36 21 82",
+    "Note": "4,3",
+    "Nombre d'avis": "(2 276)",
+    "Heure de scraping": "2025-08-18 16:59:56"
+  },
+  {
+    "Nom": "Le Royal",
+    "Adresse": "250 Rue Saint-Honoré, 75001 Paris, France",
+    "Téléphone": "+33 1 89 32 17 37",
+    "Site Web": "instagram.com",
+    "Note": "4,2",
+    "Nombre d'avis": "(2 319)",
+    "Heure de scraping": "2025-08-18 17:00:01"
+  },
+  {
+    "Nom": "Faubourg 34 - Restaurant paris 9",
+    "Adresse": "34 Rue du Faubourg Montmartre, 75009 Paris, France",
+    "Téléphone": "+33 1 40 22 04 14",
+    "Site Web": "faubourg-paris.shop",
+    "Note": "4,3",
+    "Nombre d'avis": "(1 406)",
+    "Heure de scraping": "2025-08-18 17:00:06"
+  },
+  {
+    "Nom": "Touch In Paris",
+    "Adresse": "20 Rue Vignon, 75009 Paris, France",
+    "Téléphone": "+33 1 40 06 02 64",
+    "Site Web": "touchinparis.com",
+    "Note": "4,5",
+    "Nombre d'avis": "(423)",
+    "Heure de scraping": "2025-08-18 17:00:10"
+  },
+  {
+    "Nom": "La Crème de Paris",
+    "Adresse": "4 Rue du Faubourg Montmartre, 75009 Paris, France",
+    "Téléphone": "+33 1 48 24 89 50",
+    "Site Web": "lacremedeparis.com",
+    "Note": "4,3",
+    "Nombre d'avis": "(6 127)",
+    "Type": "Restaurant",
+    "Horaires": "Fermé",
+    "Heure de scraping": "2025-08-18 17:00:19"
+  },
+  {
+    "Nom": "Louise",
+    "Adresse": "8 Rue Croix des Petits Champs, 75001 Paris, France",
+    "Téléphone": "+33 1 83 96 07 87",
+    "Site Web": "cafelouisepalaisroyal.com",
+    "Note": "4,5",
+    "Nombre d'avis": "(899)",
+    "Heure de scraping": "2025-08-18 17:00:27"
+  },
+  {
+    "Nom": "STREET BANGKOK - Étienne Marcel",
+    "Adresse": "112 Rue St Denis, 75002 Paris, France",
+    "Téléphone": "+33 1 42 36 60 92",
+    "Site Web": "restaurants.streetbangkok.fr",
+    "Note": "4,5",
+    "Nombre d'avis": "(3 075)",
+    "Heure de scraping": "2025-08-18 17:00:31"
+  },
+  {
+    "Nom": "La Condesa Paris",
+    "Adresse": "13 Rue Rodier, 75009 Paris, France",
+    "Téléphone": "+33 1 53 20 94 90",
+    "Site Web": "lacondesa-paris.com",
+    "Note": "4,7",
+    "Nombre d'avis": "(598)",
+    "Heure de scraping": "2025-08-18 17:00:35"
+  },
+  {
+    "Nom": "La Petite Rose des Sables",
+    "Adresse": "6 Rue de Lancry, 75010 Paris, France",
+    "Téléphone": "+33 1 40 18 35 30",
+    "Note": "4,9",
+    "Nombre d'avis": "(1 020)",
+    "Heure de scraping": "2025-08-18 17:00:43"
+  },
+  {
+    "Nom": "L'Alsacien Châtelet - Restaurant / Bar à Flammekueche",
+    "Adresse": "6 Rue Saint-Bon, 75004 Paris, France",
+    "Téléphone": "+33 1 42 77 64 22",
+    "Site Web": "lalsacien.com",
+    "Note": "4,6",
+    "Nombre d'avis": "(2 977)",
+    "Heure de scraping": "2025-08-18 17:00:47"
+  },
+  {
+    "Nom": "STREET BANGKOK - Odéon",
+    "Adresse": "73 Rue de Seine, 75006 Paris, France",
+    "Téléphone": "+33 1 42 03 63 25",
+    "Site Web": "restaurants.streetbangkok.fr",
+    "Note": "4,4",
+    "Nombre d'avis": "(1 138)",
+    "Heure de scraping": "2025-08-18 17:00:51"
+  },
+  {
+    "Nom": "Le Ruisseau - BURGER JOINT",
+    "Adresse": "22 Rue Rambuteau, 75003 Paris, France",
+    "Téléphone": "+33 1 43 70 02 21",
+    "Site Web": "leruisseauburger.com",
+    "Note": "4,5",
+    "Nombre d'avis": "(2 820)",
+    "Heure de scraping": "2025-08-18 17:00:57"
+  },
+  {
+    "Nom": "Restaurant le Molière",
+    "Adresse": "40 Rue Saint-Honoré, 75001 Paris, France",
+    "Téléphone": "+33 1 44 76 07 33",
+    "Site Web": "le-moliere.restranslate.com",
+    "Note": "4,1",
+    "Nombre d'avis": "(700)",
+    "Heure de scraping": "2025-08-18 17:01:01"
+  },
+  {
+    "Nom": "Pondicherry Restaurant - 20% off for students",
+    "Adresse": "3 Rue Perdonnet, 75010 Paris, France",
+    "Téléphone": "+33 1 40 37 01 49",
+    "Site Web": "ubereats.com",
+    "Note": "4,7",
+    "Nombre d'avis": "(343)",
+    "Heure de scraping": "2025-08-18 17:01:05"
+  },
+  {
+    "Nom": "Le Saint Graal",
+    "Adresse": "10 Rue Coustou, 75018 Paris, France",
+    "Téléphone": "+33 9 86 79 25 16",
+    "Site Web": "eatbu.com",
+    "Note": "4,9",
+    "Nombre d'avis": "(391)",
+    "Heure de scraping": "2025-08-18 17:01:09"
+  },
+  {
+    "Nom": "Arya Bhavan Paris, France",
+    "Adresse": "170 Rue du Faubourg Saint-Denis, 75010 Paris, France",
+    "Téléphone": "+33 1 40 05 01 01",
+    "Site Web": "saravanaabhavan.eu",
+    "Note": "3,9",
+    "Nombre d'avis": "(5 199)",
+    "Heure de scraping": "2025-08-18 17:01:13"
+  },
+  {
+    "Nom": "Popeyes - Gare du Nord",
+    "Adresse": "9 Bd de Denain, 75010 Paris, France",
+    "Site Web": "popeyesfrance.fr",
+    "Note": "4,0",
+    "Nombre d'avis": "(3 564)",
+    "Heure de scraping": "2025-08-18 17:01:17"
+  },
+  {
+    "Nom": "Chez Claude",
+    "Adresse": "166 Rue Saint-Honoré, 75001 Paris, France",
+    "Téléphone": "+33 1 42 60 20 14",
+    "Site Web": "restaurant-chezclaude.com",
+    "Note": "4,2",
+    "Nombre d'avis": "(1 290)",
+    "Heure de scraping": "2025-08-18 17:01:21"
+  },
+  {
+    "Nom": "STREET BANGKOK - Pigalle",
+    "Adresse": "28 Rue de Douai, 75009 Paris, France",
+    "Téléphone": "+33 1 42 40 84 58",
+    "Site Web": "restaurants.streetbangkok.fr",
+    "Note": "4,5",
+    "Nombre d'avis": "(900)",
+    "Heure de scraping": "2025-08-18 17:01:26"
+  },
+  {
+    "Nom": "Le Sauvage",
+    "Adresse": "7 Rue Roy, 75008 Paris, France",
+    "Téléphone": "+33 1 45 22 22 46",
+    "Site Web": "restaurant-lesauvage.fr",
+    "Note": "4,8",
+    "Nombre d'avis": "(357)",
+    "Heure de scraping": "2025-08-18 17:01:30"
+  },
+  {
+    "Nom": "Le Petit Flottes",
+    "Adresse": "2 Rue Cambon, 75001 Paris, France",
+    "Téléphone": "+33 1 42 60 00 84",
+    "Site Web": "lepetitflottes.fr",
+    "Note": "4,3",
+    "Nombre d'avis": "(1 171)",
+    "Heure de scraping": "2025-08-18 17:01:35"
+  },
+  {
+    "Nom": "Daroco",
+    "Adresse": "6 Rue Vivienne, 75002 Paris, France",
+    "Téléphone": "+33 1 42 21 93 71",
+    "Site Web": "daroco.com",
+    "Note": "4,3",
+    "Nombre d'avis": "(4 872)",
+    "Heure de scraping": "2025-08-18 17:01:39"
+  },
+  {
+    "Nom": "Loup restaurant",
+    "Adresse": "44, rue du Louvre Angle, Rue Coquillière, 75001 Paris, France",
+    "Téléphone": "+33 1 42 36 73 23",
+    "Site Web": "loup-paris.com",
+    "Note": "4,2",
+    "Nombre d'avis": "(2 010)",
+    "Heure de scraping": "2025-08-18 17:01:43"
+  },
+  {
+    "Nom": "Restaurant L'atelier Lazare",
+    "Adresse": "3 Rue de l'Isly, 75008 Paris, France",
+    "Téléphone": "+33 1 43 87 14 61",
+    "Site Web": "instagram.com",
+    "Note": "4,2",
+    "Nombre d'avis": "(1 195)",
+    "Heure de scraping": "2025-08-18 17:01:47"
+  },
+  {
+    "Nom": "Tiger Tiger - Restaurant Chinois",
+    "Adresse": "15 Rue René Boulanger, 75010 Paris, France",
+    "Téléphone": "+33 1 71 70 57 78",
+    "Site Web": "pandapandagroup.com",
+    "Note": "4,6",
+    "Nombre d'avis": "(2 001)",
+    "Heure de scraping": "2025-08-18 17:01:50"
+  },
+  {
+    "Nom": "Bouillon Chartier Gare de l'Est",
+    "Adresse": "5 Rue du 8 Mai 1945, 75010 Paris, France",
+    "Téléphone": "+33 1 42 05 20 02",
+    "Site Web": "bouillon-chartier.com",
+    "Note": "4,5",
+    "Nombre d'avis": "(8 693)",
+    "Heure de scraping": "2025-08-18 17:01:55"
+  },
+  {
+    "Nom": "Brasserie Flottes",
+    "Adresse": "2 Rue Cambon, 75001 Paris, France",
+    "Téléphone": "+33 1 42 60 80 89",
+    "Site Web": "brasserieflottes.fr",
+    "Note": "4,5",
+    "Nombre d'avis": "(1 757)",
+    "Heure de scraping": "2025-08-18 17:02:00"
+  },
+  {
+    "Nom": "PACKIAMS",
+    "Adresse": "72 Bd de Strasbourg, 75010 Paris, France",
+    "Téléphone": "+33 1 44 63 35 82",
+    "Site Web": "restaurantpackiams.fr",
+    "Note": "4,7",
+    "Nombre d'avis": "(627)",
+    "Heure de scraping": "2025-08-18 17:02:03"
+  },
+  {
+    "Nom": "Café de la Régence",
+    "Adresse": "167 Rue Saint-Honoré, 75001 Paris, France",
+    "Téléphone": "+33 1 42 60 40 11",
+    "Site Web": "menuonline.fr",
+    "Note": "4,4",
+    "Nombre d'avis": "(3 636)",
+    "Heure de scraping": "2025-08-18 17:02:07"
+  },
+  {
+    "Nom": "Happy Caffé",
+    "Adresse": "214 Rue de Rivoli, 75001 Paris, France",
+    "Téléphone": "+33 9 53 52 96 91",
+    "Note": "4,8",
+    "Nombre d'avis": "(6 183)",
+    "Heure de scraping": "2025-08-18 17:02:12"
+  },
+  {
+    "Nom": "Le Saint Augustin",
+    "Adresse": "114 Bd Haussmann, 75008 Paris, France",
+    "Téléphone": "+33 1 43 87 40 55",
+    "Site Web": "lesaintaugustin.fr",
+    "Note": "3,7",
+    "Nombre d'avis": "(1 408)",
+    "Heure de scraping": "2025-08-18 17:02:16"
+  },
+  {
+    "Nom": "Postiche Bistrot",
+    "Adresse": "62 Rue Jean-Jacques Rousseau, 75001 Paris, France",
+    "Téléphone": "+33 1 40 28 99 04",
+    "Note": "4,6",
+    "Nombre d'avis": "(748)",
+    "Heure de scraping": "2025-08-18 17:02:21"
+  },
+  {
+    "Nom": "Moghol",
+    "Adresse": "26 Rue de Caumartin, 75009 Paris, France",
+    "Téléphone": "+33 1 40 06 90 36",
+    "Site Web": "wiicmenu-qrcode.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(899)",
+    "Heure de scraping": "2025-08-18 17:02:25"
+  },
+  {
+    "Nom": "Self Service Tuileries",
+    "Adresse": "206 Rue de Rivoli, 75001 Paris, France",
+    "Téléphone": "+33 1 42 60 68 74",
+    "Site Web": "rivoli.fr",
+    "Note": "3,3",
+    "Nombre d'avis": "(934)",
+    "Heure de scraping": "2025-08-18 17:02:29"
+  },
+  {
+    "Nom": "La Tour d'Argent",
+    "Adresse": "15 Quai de la Tournelle, 75005 Paris, France",
+    "Téléphone": "+33 1 43 54 23 31",
+    "Site Web": "tourdargent.com",
+    "Note": "4,6",
+    "Nombre d'avis": "(515)",
+    "Heure de scraping": "2025-08-18 17:02:34"
+  },
+  {
+    "Nom": "Le Louis",
+    "Adresse": "31 Rue Coquillière, 75001 Paris, France",
+    "Téléphone": "+33 1 42 33 56 17",
+    "Site Web": "le-louis.fr",
+    "Note": "4,6",
+    "Nombre d'avis": "(759)",
+    "Heure de scraping": "2025-08-18 17:02:39"
+  },
+  {
+    "Nom": "Cook'n Saj",
+    "Adresse": "5 Rue Bernard Palissy, 75006 Paris, France",
+    "Téléphone": "+33 1 45 49 01 56",
+    "Site Web": "cooknsajparis.com",
+    "Note": "4,8",
+    "Nombre d'avis": "(1 861)",
+    "Heure de scraping": "2025-08-18 17:02:43"
+  },
+  {
+    "Nom": "L'Ardoise",
+    "Adresse": "28 Rue du Mont Thabor, 75001 Paris, France",
+    "Téléphone": "+33 1 42 96 28 18",
+    "Site Web": "lardoise-paris.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(652)",
+    "Heure de scraping": "2025-08-18 17:02:48"
+  },
+  {
+    "Nom": "L'Escargot Montorgueil",
+    "Adresse": "38 Rue Montorgueil, 75001 Paris, France",
+    "Téléphone": "+33 1 42 36 83 51",
+    "Site Web": "escargotmontorgueil.com",
+    "Note": "4,2",
+    "Nombre d'avis": "(6 690)",
+    "Heure de scraping": "2025-08-18 17:02:52"
+  },
+  {
+    "Nom": "Le Catrina",
+    "Adresse": "141 Rue du Faubourg Saint-Denis, 75010 Paris, France",
+    "Téléphone": "+33 6 22 87 87 66",
+    "Site Web": "lecatrina.shop",
+    "Note": "4,3",
+    "Nombre d'avis": "(909)",
+    "Heure de scraping": "2025-08-18 17:02:56"
+  },
+  {
+    "Nom": "Chez Papa",
+    "Adresse": "59 Rue de Clichy, 75009 Paris, France",
+    "Téléphone": "+33 1 40 35 89 01",
+    "Site Web": "chezpapa9.fr",
+    "Note": "4,2",
+    "Nombre d'avis": "(1 435)",
+    "Heure de scraping": "2025-08-18 17:02:59"
+  },
+  {
+    "Nom": "Pierre Sang Express Paris 6",
+    "Adresse": "12 Rue Notre Dame des Champs, 75006 Paris, France",
+    "Téléphone": "+33 9 67 31 96 80",
+    "Site Web": "pierresang.com",
+    "Note": "4,0",
+    "Nombre d'avis": "(374)",
+    "Heure de scraping": "2025-08-18 17:03:04"
+  },
+  {
+    "Nom": "Le Papacionu Paris",
+    "Adresse": "7 Rue Cadet, 75009 Paris, France",
+    "Téléphone": "+33 1 45 23 90 03",
+    "Site Web": "papacionuparis.fr",
+    "Note": "4,7",
+    "Nombre d'avis": "(2 470)",
+    "Heure de scraping": "2025-08-18 17:03:08"
+  },
+  {
+    "Nom": "1er Art",
+    "Adresse": "42 Rue Coquillière, 75001 Paris, France",
+    "Téléphone": "+33 1 42 36 69 11",
+    "Note": "4,5",
+    "Nombre d'avis": "(296)",
+    "Heure de scraping": "2025-08-18 17:03:12"
+  },
+  {
+    "Nom": "Restaurant Tracé",
+    "Adresse": "15 Rue de Richelieu, 75001 Paris, France",
+    "Téléphone": "+33 1 71 60 91 30",
+    "Site Web": "restaurant-tracé.com",
+    "Note": "4,9",
+    "Nombre d'avis": "(292)",
+    "Heure de scraping": "2025-08-18 17:03:16"
+  },
+  {
+    "Nom": "Elmer - Cuisine au feu de bois & rôtissoire",
+    "Adresse": "30 Rue Notre Dame de Nazareth, 75003 Paris, France",
+    "Téléphone": "+33 1 43 56 22 95",
+    "Site Web": "elmer-restaurant.fr",
+    "Note": "4,6",
+    "Nombre d'avis": "(617)",
+    "Heure de scraping": "2025-08-18 17:03:20"
+  },
+  {
+    "Nom": "Restaurant Café Joséphine Paris 1",
+    "Adresse": "3 Pl. des Deux Ecus, 75001 Paris, France",
+    "Téléphone": "+33 1 89 19 59 89",
+    "Site Web": "cafe-josephineparis.fr",
+    "Note": "4,2",
+    "Nombre d'avis": "(1 097)",
+    "Heure de scraping": "2025-08-18 17:03:26"
+  },
+  {
+    "Nom": "Five Guys Opéra",
+    "Adresse": "17/19 Bd des Capucines, 75002 Paris, France",
+    "Téléphone": "+33 1 42 93 95 13",
+    "Site Web": "restaurants.fiveguys.fr",
+    "Note": "4,0",
+    "Nombre d'avis": "(8 077)",
+    "Heure de scraping": "2025-08-18 17:03:30"
+  },
+  {
+    "Nom": "Louisette",
+    "Adresse": "8 Boulevard St Denis, 75010 Paris, France",
+    "Téléphone": "+33 9 74 64 03 84",
+    "Site Web": "louisette-paris.com",
+    "Note": "4,7",
+    "Nombre d'avis": "(5 776)",
+    "Heure de scraping": "2025-08-18 17:03:35"
+  },
+  {
+    "Nom": "L'Eden - Restaurant Paris 9",
+    "Adresse": "43 Rue de la Chau. d'Antin, 75009 Paris, France",
+    "Téléphone": "+33 1 48 74 27 12",
+    "Site Web": "ledenparis.fr",
+    "Note": "4,0",
+    "Nombre d'avis": "(719)",
+    "Heure de scraping": "2025-08-18 17:03:40"
+  },
+  {
+    "Nom": "Au P’tit Grec",
+    "Adresse": "68 Rue Mouffetard, 75005 Paris, France",
+    "Téléphone": "+33 6 50 24 69 34",
+    "Site Web": "auptitgrec.com",
+    "Note": "4,5",
+    "Nombre d'avis": "(7 385)",
+    "Heure de scraping": "2025-08-18 17:03:45"
+  },
+  {
+    "Nom": "Los Brothers",
+    "Adresse": "73 Rue St Denis, 75001 Paris, France",
+    "Téléphone": "+33 1 53 40 85 56",
+    "Note": "4,5",
+    "Nombre d'avis": "(8 024)",
+    "Heure de scraping": "2025-08-18 17:03:49"
+  },
+  {
+    "Nom": "CAFE SAINT HONORÉ",
+    "Adresse": "194 Rue Saint-Honoré, 75001 Paris, France",
+    "Téléphone": "+33 1 42 61 49 31",
+    "Site Web": "cafesainthonore.fr",
+    "Note": "4,5",
+    "Nombre d'avis": "(2 630)",
+    "Heure de scraping": "2025-08-18 17:03:53"
+  },
+  {
+    "Nom": "La Table Cachée par Michel Roth - BHV Marais",
+    "Adresse": "55 Rue de la Verrerie, 75004 Paris, France",
+    "Téléphone": "+33 1 42 74 91 86",
+    "Site Web": "bhv.fr",
+    "Note": "4,3",
+    "Nombre d'avis": "(320)",
+    "Heure de scraping": "2025-08-18 17:03:57"
+  },
+  {
+    "Nom": "Le Musset",
+    "Adresse": "169 Rue Saint-Honoré, 75001 Paris, France",
+    "Téléphone": "+33 1 42 60 69 29",
+    "Site Web": "lemusset.paris",
+    "Note": "4,0",
+    "Nombre d'avis": "(3 525)",
+    "Heure de scraping": "2025-08-18 17:04:01"
+  },
+  {
+    "Nom": "Eiffel Croisières - Péniche Ivoire",
+    "Adresse": "Pont Alexandre III, Port des Invalides rive gauche, 75007 Paris, France",
+    "Téléphone": "+33 1 56 89 88 98",
+    "Site Web": "eiffelcroisieres.com",
+    "Note": "4,7",
+    "Nombre d'avis": "(4 112)",
+    "Heure de scraping": "2025-08-18 17:04:06"
+  },
+  {
+    "Nom": "Vita Ristorante",
+    "Adresse": "9 Rue de l'École de Médecine, 75006 Paris, France",
+    "Téléphone": "+33 1 43 29 40 62",
+    "Site Web": "vitaristorante.fr",
+    "Note": "4,4",
+    "Nombre d'avis": "(1 321)",
+    "Heure de scraping": "2025-08-18 17:04:11"
+  },
+  {
+    "Nom": "PARIS - BUENOS AIRES",
+    "Adresse": "11 Rue Dupin, 75006 Paris, France",
+    "Téléphone": "+33 1 42 22 64 56",
+    "Site Web": "paris-buenosaires.fr",
+    "Note": "4,5",
+    "Nombre d'avis": "(665)",
+    "Heure de scraping": "2025-08-18 17:04:14"
+  },
+  {
+    "Nom": "Blend Hamburger Argout",
+    "Adresse": "44 Rue d'Argout, 75002 Paris, France",
+    "Téléphone": "+33 1 40 26 84 57",
+    "Site Web": "blendhamburger.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(1 796)",
+    "Heure de scraping": "2025-08-18 17:04:18"
+  },
+  {
+    "Nom": "Ma salle à manger",
+    "Adresse": "26 Pl. Dauphine, 75001 Paris, France",
+    "Téléphone": "+33 1 43 29 52 34",
+    "Site Web": "masalleamanger.fr",
+    "Note": "4,2",
+    "Nombre d'avis": "(715)",
+    "Heure de scraping": "2025-08-18 17:04:24"
+  },
+  {
+    "Nom": "Paris (France)",
+    "Adresse": "Bd Saint-Marcel, 75013 Paris, France",
+    "Note": "5,0",
+    "Nombre d'avis": "(1)",
+    "Heure de scraping": "2025-08-18 17:04:28"
+  },
+  {
+    "Nom": "Restaurant de La Cordonnerie",
+    "Adresse": "20 Rue Saint-Roch, 75001 Paris, France",
+    "Téléphone": "+33 1 42 60 17 42",
+    "Site Web": "restaurantlacordonnerie.fr",
+    "Note": "4,7",
+    "Nombre d'avis": "(383)",
+    "Heure de scraping": "2025-08-18 17:04:32"
+  },
+  {
+    "Nom": "Drouant",
+    "Adresse": "16-18 Rue Gaillon, 75002 Paris, France",
+    "Téléphone": "+33 1 42 65 15 16",
+    "Site Web": "drouant.com",
+    "Note": "4,2",
+    "Nombre d'avis": "(1 125)",
+    "Heure de scraping": "2025-08-18 17:04:37"
+  },
+  {
+    "Nom": "Bioburger Montorgueil",
+    "Adresse": "45 Rue des Petits Carreaux, 75002 Paris, France",
+    "Téléphone": "+33 1 42 86 15 09",
+    "Site Web": "restaurants.bioburger.fr",
+    "Note": "4,6",
+    "Nombre d'avis": "(1 682)",
+    "Heure de scraping": "2025-08-18 17:04:41"
+  },
+  {
+    "Nom": "Delhicious",
+    "Adresse": "33 bis Rue des Bourdonnais, 75001 Paris, France",
+    "Téléphone": "+33 1 42 21 09 95",
+    "Site Web": "delhicious.fr",
+    "Note": "4,5",
+    "Nombre d'avis": "(530)",
+    "Heure de scraping": "2025-08-18 17:04:46"
+  },
+  {
+    "Nom": "La Renommée",
+    "Adresse": "95 Rue Saint-Honoré, 75001 Paris, France",
+    "Téléphone": "+33 1 40 39 93 70",
+    "Site Web": "larenommeeparis.com",
+    "Note": "4,7",
+    "Nombre d'avis": "(378)",
+    "Heure de scraping": "2025-08-18 17:04:50"
+  },
+  {
+    "Nom": "Belushi's Gare Du Nord",
+    "Adresse": "5 Rue de Dunkerque, 75010 Paris, France",
+    "Téléphone": "+33 7 64 26 12 23",
+    "Site Web": "belushis.com",
+    "Note": "4,1",
+    "Nombre d'avis": "(2 878)",
+    "Heure de scraping": "2025-08-18 17:04:55"
+  },
+  {
+    "Nom": "KFC Paris Châtelet",
+    "Adresse": "31-35 Bd de Sébastopol, 75001 Paris, France",
+    "Téléphone": "+33 1 40 26 61 07",
+    "Site Web": "kfc.fr",
+    "Note": "3,6",
+    "Nombre d'avis": "(8 574)",
+    "Heure de scraping": "2025-08-18 17:04:59"
+  },
+  {
+    "Nom": "La Scène",
+    "Adresse": "32 Av. Matignon, 75008 Paris, France",
+    "Téléphone": "+33 1 42 65 05 61",
+    "Site Web": "la-scene.paris",
+    "Note": "4,7",
+    "Nombre d'avis": "(941)",
+    "Heure de scraping": "2025-08-18 17:05:04"
+  },
+  {
+    "Nom": "restaurant al assil",
+    "Adresse": "50 Bd de Magenta, 75010 Paris, France",
+    "Téléphone": "+33 1 71 50 04 00",
+    "Site Web": "restaurantalassil.shop",
+    "Note": "4,8",
+    "Nombre d'avis": "(1 047)",
+    "Heure de scraping": "2025-08-18 17:05:08"
+  },
+  {
+    "Nom": "H.A.N.D | Have A Nice Day",
+    "Adresse": "39 Rue de Richelieu, 75001 Paris, France",
+    "Téléphone": "+33 1 40 28 04 20",
+    "Site Web": "instagram.com",
+    "Note": "4,2",
+    "Nombre d'avis": "(600)",
+    "Heure de scraping": "2025-08-18 17:05:13"
+  },
+  {
+    "Nom": "Clasico Argentino Madame",
+    "Adresse": "46 Rue Madame, 75006 Paris, France",
+    "Téléphone": "+33 9 84 04 00 66",
+    "Site Web": "clasico-argentino.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(715)",
+    "Heure de scraping": "2025-08-18 17:05:17"
+  },
+  {
+    "Nom": "Quick Paris Sébastopol",
+    "Adresse": "25 Bd de Sébastopol, 75001 Paris, France",
+    "Téléphone": "+33 1 83 19 00 21",
+    "Site Web": "quick.fr",
+    "Note": "3,8",
+    "Nombre d'avis": "(1 961)",
+    "Heure de scraping": "2025-08-18 17:05:21"
+  },
+  {
+    "Nom": "Café de Paris",
+    "Adresse": "3 Rue de l'Échelle, 75001 Paris, France",
+    "Téléphone": "+33 1 42 60 84 26",
+    "Site Web": "cafe-de-paris-1er.fr",
+    "Note": "3,5",
+    "Nombre d'avis": "(1 213)",
+    "Heure de scraping": "2025-08-18 17:05:25"
+  },
+  {
+    "Nom": "Restaurant le Meurice Alain Ducasse",
+    "Adresse": "228 Rue de Rivoli, 75001 Paris, France",
+    "Téléphone": "+33 1 44 58 10 55",
+    "Site Web": "dorchestercollection.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(952)",
+    "Heure de scraping": "2025-08-18 17:05:29"
+  },
+  {
+    "Nom": "Brasserie Floderer -1909",
+    "Adresse": "7 Cr des Petites Écuries, 75010 Paris, France",
+    "Téléphone": "+33 1 40 00 28 01",
+    "Site Web": "floderer-paris.com",
+    "Note": "3,8",
+    "Nombre d'avis": "(1 491)",
+    "Heure de scraping": "2025-08-18 17:05:38"
+  },
+  {
+    "Nom": "Restaurant La Table d'Hami",
+    "Adresse": "5 Rue Daubenton, 75005 Paris, France",
+    "Téléphone": "+33 1 45 35 04 26",
+    "Site Web": "la-table-hami.fr",
+    "Note": "4,5",
+    "Nombre d'avis": "(553)",
+    "Heure de scraping": "2025-08-18 17:05:51"
+  },
+  {
+    "Nom": "Bistrot Gisèle",
+    "Adresse": "204 Rue St Denis, 75002 Paris, France",
+    "Téléphone": "+33 1 80 86 41 62",
+    "Site Web": "bistrotgisele.com",
+    "Note": "4,5",
+    "Nombre d'avis": "(407)",
+    "Heure de scraping": "2025-08-18 17:05:56"
+  },
+  {
+    "Nom": "French Beer Brasserie",
+    "Adresse": "Le Carroussel du Louvre, 99 Rue de Rivoli, 75001 Paris, France",
+    "Site Web": "foodcourtrivoli.fr",
+    "Note": "4,6",
+    "Nombre d'avis": "(366)",
+    "Heure de scraping": "2025-08-18 17:06:00"
+  },
+  {
+    "Nom": "Les Saveurs de l'Orient",
+    "Adresse": "43 Pass. des Panoramas, 75002 Paris, France",
+    "Téléphone": "+33 1 44 82 56 61",
+    "Site Web": "restaurant-les-saveurs-de-lorient-paris.fr",
+    "Note": "4,6",
+    "Nombre d'avis": "(3 437)",
+    "Heure de scraping": "2025-08-18 17:06:03"
+  },
+  {
+    "Nom": "L'Atelier",
+    "Adresse": "95 Bd du Montparnasse, 75006 Paris, France",
+    "Téléphone": "+33 9 54 45 65 15",
+    "Note": "3,7",
+    "Nombre d'avis": "(877)",
+    "Heure de scraping": "2025-08-18 17:06:08"
+  },
+  {
+    "Nom": "Le Grand Véfour",
+    "Adresse": "17 Rue de Beaujolais, 75001 Paris, France",
+    "Téléphone": "+33 1 42 96 56 27",
+    "Site Web": "grand-vefour.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(1 480)",
+    "Heure de scraping": "2025-08-18 17:06:12"
+  },
+  {
+    "Nom": "inavoué restaurant",
+    "Adresse": "4 Imp. Gomboust, 75001 Paris, France",
+    "Téléphone": "+33 1 40 20 09 28",
+    "Site Web": "inavoue.com",
+    "Note": "4,2",
+    "Nombre d'avis": "(1 156)",
+    "Heure de scraping": "2025-08-18 17:06:17"
+  },
+  {
+    "Nom": "Domaine d'Olléac",
+    "Adresse": "20 Rue Rousselet, 75007 Paris, France",
+    "Téléphone": "+33 1 45 66 88 23",
+    "Site Web": "dolleac.com",
+    "Note": "4,5",
+    "Nombre d'avis": "(442)",
+    "Heure de scraping": "2025-08-18 17:06:21"
+  },
+  {
+    "Nom": "Le 975 - Restaurant Paris 18",
+    "Adresse": "185 Rue Marcadet, 75018 Paris, France",
+    "Téléphone": "+33 9 54 95 71 58",
+    "Site Web": "le975.com",
+    "Note": "4,8",
+    "Nombre d'avis": "(1 306)",
+    "Heure de scraping": "2025-08-18 17:06:24"
+  },
+  {
+    "Nom": "Le Camion Qui Fume",
+    "Adresse": "6 Rue Grégoire de Tours, 75006 Paris, France",
+    "Téléphone": "+33 1 84 16 33 75",
+    "Site Web": "lecamionquifume.com",
+    "Note": "4,6",
+    "Nombre d'avis": "(795)",
+    "Heure de scraping": "2025-08-18 17:06:29"
+  },
+  {
+    "Nom": "Le First",
+    "Adresse": "3 Rue de Castiglione, 75001 Paris, France",
+    "Téléphone": "+33 1 44 77 10 40",
+    "Site Web": "terrasseparisvendome.com",
+    "Note": "4,2",
+    "Nombre d'avis": "(241)",
+    "Heure de scraping": "2025-08-18 17:06:33"
+  },
+  {
+    "Nom": "Lapérouse",
+    "Adresse": "51 Quai des Grands Augustins, 75006 Paris, France",
+    "Téléphone": "+33 1 43 26 68 04",
+    "Site Web": "laperouse.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(1 933)",
+    "Heure de scraping": "2025-08-18 17:06:37"
+  },
+  {
+    "Nom": "Eats Thyme",
+    "Adresse": "44 Rue Coquillière, 75001 Paris, France",
+    "Téléphone": "+33 1 42 33 21 15",
+    "Site Web": "eatsthyme.com",
+    "Note": "4,3",
+    "Nombre d'avis": "(740)",
+    "Heure de scraping": "2025-08-18 17:06:41"
+  },
+  {
+    "Nom": "Agapi - Choiseul",
+    "Adresse": "45 Pass. Choiseul, 75002 Paris, France",
+    "Site Web": "facebook.com",
+    "Note": "4,3",
+    "Nombre d'avis": "(88)",
+    "Heure de scraping": "2025-08-18 17:06:45"
+  },
+  {
+    "Nom": "Café 52 - Paris 1",
+    "Adresse": "4 Rue de Valois, 75001 Paris, France",
+    "Téléphone": "+33 1 42 96 72 20",
+    "Site Web": "grandhoteldupalaisroyal.com",
+    "Note": "4,3",
+    "Nombre d'avis": "(126)",
+    "Heure de scraping": "2025-08-18 17:06:49"
+  },
+  {
+    "Nom": "Le Grand Restaurant - Jean-François Piège",
+    "Adresse": "7 Rue d'Aguesseau, 75008 Paris, France",
+    "Téléphone": "+33 1 53 05 00 00",
+    "Site Web": "jeanfrançoispiege.com",
+    "Note": "4,4",
+    "Nombre d'avis": "(467)",
+    "Heure de scraping": "2025-08-18 17:06:54"
+  }
+]

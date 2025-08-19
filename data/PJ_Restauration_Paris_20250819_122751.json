@@ -1,0 +1,142 @@
+[
+  {
+    "Nom": "Le Caveau de l'Isle",
+    "Téléphone": "01 43 25 10 26",
+    "Adresse": "36 rue St Louis en l'Ile 75004 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 15h00",
+    "Heure de scraping": "2025-08-19 12:27:13"
+  },
+  {
+    "Nom": "Restaurant Tipaza",
+    "Téléphone": "01 45 54 01 17",
+    "Adresse": "155 rue St Charles 75015 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 14h30",
+    "Heure de scraping": "2025-08-19 12:27:14"
+  },
+  {
+    "Nom": "Grand Zino",
+    "Téléphone": "01 44 40 45 10, 01 45 78 92 37",
+    "Adresse": "97 avenue Villiers 75017 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 15h00",
+    "Heure de scraping": "2025-08-19 12:27:14"
+  },
+  {
+    "Nom": "Santa Carne",
+    "Téléphone": "01 42 72 03 07",
+    "Adresse": "3 boulevard Richard Lenoir 75011 Paris Voir le plan",
+    "Horaires": "Ouvre à 19h00",
+    "Heure de scraping": "2025-08-19 12:27:15"
+  },
+  {
+    "Nom": "Espace Aurore",
+    "Téléphone": "01 53 94 51 00, 01 53 94 51 02",
+    "Adresse": "23 rue Terres au Curé 75013 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 14h00",
+    "Heure de scraping": "2025-08-19 12:27:16"
+  },
+  {
+    "Nom": "Nanwich Riquet",
+    "Téléphone": "01 44 53 91 70, 07 53 82 93 01",
+    "Adresse": "56 rue Riquet 75019 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 00h00",
+    "Heure de scraping": "2025-08-19 12:27:17"
+  },
+  {
+    "Nom": "SAS TABLE NEUF",
+    "Téléphone": "    01 83 89 08 78",
+    "Adresse": "10 rue Geoffroy Marie 75009 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 15h00",
+    "Heure de scraping": "2025-08-19 12:27:18"
+  },
+  {
+    "Nom": "Café le Marivaux",
+    "Téléphone": "01 42 96 40 66, 09 67 41 40 66",
+    "Adresse": "11 boulevard Italiens 75002 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 01h00",
+    "Heure de scraping": "2025-08-19 12:27:19"
+  },
+  {
+    "Nom": "Le Sirocco",
+    "Téléphone": "01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05",
+    "Adresse": "Restaurant 8 Bis rue Gobelins 75013 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 15h00",
+    "Heure de scraping": "2025-08-19 12:27:19"
+  },
+  {
+    "Nom": "Le Moghol",
+    "Téléphone": "01 40 06 90 36",
+    "Adresse": "26 rue Caumartin 75009 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 15h00",
+    "Heure de scraping": "2025-08-19 12:27:20"
+  },
+  {
+    "Nom": "Bal Du Moulin Rouge",
+    "Téléphone": "01 77 12 85 90, 01 53 09 82 82",
+    "Adresse": "82 boulevard Clichy 75018 Paris Voir le plan",
+    "Horaires": "Ouvre à 18h45",
+    "Heure de scraping": "2025-08-19 12:27:21"
+  },
+  {
+    "Nom": "Sweet And Salty",
+    "Téléphone": "01 43 47 12 98",
+    "Adresse": "7 rue Théophile Roussel 75012 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 16h00",
+    "Heure de scraping": "2025-08-19 12:27:21"
+  },
+  {
+    "Nom": "Café du Commerce",
+    "Téléphone": "07 72 17 02 88",
+    "Adresse": "39 rue Cinq Diamants 75013 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 14h30",
+    "Heure de scraping": "2025-08-19 12:27:22"
+  },
+  {
+    "Nom": "Kitchen Company",
+    "Téléphone": "06 74 18 18 48",
+    "Adresse": "1 rue Stockholm 75008 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 14h00",
+    "Heure de scraping": "2025-08-19 12:27:23"
+  },
+  {
+    "Nom": "Gabriela",
+    "Téléphone": "01 42 80 28 14",
+    "Adresse": "3 rue Milton 75009 Paris Voir le plan",
+    "Horaires": "Ouvre à 19h00",
+    "Heure de scraping": "2025-08-19 12:27:24"
+  },
+  {
+    "Nom": "L'Entracte",
+    "Téléphone": "01 47 42 26 25",
+    "Adresse": "1 rue Auber 75009 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 00h00",
+    "Heure de scraping": "2025-08-19 12:27:25"
+  },
+  {
+    "Nom": "Ty Louis",
+    "Téléphone": "06 73 08 54 13",
+    "Adresse": "240 rue Fbg St Antoine 75012 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 15h00",
+    "Heure de scraping": "2025-08-19 12:27:26"
+  },
+  {
+    "Nom": "Truffes Folies",
+    "Téléphone": "01 44 18 05 41, 06 03 26 56 24",
+    "Adresse": "37 rue Malar 75007 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 22h00",
+    "Heure de scraping": "2025-08-19 12:27:27"
+  },
+  {
+    "Nom": "Les Editeurs",
+    "Téléphone": "01 43 26 67 76",
+    "Adresse": "4 carrefour Odéon 75006 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 02h00",
+    "Heure de scraping": "2025-08-19 12:27:27"
+  },
+  {
+    "Nom": "Le 59",
+    "Téléphone": "01 80 50 00 29",
+    "Adresse": "59 rue Servan 75011 Paris Voir le plan",
+    "Horaires": "Ouvert jusqu'à 14h00",
+    "Heure de scraping": "2025-08-19 12:27:28"
+  }
+]

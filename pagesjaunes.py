@@ -213,50 +213,53 @@ def scrape_pages_jaunes(query, location, max_results=20):
         driver = configure_driver()
         encoded_query = urllib.parse.quote_plus(query.lower())
         encoded_location = urllib.parse.quote_plus(location.lower())
-        url = f"https://www.pagesjaunes.fr/recherche/{encoded_location}/{encoded_query}"
-        logger.info(f"Lancement du scraping pour {query} à {location}")
-        driver.get(url)
-        time.sleep(random.uniform(4, 6))
-
-        handle_cookies(driver)
-        WebDriverWait(driver, 25).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'li.bi'))
-        )
+        base_url = f"https://www.pagesjaunes.fr/recherche/{encoded_location}/{encoded_query}"
+        logger.info(f"Lancement du scraping pour '{query}' à '{location}'")
 
         results = []
+        seen_names = set()
         page_num = 1
 
         while len(results) < max_results:
-            logger.info(f"Scraping page {page_num} ...")
+            url_page = f"{base_url}?page={page_num}"
+            logger.info(f"Chargement de la page {page_num}: {url_page}")
+            driver.get(url_page)
 
-            # Récupérer les cartes visibles
-            cards = driver.find_elements(By.CSS_SELECTOR, 'li.bi')
-            for card in cards:
-                if len(results) >= max_results:
-                    break
-                data = extract_card_data(driver, card)
-                if data:
-                    results.append(data)
-                    logger.info(f"Extrait: {data['Nom']} | Tel: {data.get('Téléphone','N/A')}")
-
-            # Vérifier si bouton "Suivant" existe
             try:
-                next_btn = driver.find_element(By.CSS_SELECTOR, 'a#pagination-next')
-                if "disabled" in next_btn.get_attribute("class"):
-                    logger.info("Dernière page atteinte.")
-                    break
-                driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", next_btn)
-                time.sleep(random.uniform(1.5, 2.5))
-                driver.execute_script("arguments[0].click();", next_btn)
-                page_num += 1
                 WebDriverWait(driver, 20).until(
                     EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'li.bi'))
                 )
-                time.sleep(random.uniform(3, 5))
-            except Exception:
-                logger.info("Pas de bouton 'Suivant', fin du scraping.")
+            except:
+                logger.warning(f"Aucune carte trouvée sur la page {page_num}")
                 break
 
+            cards = driver.find_elements(By.CSS_SELECTOR, 'li.bi')
+            logger.info(f"{len(cards)} cartes détectées sur la page {page_num}")
+
+            for idx, card in enumerate(cards, start=1):
+                data = extract_card_data(driver, card)
+                if data:
+                    if data['Nom'] not in seen_names:
+                        results.append(data)
+                        seen_names.add(data['Nom'])
+                        logger.info(
+                            f"[Page {page_num} | Carte {idx}] {data['Nom']} | "
+                            f"Tél: {data.get('Téléphone','N/A')} | Adresse: {data.get('Adresse','N/A')}"
+                        )
+                    else:
+                        logger.info(f"[Page {page_num} | Carte {idx}] Doublon détecté: {data['Nom']}")
+                else:
+                    logger.warning(f"[Page {page_num} | Carte {idx}] Impossible d'extraire les données")
+
+            logger.info(f"Résultats cumulés: {len(results)} / {max_results}")
+            if len(results) >= max_results:
+                logger.info("Nombre maximal de résultats atteint.")
+                break
+
+            page_num += 1
+            time.sleep(random.uniform(2, 4))  # pause anti-bot
+
+        logger.info(f"Scraping terminé, total résultats: {len(results)}")
         return results[:max_results]
 
     except Exception as e:
@@ -267,6 +270,7 @@ def scrape_pages_jaunes(query, location, max_results=20):
     finally:
         if driver:
             driver.quit()
+
 
 
 def save_pj_results(results, query, location):

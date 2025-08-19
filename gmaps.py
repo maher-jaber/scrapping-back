@@ -117,22 +117,34 @@ def extract_all_businesses(driver):
         return []
 
 def scroll_to_load_results(driver, max_results):
-    container = driver.find_element(By.CSS_SELECTOR, 'div[aria-label^="Résultats pour"]')
-    seen = set()
-    scroll_attempts = 0
-    max_scroll_attempts = 20
+    try:
+        container = driver.find_element(By.CSS_SELECTOR, 'div[aria-label^="Résultats pour"]')
+        last_count = 0
+        scroll_attempts = 0
+        max_scroll_attempts = 15  # Augmenté
 
-    while len(seen) < max_results and scroll_attempts < max_scroll_attempts:
-        items = extract_all_businesses(driver)
-        for it in items:
-            seen.add(it)
-        driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight;", container)
-        time.sleep(random.uniform(1.5, 3))
-        new_count = len(extract_all_businesses(driver))
-        if new_count == len(seen):
-            scroll_attempts += 1
-        else:
-            scroll_attempts = 0
+        while scroll_attempts < max_scroll_attempts:
+            driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", container)
+            time.sleep(random.uniform(1.5, 3.0))
+            
+            items = extract_all_businesses(driver)
+            current_count = len(items)
+            
+            if current_count >= max_results:
+                break
+                
+            if current_count == last_count:
+                scroll_attempts += 1
+            else:
+                scroll_attempts = 0
+                last_count = current_count
+                
+            # Faire un scroll supplémentaire pour déclencher le chargement
+            driver.execute_script("window.scrollBy(0, 500)")
+            time.sleep(0.5)
+            
+    except Exception as e:
+        logger.warning(f"Erreur pendant le scroll: {str(e)}")
 
 def extract_business_details(driver):
     """Extracts business details, handling both café and dental cabinet formats."""
@@ -258,27 +270,35 @@ def scrape_google_maps(query, location, max_results):
         if not wait_for_results(driver):
             return []
 
-        scroll_to_load_results(driver, max_results)
+        # Charger plus de résultats que nécessaire car certains ne seront pas cliquables
+        scroll_to_load_results(driver, max_results * 2)  # Charger 2x plus que nécessaire
 
         results = []
         seen_names = set()
         idx = 0
+        max_attempts = max_results * 2  # Donner plus de chances
 
-        while idx < max_results:
+        while len(results) < max_results and idx < max_attempts:
             try:
                 items = extract_all_businesses(driver)
                 if idx >= len(items):
+                    logger.warning(f"Index {idx} dépasse le nombre d'items ({len(items)})")
                     break
 
                 item = items[idx]
                 driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", item)
-                time.sleep(0.8)
-                item.click()
+                time.sleep(random.uniform(0.8, 1.5))
+                
+                try:
+                    item.click()
+                except:
+                    # Essayer de cliquer via JavaScript si le click normal échoue
+                    driver.execute_script("arguments[0].click();", item)
 
                 WebDriverWait(driver, 10).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.DUwDvf'))
+                    EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.DUwDvf, h1.fontHeadlineLarge'))
                 )
-                time.sleep(1.5)
+                time.sleep(random.uniform(1.0, 2.0))
 
                 business_data = extract_business_details(driver)
 
@@ -287,28 +307,24 @@ def scrape_google_maps(query, location, max_results):
                     results.append(business_data)
                     logger.info(f"{len(results)}/{max_results}: {business_data['Nom']}")
 
-                # 🛑 Stop direct si on a atteint max_results
-                if len(results) >= max_results:
-                    break
-
                 if not close_details_panel(driver):
-                    logger.warning(f"Saut de l'élément {idx+1} (fermeture impossible)")
-                else:
-                    try:
-                        WebDriverWait(driver, 5).until(
-                            EC.presence_of_element_located((By.CSS_SELECTOR, 'div[aria-label^=\"Résultats pour\"]'))
-                        )
-                    except:
-                        logger.warning("Liste non réapparue, saut forcé")
+                    # Si on ne peut pas fermer, on recharge la page
+                    logger.warning("Rechargement de la page après échec de fermeture")
+                    driver.get(url)
+                    time.sleep(3)
+                    scroll_to_load_results(driver, max_results * 2)
+                    idx = 0  # Réinitialiser l'index après rechargement
+                    continue
 
-                time.sleep(random.uniform(0.8, 1.3))
+                time.sleep(random.uniform(0.5, 1.2))
 
             except Exception as e:
                 logger.error(f"Erreur sur l'élément {idx+1}: {str(e)}")
+                # Essayer de continuer malgré l'erreur
             finally:
                 idx += 1
 
-        return results
+        return results[:max_results]  # Au cas où on aurait dépassé
 
     except Exception as e:
         logger.error(f"Erreur majeure: {str(e)}", exc_info=True)
