@@ -8,6 +8,18 @@ import glob
 from fastapi.responses import JSONResponse
 from datetime import datetime
 import json
+import mysql.connector
+import hashlib
+from fastapi import Query
+from fastapi import Query as FQuery 
+
+db = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="",
+    database="scrapping_db"
+)
+cursor = db.cursor(dictionary=True)
 
 
 app = FastAPI()
@@ -45,11 +57,13 @@ def scrape_gmaps(request: SearchRequest):
     if not results:
         return {"status": "error", "message": "Aucun résultat trouvé"}
     
-    file_path = save_results(results, request.query, request.location)
+    normalized = [normalize_result(r) for r in results]
+    
+    ids = save_to_db(normalized, request.query, request.location, source="gmaps")
     return {
         "status": "success",
         "results": results,
-        "saved_file": file_path
+        "inserted_ids": ids
     }
 
 @app.post("/scrape/pagesjaunes")
@@ -62,42 +76,131 @@ def scrape_pj(request: SearchRequest):
     if not results:
         return {"status": "error", "message": "Aucun résultat trouvé"}
     
-    file_path = save_pj_results(results, request.query, request.location)
+    normalized = [normalize_result(r) for r in results]
+    
+    ids = save_to_db(normalized, request.query, request.location, source="pagesjaunes")
     return {
         "status": "success",
         "results": results,
-        "saved_file": file_path
+        "inserted_ids": ids
     }
 
 
-@app.get("/historique/list")
-def list_historique():
-    os.makedirs(DATA_DIR, exist_ok=True)
-    files = glob.glob(os.path.join(DATA_DIR, "*.json"))
-    files.sort(key=os.path.getmtime, reverse=True)
 
-    historique = []
-    for f in files:
-        mtime = os.path.getmtime(f)
-        historique.append({
-            "filename": os.path.basename(f),
-            "path": f,
-            "created": datetime.fromtimestamp(mtime).strftime("%Y-%m-%d %H:%M:%S"),
-            "mtime": mtime  # utile côté front si besoin
-        })
-    return JSONResponse(content={"files": historique})
 
-@app.get("/historique/{filename}")
-def get_historique_file(filename: str):
-    # Sécurité simple : pas de sous-dossiers
-    if "/" in filename or "\\" in filename:
-        raise HTTPException(status_code=400, detail="Nom de fichier invalide")
-    full_path = os.path.join(DATA_DIR, filename)
-    if not os.path.isfile(full_path):
-        raise HTTPException(status_code=404, detail="Fichier introuvable")
 
-    with open(full_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
+@app.get("/historique/all")
+def list_all_historique():
+    cursor = db.cursor(dictionary=True)
+    cursor.execute("""
+        SELECT h.id AS history_id, h.scraped_at, h.query, h.location, h.source,
+               d.id AS data_id, d.name, d.address, d.phone, d.website, d.plus_code, 
+               d.note, d.horaires
+        FROM scrape_history h
+        JOIN scraped_data d ON h.scraped_data_id = d.id
+        ORDER BY h.scraped_at DESC
+    """)
+    rows = cursor.fetchall()
+    return {"historique": rows}
 
-    # Normalise la réponse : {"results": [ ... ]}
-    return JSONResponse(content={"results": data})
+
+@app.get("/historique")
+def list_historique_paginated(
+    page: int = FQuery(1, ge=1),
+    per_page: int = FQuery(10, ge=1),
+    query: str = FQuery(None),
+    location: str = FQuery(None),
+    source: str = FQuery(None)
+):
+    offset = (page - 1) * per_page
+    cursor = db.cursor(dictionary=True)
+
+    # Construction dynamique du WHERE
+    filters = []
+    params = []
+
+    if query:
+        filters.append("h.query LIKE %s")
+        params.append(f"%{query}%")
+    if location:
+        filters.append("h.location LIKE %s")
+        params.append(f"%{location}%")
+    if source:
+        filters.append("h.source LIKE %s")
+        params.append(f"%{source}%")
+
+    where_clause = f"WHERE {' AND '.join(filters)}" if filters else ""
+
+    # Total entries pour pagination
+    cursor.execute(f"SELECT COUNT(*) AS total FROM scrape_history h {where_clause}", params)
+    total = cursor.fetchone()['total']
+
+    # Récupère uniquement la page demandée
+    cursor.execute(f"""
+        SELECT h.id AS history_id, h.scraped_at, h.query, h.location, h.source,
+               d.id AS data_id, d.name, d.address, d.phone, d.website, d.plus_code, 
+               d.note, d.horaires
+        FROM scrape_history h
+        JOIN scraped_data d ON h.scraped_data_id = d.id
+        {where_clause}
+        ORDER BY h.scraped_at DESC
+        LIMIT %s OFFSET %s
+    """, params + [per_page, offset])
+    rows = cursor.fetchall()
+
+    return {
+        "page": page,
+        "per_page": per_page,
+        "total": total,
+        "historique": rows
+    }
+
+
+def save_to_db(results, query, location, source="gmaps"):
+    cursor = db.cursor()
+    inserted_ids = []
+     
+    for r in results:
+        name = r.get("name")
+        address = r.get("address")
+        phone = r.get("phone")
+        website = r.get("website")
+        plus_code = r.get("plus_code")
+        note = r.get("note", None)
+        horaires = r.get("horaires", "")
+
+        # Génération d’un hash unique
+        unique_hash = hashlib.md5(f"{name}{address}{phone}".encode("utf-8")).hexdigest()
+
+        # Insertion ou récupération de l'ID existant
+        cursor.execute("""
+            INSERT INTO scraped_data (name, address, phone, website, plus_code, note, horaires, unique_hash)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            ON DUPLICATE KEY UPDATE id=LAST_INSERT_ID(id)
+        """, (name, address, phone, website, plus_code, note, horaires, unique_hash))
+
+        scraped_data_id = cursor.lastrowid
+        inserted_ids.append(scraped_data_id)
+
+        # Historique
+        cursor.execute("""
+            INSERT INTO scrape_history (scraped_data_id, source, query, location)
+            VALUES (%s, %s, %s, %s)
+        """, (scraped_data_id, source, query, location))
+
+    db.commit()
+    return inserted_ids
+
+def normalize_result(r: dict) -> dict:
+    """Convertit les clés FR -> EN pour correspondre à la DB"""
+    return {
+        "name": r.get("Nom"),
+        "address": r.get("Adresse"),
+        "phone": r.get("Téléphone"),
+        "website": r.get("Site Web"),
+        "note": r.get("Note"),
+        "reviews": r.get("Nombre d'avis"),
+        "scraped_at": r.get("Heure de scraping"),
+        "plus_code": r.get("Plus Code", None),
+        "horaires": r.get("Horaires", "")
+    }

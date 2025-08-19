@@ -7527,3 +7527,891 @@ Stacktrace:
 2025-08-19 14:13:26,185 - INFO - Retour à la liste (mobile).
 2025-08-19 14:13:27,327 - WARNING - Index 120 dépasse le nombre d'items (90)
 2025-08-19 14:13:29,780 - INFO - Résultats sauvegardés dans data/Restauration_Paris_20250819_141329.json
+2025-08-19 14:31:45,049 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-19 14:31:47,488 - INFO - Recherche: café bar à Paris
+2025-08-19 14:33:42,990 - INFO - 1/1000: Café de Paris V
+2025-08-19 14:33:43,040 - INFO - Retour à la liste (mobile).
+2025-08-19 14:33:47,499 - INFO - 2/1000: Carpe Diem Café - Paris
+2025-08-19 14:33:47,564 - INFO - Retour à la liste (mobile).
+2025-08-19 14:33:52,212 - INFO - 3/1000: Cubana Café , Soirées Salsa, Bar à Cocktails, Bar de nuit, Fumoir, Restaurant Montparnasse, Evjf,Evg.
+2025-08-19 14:33:52,254 - INFO - Retour à la liste (mobile).
+2025-08-19 14:33:56,749 - INFO - 4/1000: Restaurant Café Joséphine Paris 1
+2025-08-19 14:33:56,793 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:00,510 - INFO - 5/1000: Café A
+2025-08-19 14:34:00,552 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:04,522 - INFO - 6/1000: The Wellington
+2025-08-19 14:34:04,564 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:09,103 - INFO - 7/1000: Café Sans Nom - Brasserie Paris 20
+2025-08-19 14:34:09,145 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:12,696 - INFO - 8/1000: Le Peloton Café
+2025-08-19 14:34:12,736 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:17,279 - INFO - 9/1000: Bar La Petite
+2025-08-19 14:34:17,321 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:22,029 - INFO - 10/1000: Le Piment Café
+2025-08-19 14:34:22,075 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:26,003 - INFO - 11/1000: La Petite Porte...Cafe..bar..resto
+2025-08-19 14:34:26,045 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:30,759 - INFO - 12/1000: Le Bar
+2025-08-19 14:34:30,800 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:35,144 - INFO - 13/1000: Le Petit Café
+2025-08-19 14:34:35,190 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:39,568 - INFO - 14/1000: Café d’Auteur - Specialty Coffee shop & roaster
+2025-08-19 14:34:39,611 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:44,039 - INFO - 15/1000: L'Amphi Quai de Seine
+2025-08-19 14:34:44,084 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:48,060 - INFO - 16/1000: Paris Beaubourg
+2025-08-19 14:34:48,183 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:52,591 - INFO - 17/1000: Social Bar
+2025-08-19 14:34:52,639 - INFO - Retour à la liste (mobile).
+2025-08-19 14:34:57,066 - INFO - 18/1000: The Hood Paris
+2025-08-19 14:34:57,110 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:00,768 - INFO - 19/1000: Le Café de Paris Friedland
+2025-08-19 14:35:00,812 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:04,810 - INFO - 20/1000: BRASSERIE LE QUARTIER GÉNÉRAL
+2025-08-19 14:35:04,855 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:09,508 - INFO - 21/1000: La cantine de la Butte
+2025-08-19 14:35:09,552 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:14,128 - INFO - 22/1000: Kaffee bar 19
+2025-08-19 14:35:14,171 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:17,968 - INFO - 23/1000: La petite dernière - Bar Paris 18
+2025-08-19 14:35:18,010 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:22,015 - INFO - 24/1000: Le 153
+2025-08-19 14:35:22,059 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:26,082 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:30,541 - INFO - 25/1000: OUISTITI Paris
+2025-08-19 14:35:30,584 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:34,651 - INFO - 26/1000: Jozi Brunch Panthéon
+2025-08-19 14:35:34,694 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:38,408 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:42,755 - INFO - 27/1000: À Mon Café
+2025-08-19 14:35:42,799 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:46,789 - INFO - 28/1000: Le Paris Café
+2025-08-19 14:35:46,835 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:51,429 - INFO - 29/1000: Le tipsy
+2025-08-19 14:35:51,475 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:55,782 - INFO - 30/1000: Le Subterfuge
+2025-08-19 14:35:55,827 - INFO - Retour à la liste (mobile).
+2025-08-19 14:35:59,883 - INFO - 31/1000: Velvet Bar Paris
+2025-08-19 14:35:59,929 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:03,576 - INFO - 32/1000: Arty caffe
+2025-08-19 14:36:03,620 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:07,681 - INFO - 33/1000: La REcyclerie
+2025-08-19 14:36:07,726 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:12,877 - INFO - 34/1000: Café Petite
+2025-08-19 14:36:12,923 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:16,955 - INFO - 35/1000: Capitole café - Sébastopol
+2025-08-19 14:36:17,001 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:20,931 - INFO - 36/1000: Matamata - Coffee Bar
+2025-08-19 14:36:20,985 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:25,914 - INFO - 37/1000: The Place to... Gare de l'Est - Restaurant Pub Paris 10
+2025-08-19 14:36:25,961 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:30,579 - INFO - 38/1000: Le Dream Café
+2025-08-19 14:36:30,629 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:34,933 - INFO - 39/1000: Café Louise
+2025-08-19 14:36:34,984 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:39,283 - INFO - 40/1000: La Caféothèque de Paris
+2025-08-19 14:36:39,375 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:43,175 - INFO - 41/1000: L'Ours Bar
+2025-08-19 14:36:43,222 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:48,348 - INFO - 42/1000: The Bombardier
+2025-08-19 14:36:48,396 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:53,341 - INFO - 43/1000: Dalia
+2025-08-19 14:36:53,391 - INFO - Retour à la liste (mobile).
+2025-08-19 14:36:57,821 - INFO - 44/1000: The Hideout Paris Gare du Nord - Pub Paris
+2025-08-19 14:36:57,870 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:02,622 - INFO - 45/1000: Café Francoeur
+2025-08-19 14:37:02,669 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:06,703 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:11,078 - INFO - 46/1000: Le Café Noir
+2025-08-19 14:37:11,125 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:14,984 - INFO - 47/1000: Le Relais Du Vin - Paris
+2025-08-19 14:37:15,038 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:18,760 - INFO - 48/1000: Café Panis.
+2025-08-19 14:37:18,810 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:22,358 - INFO - 49/1000: Little Temple Bar
+2025-08-19 14:37:22,406 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:26,109 - INFO - 50/1000: Chez Loulou
+2025-08-19 14:37:26,159 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:30,693 - INFO - 51/1000: Gravity Bar
+2025-08-19 14:37:30,743 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:34,582 - INFO - 52/1000: CRAVAN Paris 6e
+2025-08-19 14:37:34,629 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:39,597 - INFO - 53/1000: Auto Passion Café
+2025-08-19 14:37:39,646 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:43,154 - INFO - 54/1000: Fitzgerald
+2025-08-19 14:37:43,202 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:47,766 - INFO - 55/1000: Le Nun's Café
+2025-08-19 14:37:47,816 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:52,095 - INFO - 56/1000: le Paris Halles
+2025-08-19 14:37:52,144 - INFO - Retour à la liste (mobile).
+2025-08-19 14:37:56,570 - INFO - 57/1000: Café Mélody
+2025-08-19 14:37:56,620 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:01,456 - INFO - 58/1000: Le Fontenoy
+2025-08-19 14:38:01,507 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:06,156 - INFO - 59/1000: Café-Restaurant Point Bar
+2025-08-19 14:38:06,212 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:10,830 - INFO - 60/1000: La Felicità
+2025-08-19 14:38:10,883 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:14,807 - INFO - 61/1000: Café Oz Rooftop - The Australian Bar
+2025-08-19 14:38:14,859 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:18,625 - INFO - 62/1000: Café Chéri
+2025-08-19 14:38:18,675 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:23,580 - INFO - 63/1000: Montezuma Café
+2025-08-19 14:38:23,633 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:27,690 - INFO - 64/1000: Café Odessa - Brasserie parisienne tendance
+2025-08-19 14:38:27,745 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:31,672 - INFO - 65/1000: Café de l'Arc
+2025-08-19 14:38:31,726 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:35,831 - INFO - 66/1000: 2bis café
+2025-08-19 14:38:35,884 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:40,101 - INFO - 67/1000: Le Nemours
+2025-08-19 14:38:40,152 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:44,482 - INFO - 68/1000: L'Endroit
+2025-08-19 14:38:44,535 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:48,451 - INFO - 69/1000: LE CROCODILE
+2025-08-19 14:38:48,504 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:52,268 - INFO - 70/1000: BDJ café
+2025-08-19 14:38:52,308 - INFO - Retour à la liste (mobile).
+2025-08-19 14:38:57,246 - INFO - 71/1000: Café Marguerite
+2025-08-19 14:38:57,300 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:00,753 - INFO - 72/1000: Café de Paris
+2025-08-19 14:39:00,793 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:04,826 - INFO - 73/1000: Les Blouses Blanches
+2025-08-19 14:39:04,922 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:09,076 - INFO - 74/1000: Pingwoo café-restaurant
+2025-08-19 14:39:09,128 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:13,184 - INFO - 75/1000: Le Biscornu
+2025-08-19 14:39:13,239 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:16,902 - INFO - 76/1000: Rosa Bonheur sur Seine
+2025-08-19 14:39:16,953 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:21,511 - INFO - 77/1000: Au Café de Paris
+2025-08-19 14:39:21,572 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:25,204 - INFO - 78/1000: CORNER CAFE
+2025-08-19 14:39:25,257 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:30,734 - INFO - 79/1000: Paco Bar
+2025-08-19 14:39:30,789 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:35,157 - INFO - 80/1000: The Highlander Pub
+2025-08-19 14:39:35,220 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:39,109 - INFO - 81/1000: la cave café
+2025-08-19 14:39:39,162 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:43,408 - INFO - 82/1000: Eden Park Pub Paris
+2025-08-19 14:39:43,463 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:48,192 - INFO - 83/1000: La Fac
+2025-08-19 14:39:48,246 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:52,835 - INFO - Retour à la liste (mobile).
+2025-08-19 14:39:57,624 - INFO - 84/1000: Forum Café
+2025-08-19 14:39:57,679 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:01,833 - INFO - 85/1000: Lobo Bar Paris
+2025-08-19 14:40:01,893 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:06,525 - INFO - 86/1000: Tribal Café
+2025-08-19 14:40:06,580 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:11,817 - INFO - 87/1000: BRASSERIE LE TAMBOUR
+2025-08-19 14:40:11,880 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:16,515 - INFO - 88/1000: Café Oz Châtelet - The Australian Bar
+2025-08-19 14:40:16,571 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:20,293 - INFO - 89/1000: Café du Cadran (Paris)
+2025-08-19 14:40:20,358 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:25,169 - INFO - 90/1000: Café Verlet
+2025-08-19 14:40:25,225 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:29,609 - INFO - 91/1000: Le Troquet bar
+2025-08-19 14:40:29,664 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:33,751 - INFO - 92/1000: Café Montorgueil
+2025-08-19 14:40:33,807 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:38,062 - INFO - 93/1000: Le Nid - Cocon Ludique (Bar à jeux & Boutique)
+2025-08-19 14:40:38,118 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:43,138 - INFO - 94/1000: Paris Europe
+2025-08-19 14:40:43,195 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:47,915 - INFO - 95/1000: Café Philippe
+2025-08-19 14:40:47,972 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:53,207 - INFO - 96/1000: Havane Café - Restaurant Paris 13
+2025-08-19 14:40:53,272 - INFO - Retour à la liste (mobile).
+2025-08-19 14:40:58,252 - INFO - 97/1000: Hôtel Le 5 Particulier
+2025-08-19 14:40:58,311 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:02,678 - INFO - 98/1000: Mama Restaurant Paris West
+2025-08-19 14:41:02,734 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:06,563 - INFO - 99/1000: Le Gossip Café
+2025-08-19 14:41:06,621 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:11,272 - INFO - 100/1000: Sunset
+2025-08-19 14:41:11,330 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:15,669 - INFO - 101/1000: Liebe - Bar Electro
+2025-08-19 14:41:15,730 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:19,855 - INFO - 102/1000: Le 99 Café
+2025-08-19 14:41:19,917 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:24,173 - INFO - 103/1000: The Frog & British Library
+2025-08-19 14:41:24,233 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:27,682 - INFO - 104/1000: Cafe Bar Brasserie
+2025-08-19 14:41:27,746 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:31,387 - INFO - 105/1000: CAFÉ PALAIS ROYAL
+2025-08-19 14:41:31,450 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:35,265 - INFO - 106/1000: Le Picoti Bar
+2025-08-19 14:41:35,327 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:39,064 - INFO - 107/1000: Le Mayday
+2025-08-19 14:41:39,127 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:43,847 - INFO - 108/1000: Café Marcel
+2025-08-19 14:41:43,907 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:47,597 - INFO - 109/1000: Café Paulette brasserie
+2025-08-19 14:41:47,656 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:52,301 - INFO - 110/1000: Hide Pub / Club Châtelet
+2025-08-19 14:41:52,365 - INFO - Retour à la liste (mobile).
+2025-08-19 14:41:57,364 - INFO - 111/1000: La Rotonde Bastille
+2025-08-19 14:41:57,530 - INFO - Retour à la liste (mobile).
+2025-08-19 14:42:02,266 - INFO - 112/1000: L'Atelier
+2025-08-19 14:42:02,327 - INFO - Retour à la liste (mobile).
+2025-08-19 14:42:06,896 - INFO - 113/1000: Le Moulin à Café
+2025-08-19 14:42:06,974 - INFO - Retour à la liste (mobile).
+2025-08-19 14:42:11,427 - INFO - 114/1000: Cozy
+2025-08-19 14:42:11,484 - INFO - Retour à la liste (mobile).
+2025-08-19 14:42:15,680 - INFO - 115/1000: Au Petit Bar
+2025-08-19 14:42:15,741 - INFO - Retour à la liste (mobile).
+2025-08-19 14:42:20,136 - INFO - 116/1000: CHOPE - MOI Pigalle
+2025-08-19 14:42:20,188 - INFO - Retour à la liste (mobile).
+2025-08-19 14:42:21,406 - WARNING - Index 120 dépasse le nombre d'items (90)
+2025-08-19 14:42:23,904 - INFO - --- Recherche pour mot-clé: brasserie ---
+2025-08-19 14:42:25,588 - INFO - Recherche: brasserie à Paris
+2025-08-19 14:44:27,408 - INFO - 1/884: Brasserie Bellanger
+2025-08-19 14:44:27,461 - INFO - Retour à la liste (mobile).
+2025-08-19 14:44:31,539 - INFO - 2/884: Bofinger
+2025-08-19 14:44:31,589 - INFO - Retour à la liste (mobile).
+2025-08-19 14:44:35,615 - INFO - 3/884: Brasserie de la Bourse
+2025-08-19 14:44:35,658 - INFO - Retour à la liste (mobile).
+2025-08-19 14:44:39,544 - INFO - 4/884: Au Pied de Cochon
+2025-08-19 14:44:39,586 - INFO - Retour à la liste (mobile).
+2025-08-19 14:44:43,254 - INFO - 5/884: Brasserie Lipp
+2025-08-19 14:44:43,296 - INFO - Retour à la liste (mobile).
+2025-08-19 14:44:47,120 - INFO - 6/884: Brasserie Barbès
+2025-08-19 14:44:47,160 - INFO - Retour à la liste (mobile).
+2025-08-19 14:44:51,962 - INFO - 7/884: La Coupole
+2025-08-19 14:44:52,005 - INFO - Retour à la liste (mobile).
+2025-08-19 14:44:56,974 - INFO - 8/884: Brasserie du Louvre
+2025-08-19 14:44:57,017 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:01,804 - INFO - 9/884: Bouillon République
+2025-08-19 14:45:01,850 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:05,894 - INFO - 10/884: Le Paris Paris
+2025-08-19 14:45:05,938 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:10,394 - INFO - 11/884: Bouillon Chartier Grands Boulevards
+2025-08-19 14:45:10,437 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:14,391 - INFO - 12/884: Bouillon Julien
+2025-08-19 14:45:14,434 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:18,513 - INFO - 13/884: Brasserie de la Tour Eiffel
+2025-08-19 14:45:18,556 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:23,368 - INFO - 14/884: Brasserie Floderer -1909
+2025-08-19 14:45:23,415 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:27,626 - INFO - 15/884: Le Grand Colbert
+2025-08-19 14:45:27,669 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:31,827 - INFO - 16/884: Le Royal
+2025-08-19 14:45:31,871 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:36,616 - INFO - 17/884: Grand Café Capucines
+2025-08-19 14:45:36,659 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:40,791 - INFO - 18/884: Le 217 Brasserie Restaurant
+2025-08-19 14:45:40,836 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:45,129 - INFO - 19/884: Balzar | Brasserie | Paris | Saint Germain des Près
+2025-08-19 14:45:45,175 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:49,790 - INFO - 20/884: Le Kléber Brasserie
+2025-08-19 14:45:49,832 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:53,830 - INFO - Retour à la liste (mobile).
+2025-08-19 14:45:57,901 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:02,348 - INFO - 21/884: Brasserie Rosie
+2025-08-19 14:46:02,395 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:06,758 - INFO - 22/884: Brasserie Pastis
+2025-08-19 14:46:06,803 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:10,754 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:15,175 - INFO - 23/884: Terminus Nord
+2025-08-19 14:46:15,219 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:19,332 - INFO - 24/884: Brasserie Flottes
+2025-08-19 14:46:19,379 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:23,412 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:27,603 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:31,879 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:35,718 - INFO - 25/884: Paris Beaubourg
+2025-08-19 14:46:35,765 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:39,527 - INFO - 26/884: Le Carré Élysée
+2025-08-19 14:46:39,571 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:43,669 - INFO - 27/884: Brasserie de l'Hôtel du Nord
+2025-08-19 14:46:43,714 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:48,161 - INFO - 28/884: Brasserie À la place Saint Georges - Paris 09
+2025-08-19 14:46:48,207 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:51,913 - INFO - 29/884: Les Parisiens Restaurant by Thibault Sombardier
+2025-08-19 14:46:51,957 - INFO - Retour à la liste (mobile).
+2025-08-19 14:46:56,657 - INFO - 30/884: Brasserie Riviera
+2025-08-19 14:46:56,704 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:01,413 - INFO - 31/884: Le Select (Paris)
+2025-08-19 14:47:01,459 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:05,631 - INFO - 32/884: Le Paris Rome
+2025-08-19 14:47:05,679 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:10,127 - INFO - 33/884: Brasserie Le Moncey
+2025-08-19 14:47:10,175 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:14,546 - INFO - 34/884: Brasserie des Arts
+2025-08-19 14:47:14,603 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:19,702 - INFO - 35/884: Brasserie Lutetia
+2025-08-19 14:47:19,750 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:23,147 - INFO - 36/884: Baroche
+2025-08-19 14:47:23,193 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:27,953 - INFO - 37/884: Au Bourguignon du Marais
+2025-08-19 14:47:28,012 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:32,646 - INFO - 38/884: Le Zinc d'Honoré
+2025-08-19 14:47:32,692 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:36,666 - INFO - 39/884: L’Empire Brasserie
+2025-08-19 14:47:36,713 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:40,826 - INFO - 40/884: Brasserie Chateau Landon
+2025-08-19 14:47:40,879 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:44,445 - INFO - 41/884: La Terrasse du 7
+2025-08-19 14:47:44,490 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:48,414 - INFO - 42/884: La Forge
+2025-08-19 14:47:48,468 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:52,799 - INFO - 43/884: Le Wepler
+2025-08-19 14:47:52,848 - INFO - Retour à la liste (mobile).
+2025-08-19 14:47:57,026 - INFO - 44/884: CAMILA
+2025-08-19 14:47:57,075 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:00,383 - INFO - 45/884: Chouchou
+2025-08-19 14:48:00,508 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:05,410 - INFO - 46/884: Le Paris Café
+2025-08-19 14:48:05,458 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:10,072 - INFO - 47/884: O'Neil
+2025-08-19 14:48:10,121 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:13,723 - INFO - 48/884: Brasserie de l'Europe (tabac)
+2025-08-19 14:48:13,772 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:19,032 - INFO - 49/884: Benoit Paris
+2025-08-19 14:48:19,082 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:23,330 - INFO - 50/884: Mon Paris !
+2025-08-19 14:48:23,392 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:28,330 - INFO - 51/884: Le Jéroboam
+2025-08-19 14:48:28,383 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:32,118 - INFO - 52/884: Le Royal Bar
+2025-08-19 14:48:32,166 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:37,184 - INFO - 53/884: Le vrai Paris
+2025-08-19 14:48:37,235 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:41,897 - INFO - 54/884: Brasserie Le Royal 11
+2025-08-19 14:48:41,959 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:46,705 - INFO - 55/884: le Paris Halles
+2025-08-19 14:48:46,761 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:51,109 - INFO - 56/884: Les Mains d’Or
+2025-08-19 14:48:51,161 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:54,647 - INFO - 57/884: Restaurant Mollard
+2025-08-19 14:48:54,697 - INFO - Retour à la liste (mobile).
+2025-08-19 14:48:58,196 - INFO - 58/884: Le Grand Palais
+2025-08-19 14:48:58,246 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:01,638 - INFO - 59/884: Brasserie La Lorraine
+2025-08-19 14:49:01,690 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:06,330 - INFO - 60/884: Le Bosquet
+2025-08-19 14:49:06,385 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:10,592 - INFO - 61/884: Restaurant Café Joséphine Paris 1
+2025-08-19 14:49:10,660 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:14,442 - INFO - 62/884: Le Petit Marcel
+2025-08-19 14:49:14,498 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:18,263 - INFO - 63/884: PARIS PROVENCE
+2025-08-19 14:49:18,315 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:21,922 - INFO - 64/884: Brasserie les Petits Carreaux
+2025-08-19 14:49:21,975 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:26,187 - INFO - 65/884: Brasserie des Champs
+2025-08-19 14:49:26,239 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:30,355 - INFO - 66/884: Brasserie Madeleine
+2025-08-19 14:49:30,408 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:34,337 - INFO - 67/884: Brasserie l'Émil
+2025-08-19 14:49:34,401 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:38,775 - INFO - 68/884: Brasserie de l'Être
+2025-08-19 14:49:38,832 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:42,919 - INFO - 69/884: La Dame de Paris
+2025-08-19 14:49:42,981 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:47,120 - INFO - 70/884: French Beer Brasserie
+2025-08-19 14:49:47,173 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:52,212 - INFO - 71/884: L'Atlas - Paris
+2025-08-19 14:49:52,267 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:55,460 - INFO - 72/884: Jeannot et Colin
+2025-08-19 14:49:55,517 - INFO - Retour à la liste (mobile).
+2025-08-19 14:49:59,952 - INFO - 73/884: Café Odessa - Brasserie parisienne tendance
+2025-08-19 14:50:00,014 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:03,913 - INFO - 74/884: Au Vieux Comptoir
+2025-08-19 14:50:03,967 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:08,663 - INFO - 75/884: Paris Pyla
+2025-08-19 14:50:08,717 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:12,974 - INFO - 76/884: Maria Belza
+2025-08-19 14:50:13,032 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:17,485 - INFO - 77/884: Faubourg 34 - Restaurant paris 9
+2025-08-19 14:50:17,544 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:22,389 - INFO - 78/884: Chez Pradel
+2025-08-19 14:50:22,447 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:26,135 - INFO - 79/884: Buvette Paris
+2025-08-19 14:50:26,194 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:30,380 - INFO - 80/884: Le Petit Marché
+2025-08-19 14:50:30,447 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:35,134 - INFO - 81/884: Bistrot Gisèle
+2025-08-19 14:50:35,198 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:39,633 - INFO - 82/884: Brasserie Le Wallace
+2025-08-19 14:50:39,687 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:43,817 - INFO - 83/884: La Place - Restaurant Brasserie Paris 13
+2025-08-19 14:50:43,878 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:48,773 - INFO - 84/884: Brasserie Saint-Malo
+2025-08-19 14:50:48,829 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:52,351 - INFO - 85/884: La Bonne Bière
+2025-08-19 14:50:52,409 - INFO - Retour à la liste (mobile).
+2025-08-19 14:50:56,336 - INFO - 86/884: Le Mabillon - Paris
+2025-08-19 14:50:56,393 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:00,285 - INFO - 87/884: Le Relais de l'Entrecôte Marbeuf
+2025-08-19 14:51:00,339 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:04,214 - INFO - 88/884: Valois - Paris
+2025-08-19 14:51:04,269 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:08,172 - INFO - 89/884: Brasserie LAURA
+2025-08-19 14:51:08,229 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:12,377 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:16,546 - INFO - 90/884: Le Train Bleu
+2025-08-19 14:51:16,604 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:21,145 - INFO - 91/884: Le Florès
+2025-08-19 14:51:21,210 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:25,613 - INFO - 92/884: Café Madame Restaurant
+2025-08-19 14:51:25,670 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:30,840 - INFO - 93/884: Brasserie Le Paris
+2025-08-19 14:51:30,909 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:35,370 - INFO - 94/884: Le Napoléon III
+2025-08-19 14:51:35,429 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:39,492 - INFO - 95/884: La Bonne Franquette
+2025-08-19 14:51:39,571 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:43,678 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:47,389 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:51,033 - INFO - 96/884: Le Sancerre
+2025-08-19 14:51:51,091 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:54,625 - INFO - 97/884: Fitzgerald
+2025-08-19 14:51:54,685 - INFO - Retour à la liste (mobile).
+2025-08-19 14:51:59,412 - INFO - 98/884: La Scène
+2025-08-19 14:51:59,484 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:03,187 - INFO - 99/884: Brasserie Les Deux Théâtres
+2025-08-19 14:52:03,248 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:07,644 - INFO - 100/884: Le Triomphe
+2025-08-19 14:52:07,708 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:12,004 - INFO - 101/884: Le Singe À Paris
+2025-08-19 14:52:12,067 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:16,627 - INFO - 102/884: La Grande Brasserie
+2025-08-19 14:52:16,689 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:20,690 - INFO - 103/884: LE BONAPARTE - RESTAURANT BISTROT PARIS 6
+2025-08-19 14:52:20,755 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:24,722 - INFO - 104/884: Restaurant Le Laborde
+2025-08-19 14:52:24,782 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:28,297 - INFO - 105/884: Le P'tit Lecourbe
+2025-08-19 14:52:28,354 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:33,824 - INFO - 106/884: Le Café de Paris Friedland
+2025-08-19 14:52:33,888 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:38,290 - INFO - 107/884: Le Voltaire
+2025-08-19 14:52:38,354 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:42,757 - INFO - 108/884: Au Bon Coin
+2025-08-19 14:52:42,820 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:47,127 - INFO - 109/884: Le Café du Commerce
+2025-08-19 14:52:47,193 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:52,240 - INFO - 110/884: Le Carrefour
+2025-08-19 14:52:52,303 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:56,431 - INFO - 111/884: La Méthode - Restaurant Paris 5
+2025-08-19 14:52:56,483 - INFO - Retour à la liste (mobile).
+2025-08-19 14:52:57,338 - WARNING - Index 120 dépasse le nombre d'items (72)
+2025-08-19 14:52:59,759 - INFO - --- Recherche pour mot-clé: caviste ---
+2025-08-19 14:53:01,488 - INFO - Recherche: caviste à Paris
+2025-08-19 14:54:58,956 - INFO - 1/780: Cavavin - Paris Les Halles
+2025-08-19 14:54:59,003 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:03,027 - INFO - 2/780: Cave Arthus et Jean - Caviste/Dégustation - Paris 3ème Marais
+2025-08-19 14:55:03,067 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:07,809 - INFO - 3/780: La Cave du Sénat
+2025-08-19 14:55:07,849 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:12,356 - INFO - 4/780: Caviste Vinosfera - Dégustations - Vins et Champagne
+2025-08-19 14:55:12,397 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:17,009 - INFO - 5/780: Divvino Marais
+2025-08-19 14:55:17,051 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:21,646 - INFO - 6/780: La Cave des Tuileries
+2025-08-19 14:55:21,694 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:26,558 - INFO - 7/780: La Cave de Tolbiac
+2025-08-19 14:55:26,600 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:30,097 - INFO - 8/780: La Chablisienne Cave Saint-Paul
+2025-08-19 14:55:30,139 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:33,923 - INFO - 9/780: LAVINIA
+2025-08-19 14:55:33,964 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:37,767 - INFO - 10/780: La Cave de Belleville
+2025-08-19 14:55:37,802 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:42,250 - INFO - 11/780: Ampelos
+2025-08-19 14:55:42,292 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:47,329 - INFO - 12/780: Ici-même
+2025-08-19 14:55:47,372 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:51,992 - INFO - 13/780: Cave Ponthieu
+2025-08-19 14:55:52,032 - INFO - Retour à la liste (mobile).
+2025-08-19 14:55:55,990 - INFO - 14/780: Les Caves du Louvre
+2025-08-19 14:55:56,032 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:00,163 - INFO - 15/780: Hapiwine Shop
+2025-08-19 14:56:00,205 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:03,970 - INFO - 16/780: La Maison des Millésimes
+2025-08-19 14:56:04,015 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:08,137 - INFO - 17/780: Les Caves de la Mère Germaine
+2025-08-19 14:56:08,179 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:12,229 - INFO - 18/780: La Cave du Cherche-Midi
+2025-08-19 14:56:12,297 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:16,469 - INFO - 19/780: L'Ange rouge - Caviste - Pigalle
+2025-08-19 14:56:16,511 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:21,195 - INFO - 20/780: Les Caprices de l'Instant
+2025-08-19 14:56:21,236 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:24,806 - INFO - 21/780: la Hotte du Caviste
+2025-08-19 14:56:24,851 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:29,833 - INFO - 22/780: La Cave des Climats
+2025-08-19 14:56:29,877 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:33,834 - INFO - 23/780: Caves Bossetti
+2025-08-19 14:56:33,878 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:38,496 - INFO - 24/780: La Cave, à la Bastille
+2025-08-19 14:56:38,540 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:42,460 - INFO - 25/780: Le Petit Ballon
+2025-08-19 14:56:42,503 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:46,569 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:51,466 - INFO - 26/780: Caves Pouchet - détaillant et marchand en vin - Paris
+2025-08-19 14:56:51,508 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:56,233 - INFO - 27/780: Cave Sophie Germain
+2025-08-19 14:56:56,278 - INFO - Retour à la liste (mobile).
+2025-08-19 14:56:59,860 - INFO - 28/780: La Cave Caulaincourt
+2025-08-19 14:56:59,905 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:04,107 - INFO - 29/780: Les Caves Saint-Martin
+2025-08-19 14:57:04,154 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:08,064 - INFO - 30/780: Nicolas Marbeuf
+2025-08-19 14:57:08,107 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:11,861 - INFO - 31/780: La Compagnie du Mieux Boire - Cave à spiritueux Paris 11
+2025-08-19 14:57:11,904 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:15,684 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:19,786 - INFO - 32/780: CAVAVIN - Paris 9
+2025-08-19 14:57:19,834 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:24,735 - INFO - 33/780: La Carte Des Vins
+2025-08-19 14:57:24,788 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:28,496 - INFO - 34/780: CAVE EN TERRASSE
+2025-08-19 14:57:28,540 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:32,594 - INFO - 35/780: Cave à vin Bermani père & fils
+2025-08-19 14:57:32,639 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:36,992 - INFO - 36/780: Le Repaire de Bacchus
+2025-08-19 14:57:37,037 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:40,960 - INFO - 37/780: 59 Vins
+2025-08-19 14:57:41,007 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:44,742 - INFO - 38/780: Caves Augé
+2025-08-19 14:57:44,801 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:49,587 - INFO - 39/780: Les Caves de Courcelles
+2025-08-19 14:57:49,637 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:53,854 - INFO - Retour à la liste (mobile).
+2025-08-19 14:57:57,968 - INFO - 40/780: Enoteca Midi
+2025-08-19 14:57:58,018 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:02,711 - INFO - 41/780: Cave de Chaillot
+2025-08-19 14:58:02,757 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:07,447 - INFO - 42/780: nysa cavistes.
+2025-08-19 14:58:07,502 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:11,546 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:16,001 - INFO - 43/780: Secret wine door
+2025-08-19 14:58:16,048 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:20,368 - INFO - 44/780: In Natura Voluptas - Caviste Paris 13e
+2025-08-19 14:58:20,415 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:24,039 - INFO - 45/780: Cultures Caves
+2025-08-19 14:58:24,086 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:28,080 - INFO - 46/780: Les Grandes Caves
+2025-08-19 14:58:28,125 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:32,111 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:35,343 - INFO - 47/780: La Cave du Canal, Cave et Bar à Vin
+2025-08-19 14:58:35,390 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:39,257 - INFO - 48/780: Cave Les Piqueurs
+2025-08-19 14:58:39,307 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:43,031 - INFO - 49/780: La cave des papilles
+2025-08-19 14:58:43,079 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:47,122 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:51,450 - INFO - Retour à la liste (mobile).
+2025-08-19 14:58:56,262 - INFO - 50/780: La Cave de Sèvres
+2025-08-19 14:58:56,312 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:00,750 - INFO - 51/780: Cave Peret
+2025-08-19 14:59:00,800 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:04,366 - INFO - 52/780: Caves Bardou (Gare de l'Est)
+2025-08-19 14:59:04,415 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:09,449 - INFO - 53/780: La P'tite Cave
+2025-08-19 14:59:09,500 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:13,982 - INFO - 54/780: CAVAVIN - Paris 14
+2025-08-19 14:59:14,033 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:18,471 - INFO - 55/780: Les Caves Parisiennes
+2025-08-19 14:59:18,523 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:22,531 - INFO - 56/780: La Dernière Goutte
+2025-08-19 14:59:22,580 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:25,905 - INFO - 57/780: Le sourire au pied de l'échelle
+2025-08-19 14:59:25,962 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:30,218 - INFO - 58/780: Les Caves de Prague
+2025-08-19 14:59:30,270 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:34,843 - INFO - 59/780: La Maison des Bulles
+2025-08-19 14:59:34,892 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:39,651 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:43,721 - INFO - 60/780: Le Vin qui Parle
+2025-08-19 14:59:43,779 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:47,996 - INFO - 61/780: Cave 18
+2025-08-19 14:59:48,067 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:52,675 - INFO - 62/780: LQV Le Quinze Vins Paris
+2025-08-19 14:59:52,728 - INFO - Retour à la liste (mobile).
+2025-08-19 14:59:57,135 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:00,886 - INFO - 63/780: Aux Vins Vivants Richer - Caviste BIO & Vin nature
+2025-08-19 15:00:00,941 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:05,264 - INFO - 64/780: Les Caves du Roy
+2025-08-19 15:00:05,313 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:09,716 - INFO - 65/780: Les Caves de Taillevent Faubourg Saint-Honoré
+2025-08-19 15:00:09,767 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:13,657 - INFO - 66/780: La Cave des Quais
+2025-08-19 15:00:13,708 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:18,192 - INFO - 67/780: Vivres - cave et épicerie Paris 14
+2025-08-19 15:00:18,247 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:21,849 - INFO - 68/780: La Cave Mieux Paris 9
+2025-08-19 15:00:21,903 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:25,964 - INFO - 69/780: Cavavin Paris 18
+2025-08-19 15:00:26,016 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:30,851 - INFO - 70/780: La new cave
+2025-08-19 15:00:30,907 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:35,630 - INFO - 71/780: Le Cellier d'Alésia
+2025-08-19 15:00:35,684 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:39,503 - INFO - 72/780: La Cave Vignon
+2025-08-19 15:00:39,558 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:43,874 - INFO - 73/780: Les Domaines Qui Montent - Ballu
+2025-08-19 15:00:43,926 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:47,918 - INFO - 74/780: Bouteille
+2025-08-19 15:00:47,968 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:52,414 - INFO - 75/780: Nicolas Boulevard des Italiens
+2025-08-19 15:00:52,471 - INFO - Retour à la liste (mobile).
+2025-08-19 15:00:56,947 - INFO - 76/780: La Cave Lambert 17e - caviste
+2025-08-19 15:00:57,004 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:00,994 - INFO - 77/780: Les Domaines Qui Montent - Caviste - Quartier Montorgueil
+2025-08-19 15:01:01,049 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:04,775 - INFO - 78/780: Nicolas Petits Champs
+2025-08-19 15:01:04,842 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:08,180 - INFO - 79/780: Nicolas République
+2025-08-19 15:01:08,242 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:11,584 - INFO - 80/780: Nicolas Miromesnil
+2025-08-19 15:01:11,638 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:24,064 - ERROR - Erreur sur l'élément 90: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x51fd33+62915]
+	GetHandleVerifier [0x0x51fd74+62980]
+	(No symbol) [0x0x353e13]
+	(No symbol) [0x0x39c89e]
+	(No symbol) [0x0x39cc3b]
+	(No symbol) [0x0x3e4ec2]
+	(No symbol) [0x0x3c1424]
+	(No symbol) [0x0x3e26ea]
+	(No symbol) [0x0x3c11d6]
+	(No symbol) [0x0x390833]
+	(No symbol) [0x0x3916a4]
+	GetHandleVerifier [0x0x788d23+2590131]
+	GetHandleVerifier [0x0x783f6a+2570234]
+	GetHandleVerifier [0x0x5459ea+217722]
+	GetHandleVerifier [0x0x536058+153832]
+	GetHandleVerifier [0x0x53c4bd+179533]
+	GetHandleVerifier [0x0x527738+94152]
+	GetHandleVerifier [0x0x5278c2+94546]
+	GetHandleVerifier [0x0x512bda+9322]
+	BaseThreadInitThunk [0x0x770afcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x775c82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x775c827e+238]
+
+2025-08-19 15:01:27,632 - INFO - 81/780: Sémélé
+2025-08-19 15:01:27,691 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:31,770 - INFO - 82/780: Wine Tasting In Paris
+2025-08-19 15:01:31,823 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:36,244 - INFO - 83/780: Aux Vins Vivants Lévis - Caviste BIO & Vin Nature
+2025-08-19 15:01:36,296 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:40,454 - INFO - 84/780: Caves Bardou (Ternes)
+2025-08-19 15:01:40,506 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:45,284 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:49,309 - INFO - 85/780: le petit bleu
+2025-08-19 15:01:49,366 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:53,420 - INFO - 86/780: DES METS DES VINS
+2025-08-19 15:01:53,477 - INFO - Retour à la liste (mobile).
+2025-08-19 15:01:58,298 - INFO - 87/780: Merci Vigneron
+2025-08-19 15:01:58,357 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:01,577 - INFO - 88/780: La Cave Lambert 18e - caviste
+2025-08-19 15:02:01,632 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:06,244 - INFO - 89/780: La Cave du Château
+2025-08-19 15:02:06,298 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:10,649 - INFO - 90/780: CAFA Formations - Ecole Internationale des vins et spiritueux à Paris
+2025-08-19 15:02:10,703 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:15,268 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:19,760 - INFO - 91/780: Nicolas Rennes Paris
+2025-08-19 15:02:19,817 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:24,666 - INFO - 92/780: Nicolas Cler
+2025-08-19 15:02:24,721 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:29,772 - INFO - 93/780: La Cave des Abbesses
+2025-08-19 15:02:29,831 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:34,617 - INFO - 94/780: La Maison du Rhum Paris 17
+2025-08-19 15:02:34,672 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:39,274 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:44,008 - INFO - 95/780: De verre en vers rue Ramey
+2025-08-19 15:02:44,075 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:48,673 - INFO - 96/780: Le 107bis
+2025-08-19 15:02:48,732 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:52,992 - INFO - 97/780: Le Manoir Vins et Épicerie Fine
+2025-08-19 15:02:53,049 - INFO - Retour à la liste (mobile).
+2025-08-19 15:02:57,250 - INFO - 98/780: Nicolas Jouffroy
+2025-08-19 15:02:57,307 - INFO - Retour à la liste (mobile).
+2025-08-19 15:03:02,010 - INFO - 99/780: Mi-Fugue Mi-Raisin
+2025-08-19 15:03:02,077 - INFO - Retour à la liste (mobile).
+2025-08-19 15:03:06,366 - INFO - Retour à la liste (mobile).
+2025-08-19 15:03:11,326 - INFO - Retour à la liste (mobile).
+2025-08-19 15:03:15,975 - INFO - 100/780: Ame & Esprit du Vin • CAVE A VINS & BAR
+2025-08-19 15:03:16,037 - INFO - Retour à la liste (mobile).
+2025-08-19 15:03:20,292 - INFO - 101/780: La Palette des Vins
+2025-08-19 15:03:20,355 - INFO - Retour à la liste (mobile).
+2025-08-19 15:03:24,390 - INFO - 102/780: faussaire / Paris Terroirs - Vins bio et Vins naturels
+2025-08-19 15:03:24,453 - INFO - Retour à la liste (mobile).
+2025-08-19 15:03:28,764 - INFO - Retour à la liste (mobile).
+2025-08-19 15:03:32,164 - INFO - 103/780: Cave Chabrol
+2025-08-19 15:03:32,223 - INFO - Retour à la liste (mobile).
+2025-08-19 15:03:36,080 - INFO - 104/780: Etablissements Vinicoles de France
+2025-08-19 15:03:36,131 - INFO - Retour à la liste (mobile).
+2025-08-19 15:03:36,938 - WARNING - Index 120 dépasse le nombre d'items (78)
+2025-08-19 15:03:39,400 - INFO - --- Recherche pour mot-clé: caféteria ---
+2025-08-19 15:03:41,688 - INFO - Recherche: caféteria à Paris
+2025-08-19 15:04:39,003 - INFO - 1/676: Eiffel Croisières - Péniche Ivoire
+2025-08-19 15:04:39,051 - INFO - Retour à la liste (mobile).
+2025-08-19 15:04:42,899 - INFO - 2/676: Vita Ristorante
+2025-08-19 15:04:42,942 - INFO - Retour à la liste (mobile).
+2025-08-19 15:04:47,104 - INFO - 3/676: La Cafétéria
+2025-08-19 15:04:47,147 - INFO - Retour à la liste (mobile).
+2025-08-19 15:04:50,922 - INFO - 4/676: Le Café Plume
+2025-08-19 15:04:50,967 - INFO - Retour à la liste (mobile).
+2025-08-19 15:04:55,748 - INFO - 5/676: Café Panis.
+2025-08-19 15:04:55,790 - INFO - Retour à la liste (mobile).
+2025-08-19 15:05:00,478 - INFO - 6/676: Café Ruc
+2025-08-19 15:05:00,521 - INFO - Retour à la liste (mobile).
+2025-08-19 15:05:01,200 - WARNING - Index 6 dépasse le nombre d'items (6)
+2025-08-19 15:05:03,329 - INFO - Résultats sauvegardés dans data/Débits_de_boissons_Paris_20250819_150503.json
+2025-08-19 15:44:37,412 - INFO - Lancement du scraping pour 'Restauration' à 'Ain'
+2025-08-19 15:44:37,420 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/restauration?page=1
+2025-08-19 15:44:42,672 - INFO - 20 cartes détectées sur la page 1
+2025-08-19 15:44:43,415 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-19 15:44:44,182 - INFO - [Page 1 | Carte 2] Le Port D'asnières | Tél: 03 58 19 02 66, 07 87 24 02 26 | Adresse: 587 route Port 01570 Asnières sur Saône Voir le plan
+2025-08-19 15:44:45,234 - INFO - [Page 1 | Carte 3] Auberge de la Mère Martinet | Tél:     03 85 36 20 40 | Adresse: bât Imm1 55 rue Jet D'Eau 01290 Cormoranche sur Saône Voir le plan
+2025-08-19 15:44:46,135 - INFO - [Page 1 | Carte 4] Hôtel Restaurant Régina | Tél: 04 74 00 73 67, 09 67 48 73 37 | Adresse: 657 route Departementale 904 01480 Ars sur Formans Voir le plan
+2025-08-19 15:44:47,073 - INFO - [Page 1 | Carte 5] Le Duverger | Tél: 04 74 42 51 97, 06 08 70 69 06, 06 25 43 37 26 | Adresse: 5071 rue Gare 01240 Saint Paul de Varax Voir le plan
+2025-08-19 15:44:47,765 - INFO - [Page 1 | Carte 6] Restaurant Bellerive | Tél:     04 74 75 16 60 | Adresse: 23 route Cluse 01130 Nantua Voir le plan
+2025-08-19 15:44:48,816 - INFO - [Page 1 | Carte 7] Au Bon Choix | Tél: 04 74 21 97 51 | Adresse: 141 rue 14 Juillet 1789 01000 Bourg en Bresse Voir le plan
+2025-08-19 15:44:49,503 - INFO - [Page 1 | Carte 8] Restaurant ô Troll | Tél: 04 74 25 32 80 | Adresse: 161 rue Prosper Convert 01440 Viriat Voir le plan
+2025-08-19 15:44:50,462 - INFO - [Page 1 | Carte 9] ESAT du Colombier - Odynéo | Tél: 04 79 87 34 33, 04 79 87 60 06 | Adresse: Zone Industrielle Coron 214 route Parves 01300 Belley Voir le plan
+2025-08-19 15:44:51,200 - INFO - [Page 1 | Carte 10] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-19 15:44:52,105 - INFO - [Page 1 | Carte 11] La Petite Chaumière | Tél: 04 50 41 30 22 | Adresse: Col de la Faucille 01170 Gex Voir le plan
+2025-08-19 15:44:52,930 - INFO - [Page 1 | Carte 12] Hôtel Restaurant au Fil de l'eau | Tél: 04 50 56 11 84 | Adresse: 3 quai Rhône 74910 Seyssel Voir le plan
+2025-08-19 15:44:53,624 - INFO - [Page 1 | Carte 13] Bistrot du Boucher | Tél: 04 74 23 16 77 | Adresse: 3212 chemin Tanvol 01440 Viriat Voir le plan
+2025-08-19 15:44:54,328 - INFO - [Page 1 | Carte 14] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-19 15:44:55,254 - INFO - [Page 1 | Carte 15] A l'Arret's Couscous | Tél: 06 74 90 57 91 | Adresse: 353 route Lyon 01600 Parcieux Voir le plan
+2025-08-19 15:44:56,224 - INFO - [Page 1 | Carte 16] Café Archirel | Tél: 04 74 36 73 18 | Adresse: place Village 01470 Montagnieu Voir le plan
+2025-08-19 15:44:57,134 - INFO - [Page 1 | Carte 17] Restaurant Du Pont | Tél: 04 74 04 08 90, 06 23 41 09 82 | Adresse: 1901 pont St Romain 01140 Saint Didier sur Chalaronne Voir le plan
+2025-08-19 15:44:58,001 - INFO - [Page 1 | Carte 18] Hôtel Tissot SARL | Tél: 04 74 30 65 04 | Adresse: 21 route Chavannes 01250 Simandre sur Suran Voir le plan
+2025-08-19 15:44:58,580 - INFO - [Page 1 | Carte 19] Au Comptoir Des Viandes | Tél: 04 74 24 05 29 | Adresse: impasse St Amouze 01250 Montagnat Voir le plan
+2025-08-19 15:44:59,294 - INFO - [Page 1 | Carte 20] Le K | Tél: 04 74 14 00 14, 04 74 47 94 03 | Adresse: 2020 avenue Lyon 01960 Péronnas Voir le plan
+2025-08-19 15:44:59,295 - INFO - Résultats cumulés: 20 / 5
+2025-08-19 15:44:59,295 - INFO - Nombre maximal de résultats atteint.
+2025-08-19 15:44:59,295 - INFO - Scraping terminé, total résultats: 20
+2025-08-19 15:47:22,990 - INFO - Lancement du scraping pour 'Restauration' à 'Ain'
+2025-08-19 15:47:22,990 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/restauration?page=1
+2025-08-19 15:47:26,452 - INFO - 20 cartes détectées sur la page 1
+2025-08-19 15:47:27,296 - INFO - [Page 1 | Carte 1] ESAT du Colombier - Odynéo | Tél: 04 79 87 34 33, 04 79 87 60 06 | Adresse: Zone Industrielle Coron 214 route Parves 01300 Belley Voir le plan
+2025-08-19 15:47:28,037 - INFO - [Page 1 | Carte 2] Au Bon Choix | Tél: 04 74 21 97 51 | Adresse: 141 rue 14 Juillet 1789 01000 Bourg en Bresse Voir le plan
+2025-08-19 15:47:29,139 - INFO - [Page 1 | Carte 3] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-19 15:47:30,266 - INFO - [Page 1 | Carte 4] Café Archirel | Tél: 04 74 36 73 18 | Adresse: place Village 01470 Montagnieu Voir le plan
+2025-08-19 15:47:31,280 - INFO - [Page 1 | Carte 5] Le Duverger | Tél: 04 74 42 51 97, 06 08 70 69 06, 06 25 43 37 26 | Adresse: 5071 rue Gare 01240 Saint Paul de Varax Voir le plan
+2025-08-19 15:47:31,942 - INFO - [Page 1 | Carte 6] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-19 15:47:32,889 - INFO - [Page 1 | Carte 7] Hôtel Restaurant au Fil de l'eau | Tél: 04 50 56 11 84 | Adresse: 3 quai Rhône 74910 Seyssel Voir le plan
+2025-08-19 15:47:33,866 - INFO - [Page 1 | Carte 8] A l'Arret's Couscous | Tél: 06 74 90 57 91 | Adresse: 353 route Lyon 01600 Parcieux Voir le plan
+2025-08-19 15:47:34,568 - INFO - [Page 1 | Carte 9] Le Port D'asnières | Tél: 03 58 19 02 66, 07 87 24 02 26 | Adresse: 587 route Port 01570 Asnières sur Saône Voir le plan
+2025-08-19 15:47:35,431 - INFO - [Page 1 | Carte 10] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-19 15:47:36,110 - INFO - [Page 1 | Carte 11] Auberge de la Mère Martinet | Tél:     03 85 36 20 40 | Adresse: bât Imm1 55 rue Jet D'Eau 01290 Cormoranche sur Saône Voir le plan
+2025-08-19 15:47:37,131 - INFO - [Page 1 | Carte 12] Restaurant ô Troll | Tél: 04 74 25 32 80 | Adresse: 161 rue Prosper Convert 01440 Viriat Voir le plan
+2025-08-19 15:47:37,853 - INFO - [Page 1 | Carte 13] Hôtel Restaurant Régina | Tél: 04 74 00 73 67, 09 67 48 73 37 | Adresse: 657 route Departementale 904 01480 Ars sur Formans Voir le plan
+2025-08-19 15:47:38,631 - INFO - [Page 1 | Carte 14] Le K | Tél: 04 74 14 00 14, 04 74 47 94 03 | Adresse: 2020 avenue Lyon 01960 Péronnas Voir le plan
+2025-08-19 15:47:39,701 - INFO - [Page 1 | Carte 15] Restaurant Du Pont | Tél: 04 74 04 08 90, 06 23 41 09 82 | Adresse: 1901 pont St Romain 01140 Saint Didier sur Chalaronne Voir le plan
+2025-08-19 15:47:40,677 - INFO - [Page 1 | Carte 16] Au Comptoir Des Viandes | Tél: 04 74 24 05 29 | Adresse: impasse St Amouze 01250 Montagnat Voir le plan
+2025-08-19 15:47:41,420 - INFO - [Page 1 | Carte 17] Hôtel Tissot SARL | Tél: 04 74 30 65 04 | Adresse: 21 route Chavannes 01250 Simandre sur Suran Voir le plan
+2025-08-19 15:47:42,239 - INFO - [Page 1 | Carte 18] La Petite Chaumière | Tél: 04 50 41 30 22 | Adresse: Col de la Faucille 01170 Gex Voir le plan
+2025-08-19 15:47:43,168 - INFO - [Page 1 | Carte 19] Bistrot du Boucher | Tél: 04 74 23 16 77 | Adresse: 3212 chemin Tanvol 01440 Viriat Voir le plan
+2025-08-19 15:47:43,804 - INFO - [Page 1 | Carte 20] Restaurant Bellerive | Tél:     04 74 75 16 60 | Adresse: 23 route Cluse 01130 Nantua Voir le plan
+2025-08-19 15:47:43,804 - INFO - Résultats cumulés: 20 / 5
+2025-08-19 15:47:43,804 - INFO - Nombre maximal de résultats atteint.
+2025-08-19 15:47:43,804 - INFO - Scraping terminé, total résultats: 20
+2025-08-19 15:50:10,579 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-19 15:50:12,355 - INFO - Recherche: café bar à Paris
+2025-08-19 15:50:23,595 - INFO - 1/2: Maria Belza
+2025-08-19 15:50:23,666 - INFO - Retour à la liste (mobile).
+2025-08-19 15:50:27,878 - INFO - 2/2: Hôtel Le 5 Particulier
+2025-08-19 15:50:27,924 - INFO - Retour à la liste (mobile).
+2025-08-19 15:54:56,092 - INFO - Lancement du scraping pour 'Restauration' à 'Ain'
+2025-08-19 15:54:56,092 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/restauration?page=1
+2025-08-19 15:54:59,982 - INFO - 20 cartes détectées sur la page 1
+2025-08-19 15:55:00,974 - INFO - [Page 1 | Carte 1] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-19 15:55:02,005 - INFO - [Page 1 | Carte 2] Le Duverger | Tél: 04 74 42 51 97, 06 08 70 69 06, 06 25 43 37 26 | Adresse: 5071 rue Gare 01240 Saint Paul de Varax Voir le plan
+2025-08-19 15:55:03,058 - INFO - [Page 1 | Carte 3] Restaurant Bellerive | Tél:     04 74 75 16 60 | Adresse: 23 route Cluse 01130 Nantua Voir le plan
+2025-08-19 15:55:03,982 - INFO - [Page 1 | Carte 4] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-19 15:55:05,036 - INFO - [Page 1 | Carte 5] Au Comptoir Des Viandes | Tél: 04 74 24 05 29 | Adresse: impasse St Amouze 01250 Montagnat Voir le plan
+2025-08-19 15:55:05,902 - INFO - [Page 1 | Carte 6] Restaurant Du Pont | Tél: 04 74 04 08 90, 06 23 41 09 82 | Adresse: 1901 pont St Romain 01140 Saint Didier sur Chalaronne Voir le plan
+2025-08-19 15:55:06,536 - INFO - [Page 1 | Carte 7] Café Archirel | Tél: 04 74 36 73 18 | Adresse: place Village 01470 Montagnieu Voir le plan
+2025-08-19 15:55:07,188 - INFO - [Page 1 | Carte 8] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-19 15:55:08,080 - INFO - [Page 1 | Carte 9] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-19 15:55:08,749 - INFO - [Page 1 | Carte 10] Au Bon Choix | Tél: 04 74 21 97 51 | Adresse: 141 rue 14 Juillet 1789 01000 Bourg en Bresse Voir le plan
+2025-08-19 15:55:09,808 - INFO - [Page 1 | Carte 11] Hôtel Restaurant Régina | Tél: 04 74 00 73 67, 09 67 48 73 37 | Adresse: 657 route Departementale 904 01480 Ars sur Formans Voir le plan
+2025-08-19 15:55:10,631 - INFO - [Page 1 | Carte 12] Hôtel Restaurant au Fil de l'eau | Tél: 04 50 56 11 84 | Adresse: 3 quai Rhône 74910 Seyssel Voir le plan
+2025-08-19 15:55:11,223 - INFO - [Page 1 | Carte 13] A l'Arret's Couscous | Tél: 06 74 90 57 91 | Adresse: 353 route Lyon 01600 Parcieux Voir le plan
+2025-08-19 15:55:12,156 - INFO - [Page 1 | Carte 14] Hôtel Tissot SARL | Tél: 04 74 30 65 04 | Adresse: 21 route Chavannes 01250 Simandre sur Suran Voir le plan
+2025-08-19 15:55:13,115 - INFO - [Page 1 | Carte 15] Restaurant ô Troll | Tél: 04 74 25 32 80 | Adresse: 161 rue Prosper Convert 01440 Viriat Voir le plan
+2025-08-19 15:55:14,172 - INFO - [Page 1 | Carte 16] Le K | Tél: 04 74 14 00 14, 04 74 47 94 03 | Adresse: 2020 avenue Lyon 01960 Péronnas Voir le plan
+2025-08-19 15:55:14,901 - INFO - [Page 1 | Carte 17] Bistrot du Boucher | Tél: 04 74 23 16 77 | Adresse: 3212 chemin Tanvol 01440 Viriat Voir le plan
+2025-08-19 15:55:15,557 - INFO - [Page 1 | Carte 18] Le Port D'asnières | Tél: 03 58 19 02 66, 07 87 24 02 26 | Adresse: 587 route Port 01570 Asnières sur Saône Voir le plan
+2025-08-19 15:55:16,317 - INFO - [Page 1 | Carte 19] La Petite Chaumière | Tél: 04 50 41 30 22 | Adresse: Col de la Faucille 01170 Gex Voir le plan
+2025-08-19 15:55:17,080 - INFO - [Page 1 | Carte 20] Auberge de la Mère Martinet | Tél:     03 85 36 20 40 | Adresse: bât Imm1 55 rue Jet D'Eau 01290 Cormoranche sur Saône Voir le plan
+2025-08-19 15:55:17,080 - INFO - Résultats cumulés: 20 / 5
+2025-08-19 15:55:17,080 - INFO - Nombre maximal de résultats atteint.
+2025-08-19 15:55:17,081 - INFO - Scraping terminé, total résultats: 20
+2025-08-19 16:11:46,347 - INFO - Lancement du scraping pour 'Restauration' à 'Ain'
+2025-08-19 16:11:46,348 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/restauration?page=1
+2025-08-19 16:12:01,285 - INFO - 20 cartes détectées sur la page 1
+2025-08-19 16:12:02,279 - INFO - [Page 1 | Carte 1] Au Comptoir Des Viandes | Tél: 04 74 24 05 29 | Adresse: impasse St Amouze 01250 Montagnat Voir le plan
+2025-08-19 16:12:03,188 - INFO - [Page 1 | Carte 2] Hôtel Tissot SARL | Tél: 04 74 30 65 04 | Adresse: 21 route Chavannes 01250 Simandre sur Suran Voir le plan
+2025-08-19 16:12:04,184 - INFO - [Page 1 | Carte 3] Le Duverger | Tél: 04 74 42 51 97, 06 08 70 69 06, 06 25 43 37 26 | Adresse: 5071 rue Gare 01240 Saint Paul de Varax Voir le plan
+2025-08-19 16:12:05,087 - INFO - [Page 1 | Carte 4] ESAT du Colombier - Odynéo | Tél: 04 79 87 34 33, 04 79 87 60 06 | Adresse: Zone Industrielle Coron 214 route Parves 01300 Belley Voir le plan
+2025-08-19 16:12:05,876 - INFO - [Page 1 | Carte 5] Hôtel Restaurant au Fil de l'eau | Tél: 04 50 56 11 84 | Adresse: 3 quai Rhône 74910 Seyssel Voir le plan
+2025-08-19 16:12:06,657 - INFO - [Page 1 | Carte 6] Auberge de la Mère Martinet | Tél:     03 85 36 20 40 | Adresse: bât Imm1 55 rue Jet D'Eau 01290 Cormoranche sur Saône Voir le plan
+2025-08-19 16:12:07,419 - INFO - [Page 1 | Carte 7] Hôtel Restaurant Régina | Tél: 04 74 00 73 67, 09 67 48 73 37 | Adresse: 657 route Departementale 904 01480 Ars sur Formans Voir le plan
+2025-08-19 16:12:08,261 - INFO - [Page 1 | Carte 8] A l'Arret's Couscous | Tél: 06 74 90 57 91 | Adresse: 353 route Lyon 01600 Parcieux Voir le plan
+2025-08-19 16:12:09,270 - INFO - [Page 1 | Carte 9] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-19 16:12:10,037 - INFO - [Page 1 | Carte 10] Le Port D'asnières | Tél: 03 58 19 02 66, 07 87 24 02 26 | Adresse: 587 route Port 01570 Asnières sur Saône Voir le plan
+2025-08-19 16:12:10,982 - INFO - [Page 1 | Carte 11] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-19 16:12:12,055 - INFO - [Page 1 | Carte 12] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-19 16:12:12,785 - INFO - [Page 1 | Carte 13] La Petite Chaumière | Tél: 04 50 41 30 22 | Adresse: Col de la Faucille 01170 Gex Voir le plan
+2025-08-19 16:12:13,410 - INFO - [Page 1 | Carte 14] Bistrot du Boucher | Tél: 04 74 23 16 77 | Adresse: 3212 chemin Tanvol 01440 Viriat Voir le plan
+2025-08-19 16:12:14,474 - INFO - [Page 1 | Carte 15] Restaurant Du Pont | Tél: 04 74 04 08 90, 06 23 41 09 82 | Adresse: 1901 pont St Romain 01140 Saint Didier sur Chalaronne Voir le plan
+2025-08-19 16:12:15,511 - INFO - [Page 1 | Carte 16] Le K | Tél: 04 74 14 00 14, 04 74 47 94 03 | Adresse: 2020 avenue Lyon 01960 Péronnas Voir le plan
+2025-08-19 16:12:16,546 - INFO - [Page 1 | Carte 17] Restaurant ô Troll | Tél: 04 74 25 32 80 | Adresse: 161 rue Prosper Convert 01440 Viriat Voir le plan
+2025-08-19 16:12:17,544 - INFO - [Page 1 | Carte 18] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-19 16:12:18,595 - INFO - [Page 1 | Carte 19] Restaurant Bellerive | Tél:     04 74 75 16 60 | Adresse: 23 route Cluse 01130 Nantua Voir le plan
+2025-08-19 16:12:19,551 - INFO - [Page 1 | Carte 20] Café Archirel | Tél: 04 74 36 73 18 | Adresse: place Village 01470 Montagnieu Voir le plan
+2025-08-19 16:12:19,552 - INFO - Résultats cumulés: 20 / 5
+2025-08-19 16:12:19,552 - INFO - Nombre maximal de résultats atteint.
+2025-08-19 16:12:19,552 - INFO - Scraping terminé, total résultats: 20
+2025-08-19 16:18:22,023 - INFO - Lancement du scraping pour 'Restauration' à 'Ain'
+2025-08-19 16:18:22,023 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/restauration?page=1
+2025-08-19 16:18:28,944 - INFO - 20 cartes détectées sur la page 1
+2025-08-19 16:18:29,944 - INFO - [Page 1 | Carte 1] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-19 16:18:30,931 - INFO - [Page 1 | Carte 2] Hôtel Tissot SARL | Tél: 04 74 30 65 04 | Adresse: 21 route Chavannes 01250 Simandre sur Suran Voir le plan
+2025-08-19 16:18:31,693 - INFO - [Page 1 | Carte 3] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-19 16:18:32,282 - INFO - [Page 1 | Carte 4] Restaurant ô Troll | Tél: 04 74 25 32 80 | Adresse: 161 rue Prosper Convert 01440 Viriat Voir le plan
+2025-08-19 16:18:32,938 - INFO - [Page 1 | Carte 5] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-19 16:18:33,633 - INFO - [Page 1 | Carte 6] Au Bon Choix | Tél: 04 74 21 97 51 | Adresse: 141 rue 14 Juillet 1789 01000 Bourg en Bresse Voir le plan
+2025-08-19 16:18:34,708 - INFO - [Page 1 | Carte 7] ESAT du Colombier - Odynéo | Tél: 04 79 87 34 33, 04 79 87 60 06 | Adresse: Zone Industrielle Coron 214 route Parves 01300 Belley Voir le plan
+2025-08-19 16:18:35,590 - INFO - [Page 1 | Carte 8] Le K | Tél: 04 74 14 00 14, 04 74 47 94 03 | Adresse: 2020 avenue Lyon 01960 Péronnas Voir le plan
+2025-08-19 16:18:36,489 - INFO - [Page 1 | Carte 9] Café Archirel | Tél: 04 74 36 73 18 | Adresse: place Village 01470 Montagnieu Voir le plan
+2025-08-19 16:18:37,119 - INFO - [Page 1 | Carte 10] Restaurant Du Pont | Tél: 04 74 04 08 90, 06 23 41 09 82 | Adresse: 1901 pont St Romain 01140 Saint Didier sur Chalaronne Voir le plan
+2025-08-19 16:18:37,891 - INFO - [Page 1 | Carte 11] Le Duverger | Tél: 04 74 42 51 97, 06 08 70 69 06, 06 25 43 37 26 | Adresse: 5071 rue Gare 01240 Saint Paul de Varax Voir le plan
+2025-08-19 16:18:38,611 - INFO - [Page 1 | Carte 12] Hôtel Restaurant au Fil de l'eau | Tél: 04 50 56 11 84 | Adresse: 3 quai Rhône 74910 Seyssel Voir le plan
+2025-08-19 16:18:39,347 - INFO - [Page 1 | Carte 13] Auberge de la Mère Martinet | Tél:     03 85 36 20 40 | Adresse: bât Imm1 55 rue Jet D'Eau 01290 Cormoranche sur Saône Voir le plan
+2025-08-19 16:18:40,018 - INFO - [Page 1 | Carte 14] Restaurant Bellerive | Tél:     04 74 75 16 60 | Adresse: 23 route Cluse 01130 Nantua Voir le plan
+2025-08-19 16:18:40,790 - INFO - [Page 1 | Carte 15] Le Port D'asnières | Tél: 03 58 19 02 66, 07 87 24 02 26 | Adresse: 587 route Port 01570 Asnières sur Saône Voir le plan
+2025-08-19 16:18:41,542 - INFO - [Page 1 | Carte 16] Bistrot du Boucher | Tél: 04 74 23 16 77 | Adresse: 3212 chemin Tanvol 01440 Viriat Voir le plan
+2025-08-19 16:18:42,229 - INFO - [Page 1 | Carte 17] A l'Arret's Couscous | Tél: 06 74 90 57 91 | Adresse: 353 route Lyon 01600 Parcieux Voir le plan
+2025-08-19 16:18:43,094 - INFO - [Page 1 | Carte 18] Hôtel Restaurant Régina | Tél: 04 74 00 73 67, 09 67 48 73 37 | Adresse: 657 route Departementale 904 01480 Ars sur Formans Voir le plan
+2025-08-19 16:18:43,972 - INFO - [Page 1 | Carte 19] Au Comptoir Des Viandes | Tél: 04 74 24 05 29 | Adresse: impasse St Amouze 01250 Montagnat Voir le plan
+2025-08-19 16:18:44,891 - INFO - [Page 1 | Carte 20] La Petite Chaumière | Tél: 04 50 41 30 22 | Adresse: Col de la Faucille 01170 Gex Voir le plan
+2025-08-19 16:18:44,891 - INFO - Résultats cumulés: 20 / 5
+2025-08-19 16:18:44,892 - INFO - Nombre maximal de résultats atteint.
+2025-08-19 16:18:44,892 - INFO - Scraping terminé, total résultats: 20
+2025-08-19 16:25:40,208 - INFO - Lancement du scraping pour 'Restauration' à 'Ain'
+2025-08-19 16:25:40,208 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/restauration?page=1
+2025-08-19 16:25:54,393 - INFO - 20 cartes détectées sur la page 1
+2025-08-19 16:25:55,396 - INFO - [Page 1 | Carte 1] A l'Arret's Couscous | Tél: 06 74 90 57 91 | Adresse: 353 route Lyon 01600 Parcieux Voir le plan
+2025-08-19 16:25:56,211 - INFO - [Page 1 | Carte 2] Hôtel Restaurant au Fil de l'eau | Tél: 04 50 56 11 84 | Adresse: 3 quai Rhône 74910 Seyssel Voir le plan
+2025-08-19 16:25:57,168 - INFO - [Page 1 | Carte 3] Le Port D'asnières | Tél: 03 58 19 02 66, 07 87 24 02 26 | Adresse: 587 route Port 01570 Asnières sur Saône Voir le plan
+2025-08-19 16:25:57,953 - INFO - [Page 1 | Carte 4] Au Comptoir Des Viandes | Tél: 04 74 24 05 29 | Adresse: impasse St Amouze 01250 Montagnat Voir le plan
+2025-08-19 16:25:58,895 - INFO - [Page 1 | Carte 5] Le Duverger | Tél: 04 74 42 51 97, 06 08 70 69 06, 06 25 43 37 26 | Adresse: 5071 rue Gare 01240 Saint Paul de Varax Voir le plan
+2025-08-19 16:25:58,896 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-19 16:25:58,896 - INFO - Résultats cumulés: 5 / 5
+2025-08-19 16:25:58,896 - INFO - Nombre maximal de résultats atteint.
+2025-08-19 16:25:58,896 - INFO - Scraping terminé, total résultats: 5

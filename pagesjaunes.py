@@ -237,6 +237,10 @@ def scrape_pages_jaunes(query, location, max_results=20):
             logger.info(f"{len(cards)} cartes détectées sur la page {page_num}")
 
             for idx, card in enumerate(cards, start=1):
+                if len(results) >= max_results:
+                    logger.info("Nombre maximal de résultats atteint, arrêt du scraping.")
+                    break  # arrête la boucle for sur les cartes
+    
                 data = extract_card_data(driver, card)
                 if data:
                     if data['Nom'] not in seen_names:
