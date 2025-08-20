@@ -12,6 +12,25 @@ import mysql.connector
 import hashlib
 from fastapi import Query
 from fastapi import Query as FQuery 
+from fastapi import Depends, HTTPException, status
+from fastapi.security import HTTPBasic, HTTPBasicCredentials
+from fastapi.openapi.docs import get_swagger_ui_html
+from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
+from jose import JWTError, jwt
+from datetime import timedelta
+
+
+
+security = HTTPBasic()
+
+
+SECRET_KEY = "supersecretkey"  # change en secret fort
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 60
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+
+
 
 db = mysql.connector.connect(
     host="localhost",
@@ -22,7 +41,7 @@ db = mysql.connector.connect(
 cursor = db.cursor(dictionary=True)
 
 
-app = FastAPI()
+app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
 
 DATA_DIR = "data"
 # --- CORS ---
@@ -47,8 +66,40 @@ class SearchRequest(BaseModel):
     location: str
     max_results: int = 20
 
+
+
+
+# --- créer le token ---
+def create_access_token(data: dict, expires_delta: timedelta = None):
+    to_encode = data.copy()
+    expire = datetime.utcnow() + (expires_delta if expires_delta else timedelta(minutes=15))
+    to_encode.update({"exp": expire})
+    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
+
+# --- vérifier token ---
+def get_current_user(token: str = Depends(oauth2_scheme)):
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        username: str = payload.get("sub")
+        if username is None:
+            raise HTTPException(status_code=401, detail="Token invalide")
+        return username
+    except JWTError:
+        raise HTTPException(status_code=401, detail="Token invalide")
+
+# --- endpoint login ---
+@app.post("/token")
+def login(form_data: OAuth2PasswordRequestForm = Depends()):
+    # Ici tu peux vérifier en DB
+    if form_data.username == "admin" and form_data.password == "admin":
+        access_token = create_access_token({"sub": form_data.username}, timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))
+        return {"access_token": access_token, "token_type": "bearer"}
+    raise HTTPException(status_code=400, detail="Nom utilisateur ou mot de passe incorrect")
+
+
+
 @app.post("/scrape/googlemaps")
-def scrape_gmaps(request: SearchRequest):
+def scrape_gmaps(request: SearchRequest, user: str = Depends(get_current_user)):
     results = scrape_by_label(
         label=request.query,
         location=request.location,
@@ -66,7 +117,7 @@ def scrape_gmaps(request: SearchRequest):
     }
 
 @app.post("/scrape/pagesjaunes")
-def scrape_pj(request: SearchRequest):
+def scrape_pj(request: SearchRequest, user: str = Depends(get_current_user)):
     results = scrape_pages_jaunes(
         query=request.query,
         location=request.location,
@@ -89,7 +140,7 @@ def scrape_pj(request: SearchRequest):
 
 
 @app.get("/historique/all")
-def list_all_historique():
+def list_all_historique( user: str = Depends(get_current_user)):
     cursor = db.cursor(dictionary=True)
     cursor.execute("""
         SELECT h.id AS history_id, h.scraped_at, h.query, h.location, h.source,
@@ -111,7 +162,8 @@ def list_historique_paginated(
     location: str = FQuery(None),
     source: str = FQuery(None),
     date_from: str = FQuery(None),  # format attendu: yyyy-mm-dd
-    date_to: str = FQuery(None)
+    date_to: str = FQuery(None), 
+    user: str = Depends(get_current_user)
 ):
     offset = (page - 1) * per_page
     cursor = db.cursor(dictionary=True)
@@ -242,3 +294,33 @@ def normalize_result(r: dict) -> dict:
         "plus_code": r.get("Plus Code", None),
         "horaires": r.get("Horaires", "")
     }
+    
+    
+    
+def get_current_user_docs(credentials: HTTPBasicCredentials = Depends(security)):
+    correct_username = "admin"
+    correct_password = "admin"
+    if credentials.username != correct_username or credentials.password != correct_password:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Accès refusé",
+            headers={"WWW-Authenticate": "Basic"},
+        )
+    return credentials.username
+
+
+# Route protégée pour Swagger UI
+@app.get("/secure-docs", include_in_schema=False)
+def custom_swagger_ui(user: str = Depends(get_current_user_docs)):
+    return get_swagger_ui_html(
+        openapi_url="/secure-openapi.json",
+        title="Docs sécurisées"
+    )
+
+
+# Route protégée pour OpenAPI JSON
+@app.get("/secure-openapi.json", include_in_schema=False)
+def custom_openapi(user: str = Depends(get_current_user_docs)):
+    return app.openapi()
+
+

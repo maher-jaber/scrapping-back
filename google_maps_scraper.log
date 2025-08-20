@@ -8580,3 +8580,110 @@ Stacktrace:
 2025-08-20 14:26:20,117 - INFO - Résultats cumulés: 5 / 5
 2025-08-20 14:26:20,117 - INFO - Nombre maximal de résultats atteint.
 2025-08-20 14:26:20,118 - INFO - Scraping terminé, total résultats: 5
+2025-08-20 15:33:14,138 - INFO - Lancement du scraping pour 'restaurant' à 'paris'
+2025-08-20 15:33:14,139 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/restaurant?page=1
+2025-08-20 15:33:17,200 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 15:33:18,124 - INFO - [Page 1 | Carte 1] Ty Louis | Tél: 06 73 08 54 13 | Adresse: 240 rue Fbg St Antoine 75012 Paris Voir le plan
+2025-08-20 15:33:19,136 - INFO - [Page 1 | Carte 2] Espace Aurore | Tél: 01 53 94 51 00, 01 53 94 51 02 | Adresse: 23 rue Terres au Curé 75013 Paris Voir le plan
+2025-08-20 15:33:19,990 - INFO - [Page 1 | Carte 3] Les Editeurs | Tél: 01 43 26 67 76 | Adresse: 4 carrefour Odéon 75006 Paris Voir le plan
+2025-08-20 15:33:20,769 - INFO - [Page 1 | Carte 4] Sweet And Salty | Tél: 01 43 47 12 98 | Adresse: 7 rue Théophile Roussel 75012 Paris Voir le plan
+2025-08-20 15:33:21,461 - INFO - [Page 1 | Carte 5] Le Caveau de l'Isle | Tél: 01 43 25 10 26 | Adresse: 36 rue St Louis en l'Ile 75004 Paris Voir le plan
+2025-08-20 15:33:22,515 - INFO - [Page 1 | Carte 6] Bal Du Moulin Rouge | Tél: 01 77 12 85 90, 01 53 09 82 82 | Adresse: 82 boulevard Clichy 75018 Paris Voir le plan
+2025-08-20 15:33:23,300 - INFO - [Page 1 | Carte 7] Café du Commerce | Tél: 07 72 17 02 88 | Adresse: 39 rue Cinq Diamants 75013 Paris Voir le plan
+2025-08-20 15:33:24,278 - INFO - [Page 1 | Carte 8] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-20 15:33:25,283 - INFO - [Page 1 | Carte 9] Kitchen Company | Tél: 06 74 18 18 48 | Adresse: 1 rue Stockholm 75008 Paris Voir le plan
+2025-08-20 15:33:26,002 - INFO - [Page 1 | Carte 10] Santa Carne | Tél: 01 42 72 03 07 | Adresse: 3 boulevard Richard Lenoir 75011 Paris Voir le plan
+2025-08-20 15:33:27,014 - INFO - [Page 1 | Carte 11] Truffes Folies | Tél: 01 44 18 05 41, 06 03 26 56 24 | Adresse: 37 rue Malar 75007 Paris Voir le plan
+2025-08-20 15:33:27,614 - INFO - [Page 1 | Carte 12] Restaurant Tipaza | Tél: 01 45 54 01 17 | Adresse: 155 rue St Charles 75015 Paris Voir le plan
+2025-08-20 15:33:28,462 - INFO - [Page 1 | Carte 13] Le Moghol | Tél: 01 40 06 90 36 | Adresse: 26 rue Caumartin 75009 Paris Voir le plan
+2025-08-20 15:33:29,204 - INFO - [Page 1 | Carte 14] SAS TABLE NEUF | Tél:     01 83 89 08 78 | Adresse: 10 rue Geoffroy Marie 75009 Paris Voir le plan
+2025-08-20 15:33:30,155 - INFO - [Page 1 | Carte 15] Café le Marivaux | Tél: 01 42 96 40 66, 09 67 41 40 66 | Adresse: 11 boulevard Italiens 75002 Paris Voir le plan
+2025-08-20 15:33:30,877 - INFO - [Page 1 | Carte 16] Le 59 | Tél: 01 80 50 00 29 | Adresse: 59 rue Servan 75011 Paris Voir le plan
+2025-08-20 15:33:31,778 - INFO - [Page 1 | Carte 17] Le Sirocco | Tél: 01 43 31 13 13,     09 86 69 95 27, 01 58 45 12 05 | Adresse: Restaurant 8 Bis rue Gobelins 75013 Paris Voir le plan
+2025-08-20 15:33:32,484 - INFO - [Page 1 | Carte 18] Grand Zino | Tél: 01 44 40 45 10, 01 45 78 92 37 | Adresse: 97 avenue Villiers 75017 Paris Voir le plan
+2025-08-20 15:33:33,273 - INFO - [Page 1 | Carte 19] Gabriela | Tél: 01 42 80 28 14 | Adresse: 3 rue Milton 75009 Paris Voir le plan
+2025-08-20 15:33:34,115 - INFO - [Page 1 | Carte 20] Nanwich Riquet | Tél: 01 44 53 91 70, 07 53 82 93 01 | Adresse: 56 rue Riquet 75019 Paris Voir le plan
+2025-08-20 15:33:34,115 - INFO - Résultats cumulés: 20 / 20
+2025-08-20 15:33:34,115 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 15:33:34,115 - INFO - Scraping terminé, total résultats: 20
+2025-08-20 15:38:54,077 - INFO - --- Recherche pour mot-clé: restaurant ---
+2025-08-20 15:38:55,893 - INFO - Recherche: restaurant à valenciennes
+2025-08-20 15:39:24,596 - INFO - 1/20: Édito Restaurant Valenciennes
+2025-08-20 15:39:24,661 - INFO - Retour à la liste (mobile).
+2025-08-20 15:39:29,141 - INFO - 2/20: L'Un des Sens
+2025-08-20 15:39:29,184 - INFO - Retour à la liste (mobile).
+2025-08-20 15:39:32,981 - INFO - 3/20: Au Bureau - Pub et Brasserie
+2025-08-20 15:39:33,025 - INFO - Retour à la liste (mobile).
+2025-08-20 15:39:36,893 - INFO - 4/20: Le Bistrot D'en Face
+2025-08-20 15:39:36,937 - INFO - Retour à la liste (mobile).
+2025-08-20 15:39:40,118 - INFO - 5/20: Chez Mon Vieux
+2025-08-20 15:39:40,154 - INFO - Retour à la liste (mobile).
+2025-08-20 15:39:44,334 - INFO - 6/20: La Véranda
+2025-08-20 15:39:44,379 - INFO - Retour à la liste (mobile).
+2025-08-20 15:39:48,338 - INFO - 7/20: Restaurant L'Escargot
+2025-08-20 15:39:48,383 - INFO - Retour à la liste (mobile).
+2025-08-20 15:39:52,278 - INFO - 8/20: L'instant gourmand
+2025-08-20 15:39:52,320 - INFO - Retour à la liste (mobile).
+2025-08-20 15:39:55,538 - INFO - 9/20: Le Musigny
+2025-08-20 15:39:55,583 - INFO - Retour à la liste (mobile).
+2025-08-20 15:39:59,844 - INFO - 10/20: La Taverne
+2025-08-20 15:39:59,886 - INFO - Retour à la liste (mobile).
+2025-08-20 15:40:03,804 - INFO - 11/20: Auberge du Bon Fermier
+2025-08-20 15:40:03,849 - INFO - Retour à la liste (mobile).
+2025-08-20 15:40:08,651 - INFO - 12/20: Restaurant Xian Chu
+2025-08-20 15:40:08,696 - INFO - Retour à la liste (mobile).
+2025-08-20 15:40:12,601 - INFO - 13/20: Chez Justine (La cuisine de Justine)
+2025-08-20 15:40:12,644 - INFO - Retour à la liste (mobile).
+2025-08-20 15:40:16,651 - INFO - 14/20: Volfoni Valenciennes
+2025-08-20 15:40:16,698 - INFO - Retour à la liste (mobile).
+2025-08-20 15:40:20,498 - INFO - 15/20: Le Val en Cygnes
+2025-08-20 15:40:20,542 - INFO - Retour à la liste (mobile).
+2025-08-20 15:40:25,414 - INFO - 16/20: La table du marché
+2025-08-20 15:40:25,478 - INFO - Retour à la liste (mobile).
+2025-08-20 15:40:29,329 - INFO - 17/20: Le Bistrot de Charles
+2025-08-20 15:40:29,368 - INFO - Retour à la liste (mobile).
+2025-08-20 15:40:33,807 - INFO - 18/20: Les Savoureux
+2025-08-20 15:40:33,852 - INFO - Retour à la liste (mobile).
+2025-08-20 15:40:37,883 - INFO - 19/20: L'Endroit
+2025-08-20 15:40:37,931 - INFO - Retour à la liste (mobile).
+2025-08-20 15:40:43,025 - INFO - 20/20: La Bande a Nana
+2025-08-20 15:40:43,070 - INFO - Retour à la liste (mobile).
+2025-08-20 16:10:19,289 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-20 16:10:19,289 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-20 16:10:48,584 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 16:10:49,569 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-20 16:10:50,277 - INFO - [Page 1 | Carte 2] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-20 16:10:51,082 - INFO - [Page 1 | Carte 3] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-20 16:10:51,907 - INFO - [Page 1 | Carte 4] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-20 16:10:52,906 - INFO - [Page 1 | Carte 5] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-20 16:10:52,906 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 16:10:52,907 - INFO - Résultats cumulés: 5 / 5
+2025-08-20 16:10:52,907 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 16:10:52,907 - INFO - Scraping terminé, total résultats: 5
+2025-08-20 16:33:23,899 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-08-20 17:09:30,116 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-08-20 17:09:32,789 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-08-20 17:46:37,255 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-20 17:46:39,326 - INFO - Recherche: café bar à Ain
+2025-08-20 17:46:54,019 - INFO - 1/5: LE GRAND CAFE
+2025-08-20 17:46:54,072 - INFO - Retour à la liste (mobile).
+2025-08-20 17:46:57,277 - INFO - 2/5: L'aincontournable
+2025-08-20 17:46:57,323 - INFO - Retour à la liste (mobile).
+2025-08-20 17:47:02,126 - INFO - 3/5: Café Du Champ De Foire
+2025-08-20 17:47:02,169 - INFO - Retour à la liste (mobile).
+2025-08-20 17:47:06,487 - INFO - 4/5: Brasserie l'Ain Pression - Malt Emoi
+2025-08-20 17:47:06,532 - INFO - Retour à la liste (mobile).
+2025-08-20 17:47:10,508 - INFO - 5/5: Le Trotteur
+2025-08-20 17:47:10,552 - INFO - Retour à la liste (mobile).
