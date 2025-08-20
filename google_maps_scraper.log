@@ -8415,3 +8415,146 @@ Stacktrace:
 2025-08-19 16:25:58,896 - INFO - Résultats cumulés: 5 / 5
 2025-08-19 16:25:58,896 - INFO - Nombre maximal de résultats atteint.
 2025-08-19 16:25:58,896 - INFO - Scraping terminé, total résultats: 5
+2025-08-20 09:11:13,309 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-20 09:11:21,501 - INFO - Recherche: café bar à Paris
+2025-08-20 09:11:35,605 - INFO - 1/2: Peniche Le Diamant Bleu
+2025-08-20 09:11:35,656 - INFO - Retour à la liste (mobile).
+2025-08-20 09:11:39,705 - INFO - 2/2: Maria Belza
+2025-08-20 09:11:39,758 - INFO - Retour à la liste (mobile).
+2025-08-20 09:12:04,232 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-20 09:12:05,919 - INFO - Recherche: café bar à Paris
+2025-08-20 09:12:18,767 - INFO - 1/2: Hôtel Le 5 Particulier
+2025-08-20 09:12:18,812 - INFO - Retour à la liste (mobile).
+2025-08-20 09:12:23,702 - INFO - 2/2: Coutume x Julhès Paris | Torréfacteur | Coffee shop
+2025-08-20 09:12:23,748 - INFO - Retour à la liste (mobile).
+2025-08-20 09:12:59,575 - INFO - Lancement du scraping pour 'café bar' à 'Paris'
+2025-08-20 09:12:59,575 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/caf%C3%A9+bar?page=1
+2025-08-20 09:13:13,230 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 09:13:14,348 - INFO - [Page 1 | Carte 1] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-20 09:13:14,945 - INFO - [Page 1 | Carte 2] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-20 09:13:14,946 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 09:13:14,946 - INFO - Résultats cumulés: 2 / 2
+2025-08-20 09:13:14,946 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 09:13:14,946 - INFO - Scraping terminé, total résultats: 2
+2025-08-20 09:13:35,940 - INFO - Lancement du scraping pour 'café bar' à 'Paris'
+2025-08-20 09:13:35,940 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/caf%C3%A9+bar?page=1
+2025-08-20 09:13:40,614 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 09:13:41,355 - INFO - [Page 1 | Carte 1] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-20 09:13:42,398 - INFO - [Page 1 | Carte 2] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-20 09:13:42,398 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 09:13:42,398 - INFO - Résultats cumulés: 2 / 2
+2025-08-20 09:13:42,398 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 09:13:42,399 - INFO - Scraping terminé, total résultats: 2
+2025-08-20 09:32:22,470 - INFO - Lancement du scraping pour 'café bar' à 'Paris'
+2025-08-20 09:32:22,470 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/caf%C3%A9+bar?page=1
+2025-08-20 09:32:29,432 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 09:32:30,101 - INFO - [Page 1 | Carte 1] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-20 09:32:31,129 - INFO - [Page 1 | Carte 2] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-20 09:32:31,129 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 09:32:31,129 - INFO - Résultats cumulés: 2 / 2
+2025-08-20 09:32:31,129 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 09:32:31,129 - INFO - Scraping terminé, total résultats: 2
+2025-08-20 09:41:45,397 - INFO - Lancement du scraping pour 'café bar' à 'Paris'
+2025-08-20 09:41:45,397 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/caf%C3%A9+bar?page=1
+2025-08-20 09:42:15,207 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 09:42:16,018 - INFO - [Page 1 | Carte 1] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-20 09:42:16,934 - INFO - [Page 1 | Carte 2] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-20 09:42:16,935 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 09:42:16,935 - INFO - Résultats cumulés: 2 / 2
+2025-08-20 09:42:16,935 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 09:42:16,936 - INFO - Scraping terminé, total résultats: 2
+2025-08-20 09:45:02,134 - INFO - Lancement du scraping pour 'café bar' à 'Paris'
+2025-08-20 09:45:02,134 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/caf%C3%A9+bar?page=1
+2025-08-20 09:45:05,587 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 09:45:06,226 - INFO - [Page 1 | Carte 1] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-20 09:45:06,826 - INFO - [Page 1 | Carte 2] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-20 09:45:06,826 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 09:45:06,826 - INFO - Résultats cumulés: 2 / 2
+2025-08-20 09:45:06,826 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 09:45:06,827 - INFO - Scraping terminé, total résultats: 2
+2025-08-20 09:46:36,282 - INFO - Lancement du scraping pour 'café bar' à 'Paris'
+2025-08-20 09:46:36,283 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/caf%C3%A9+bar?page=1
+2025-08-20 09:46:38,845 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 09:46:39,723 - INFO - [Page 1 | Carte 1] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-20 09:46:40,464 - INFO - [Page 1 | Carte 2] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-20 09:46:40,465 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 09:46:40,465 - INFO - Résultats cumulés: 2 / 2
+2025-08-20 09:46:40,465 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 09:46:40,465 - INFO - Scraping terminé, total résultats: 2
+2025-08-20 09:56:43,280 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-20 09:56:43,281 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-20 09:57:16,681 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 09:57:17,339 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-20 09:57:18,107 - INFO - [Page 1 | Carte 2] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-20 09:57:18,108 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 09:57:18,108 - INFO - Résultats cumulés: 2 / 2
+2025-08-20 09:57:18,108 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 09:57:18,108 - INFO - Scraping terminé, total résultats: 2
+2025-08-20 09:57:37,630 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-20 09:57:37,630 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-20 09:57:39,757 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 09:57:40,601 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-20 09:57:41,231 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-20 09:57:41,231 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 09:57:41,232 - INFO - Résultats cumulés: 2 / 2
+2025-08-20 09:57:41,232 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 09:57:41,232 - INFO - Scraping terminé, total résultats: 2
+2025-08-20 09:58:24,756 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-20 09:58:24,756 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-20 09:58:26,961 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 09:58:28,392 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-20 09:58:29,296 - INFO - [Page 1 | Carte 2] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-20 09:58:29,296 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 09:58:29,296 - INFO - Résultats cumulés: 2 / 2
+2025-08-20 09:58:29,296 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 09:58:29,297 - INFO - Scraping terminé, total résultats: 2
+2025-08-20 09:58:53,631 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-20 09:58:53,631 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-20 09:58:58,334 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 09:58:59,452 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-20 09:59:00,198 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-20 09:59:00,199 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 09:59:00,199 - INFO - Résultats cumulés: 2 / 2
+2025-08-20 09:59:00,199 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 09:59:00,199 - INFO - Scraping terminé, total résultats: 2
+2025-08-20 10:02:24,608 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-20 10:02:24,609 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-20 10:02:54,277 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 10:02:54,925 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-20 10:02:55,573 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-20 10:02:56,246 - INFO - [Page 1 | Carte 3] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-20 10:02:57,051 - INFO - [Page 1 | Carte 4] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-20 10:02:57,963 - INFO - [Page 1 | Carte 5] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-20 10:02:57,963 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 10:02:57,964 - INFO - Résultats cumulés: 5 / 5
+2025-08-20 10:02:57,964 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 10:02:57,964 - INFO - Scraping terminé, total résultats: 5
+2025-08-20 10:05:08,836 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-20 10:05:08,836 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-20 10:05:11,397 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 10:05:12,480 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-20 10:05:13,365 - INFO - [Page 1 | Carte 2] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-20 10:05:14,225 - INFO - [Page 1 | Carte 3] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-20 10:05:15,248 - INFO - [Page 1 | Carte 4] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-20 10:05:16,301 - INFO - [Page 1 | Carte 5] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-20 10:05:17,235 - INFO - [Page 1 | Carte 6] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-20 10:05:18,220 - INFO - [Page 1 | Carte 7] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-20 10:05:19,242 - INFO - [Page 1 | Carte 8] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-20 10:05:20,129 - INFO - [Page 1 | Carte 9] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-20 10:05:20,879 - INFO - [Page 1 | Carte 10] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-20 10:05:20,879 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 10:05:20,879 - INFO - Résultats cumulés: 10 / 10
+2025-08-20 10:05:20,879 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 10:05:20,879 - INFO - Scraping terminé, total résultats: 10
+2025-08-20 10:26:19,077 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-20 10:26:19,077 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-20 10:26:48,829 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 10:26:49,891 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-20 10:26:50,659 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-20 10:26:51,607 - INFO - [Page 1 | Carte 3] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-20 10:26:52,425 - INFO - [Page 1 | Carte 4] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-20 10:26:53,421 - INFO - [Page 1 | Carte 5] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-20 10:26:53,421 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 10:26:53,421 - INFO - Résultats cumulés: 5 / 5
+2025-08-20 10:26:53,422 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 10:26:53,422 - INFO - Scraping terminé, total résultats: 5

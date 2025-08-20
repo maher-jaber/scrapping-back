@@ -59,11 +59,10 @@ def scrape_gmaps(request: SearchRequest):
     
     normalized = [normalize_result(r) for r in results]
     
-    ids = save_to_db(normalized, request.query, request.location, source="gmaps")
+    saved = save_to_db(normalized, request.query, request.location, source="gmaps")
     return {
         "status": "success",
-        "results": results,
-        "inserted_ids": ids
+        **saved
     }
 
 @app.post("/scrape/pagesjaunes")
@@ -78,12 +77,12 @@ def scrape_pj(request: SearchRequest):
     
     normalized = [normalize_result(r) for r in results]
     
-    ids = save_to_db(normalized, request.query, request.location, source="pagesjaunes")
+    saved = save_to_db(normalized, request.query, request.location, source="pagesjaunes")
     return {
         "status": "success",
-        "results": results,
-        "inserted_ids": ids
+        **saved
     }
+
 
 
 
@@ -157,8 +156,10 @@ def list_historique_paginated(
 
 
 def save_to_db(results, query, location, source="gmaps"):
-    cursor = db.cursor()
+    cursor = db.cursor(dictionary=True)
     inserted_ids = []
+    already_scraped_ids = []
+    full_results = []  # <-- Ici on va stocker les enregistrements complets
      
     for r in results:
         name = r.get("name")
@@ -169,27 +170,50 @@ def save_to_db(results, query, location, source="gmaps"):
         note = r.get("note", None)
         horaires = r.get("horaires", "")
 
-        # Génération d’un hash unique
         unique_hash = hashlib.md5(f"{name}{address}{phone}".encode("utf-8")).hexdigest()
 
-        # Insertion ou récupération de l'ID existant
-        cursor.execute("""
-            INSERT INTO scraped_data (name, address, phone, website, plus_code, note, horaires, unique_hash)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
-            ON DUPLICATE KEY UPDATE id=LAST_INSERT_ID(id)
-        """, (name, address, phone, website, plus_code, note, horaires, unique_hash))
+        # Vérifier si déjà en base AVANT insert
+        cursor.execute("SELECT * FROM scraped_data WHERE unique_hash=%s", (unique_hash,))
+        existing = cursor.fetchone()
 
-        scraped_data_id = cursor.lastrowid
-        inserted_ids.append(scraped_data_id)
+        if existing:
+            scraped_data_id = existing["id"]
+            already_scraped_ids.append(scraped_data_id)
 
-        # Historique
+            # ✅ on met à jour already_scrapped=True
+            cursor.execute("UPDATE scraped_data SET already_scrapped=TRUE WHERE id=%s", (scraped_data_id,))
+            db.commit()
+
+            existing["already_scrapped"] = True
+            full_results.append(existing)
+        else:
+            cursor.execute("""
+                INSERT INTO scraped_data (name, address, phone, website, plus_code, note, horaires, unique_hash, already_scrapped,scraped_at)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, FALSE, NOW())
+            """, (name, address, phone, website, plus_code, note, horaires, unique_hash))
+            scraped_data_id = cursor.lastrowid
+            inserted_ids.append(scraped_data_id)
+
+            # Récupérer le record complet inséré
+            cursor.execute("SELECT * FROM scraped_data WHERE id=%s", (scraped_data_id,))
+            new_record = cursor.fetchone()
+            new_record["already_scrapped"] = False
+            full_results.append(new_record)
+
+        # Historique (toujours tracé, même si déjà existant)
         cursor.execute("""
             INSERT INTO scrape_history (scraped_data_id, source, query, location)
             VALUES (%s, %s, %s, %s)
         """, (scraped_data_id, source, query, location))
 
     db.commit()
-    return inserted_ids
+    return {
+        "results": full_results,
+        "new_ids": inserted_ids,
+        "already_scraped_ids": already_scraped_ids
+    }
+
+
 
 def normalize_result(r: dict) -> dict:
     """Convertit les clés FR -> EN pour correspondre à la DB"""
