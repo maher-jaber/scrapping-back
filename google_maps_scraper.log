@@ -8558,3 +8558,25 @@ Stacktrace:
 2025-08-20 10:26:53,421 - INFO - Résultats cumulés: 5 / 5
 2025-08-20 10:26:53,422 - INFO - Nombre maximal de résultats atteint.
 2025-08-20 10:26:53,422 - INFO - Scraping terminé, total résultats: 5
+2025-08-20 12:10:49,489 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-20 12:10:49,489 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-20 12:10:56,116 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 12:10:56,922 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-20 12:10:58,007 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-20 12:10:58,622 - INFO - [Page 1 | Carte 3] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-20 12:10:58,622 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 12:10:58,622 - INFO - Résultats cumulés: 3 / 3
+2025-08-20 12:10:58,622 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 12:10:58,623 - INFO - Scraping terminé, total résultats: 3
+2025-08-20 14:25:23,785 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-20 14:25:23,786 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-20 14:26:15,290 - INFO - 20 cartes détectées sur la page 1
+2025-08-20 14:26:16,346 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-20 14:26:17,344 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-20 14:26:18,112 - INFO - [Page 1 | Carte 3] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-20 14:26:19,187 - INFO - [Page 1 | Carte 4] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-20 14:26:20,117 - INFO - [Page 1 | Carte 5] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-20 14:26:20,117 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-20 14:26:20,117 - INFO - Résultats cumulés: 5 / 5
+2025-08-20 14:26:20,117 - INFO - Nombre maximal de résultats atteint.
+2025-08-20 14:26:20,118 - INFO - Scraping terminé, total résultats: 5

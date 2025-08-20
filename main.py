@@ -109,7 +109,9 @@ def list_historique_paginated(
     per_page: int = FQuery(10, ge=1),
     query: str = FQuery(None),
     location: str = FQuery(None),
-    source: str = FQuery(None)
+    source: str = FQuery(None),
+    date_from: str = FQuery(None),  # format attendu: yyyy-mm-dd
+    date_to: str = FQuery(None)
 ):
     offset = (page - 1) * per_page
     cursor = db.cursor(dictionary=True)
@@ -127,6 +129,18 @@ def list_historique_paginated(
     if source:
         filters.append("h.source LIKE %s")
         params.append(f"%{source}%")
+
+    # Filtre date
+    if date_from and date_to:
+        filters.append("h.scraped_at BETWEEN %s AND %s")
+        params.append(f"{date_from} 00:00:00")
+        params.append(f"{date_to} 23:59:59")
+    elif date_from:
+        filters.append("h.scraped_at >= %s")
+        params.append(f"{date_from} 00:00:00")
+    elif date_to:
+        filters.append("h.scraped_at <= %s")
+        params.append(f"{date_to} 23:59:59")
 
     where_clause = f"WHERE {' AND '.join(filters)}" if filters else ""
 
