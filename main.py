@@ -26,7 +26,7 @@ security = HTTPBasic()
 
 SECRET_KEY = "altra-call@2025"  # change en secret fort
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 60
+ACCESS_TOKEN_EXPIRE_MINUTES = 1
 
 REFRESH_TOKEN_EXPIRE_DAYS = 7
 refresh_tokens_store = {} 
@@ -52,6 +52,7 @@ DATA_DIR = "data"
 # --- CORS ---
 origins = [
     "*",
+    "http://localhost:4200",
     "http://localhost:8000",  # Ton front Symfony
     "http://127.0.0.1:8000",  # Variante localhost
     # Tu peux ajouter d'autres domaines si besoin
@@ -75,6 +76,7 @@ class SearchRequest(BaseModel):
 class RegisterRequest(BaseModel):
     username: str
     password: str
+    
     
     
 
@@ -210,26 +212,26 @@ def logout(user: str = Depends(get_current_user)):
 
 
 @app.post("/register")
-def register(user: RegisterRequest):
+def register(user_data: RegisterRequest, current_user: str = Depends(get_current_user)):
     cursor = db.cursor(dictionary=True)
 
     # Vérifier si username existe déjà
-    cursor.execute("SELECT id FROM users WHERE username=%s", (user.username,))
+    cursor.execute("SELECT id FROM users WHERE username=%s", (user_data.username,))
     existing = cursor.fetchone()
     if existing:
         raise HTTPException(status_code=400, detail="Nom d'utilisateur déjà pris")
 
     # Hash du mot de passe
-    hashed = hash_password(user.password)
+    hashed = hash_password(user_data.password)
 
     # Insert en DB
     cursor.execute(
         "INSERT INTO users (username, password_hash) VALUES (%s, %s)",
-        (user.username, hashed)
+        (user_data.username, hashed)
     )
     db.commit()
 
-    return {"status": "success", "message": f"Utilisateur {user.username} créé avec succès"}
+    return {"status": "success", "message": f"Utilisateur {user_data.username} créé avec succès"}
 
 
 

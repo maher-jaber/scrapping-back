@@ -8687,3 +8687,96 @@ pip install python-multipart
 2025-08-20 17:47:06,532 - INFO - Retour à la liste (mobile).
 2025-08-20 17:47:10,508 - INFO - 5/5: Le Trotteur
 2025-08-20 17:47:10,552 - INFO - Retour à la liste (mobile).
+2025-08-21 09:21:49,014 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-21 11:43:54,127 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-21 12:20:35,520 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-21 12:27:45,115 - INFO - --- Recherche pour mot-clé: restaurants ---
+2025-08-21 12:27:51,374 - INFO - Recherche: restaurants à Centre-Val de Loire
+2025-08-21 12:28:03,013 - INFO - 1/5: Fou d'Loire
+2025-08-21 12:28:03,063 - INFO - Retour à la liste (mobile).
+2025-08-21 12:28:07,802 - INFO - 2/5: Ezia
+2025-08-21 12:28:07,843 - INFO - Retour à la liste (mobile).
+2025-08-21 12:28:11,434 - INFO - 3/5: À la maison
+2025-08-21 12:28:11,482 - INFO - Retour à la liste (mobile).
+2025-08-21 12:28:16,245 - INFO - 4/5: La Maison Tourangelle
+2025-08-21 12:28:16,291 - INFO - Retour à la liste (mobile).
+2025-08-21 12:28:20,311 - INFO - 5/5: Entre Loire Et Sologne
+2025-08-21 12:28:20,351 - INFO - Retour à la liste (mobile).
+2025-08-21 15:20:45,196 - INFO - --- Recherche pour mot-clé:  ---
+2025-08-21 15:20:50,136 - INFO - Recherche:  à Bretagne
+2025-08-21 15:21:17,436 - ERROR - Timeout en attente des résultats
+2025-08-21 16:53:09,347 - INFO - --- Recherche pour mot-clé: restauration ---
+2025-08-21 16:53:12,496 - INFO - Recherche: restauration à Auvergne-Rhône-Alpes
+2025-08-21 16:53:25,626 - INFO - 1/5: Buron du Col de la Croix Morand
+2025-08-21 16:53:25,675 - INFO - Retour à la liste (mobile).
+2025-08-21 16:53:29,790 - INFO - 2/5: Le bouchon des alpes
+2025-08-21 16:53:29,833 - INFO - Retour à la liste (mobile).
+2025-08-21 16:53:34,688 - INFO - 3/5: Auberge du col du Béal
+2025-08-21 16:53:34,729 - INFO - Retour à la liste (mobile).
+2025-08-21 16:53:38,698 - INFO - 4/5: Chateau de Saint Priest
+2025-08-21 16:53:38,744 - INFO - Retour à la liste (mobile).
+2025-08-21 16:53:42,415 - INFO - 5/5: Le Bistrot des Saveurs (Passins en ISÈRE 38 AUVERGNE/RHÔNE-ALPES)
+2025-08-21 16:53:42,462 - INFO - Retour à la liste (mobile).
+2025-08-21 16:55:25,849 - INFO - Lancement du scraping pour 'Restauration' à 'Auvergne-Rhône-Alpes'
+2025-08-21 16:55:25,849 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/restauration?page=1
+2025-08-21 16:55:58,344 - INFO - 20 cartes détectées sur la page 1
+2025-08-21 16:55:59,241 - INFO - [Page 1 | Carte 1] Ristorante Del Arte Aubière | Tél: 04 73 19 37 70 | Adresse: 26 avenue Lavoisier 63170 Aubière Voir le plan
+2025-08-21 16:56:00,331 - INFO - [Page 1 | Carte 2] La Pyramide | Tél:     04 74 53 01 96 | Adresse: 14 boulevard Fernand Point 38200 Vienne Voir le plan
+2025-08-21 16:56:01,066 - INFO - [Page 1 | Carte 3] Aletti Palace Hôtel | Tél:   04 70 30 20 20, 09 77 75 63 24 | Adresse: 3 place Joseph Aletti 03200 Vichy Voir le plan
+2025-08-21 16:56:02,030 - INFO - [Page 1 | Carte 4] Restaurant Bonnier | Tél: 04 78 48 92 06 | Adresse: 51 route Vallée du Garon 69510 Thurins Voir le plan
+2025-08-21 16:56:02,786 - INFO - [Page 1 | Carte 5] Saison 2 | Tél: 04 26 42 39 01 | Adresse: 54 chemin Thabor 26000 Valence Voir le plan
+2025-08-21 16:56:02,786 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-21 16:56:02,786 - INFO - Résultats cumulés: 5 / 5
+2025-08-21 16:56:02,786 - INFO - Nombre maximal de résultats atteint.
+2025-08-21 16:56:02,787 - INFO - Scraping terminé, total résultats: 5
+2025-08-21 16:56:47,668 - INFO - --- Recherche pour mot-clé: restauration ---
+2025-08-21 16:56:50,305 - INFO - Recherche: restauration à Ain
+2025-08-21 16:57:02,477 - INFO - 1/5: Le comptoir de charnoz
+2025-08-21 16:57:02,527 - INFO - Retour à la liste (mobile).
+2025-08-21 16:57:06,850 - INFO - 2/5: Restaurant Le Terminus
+2025-08-21 16:57:06,891 - INFO - Retour à la liste (mobile).
+2025-08-21 16:57:11,706 - INFO - 3/5: AinTimiste
+2025-08-21 16:57:11,754 - INFO - Retour à la liste (mobile).
+2025-08-21 16:57:15,825 - INFO - 4/5: Auberge du Mail
+2025-08-21 16:57:15,867 - INFO - Retour à la liste (mobile).
+2025-08-21 16:57:20,553 - INFO - 5/5: L'O à la bouche.
+2025-08-21 16:57:20,596 - INFO - Retour à la liste (mobile).
+2025-08-21 17:05:33,349 - INFO - Lancement du scraping pour 'Restauration' à 'Ain'
+2025-08-21 17:05:33,349 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/restauration?page=1
+2025-08-21 17:05:37,066 - INFO - 20 cartes détectées sur la page 1
+2025-08-21 17:05:37,881 - INFO - [Page 1 | Carte 1] A l'Arret's Couscous | Tél: 06 74 90 57 91 | Adresse: 353 route Lyon 01600 Parcieux Voir le plan
+2025-08-21 17:05:38,735 - INFO - [Page 1 | Carte 2] Au Comptoir Des Viandes | Tél: 04 74 24 05 29 | Adresse: impasse St Amouze 01250 Montagnat Voir le plan
+2025-08-21 17:05:39,588 - INFO - [Page 1 | Carte 3] Restaurant ô Troll | Tél: 04 74 25 32 80 | Adresse: 161 rue Prosper Convert 01440 Viriat Voir le plan
+2025-08-21 17:05:40,226 - INFO - [Page 1 | Carte 4] Restaurant Du Pont | Tél: 04 74 04 08 90, 06 23 41 09 82 | Adresse: 1901 pont St Romain 01140 Saint Didier sur Chalaronne Voir le plan
+2025-08-21 17:05:41,271 - INFO - [Page 1 | Carte 5] Le K | Tél: 04 74 14 00 14, 04 74 47 94 03 | Adresse: 2020 avenue Lyon 01960 Péronnas Voir le plan
+2025-08-21 17:05:41,272 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-21 17:05:41,272 - INFO - Résultats cumulés: 5 / 5
+2025-08-21 17:05:41,272 - INFO - Nombre maximal de résultats atteint.
+2025-08-21 17:05:41,272 - INFO - Scraping terminé, total résultats: 5
+2025-08-21 17:14:22,096 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-21 17:31:43,679 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
