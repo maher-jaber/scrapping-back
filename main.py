@@ -18,15 +18,20 @@ from fastapi.openapi.docs import get_swagger_ui_html
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import JWTError, jwt
 from datetime import timedelta
-
-
+from typing import Optional
+from passlib.context import CryptContext
 
 security = HTTPBasic()
 
 
-SECRET_KEY = "supersecretkey"  # change en secret fort
+SECRET_KEY = "altra-call@2025"  # change en secret fort
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
+
+REFRESH_TOKEN_EXPIRE_DAYS = 7
+refresh_tokens_store = {} 
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
@@ -67,14 +72,59 @@ class SearchRequest(BaseModel):
     max_results: int = 20
 
 
+class RegisterRequest(BaseModel):
+    username: str
+    password: str
+    
+    
 
+def hash_password(password: str) -> str:
+    return pwd_context.hash(password)
 
+def verify_password(plain_password: str, hashed_password: str) -> bool:
+    return pwd_context.verify(plain_password, hashed_password)
+
+def create_user(username: str, password: str):
+    hashed = hash_password(password)
+    cursor = db.cursor()
+    cursor.execute(
+        "INSERT INTO users (username, password_hash) VALUES (%s, %s)",
+        (username, hashed)
+    )
+    db.commit()
+    print(f"✅ Utilisateur {username} créé")
+    
+    
 # --- créer le token ---
 def create_access_token(data: dict, expires_delta: timedelta = None):
     to_encode = data.copy()
     expire = datetime.utcnow() + (expires_delta if expires_delta else timedelta(minutes=15))
     to_encode.update({"exp": expire})
     return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
+
+def create_tokens(username: str):
+    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    refresh_token_expires = timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)
+
+    access_token = create_access_token(
+        data={"sub": username}, 
+        expires_delta=access_token_expires
+    )
+    refresh_token = create_access_token(
+        data={"sub": username, "type": "refresh"}, 
+        expires_delta=refresh_token_expires
+    )
+
+    # Sauvegarde côté serveur (DB idéalement)
+    refresh_tokens_store[refresh_token] = username
+
+    return {
+        "access_token": access_token,
+        "refresh_token": refresh_token,
+        "token_type": "bearer"
+    }
+
+
 
 # --- vérifier token ---
 def get_current_user(token: str = Depends(oauth2_scheme)):
@@ -90,11 +140,96 @@ def get_current_user(token: str = Depends(oauth2_scheme)):
 # --- endpoint login ---
 @app.post("/token")
 def login(form_data: OAuth2PasswordRequestForm = Depends()):
-    # Ici tu peux vérifier en DB
-    if form_data.username == "admin" and form_data.password == "admin":
-        access_token = create_access_token({"sub": form_data.username}, timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))
-        return {"access_token": access_token, "token_type": "bearer"}
-    raise HTTPException(status_code=400, detail="Nom utilisateur ou mot de passe incorrect")
+    cursor = db.cursor(dictionary=True)
+    cursor.execute("SELECT * FROM users WHERE username=%s", (form_data.username,))
+    user = cursor.fetchone()
+
+    if not user or not verify_password(form_data.password, user["password_hash"]):
+        raise HTTPException(status_code=400, detail="Nom utilisateur ou mot de passe incorrect")
+
+    # Création des tokens
+    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    refresh_token_expires = datetime.utcnow() + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)
+
+    access_token = create_access_token({"sub": user["username"]}, access_token_expires)
+    refresh_token = create_access_token({"sub": user["username"], "type": "refresh"},
+                                        timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS))
+
+    # Sauvegarde en DB
+    cursor.execute("""
+        UPDATE users 
+        SET refresh_token=%s, refresh_token_expiry=%s 
+        WHERE id=%s
+    """, (refresh_token, refresh_token_expires, user["id"]))
+    db.commit()
+
+    return {
+        "access_token": access_token,
+        "refresh_token": refresh_token,
+        "token_type": "bearer"
+    }
+
+
+# --- Endpoint Refresh ---
+@app.post("/refresh")
+def refresh_token(token: str = Depends(oauth2_scheme)):
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        if payload.get("type") != "refresh":
+            raise HTTPException(status_code=401, detail="Token invalide")
+
+        username = payload.get("sub")
+        cursor = db.cursor(dictionary=True)
+        cursor.execute("SELECT * FROM users WHERE username=%s", (username,))
+        user = cursor.fetchone()
+
+        if not user or user["refresh_token"] != token:
+            raise HTTPException(status_code=401, detail="Refresh token invalide")
+
+        if datetime.utcnow() > user["refresh_token_expiry"]:
+            raise HTTPException(status_code=401, detail="Refresh token expiré")
+
+        # Nouveau Access Token
+        new_access_token = create_access_token(
+            {"sub": username},
+            timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+        )
+        return {"access_token": new_access_token, "token_type": "bearer"}
+
+    except JWTError:
+        raise HTTPException(status_code=401, detail="Token invalide")
+
+
+# --- Endpoint Logout (révocation) ---
+@app.post("/logout")
+def logout(user: str = Depends(get_current_user)):
+    cursor = db.cursor()
+    cursor.execute("UPDATE users SET refresh_token=NULL, refresh_token_expiry=NULL WHERE username=%s", (user,))
+    db.commit()
+    return {"status": "logged_out"}
+
+
+@app.post("/register")
+def register(user: RegisterRequest):
+    cursor = db.cursor(dictionary=True)
+
+    # Vérifier si username existe déjà
+    cursor.execute("SELECT id FROM users WHERE username=%s", (user.username,))
+    existing = cursor.fetchone()
+    if existing:
+        raise HTTPException(status_code=400, detail="Nom d'utilisateur déjà pris")
+
+    # Hash du mot de passe
+    hashed = hash_password(user.password)
+
+    # Insert en DB
+    cursor.execute(
+        "INSERT INTO users (username, password_hash) VALUES (%s, %s)",
+        (user.username, hashed)
+    )
+    db.commit()
+
+    return {"status": "success", "message": f"Utilisateur {user.username} créé avec succès"}
 
 
 
