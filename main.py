@@ -26,7 +26,7 @@ security = HTTPBasic()
 
 SECRET_KEY = "altra-call@2025"  # change en secret fort
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 1
+ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
 REFRESH_TOKEN_EXPIRE_DAYS = 7
 refresh_tokens_store = {} 
