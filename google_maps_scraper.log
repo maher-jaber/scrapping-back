@@ -9364,3 +9364,39 @@ Traceback (most recent call last):
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-25 09:14:10,292 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-25 09:14:10,292 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-25 09:14:38,973 - INFO - 20 cartes détectées sur la page 1
+2025-08-25 09:14:40,002 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-25 09:14:40,885 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-25 09:14:41,653 - INFO - [Page 1 | Carte 3] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-25 09:14:42,373 - INFO - [Page 1 | Carte 4] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-25 09:14:43,206 - INFO - [Page 1 | Carte 5] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-25 09:14:43,206 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-25 09:14:43,206 - INFO - Résultats cumulés: 5 / 5
+2025-08-25 09:14:43,207 - INFO - Nombre maximal de résultats atteint.
+2025-08-25 09:14:43,207 - INFO - Scraping terminé, total résultats: 5
+2025-08-25 09:32:19,155 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-25 09:32:19,155 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-25 09:32:22,972 - INFO - 20 cartes détectées sur la page 1
+2025-08-25 09:32:24,058 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-25 09:32:24,881 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-25 09:32:25,615 - INFO - [Page 1 | Carte 3] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-25 09:32:26,364 - INFO - [Page 1 | Carte 4] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-25 09:32:27,273 - INFO - [Page 1 | Carte 5] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-25 09:32:27,273 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-25 09:32:27,273 - INFO - Résultats cumulés: 5 / 5
+2025-08-25 09:32:27,273 - INFO - Nombre maximal de résultats atteint.
+2025-08-25 09:32:27,273 - INFO - Scraping terminé, total résultats: 5
+2025-08-25 09:32:46,032 - INFO - --- Recherche pour mot-clé: cultures non permanentes ---
+2025-08-25 09:32:47,893 - INFO - Recherche: cultures non permanentes à Auvergne-Rhône-Alpes
+2025-08-25 09:33:01,490 - INFO - 1/5: Auvergne-Rhône-Alpes Livre et Lecture
+2025-08-25 09:33:01,538 - INFO - Retour à la liste (mobile).
+2025-08-25 09:33:06,460 - INFO - 2/5: Auvergne-Rhône-Alpes
+2025-08-25 09:33:06,503 - INFO - Retour à la liste (mobile).
+2025-08-25 09:33:11,401 - INFO - 3/5: Culture Loisirs Vacances Rhône Alpes
+2025-08-25 09:33:11,447 - INFO - Retour à la liste (mobile).
+2025-08-25 09:33:15,446 - INFO - 4/5: Site Médiéval du couvent des Carmes
+2025-08-25 09:33:15,486 - INFO - Retour à la liste (mobile).
+2025-08-25 09:33:19,132 - INFO - 5/5: Auvergne-Rhône-Alpes Orientation
+2025-08-25 09:33:19,173 - INFO - Retour à la liste (mobile).
