@@ -8786,3 +8786,581 @@ Traceback (most recent call last):
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-22 10:15:15,168 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-22 11:17:17,244 - INFO - --- Recherche pour mot-clé: chasse et services annexes ---
+2025-08-22 11:17:24,462 - INFO - Recherche: chasse et services annexes à Auvergne-Rhône-Alpes
+2025-08-22 11:18:16,272 - INFO - 1/5: Fédération Départementale des Chasseurs du Rhône et de la Métropole de Lyon
+2025-08-22 11:18:16,326 - INFO - Retour à la liste (mobile).
+2025-08-22 11:18:20,933 - INFO - 2/5: Fédération Départementale des Chasseurs de la Loire
+2025-08-22 11:18:20,978 - INFO - Retour à la liste (mobile).
+2025-08-22 11:18:24,460 - INFO - 3/5: Fédération Régionale des Chasseurs d'Auvergne-Rhône-Alpes
+2025-08-22 11:18:24,515 - INFO - Retour à la liste (mobile).
+2025-08-22 11:18:28,433 - INFO - 4/5: Fédération Départementale des Chasseurs du Puy de Dome
+2025-08-22 11:18:28,472 - INFO - Retour à la liste (mobile).
+2025-08-22 11:18:33,158 - INFO - 5/5: Fédération Départementale des Chasseurs du Cantal
+2025-08-22 11:18:33,199 - INFO - Retour à la liste (mobile).
+2025-08-22 11:42:09,202 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 11:42:12,283 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 11:42:23,281 - INFO - 1/2: CENTRE D'ELEVAGE DE POISY
+2025-08-22 11:42:23,335 - INFO - Retour à la liste (mobile).
+2025-08-22 11:42:27,128 - INFO - 2/2: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 11:42:27,167 - INFO - Retour à la liste (mobile).
+2025-08-22 12:09:27,263 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-22 12:09:39,300 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:09:42,447 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:10:38,942 - INFO - 1/5: CENTRE D'ELEVAGE DE POISY
+2025-08-22 12:10:38,988 - INFO - Retour à la liste (mobile).
+2025-08-22 12:10:42,692 - INFO - 2/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 12:10:42,730 - INFO - Retour à la liste (mobile).
+2025-08-22 12:10:47,232 - INFO - 3/5: Domaine de Cozance : Elevage de pur sang arabe - Gites et Chambres d'hotes
+2025-08-22 12:10:47,272 - INFO - Retour à la liste (mobile).
+2025-08-22 12:10:50,517 - INFO - 4/5: Chambre régionale d'agriculture Auvergne Rhône-Alpes
+2025-08-22 12:10:50,557 - INFO - Retour à la liste (mobile).
+2025-08-22 12:10:51,207 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-22 12:10:53,284 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-22 12:10:56,140 - INFO - Recherche: culture et élevage associés à Auvergne-Rhône-Alpes
+2025-08-22 12:11:08,695 - INFO - 1/1: L’association Culture & Cultures
+2025-08-22 12:11:08,742 - INFO - Retour à la liste (mobile).
+2025-08-22 12:19:22,758 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:19:24,655 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:20:20,451 - INFO - 1/5: CENTRE D'ELEVAGE DE POISY
+2025-08-22 12:20:20,499 - INFO - Retour à la liste (mobile).
+2025-08-22 12:20:24,323 - INFO - 2/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 12:20:24,360 - INFO - Retour à la liste (mobile).
+2025-08-22 12:20:27,725 - INFO - 3/5: Domaine de Cozance : Elevage de pur sang arabe - Gites et Chambres d'hotes
+2025-08-22 12:20:27,768 - INFO - Retour à la liste (mobile).
+2025-08-22 12:20:31,630 - INFO - 4/5: Chambre régionale d'agriculture Auvergne Rhône-Alpes
+2025-08-22 12:20:31,670 - INFO - Retour à la liste (mobile).
+2025-08-22 12:20:32,292 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-22 12:20:34,371 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-22 12:20:36,122 - INFO - Recherche: culture et élevage associés à Auvergne-Rhône-Alpes
+2025-08-22 12:20:48,984 - INFO - 1/1: L’association Culture & Cultures
+2025-08-22 12:20:49,032 - INFO - Retour à la liste (mobile).
+2025-08-22 12:22:57,223 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:22:59,100 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:23:16,696 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C12A6C1F50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/78d08c0af710ed36e7568ad469558d0d/element
+2025-08-22 12:23:20,739 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C12A6C3E10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/78d08c0af710ed36e7568ad469558d0d/element
+2025-08-22 12:23:37,381 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:23:39,226 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:24:31,176 - INFO - 1/5: CENTRE D'ELEVAGE DE POISY
+2025-08-22 12:24:31,224 - INFO - Retour à la liste (mobile).
+2025-08-22 12:24:36,197 - INFO - 2/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 12:24:36,234 - INFO - Retour à la liste (mobile).
+2025-08-22 12:24:41,044 - INFO - 3/5: Domaine de Cozance : Elevage de pur sang arabe - Gites et Chambres d'hotes
+2025-08-22 12:24:41,086 - INFO - Retour à la liste (mobile).
+2025-08-22 12:24:45,277 - INFO - 4/5: Chambre régionale d'agriculture Auvergne Rhône-Alpes
+2025-08-22 12:24:45,315 - INFO - Retour à la liste (mobile).
+2025-08-22 12:24:46,403 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-22 12:24:48,490 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-22 12:24:50,299 - INFO - Recherche: culture et élevage associés à Auvergne-Rhône-Alpes
+2025-08-22 12:25:03,576 - INFO - 1/1: L’association Culture & Cultures
+2025-08-22 12:25:03,629 - INFO - Retour à la liste (mobile).
+2025-08-22 12:34:57,526 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-22 12:35:07,305 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:35:10,235 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:35:53,323 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:35:55,444 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:36:04,208 - INFO - 1/5: CENTRE D'ELEVAGE DE POISY
+2025-08-22 12:36:04,256 - INFO - Retour à la liste (mobile).
+2025-08-22 12:36:07,749 - INFO - 2/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 12:36:07,787 - INFO - Retour à la liste (mobile).
+2025-08-22 12:36:11,963 - INFO - 3/5: Domaine de Cozance : Elevage de pur sang arabe - Gites et Chambres d'hotes
+2025-08-22 12:36:12,006 - INFO - Retour à la liste (mobile).
+2025-08-22 12:36:16,063 - INFO - 4/5: Chambre régionale d'agriculture Auvergne Rhône-Alpes
+2025-08-22 12:36:16,105 - INFO - Retour à la liste (mobile).
+2025-08-22 12:36:17,131 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-22 12:36:19,210 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-22 12:36:21,015 - INFO - Recherche: culture et élevage associés à Auvergne-Rhône-Alpes
+2025-08-22 12:36:31,373 - INFO - 1/1: L’association Culture & Cultures
+2025-08-22 12:36:31,432 - INFO - Retour à la liste (mobile).
+2025-08-22 12:36:39,661 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:36:41,412 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:36:45,495 - INFO - 1/5: CENTRE D'ELEVAGE DE POISY
+2025-08-22 12:36:45,554 - INFO - Retour à la liste (mobile).
+2025-08-22 12:36:50,403 - INFO - 2/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 12:36:50,441 - INFO - Retour à la liste (mobile).
+2025-08-22 12:36:54,558 - INFO - 3/5: Domaine de Cozance : Elevage de pur sang arabe - Gites et Chambres d'hotes
+2025-08-22 12:36:54,603 - INFO - Retour à la liste (mobile).
+2025-08-22 12:36:58,801 - INFO - 4/5: Chambre régionale d'agriculture Auvergne Rhône-Alpes
+2025-08-22 12:36:58,844 - INFO - Retour à la liste (mobile).
+2025-08-22 12:36:59,412 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-22 12:37:01,484 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-22 12:37:03,247 - INFO - Recherche: culture et élevage associés à Auvergne-Rhône-Alpes
+2025-08-22 12:37:14,670 - INFO - 1/1: L’association Culture & Cultures
+2025-08-22 12:37:14,720 - INFO - Retour à la liste (mobile).
+2025-08-22 12:37:26,096 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75A86F90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332/element
+2025-08-22 12:37:30,189 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75A8DBD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332/element
+2025-08-22 12:37:34,251 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75651150>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332/element
+2025-08-22 12:37:38,327 - WARNING - Error finding business cards: HTTPConnectionPool(host='localhost', port=53270): Max retries exceeded with url: /session/a118b3062b7bf442892afe9667dfb332/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75653C10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-22 12:37:42,384 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB73D3CB50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332/execute/sync
+2025-08-22 12:37:46,455 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75A01E50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332/execute/sync
+2025-08-22 12:37:50,523 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB759E2E90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332/execute/sync
+2025-08-22 12:37:54,608 - WARNING - Erreur pendant le scroll: HTTPConnectionPool(host='localhost', port=53270): Max retries exceeded with url: /session/a118b3062b7bf442892afe9667dfb332/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB759E3E90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-22 12:37:58,666 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75A7C950>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332/element
+2025-08-22 12:38:02,724 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75A7FA50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332/element
+2025-08-22 12:38:06,796 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75A7E790>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332/element
+2025-08-22 12:38:10,847 - WARNING - Error finding business cards: HTTPConnectionPool(host='localhost', port=53270): Max retries exceeded with url: /session/a118b3062b7bf442892afe9667dfb332/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75A84550>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-22 12:38:10,847 - WARNING - Index 0 dépasse le nombre d'items (0)
+2025-08-22 12:38:14,923 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75A84790>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332
+2025-08-22 12:38:18,980 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75A68D90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332
+2025-08-22 12:38:23,053 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB75A68A90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a118b3062b7bf442892afe9667dfb332
+2025-08-22 12:38:27,124 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-22 12:38:28,889 - INFO - Recherche: culture et élevage associés à Auvergne-Rhône-Alpes
+2025-08-22 12:39:19,153 - INFO - 1/5: L’association Culture & Cultures
+2025-08-22 12:39:19,202 - INFO - Retour à la liste (mobile).
+2025-08-22 12:39:22,943 - INFO - 2/5: CENTRE D'ELEVAGE DE POISY
+2025-08-22 12:39:22,989 - INFO - Retour à la liste (mobile).
+2025-08-22 12:39:27,533 - INFO - 3/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 12:39:27,573 - INFO - Retour à la liste (mobile).
+2025-08-22 12:39:28,632 - WARNING - Index 3 dépasse le nombre d'items (3)
+2025-08-22 12:44:04,037 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:44:05,871 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:44:50,052 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:44:51,839 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:45:00,014 - INFO - 1/5: CENTRE D'ELEVAGE DE POISY
+2025-08-22 12:45:00,069 - INFO - Retour à la liste (mobile).
+2025-08-22 12:45:04,407 - INFO - 2/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 12:45:04,445 - INFO - Retour à la liste (mobile).
+2025-08-22 12:45:08,928 - INFO - 3/5: Domaine de Cozance : Elevage de pur sang arabe - Gites et Chambres d'hotes
+2025-08-22 12:45:08,972 - INFO - Retour à la liste (mobile).
+2025-08-22 12:45:13,470 - INFO - 4/5: Chambre régionale d'agriculture Auvergne Rhône-Alpes
+2025-08-22 12:45:13,512 - INFO - Retour à la liste (mobile).
+2025-08-22 12:45:14,721 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-22 12:45:16,806 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-22 12:45:18,660 - INFO - Recherche: culture et élevage associés à Auvergne-Rhône-Alpes
+2025-08-22 12:45:30,671 - INFO - 1/1: L’association Culture & Cultures
+2025-08-22 12:45:30,735 - INFO - Retour à la liste (mobile).
+2025-08-22 12:45:45,546 - INFO - 1/5: CENTRE D'ELEVAGE DE POISY
+2025-08-22 12:45:45,594 - INFO - Retour à la liste (mobile).
+2025-08-22 12:45:49,769 - INFO - 2/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 12:45:49,809 - INFO - Retour à la liste (mobile).
+2025-08-22 12:45:53,482 - INFO - 3/5: Domaine de Cozance : Elevage de pur sang arabe - Gites et Chambres d'hotes
+2025-08-22 12:45:53,524 - INFO - Retour à la liste (mobile).
+2025-08-22 12:45:58,327 - INFO - 4/5: Chambre régionale d'agriculture Auvergne Rhône-Alpes
+2025-08-22 12:45:58,367 - INFO - Retour à la liste (mobile).
+2025-08-22 12:45:59,375 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-22 12:46:01,454 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-22 12:51:51,399 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:51:53,871 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:52:48,955 - INFO - 1/5: CENTRE D'ELEVAGE DE POISY
+2025-08-22 12:52:49,003 - INFO - Retour à la liste (mobile).
+2025-08-22 12:52:52,952 - INFO - 2/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 12:52:52,989 - INFO - Retour à la liste (mobile).
+2025-08-22 12:52:56,854 - INFO - 3/5: Domaine de Cozance : Elevage de pur sang arabe - Gites et Chambres d'hotes
+2025-08-22 12:52:56,896 - INFO - Retour à la liste (mobile).
+2025-08-22 12:53:01,224 - INFO - 4/5: Chambre régionale d'agriculture Auvergne Rhône-Alpes
+2025-08-22 12:53:01,264 - INFO - Retour à la liste (mobile).
+2025-08-22 12:53:02,001 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-22 12:53:04,099 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-22 12:53:05,871 - INFO - Recherche: culture et élevage associés à Auvergne-Rhône-Alpes
+2025-08-22 12:53:19,612 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054DE7C050>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f11df9fa1b9c05148eefef15fb4d121f/element
+2025-08-22 12:53:23,684 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054DE7F350>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f11df9fa1b9c05148eefef15fb4d121f/element
+2025-08-22 12:53:27,726 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054DE7EE90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f11df9fa1b9c05148eefef15fb4d121f/element
+2025-08-22 12:53:31,801 - ERROR - Erreur sur l'élément 1: HTTPConnectionPool(host='localhost', port=54549): Max retries exceeded with url: /session/f11df9fa1b9c05148eefef15fb4d121f/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054DE7DF10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-22 12:53:35,843 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054DE7DE50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f11df9fa1b9c05148eefef15fb4d121f/element
+2025-08-22 12:53:39,884 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054CAC5BD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f11df9fa1b9c05148eefef15fb4d121f/element
+2025-08-22 12:53:43,929 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054CAC6150>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f11df9fa1b9c05148eefef15fb4d121f/element
+2025-08-22 12:53:47,990 - WARNING - Error finding business cards: HTTPConnectionPool(host='localhost', port=54549): Max retries exceeded with url: /session/f11df9fa1b9c05148eefef15fb4d121f/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054CAFF8D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-22 12:53:47,990 - WARNING - Index 1 dépasse le nombre d'items (0)
+2025-08-22 12:53:52,038 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054CAFF450>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f11df9fa1b9c05148eefef15fb4d121f
+2025-08-22 12:53:56,079 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054CAFFE90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f11df9fa1b9c05148eefef15fb4d121f
+2025-08-22 12:54:00,125 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002054DE8C210>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/f11df9fa1b9c05148eefef15fb4d121f
+2025-08-22 12:55:31,332 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:55:33,197 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:56:04,714 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000227BD3931D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/da73458defaf70e60efe832359a97804/element
+2025-08-22 12:56:16,186 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-22 12:56:17,971 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-22 12:57:12,545 - INFO - 1/5: CENTRE D'ELEVAGE DE POISY
+2025-08-22 12:57:12,593 - INFO - Retour à la liste (mobile).
+2025-08-22 12:57:16,148 - INFO - 2/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-22 12:57:16,187 - INFO - Retour à la liste (mobile).
+2025-08-22 12:57:20,524 - INFO - 3/5: Domaine de Cozance : Elevage de pur sang arabe - Gites et Chambres d'hotes
+2025-08-22 12:57:20,565 - INFO - Retour à la liste (mobile).
+2025-08-22 12:57:25,051 - INFO - 4/5: Chambre régionale d'agriculture Auvergne Rhône-Alpes
+2025-08-22 12:57:25,093 - INFO - Retour à la liste (mobile).
+2025-08-22 12:57:25,625 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-22 12:57:27,727 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-22 12:57:29,473 - INFO - Recherche: culture et élevage associés à Auvergne-Rhône-Alpes
+2025-08-22 12:57:42,495 - INFO - 1/1: L’association Culture & Cultures
+2025-08-22 12:57:42,544 - INFO - Retour à la liste (mobile).
+2025-08-22 14:20:00,787 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-22 14:21:13,038 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Paris'
+2025-08-22 14:21:13,039 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=1
+2025-08-22 14:21:16,605 - INFO - 20 cartes détectées sur la page 1
+2025-08-22 14:21:17,747 - INFO - [Page 1 | Carte 1] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-22 14:21:18,741 - INFO - [Page 1 | Carte 2] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-22 14:21:19,568 - INFO - [Page 1 | Carte 3] Les Editeurs | Tél: 01 43 26 67 76 | Adresse: 4 carrefour Odéon 75006 Paris Voir le plan
+2025-08-22 14:21:20,634 - INFO - [Page 1 | Carte 4] Le Florès | Tél:     01 73 71 59 71, 06 06 74 06 13, 06 17 48 30 85 | Adresse: 80 rue Grenelle 75007 Paris Voir le plan
+2025-08-22 14:21:21,249 - INFO - [Page 1 | Carte 5] Mucha Café | Tél: 01 45 51 06 30, 09 66 90 63 65, 06 82 17 25 44 | Adresse: 227 boulevard St Germain 75007 Paris Voir le plan
+2025-08-22 14:21:21,249 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-22 14:21:21,249 - INFO - Résultats cumulés: 5 / 5
+2025-08-22 14:21:21,249 - INFO - Nombre maximal de résultats atteint.
+2025-08-22 14:21:21,249 - INFO - Scraping terminé, total résultats: 5
+2025-08-22 14:23:25,537 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-22 14:23:28,346 - INFO - Recherche: café bar à Paris
+2025-08-22 14:23:42,510 - INFO - 1/5: Hôtel Le 5 Particulier
+2025-08-22 14:23:42,565 - INFO - Retour à la liste (mobile).
+2025-08-22 14:23:46,376 - INFO - 2/5: Linkaband
+2025-08-22 14:23:46,419 - INFO - Retour à la liste (mobile).
+2025-08-22 14:23:50,206 - INFO - 3/5: Café de Paris V
+2025-08-22 14:23:50,257 - INFO - Retour à la liste (mobile).
+2025-08-22 14:23:54,021 - INFO - 4/5: Carpe Diem Café - Paris
+2025-08-22 14:23:54,072 - INFO - Retour à la liste (mobile).
+2025-08-22 14:23:58,714 - INFO - 5/5: Cubana Café , Soirées Salsa, Bar à Cocktails, Bar de nuit, Fumoir, Restaurant Montparnasse, Evjf,Evg.
+2025-08-22 14:23:58,761 - INFO - Retour à la liste (mobile).
+2025-08-22 15:01:53,755 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-22 15:36:55,659 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-22 15:41:09,246 - INFO - Lancement du scraping pour 'Cafétérias et autres libres-services' à 'VIRY CHATILLON'
+2025-08-22 15:41:09,247 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/viry+chatillon/caf%C3%A9t%C3%A9rias+et+autres+libres-services?page=1
+2025-08-22 15:41:43,890 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-22 15:41:43,890 - INFO - Scraping terminé, total résultats: 0
+2025-08-22 15:42:14,430 - INFO - Lancement du scraping pour 'Cafétérias et autres libres-services' à 'Essonne'
+2025-08-22 15:42:14,430 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/essonne/caf%C3%A9t%C3%A9rias+et+autres+libres-services?page=1
+2025-08-22 15:42:38,571 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-22 15:42:38,571 - INFO - Scraping terminé, total résultats: 0
+2025-08-22 15:48:11,113 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-22 15:48:11,114 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-22 15:48:39,340 - INFO - 20 cartes détectées sur la page 1
+2025-08-22 15:48:40,260 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-22 15:48:41,190 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-22 15:48:42,173 - INFO - [Page 1 | Carte 3] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-22 15:48:42,771 - INFO - [Page 1 | Carte 4] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-22 15:48:43,598 - INFO - [Page 1 | Carte 5] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-22 15:48:43,598 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-22 15:48:43,599 - INFO - Résultats cumulés: 5 / 5
+2025-08-22 15:48:43,599 - INFO - Nombre maximal de résultats atteint.
+2025-08-22 15:48:43,599 - INFO - Scraping terminé, total résultats: 5
+2025-08-22 15:58:04,558 - INFO - Lancement du scraping pour 'Cafétérias et autres libres-services' à 'Essonne'
+2025-08-22 15:58:04,559 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/essonne/caf%C3%A9t%C3%A9rias+et+autres+libres-services?page=1
+2025-08-22 15:58:30,388 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-22 15:58:30,388 - INFO - Scraping terminé, total résultats: 0
+2025-08-22 15:58:38,032 - INFO - --- Recherche pour mot-clé: cafeterias et autres libres-services ---
+2025-08-22 15:58:39,909 - INFO - Recherche: cafeterias et autres libres-services à Essonne
+2025-08-22 15:58:57,008 - INFO - 1/5: Before After Coffee
+2025-08-22 15:58:57,058 - INFO - Retour à la liste (mobile).
+2025-08-22 15:59:01,076 - INFO - 2/5: le Saperlipapote
+2025-08-22 15:59:01,121 - INFO - Retour à la liste (mobile).
+2025-08-22 15:59:05,668 - INFO - 3/5: Columbus Café & Co
+2025-08-22 15:59:05,714 - INFO - Retour à la liste (mobile).
+2025-08-22 15:59:09,939 - INFO - 4/5: Le café de la mairie - Distributeur blu
+2025-08-22 15:59:09,983 - INFO - Retour à la liste (mobile).
+2025-08-22 15:59:13,718 - INFO - 5/5: LIBRE-SERVICE CROUS de Créteil
+2025-08-22 15:59:13,764 - INFO - Retour à la liste (mobile).
+2025-08-22 15:59:23,467 - INFO - Lancement du scraping pour 'Cafétérias et autres libres-services' à 'Essonne'
+2025-08-22 15:59:23,467 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/essonne/caf%C3%A9t%C3%A9rias+et+autres+libres-services?page=1
+2025-08-22 15:59:47,645 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-22 15:59:47,645 - INFO - Scraping terminé, total résultats: 0
+2025-08-22 16:01:44,499 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Essonne'
+2025-08-22 16:01:44,499 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/essonne/d%C3%A9bits+de+boissons?page=1
+2025-08-22 16:01:46,788 - INFO - 20 cartes détectées sur la page 1
+2025-08-22 16:01:47,899 - INFO - [Page 1 | Carte 1] IN VINO VIVO | Tél: 01 64 59 67 19 | Adresse: 12 rue Etampes 91410 Dourdan Voir le plan
+2025-08-22 16:01:48,573 - INFO - [Page 1 | Carte 2] Tutti Quanti | Tél: 09 84 09 03 12 | Adresse: 13 avenue Europe 91210 Draveil Voir le plan
+2025-08-22 16:01:49,371 - INFO - [Page 1 | Carte 3] Restaurant Bar Le Village | Tél:     01 64 93 80 00,     09 51 98 28 56 | Adresse: 16 rue Fitte 91830 Auvernaux Voir le plan
+2025-08-22 16:01:50,113 - INFO - [Page 1 | Carte 4] Café De La République | Tél: 01 60 77 37 72 | Adresse: 23 avenue République 91000 Evry Voir le plan
+2025-08-22 16:01:51,028 - INFO - [Page 1 | Carte 5] Taverne Gambrinus | Tél: 09 67 28 85 72 | Adresse: 26 rue Enfer 91240 Saint Michel sur Orge Voir le plan
+2025-08-22 16:01:51,029 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-22 16:01:51,029 - INFO - Résultats cumulés: 5 / 5
+2025-08-22 16:01:51,029 - INFO - Nombre maximal de résultats atteint.
+2025-08-22 16:01:51,029 - INFO - Scraping terminé, total résultats: 5
+2025-08-22 16:03:31,652 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Essonne'
+2025-08-22 16:03:31,653 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/essonne/d%C3%A9bits+de+boissons?page=1
+2025-08-22 16:03:35,364 - INFO - 20 cartes détectées sur la page 1
+2025-08-22 16:03:36,017 - INFO - [Page 1 | Carte 1] IN VINO VIVO | Tél: 01 64 59 67 19 | Adresse: 12 rue Etampes 91410 Dourdan Voir le plan
+2025-08-22 16:03:37,077 - INFO - [Page 1 | Carte 2] Tutti Quanti | Tél: 09 84 09 03 12 | Adresse: 13 avenue Europe 91210 Draveil Voir le plan
+2025-08-22 16:03:37,948 - INFO - [Page 1 | Carte 3] Restaurant Bar Le Village | Tél:     01 64 93 80 00,     09 51 98 28 56 | Adresse: 16 rue Fitte 91830 Auvernaux Voir le plan
+2025-08-22 16:03:38,659 - INFO - [Page 1 | Carte 4] Café De La République | Tél: 01 60 77 37 72 | Adresse: 23 avenue République 91000 Evry Voir le plan
+2025-08-22 16:03:39,646 - INFO - [Page 1 | Carte 5] Taverne Gambrinus | Tél: 09 67 28 85 72 | Adresse: 26 rue Enfer 91240 Saint Michel sur Orge Voir le plan
+2025-08-22 16:03:40,599 - INFO - [Page 1 | Carte 6] Evry Tabac des Aunettes | Tél: 01 64 99 77 91 | Adresse: 4 place Aunettes 91000 Evry Voir le plan
+2025-08-22 16:03:41,517 - INFO - [Page 1 | Carte 7] Novotel Paris Saclay | Tél: 01 69 35 66 00 | Adresse: rue Charles Thomassin 91400 Saclay Voir le plan
+2025-08-22 16:03:42,151 - INFO - [Page 1 | Carte 8] O Frères Fontaine | Tél:     01 69 09 17 00 | Adresse: 149 route Versailles 91160 Champlan Voir le plan
+2025-08-22 16:03:42,865 - INFO - [Page 1 | Carte 9] L'Usine Café Concert | Tél: 01 64 49 11 63 | Adresse: 3 rue Fond des Prés 91460 Marcoussis Voir le plan
+2025-08-22 16:03:43,620 - INFO - [Page 1 | Carte 10] Shamrock Kfé | Tél: 01 60 10 00 33 | Adresse: 225 rue Paris 91120 Palaiseau Voir le plan
+2025-08-22 16:03:44,275 - INFO - [Page 1 | Carte 11] 73 ST. COFFEE | Tél: 01 69 39 41 44 | Adresse: 73 avenue Commdt Barré 91170 Viry Chatillon Voir le plan
+2025-08-22 16:03:44,992 - INFO - [Page 1 | Carte 12] L Aquarelle Cafe | Tél: 09 61 62 06 39 | Adresse: 51 rue Paris 91400 Orsay Voir le plan
+2025-08-22 16:03:45,704 - INFO - [Page 1 | Carte 13] Brass & Co | Tél: 01 69 97 20 77 | Adresse: 24 mail Pierre Potier 91190 Gif sur Yvette Voir le plan
+2025-08-22 16:03:46,636 - INFO - [Page 1 | Carte 14] The BBR | Tél: 01 75 31 91 62 | Adresse: 16 rue Emile Baudot 91120 Palaiseau Voir le plan
+2025-08-22 16:03:47,403 - INFO - [Page 1 | Carte 15] Chez Dulce | Tél: 06 08 15 97 92, 09 50 04 10 60 | Adresse: 11 place Eglise 91200 Athis Mons Voir le plan
+2025-08-22 16:03:47,996 - INFO - [Page 1 | Carte 16] Le Café de la Place | Tél: 01 69 35 07 84 | Adresse: 2 place Jules Ferry 91400 Saclay Voir le plan
+2025-08-22 16:03:48,968 - INFO - [Page 1 | Carte 17] Le Soleil du Chilly | Tél: 01 72 86 40 78 | Adresse: 55 avenue Mazarin 91380 Chilly Mazarin Voir le plan
+2025-08-22 16:03:49,843 - INFO - [Page 1 | Carte 18] Le Stock - Mennecy | Tél: 06 89 39 38 72 | Adresse: 7 rue Charles Peguy 91540 Mennecy Voir le plan
+2025-08-22 16:03:50,746 - INFO - [Page 1 | Carte 19] LE CHICHRANE | Tél: 01 60 10 44 35 | Adresse: 135 rue Paris 91120 Palaiseau Voir le plan
+2025-08-22 16:03:51,367 - INFO - [Page 1 | Carte 20] Babette | Tél: 01 87 59 00 21 | Adresse: 35 avenue Carnot 91300 Massy Voir le plan
+2025-08-22 16:03:51,368 - INFO - Résultats cumulés: 20 / 50
+2025-08-22 16:03:53,457 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/essonne/d%C3%A9bits+de+boissons?page=2
+2025-08-22 16:03:54,484 - INFO - 20 cartes détectées sur la page 2
+2025-08-22 16:03:54,535 - INFO - [Page 2 | Carte 1] Doublon détecté: Chez Dulce
+2025-08-22 16:03:55,595 - INFO - [Page 2 | Carte 2] Tabac De La Gare | Tél: 01 69 96 43 10 | Adresse: 2 rue Louis Armand 91230 Montgeron Voir le plan
+2025-08-22 16:03:56,495 - INFO - [Page 2 | Carte 3] Brasserie des O'Pignons | Tél: 01 69 23 53 95 | Adresse: bât A 55 place Marché 91490 Milly la Forêt Voir le plan
+2025-08-22 16:03:57,583 - INFO - [Page 2 | Carte 4] Cave d'O de Milly | Tél: 01 64 98 71 71 | Adresse: 1 Av Ganay 1 place Colombier 91490 Milly la Forêt Voir le plan
+2025-08-22 16:03:58,281 - INFO - [Page 2 | Carte 5] Le Balto | Tél: 01 69 20 02 04 | Adresse: 42 avenue Stalingrad 91120 Palaiseau Voir le plan
+2025-08-22 16:03:59,010 - INFO - [Page 2 | Carte 6] Le Dakota Lounge | Tél: 06 26 23 17 74 | Adresse: 49 boulevard John Kennedy 91100 Corbeil Essonnes Voir le plan
+2025-08-22 16:03:59,832 - INFO - [Page 2 | Carte 7] Columbus Café & Co | Tél: 01 69 21 32 15, 01 44 51 60 00, 06 60 47 02 71 | Adresse: Centre commercial Carrefour 180 avenue François Mitterrand 91200 Athis Mons Voir le plan
+2025-08-22 16:04:00,709 - INFO - [Page 2 | Carte 8] AG Renaissance | Tél:       01 69 58 02 01 | Adresse: 14 rue Aristide Briand 91150 Etampes Voir le plan
+2025-08-22 16:04:01,669 - INFO - [Page 2 | Carte 9] Etienne Coffee & Shop | Tél: 01 64 93 96 82 | Adresse: C C Regional Evry 2 2 boulevard Europe 91000 Evry Voir le plan
+2025-08-22 16:04:02,692 - INFO - [Page 2 | Carte 10] Liling Wu | Tél:     01 64 94 05 61 | Adresse: 93 rue St Jacques 91150 Etampes Voir le plan
+2025-08-22 16:04:02,730 - INFO - [Page 2 | Carte 11] Doublon détecté: 73 ST. COFFEE
+2025-08-22 16:04:03,618 - INFO - [Page 2 | Carte 12] Le Narval | Tél: 01 69 44 21 56 | Adresse: bât 1 31 quai Châtillon 91170 Viry Chatillon Voir le plan
+2025-08-22 16:04:04,571 - INFO - [Page 2 | Carte 13] Baron | Tél:     01 87 90 96 84 | Adresse: 130 route Corbeil 91360 Villemoisson sur Orge Voir le plan
+2025-08-22 16:04:04,587 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x120ffc3+65331]
+	GetHandleVerifier [0x0x1210004+65396]
+	(No symbol) [0x0x1003f63]
+	(No symbol) [0x0x104c99e]
+	(No symbol) [0x0x104cd3b]
+	(No symbol) [0x0x10421b1]
+	(No symbol) [0x0x1071524]
+	(No symbol) [0x0x10420d4]
+	(No symbol) [0x0x1071754]
+	(No symbol) [0x0x1092bcb]
+	(No symbol) [0x0x10712d6]
+	(No symbol) [0x0x1040910]
+	(No symbol) [0x0x1041784]
+	GetHandleVerifier [0x0x14538b3+2439203]
+	GetHandleVerifier [0x0x144eae2+2419282]
+	GetHandleVerifier [0x0x123712a+225434]
+	GetHandleVerifier [0x0x1226e08+159096]
+	GetHandleVerifier [0x0x122dd5d+187597]
+	GetHandleVerifier [0x0x1217ad8+96840]
+	GetHandleVerifier [0x0x1217c62+97234]
+	GetHandleVerifier [0x0x120277a+9962]
+	BaseThreadInitThunk [0x0x76befcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77c982ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77c9827e+238]
+
+2025-08-22 16:04:04,611 - INFO - [Page 2 | Carte 14] French Coffee Shop | Tél: None | Adresse: Ccom Aushopping Villebon 2 centre commercial Auchan 91140 Villebon sur Yvette Voir le plan
+2025-08-22 16:04:05,283 - INFO - [Page 2 | Carte 15] Laurent Philouze | Tél: 01 64 90 01 24 | Adresse: 19 place Marché 91290 Arpajon Voir le plan
+2025-08-22 16:04:06,080 - INFO - [Page 2 | Carte 16] Le Café de la Mairie | Tél: 01 64 94 07 18 | Adresse: 11 rue Mairie 91150 Morigny Champigny Voir le plan
+2025-08-22 16:04:06,974 - INFO - [Page 2 | Carte 17] Indiana Café | Tél: 09 55 03 89 28 | Adresse: 26 boulevard Europe 91000 Evry Voir le plan
+2025-08-22 16:04:08,015 - INFO - [Page 2 | Carte 18] Franck David | Tél: 01 69 07 48 33 | Adresse: 42 rue Charles de Gaulle 91440 Bures sur Yvette Voir le plan
+2025-08-22 16:04:08,052 - INFO - [Page 2 | Carte 19] Doublon détecté: L Aquarelle Cafe
+2025-08-22 16:04:08,754 - INFO - [Page 2 | Carte 20] Nine | Tél: 01 64 95 78 52 | Adresse: 9 rue Haut Pavé 91150 Etampes Voir le plan
+2025-08-22 16:04:08,754 - INFO - Résultats cumulés: 37 / 50
+2025-08-22 16:04:12,495 - INFO - Chargement de la page 3: https://www.pagesjaunes.fr/recherche/essonne/d%C3%A9bits+de+boissons?page=3
+2025-08-22 16:04:13,502 - INFO - 20 cartes détectées sur la page 3
+2025-08-22 16:04:14,382 - INFO - [Page 3 | Carte 1] Café De La Gare | Tél:     01 60 88 28 58 | Adresse: 5 place Henri Barbusse 91100 Corbeil Essonnes Voir le plan
+2025-08-22 16:04:15,421 - INFO - [Page 3 | Carte 2] BRASSERIE DU CENTRE JC BAR | Tél: 01 69 53 95 59 | Adresse: 77 rue Gabriel Péri 91300 Massy Voir le plan
+2025-08-22 16:04:16,122 - INFO - [Page 3 | Carte 3] L'Escale | Tél: 09 63 53 42 83 | Adresse: 35 rue Raymond Ballet 91270 Vigneux sur Seine Voir le plan
+2025-08-22 16:04:16,702 - INFO - [Page 3 | Carte 4] Tabac De L'Ermitage | Tél: 09 79 71 59 55 | Adresse: 17 rue Alphonse Daudet 91210 Draveil Voir le plan
+2025-08-22 16:04:17,302 - INFO - [Page 3 | Carte 5] Café de la Place | Tél: 09 75 71 63 30 | Adresse: 3 place Léon Cassé 91100 Corbeil Essonnes Voir le plan
+2025-08-22 16:04:17,343 - INFO - [Page 3 | Carte 6] Doublon détecté: LE CHICHRANE
+2025-08-22 16:04:18,213 - INFO - [Page 3 | Carte 7] Ana Da Costa | Tél: 01 69 83 16 62 | Adresse: 4 place Armes 91210 Draveil Voir le plan
+2025-08-22 16:04:18,899 - INFO - [Page 3 | Carte 8] Caves d'O | Tél: 01 60 10 18 07 | Adresse: 4 rue Paris 91570 Bièvres Voir le plan
+2025-08-22 16:04:19,573 - INFO - [Page 3 | Carte 9] Bières A L'Affut | Tél: 01 60 16 88 41 | Adresse: Za De La Croix Blanche avenue Résistance 91700 Sainte Geneviève des Bois Voir le plan
+2025-08-22 16:04:19,611 - INFO - [Page 3 | Carte 10] Doublon détecté: Indiana Café
+2025-08-22 16:04:20,446 - INFO - [Page 3 | Carte 11] L'Ardenay | Tél: 01 60 14 01 38 | Adresse: 88 rue Maurice Berteaux 91120 Palaiseau Voir le plan
+2025-08-22 16:04:21,426 - INFO - [Page 3 | Carte 12] La Vierge | Tél: 01 69 62 03 58 | Adresse: bât A 2 place Combattants 91310 Longpont sur Orge Voir le plan
+2025-08-22 16:04:21,464 - INFO - [Page 3 | Carte 13] Doublon détecté: Liling Wu
+2025-08-22 16:04:22,526 - INFO - [Page 3 | Carte 14] Brasserie artisanale Ox - Marcoussis | Tél: 01 69 63 45 54 | Adresse: 50 route Orsay 91460 Marcoussis Voir le plan
+2025-08-22 16:04:23,257 - INFO - [Page 3 | Carte 15] L'escale | Tél:     01 69 54 13 31 | Adresse: 111 avenue République 91600 Savigny sur Orge Voir le plan
+2025-08-22 16:04:24,167 - INFO - [Page 3 | Carte 16] L'Empire | Tél: 07 68 98 19 17 | Adresse: 3 route Longjumeau 91380 Chilly Mazarin Voir le plan
+2025-08-22 16:04:24,167 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-22 16:04:24,167 - INFO - Résultats cumulés: 50 / 50
+2025-08-22 16:04:24,167 - INFO - Nombre maximal de résultats atteint.
+2025-08-22 16:04:24,167 - INFO - Scraping terminé, total résultats: 50
+2025-08-22 16:08:09,217 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Essonne'
+2025-08-22 16:08:09,218 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/essonne/d%C3%A9bits+de+boissons?page=1
+2025-08-22 16:08:11,318 - INFO - 20 cartes détectées sur la page 1
+2025-08-22 16:08:12,684 - INFO - [Page 1 | Carte 1] Tutti Quanti | Tél: 09 84 09 03 12 | Adresse: 13 avenue Europe 91210 Draveil Voir le plan
+2025-08-22 16:08:13,294 - INFO - [Page 1 | Carte 2] IN VINO VIVO | Tél: 01 64 59 67 19 | Adresse: 12 rue Etampes 91410 Dourdan Voir le plan
+2025-08-22 16:08:14,102 - INFO - [Page 1 | Carte 3] Restaurant Bar Le Village | Tél:     01 64 93 80 00,     09 51 98 28 56 | Adresse: 16 rue Fitte 91830 Auvernaux Voir le plan
+2025-08-22 16:08:14,778 - INFO - [Page 1 | Carte 4] Café De La République | Tél: 01 60 77 37 72 | Adresse: 23 avenue République 91000 Evry Voir le plan
+2025-08-22 16:08:15,871 - INFO - [Page 1 | Carte 5] Taverne Gambrinus | Tél: 09 67 28 85 72 | Adresse: 26 rue Enfer 91240 Saint Michel sur Orge Voir le plan
+2025-08-22 16:08:16,919 - INFO - [Page 1 | Carte 6] Le Café de la Place | Tél: 01 69 35 07 84 | Adresse: 2 place Jules Ferry 91400 Saclay Voir le plan
+2025-08-22 16:08:17,575 - INFO - [Page 1 | Carte 7] Before After Coffee | Tél: 01 60 11 83 96 | Adresse: 12 Bis avenue 8 Mai 1945 91120 Palaiseau Voir le plan
+2025-08-22 16:08:18,460 - INFO - [Page 1 | Carte 8] L'Usine Café Concert | Tél: 01 64 49 11 63 | Adresse: 3 rue Fond des Prés 91460 Marcoussis Voir le plan
+2025-08-22 16:08:19,188 - INFO - [Page 1 | Carte 9] O Frères Fontaine | Tél:     01 69 09 17 00 | Adresse: 149 route Versailles 91160 Champlan Voir le plan
+2025-08-22 16:08:19,771 - INFO - [Page 1 | Carte 10] Evry Tabac des Aunettes | Tél: 01 64 99 77 91 | Adresse: 4 place Aunettes 91000 Evry Voir le plan
+2025-08-22 16:08:20,795 - INFO - [Page 1 | Carte 11] Babette | Tél: 01 87 59 00 21 | Adresse: 35 avenue Carnot 91300 Massy Voir le plan
+2025-08-22 16:08:21,634 - INFO - [Page 1 | Carte 12] Novotel Paris Saclay | Tél: 01 69 35 66 00 | Adresse: rue Charles Thomassin 91400 Saclay Voir le plan
+2025-08-22 16:08:22,461 - INFO - [Page 1 | Carte 13] Brass & Co | Tél: 01 69 97 20 77 | Adresse: 24 mail Pierre Potier 91190 Gif sur Yvette Voir le plan
+2025-08-22 16:08:23,279 - INFO - [Page 1 | Carte 14] LE CHICHRANE | Tél: 01 60 10 44 35 | Adresse: 135 rue Paris 91120 Palaiseau Voir le plan
+2025-08-22 16:08:24,323 - INFO - [Page 1 | Carte 15] Le Tabac du Centre | Tél:     01 69 28 88 78 | Adresse: 10 rue Boursier 91400 Orsay Voir le plan
+2025-08-22 16:08:25,174 - INFO - [Page 1 | Carte 16] Nine | Tél: 01 64 95 78 52 | Adresse: 9 rue Haut Pavé 91150 Etampes Voir le plan
+2025-08-22 16:08:26,031 - INFO - [Page 1 | Carte 17] L Aquarelle Cafe | Tél: 09 61 62 06 39 | Adresse: 51 rue Paris 91400 Orsay Voir le plan
+2025-08-22 16:08:27,093 - INFO - [Page 1 | Carte 18] The BBR | Tél: 01 75 31 91 62 | Adresse: 16 rue Emile Baudot 91120 Palaiseau Voir le plan
+2025-08-22 16:08:27,787 - INFO - [Page 1 | Carte 19] Shamrock Kfé | Tél: 01 60 10 00 33 | Adresse: 225 rue Paris 91120 Palaiseau Voir le plan
+2025-08-22 16:08:28,831 - INFO - [Page 1 | Carte 20] O Club | Tél: 01 69 51 26 63 | Adresse: 5 avenue Saint-Saëns 91240 Saint Michel sur Orge Voir le plan
+2025-08-22 16:08:28,832 - INFO - Résultats cumulés: 20 / 50
+2025-08-22 16:08:32,222 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/essonne/d%C3%A9bits+de+boissons?page=2
+2025-08-22 16:08:33,305 - INFO - 20 cartes détectées sur la page 2
+2025-08-22 16:08:33,373 - INFO - [Page 2 | Carte 1] Doublon détecté: O Frères Fontaine
+2025-08-22 16:08:34,337 - INFO - [Page 2 | Carte 2] Le Chiquito | Tél: 09 83 46 31 61 | Adresse: 39 rue Gén Leclerc 91220 Brétigny sur Orge Voir le plan
+2025-08-22 16:08:34,960 - INFO - [Page 2 | Carte 3] 73 ST. COFFEE | Tél: 01 69 39 41 44 | Adresse: 73 avenue Commdt Barré 91170 Viry Chatillon Voir le plan
+2025-08-22 16:08:35,844 - INFO - [Page 2 | Carte 4] A l'Epicerie | Tél: 01 64 48 38 38 | Adresse: coin de rue Chemin de la Tremblaye route Montlhéry 91160 Saulx les Chartreux Voir le plan
+2025-08-22 16:08:36,535 - INFO - [Page 2 | Carte 5] Ana Da Costa | Tél: 01 69 83 16 62 | Adresse: 4 place Armes 91210 Draveil Voir le plan
+2025-08-22 16:08:37,465 - INFO - [Page 2 | Carte 6] Café de la Paix | Tél: 01 60 82 06 62 | Adresse: 21 Grande Rue 91580 Etréchy Voir le plan
+2025-08-22 16:08:37,503 - INFO - [Page 2 | Carte 7] Doublon détecté: Shamrock Kfé
+2025-08-22 16:08:38,353 - INFO - [Page 2 | Carte 8] AG Renaissance | Tél:       01 69 58 02 01 | Adresse: 14 rue Aristide Briand 91150 Etampes Voir le plan
+2025-08-22 16:08:38,391 - INFO - [Page 2 | Carte 9] Doublon détecté: O Club
+2025-08-22 16:08:39,375 - INFO - [Page 2 | Carte 10] O'massy Pale | Tél: 09 83 64 87 48 | Adresse: 7 place Pierre Sémart 91300 Massy Voir le plan
+2025-08-22 16:08:40,100 - INFO - [Page 2 | Carte 11] Hall Of Beer Hall Of Beer | Tél:     01 70 26 73 01 | Adresse: 29 rue Charles de Gaulle 91400 Orsay Voir le plan
+2025-08-22 16:08:41,162 - INFO - [Page 2 | Carte 12] Deer 'n' Beer | Tél: 01 70 27 48 48 | Adresse: 4 rue Anita Conti 91300 Massy Voir le plan
+2025-08-22 16:08:42,184 - INFO - [Page 2 | Carte 13] CAFE ASSOCIATIF ET COOPERATIF DE CERNY | Tél: 01 64 85 60 72 | Adresse: 1 rue Egalite 91590 Cerny Voir le plan
+2025-08-22 16:08:43,111 - INFO - [Page 2 | Carte 14] Laurent Philouze | Tél: 01 64 90 01 24 | Adresse: 19 place Marché 91290 Arpajon Voir le plan
+2025-08-22 16:08:43,851 - INFO - [Page 2 | Carte 15] Caves d'O | Tél: 01 60 10 18 07 | Adresse: 4 rue Paris 91570 Bièvres Voir le plan
+2025-08-22 16:08:44,891 - INFO - [Page 2 | Carte 16] La Casa Bella - Restaurant-Pizzeria | Tél:     01 64 46 05 47 | Adresse: Ccal Les Quinconces 1 route Chateaufort 91190 Gif sur Yvette Voir le plan
+2025-08-22 16:08:45,936 - INFO - [Page 2 | Carte 17] Boulangerie Ange | Tél: 01 60 86 24 43 | Adresse: 6 rue Petits Champs 91100 Villabé Voir le plan
+2025-08-22 16:08:46,529 - INFO - [Page 2 | Carte 18] J M S | Tél: 06 33 69 62 43 | Adresse: 13 Bis rue Monsieur 91330 Yerres Voir le plan
+2025-08-22 16:08:47,520 - INFO - [Page 2 | Carte 19] Baron | Tél:     01 87 90 96 84 | Adresse: 130 route Corbeil 91360 Villemoisson sur Orge Voir le plan
+2025-08-22 16:08:48,254 - INFO - [Page 2 | Carte 20] BRASSERIE DU CENTRE JC BAR | Tél: 01 69 53 95 59 | Adresse: 77 rue Gabriel Péri 91300 Massy Voir le plan
+2025-08-22 16:08:48,254 - INFO - Résultats cumulés: 37 / 50
+2025-08-22 16:08:51,535 - INFO - Chargement de la page 3: https://www.pagesjaunes.fr/recherche/essonne/d%C3%A9bits+de+boissons?page=3
+2025-08-22 16:08:52,374 - INFO - 20 cartes détectées sur la page 3
+2025-08-22 16:08:52,434 - INFO - [Page 3 | Carte 1] Doublon détecté: CAFE ASSOCIATIF ET COOPERATIF DE CERNY
+2025-08-22 16:08:53,059 - INFO - [Page 3 | Carte 2] Signé Vin | Tél: 01 69 90 55 78 | Adresse: 4 place Mairie 91540 Mennecy Voir le plan
+2025-08-22 16:08:53,096 - INFO - [Page 3 | Carte 3] Doublon détecté: Shamrock Kfé
+2025-08-22 16:08:53,810 - INFO - [Page 3 | Carte 4] Le Tabac De La Gare | Tél: 01 60 14 00 21 | Adresse: 2 place Gare 91120 Palaiseau Voir le plan
+2025-08-22 16:08:54,687 - INFO - [Page 3 | Carte 5] Café de la Place | Tél: 09 75 71 63 30 | Adresse: 3 place Léon Cassé 91100 Corbeil Essonnes Voir le plan
+2025-08-22 16:08:55,414 - INFO - [Page 3 | Carte 6] Bières A L'Affut | Tél: 01 60 16 88 41 | Adresse: Za De La Croix Blanche avenue Résistance 91700 Sainte Geneviève des Bois Voir le plan
+2025-08-22 16:08:55,455 - INFO - [Page 3 | Carte 7] Doublon détecté: BRASSERIE DU CENTRE JC BAR
+2025-08-22 16:08:56,375 - INFO - [Page 3 | Carte 8] Damla | Tél: 01 60 85 02 14 | Adresse: 1 boulevard République 91220 Brétigny sur Orge Voir le plan
+2025-08-22 16:08:57,021 - INFO - [Page 3 | Carte 9] La Vierge | Tél: 01 69 62 03 58 | Adresse: bât A 2 place Combattants 91310 Longpont sur Orge Voir le plan
+2025-08-22 16:08:57,763 - INFO - [Page 3 | Carte 10] L'Ardenay | Tél: 01 60 14 01 38 | Adresse: 88 rue Maurice Berteaux 91120 Palaiseau Voir le plan
+2025-08-22 16:08:57,799 - INFO - [Page 3 | Carte 11] Doublon détecté: AG Renaissance
+2025-08-22 16:08:58,770 - INFO - [Page 3 | Carte 12] Marco Morleo | Tél:     01 60 84 78 61 | Adresse: 5 rue Chaudet 91180 Saint Germain lès Arpajon Voir le plan
+2025-08-22 16:08:59,817 - INFO - [Page 3 | Carte 13] Etienne Coffee & Shop | Tél: 01 64 93 96 82 | Adresse: C C Regional Evry 2 2 boulevard Europe 91000 Evry Voir le plan
+2025-08-22 16:09:00,494 - INFO - [Page 3 | Carte 14] Tabac De La Gare | Tél: 01 69 96 43 10 | Adresse: 2 rue Louis Armand 91230 Montgeron Voir le plan
+2025-08-22 16:09:01,315 - INFO - [Page 3 | Carte 15] Columbus Café & Co | Tél: 01 69 21 32 15, 01 44 51 60 00, 06 60 47 02 71 | Adresse: Centre commercial Carrefour 180 avenue François Mitterrand 91200 Athis Mons Voir le plan
+2025-08-22 16:09:02,246 - INFO - [Page 3 | Carte 16] Le Stock - Mennecy | Tél: 06 89 39 38 72 | Adresse: 7 rue Charles Peguy 91540 Mennecy Voir le plan
+2025-08-22 16:09:03,285 - INFO - [Page 3 | Carte 17] AU PETIT CROSNE | Tél: 01 69 48 07 50 | Adresse: 55 Bis avenue République 91560 Crosne Voir le plan
+2025-08-22 16:09:03,285 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-22 16:09:03,285 - INFO - Résultats cumulés: 50 / 50
+2025-08-22 16:09:03,286 - INFO - Nombre maximal de résultats atteint.
+2025-08-22 16:09:03,286 - INFO - Scraping terminé, total résultats: 50
+2025-08-22 16:11:55,803 - INFO - Lancement du scraping pour 'Débits de boissons' à 'CHARTRES'
+2025-08-22 16:11:55,803 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/chartres/d%C3%A9bits+de+boissons?page=1
+2025-08-22 16:12:27,823 - INFO - 20 cartes détectées sur la page 1
+2025-08-22 16:12:28,720 - INFO - [Page 1 | Carte 1] Côté Drive l'Instant Pain Cyril Avert | Tél: 02 37 28 20 00, 09 67 37 20 00 | Adresse: 46 Bis avenue Orléans 28000 Chartres Voir le plan
+2025-08-22 16:12:29,590 - INFO - [Page 1 | Carte 2] La Gourmandise A 360° | Tél: 02 34 40 01 11 | Adresse: 2 avenue François Arago 28000 Chartres Voir le plan
+2025-08-22 16:12:30,286 - INFO - [Page 1 | Carte 3] Le Maryland | Tél: 02 37 28 18 85 | Adresse: 4 rue St Brice 28000 Chartres Voir le plan
+2025-08-22 16:12:31,296 - INFO - [Page 1 | Carte 4] Le Café Serpente | Tél: 09 83 90 26 63, 02 37 21 18 22 | Adresse: 2 cloître Notre Dame 28000 Chartres Voir le plan
+2025-08-22 16:12:32,232 - INFO - [Page 1 | Carte 5] La Cour Brasserie | Tél:    02 37 18 15 07 | Adresse: 22 place Epars 28000 Chartres Voir le plan
+2025-08-22 16:12:33,203 - INFO - [Page 1 | Carte 6] Le Week End | Tél: 02 37 21 38 21 | Adresse: 3 rue Cheval Blanc 28000 Chartres Voir le plan
+2025-08-22 16:12:34,231 - INFO - [Page 1 | Carte 7] DELAVILLE CAFE | Tél: 02 37 21 91 00 | Adresse: 8 place Marceau 28000 Chartres Voir le plan
+2025-08-22 16:12:34,994 - INFO - [Page 1 | Carte 8] IT - Italian Trattoria | Tél: 02 37 99 52 10 | Adresse: 2 4 2 place Marceau 28000 Chartres Voir le plan
+2025-08-22 16:12:35,608 - INFO - [Page 1 | Carte 9] Gabin, Marcel et Ferdinand | Tél: 09 52 97 24 10 | Adresse: 35 rue Soleil d'Or 28000 Chartres Voir le plan
+2025-08-22 16:12:36,664 - INFO - [Page 1 | Carte 10] LE REVERDY | Tél: 02 37 91 61 25 | Adresse: 105 rue Reverdy 28000 Chartres Voir le plan
+2025-08-22 16:12:37,702 - INFO - [Page 1 | Carte 11] Bar Le Welcome | Tél: 06 25 44 00 20 | Adresse: 18 boulevard Chasles 28000 Chartres Voir le plan
+2025-08-22 16:12:38,646 - INFO - [Page 1 | Carte 12] Le Bistro Des Halles | Tél: 02 42 25 28 25 | Adresse: 9 rue Mathurin Régnier 28000 Chartres Voir le plan
+2025-08-22 16:12:39,229 - INFO - [Page 1 | Carte 13] Cabanoniers | Tél: 02 37 28 34 41 | Adresse: 12 allée Prométhée 28000 Chartres Voir le plan
+2025-08-22 16:12:40,278 - INFO - [Page 1 | Carte 14] FAR 28 | Tél: 07 44 83 86 28 | Adresse: 19 rue Ste Même 28000 Chartres Voir le plan
+2025-08-22 16:12:40,912 - INFO - [Page 1 | Carte 15] Factory Bar | Tél: 02 18 56 29 94 | Adresse: 27 boulevard Charles Péguy 28000 Chartres Voir le plan
+2025-08-22 16:12:41,928 - INFO - [Page 1 | Carte 16] Ellan-Vannin | Tél: 02 37 36 08 27 | Adresse: 6 place Drouaise 28000 Chartres Voir le plan
+2025-08-22 16:12:42,556 - INFO - [Page 1 | Carte 17] Les Coquelicots | Tél: 02 37 18 12 57 | Adresse: bât 18 18 rue Mairie 28000 Chartres Voir le plan
+2025-08-22 16:12:43,544 - INFO - [Page 1 | Carte 18] LE BOEUF COURONNE | Tél: 02 37 18 06 06 | Adresse: 15 place Châtelet 28000 Chartres Voir le plan
+2025-08-22 16:12:44,574 - INFO - [Page 1 | Carte 19] L'Escalier | Tél: 02 37 34 82 21 | Adresse: 1 rue Bourg 28000 Chartres Voir le plan
+2025-08-22 16:12:45,564 - INFO - [Page 1 | Carte 20] Pub Saint Michel | Tél: 07 69 61 33 27 | Adresse: 13 rue St Michel 28000 Chartres Voir le plan
+2025-08-22 16:12:45,564 - INFO - Résultats cumulés: 20 / 50
+2025-08-22 16:12:49,092 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/chartres/d%C3%A9bits+de+boissons?page=2
+2025-08-22 16:12:50,103 - INFO - 19 cartes détectées sur la page 2
+2025-08-22 16:12:51,074 - INFO - [Page 2 | Carte 1] Bar du Mail Le | Tél: 02 37 34 68 70 | Adresse: 25 mail Jean de Dunois 28000 Chartres Voir le plan
+2025-08-22 16:12:52,144 - INFO - [Page 2 | Carte 2] Karabox | Tél: 02 37 28 70 10 | Adresse: 8 Le Bois des Poteries 28000 Chartres Voir le plan
+2025-08-22 16:12:52,965 - INFO - [Page 2 | Carte 3] Bar Brasserie De La Préfecture | Tél: 02 37 21 40 32 | Adresse: 19 rue Charles Brune 28000 Chartres Voir le plan
+2025-08-22 16:12:53,793 - INFO - [Page 2 | Carte 4] COLUMBUS CAFE & CO | Tél: 02 37 99 65 41 | Adresse: 13 rue Mathurin Régnier 28000 Chartres Voir le plan
+2025-08-22 16:12:54,590 - INFO - [Page 2 | Carte 5] Au Pacha | Tél: 02 37 21 35 05 | Adresse: 2 rue Delacroix 28000 Chartres Voir le plan
+2025-08-22 16:12:55,330 - INFO - [Page 2 | Carte 6] LE XVEME bar à vins | Tél: 02 37 18 06 06 | Adresse: 13 place Châtelet 28000 Chartres Voir le plan
+2025-08-22 16:12:55,372 - INFO - [Page 2 | Carte 7] Doublon détecté: Factory Bar
+2025-08-22 16:12:56,193 - INFO - [Page 2 | Carte 8] Kim Tea | Tél: 06 20 63 88 92 | Adresse: 10 cloître Notre Dame 28000 Chartres Voir le plan
+2025-08-22 16:12:56,986 - INFO - [Page 2 | Carte 9] Le Khédive | Tél: 02 37 21 35 98 | Adresse: 7 avenue Jehan de Beauce 28000 Chartres Voir le plan
+2025-08-22 16:12:57,003 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x120ffc3+65331]
+	GetHandleVerifier [0x0x1210004+65396]
+	(No symbol) [0x0x1003f63]
+	(No symbol) [0x0x104c99e]
+	(No symbol) [0x0x104cd3b]
+	(No symbol) [0x0x10421b1]
+	(No symbol) [0x0x1071524]
+	(No symbol) [0x0x10420d4]
+	(No symbol) [0x0x1071754]
+	(No symbol) [0x0x1092bcb]
+	(No symbol) [0x0x10712d6]
+	(No symbol) [0x0x1040910]
+	(No symbol) [0x0x1041784]
+	GetHandleVerifier [0x0x14538b3+2439203]
+	GetHandleVerifier [0x0x144eae2+2419282]
+	GetHandleVerifier [0x0x123712a+225434]
+	GetHandleVerifier [0x0x1226e08+159096]
+	GetHandleVerifier [0x0x122dd5d+187597]
+	GetHandleVerifier [0x0x1217ad8+96840]
+	GetHandleVerifier [0x0x1217c62+97234]
+	GetHandleVerifier [0x0x120277a+9962]
+	BaseThreadInitThunk [0x0x76befcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77c982ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77c9827e+238]
+
+2025-08-22 16:12:57,023 - INFO - [Page 2 | Carte 10] Le Saloon | Tél: None | Adresse: 2 avenue Aligre 28000 Chartres Voir le plan
+2025-08-22 16:12:57,868 - INFO - [Page 2 | Carte 11] La Guinguette de Chartres | Tél: 06 06 06 06 06 | Adresse: 48 Ter boulevard Courtille 28000 Chartres Voir le plan
+2025-08-22 16:12:58,887 - INFO - [Page 2 | Carte 12] L'Ecuyer | Tél: 06 60 85 89 66 | Adresse: 13 15 13 rue Porte Cendreuse 28000 Chartres Voir le plan
+2025-08-22 16:12:59,608 - INFO - [Page 2 | Carte 13] Bar Le Royal | Tél: 02 37 21 24 69 | Adresse: 3 rue Soleil d'Or 28000 Chartres Voir le plan
+2025-08-22 16:13:00,356 - INFO - [Page 2 | Carte 14] Le Saint Brice | Tél:     09 53 39 01 64 | Adresse: 77 rue St Brice 28000 Chartres Voir le plan
+2025-08-22 16:13:01,298 - INFO - [Page 2 | Carte 15] Jouffrieau Xavier | Tél: 02 37 21 08 35 | Adresse: 19 rue Cheval Blanc 28000 Chartres Voir le plan
+2025-08-22 16:13:01,979 - INFO - [Page 2 | Carte 16] Le Pressoir | Tél:     02 37 30 79 50 | Adresse: 21 rue Porte Morard 28000 Chartres Voir le plan
+2025-08-22 16:13:02,773 - INFO - [Page 2 | Carte 17] Lichette | Tél: 06 06 06 06 06 | Adresse: 45 rue Changes 28000 Chartres Voir le plan
+2025-08-22 16:13:03,801 - INFO - [Page 2 | Carte 18] Faycel Touazi White Dream | Tél:     02 19 02 23 43 | Adresse: 28 rue Porte Morard 28000 Chartres Voir le plan
+2025-08-22 16:13:04,728 - INFO - [Page 2 | Carte 19] STSL | Tél: 02 37 22 02 61 | Adresse: 22 place Halles 28000 Chartres Voir le plan
+2025-08-22 16:13:04,729 - INFO - Résultats cumulés: 38 / 50
+2025-08-22 16:13:07,240 - INFO - Chargement de la page 3: https://www.pagesjaunes.fr/recherche/chartres/d%C3%A9bits+de+boissons?page=3
+2025-08-22 16:13:28,050 - WARNING - Aucune carte trouvée sur la page 3
+2025-08-22 16:13:28,050 - INFO - Scraping terminé, total résultats: 38
+2025-08-22 16:44:34,230 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-22 16:44:34,230 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-22 16:45:04,214 - INFO - 20 cartes détectées sur la page 1
+2025-08-22 16:45:05,297 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-22 16:45:05,980 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-22 16:45:06,898 - INFO - [Page 1 | Carte 3] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-22 16:45:07,975 - INFO - [Page 1 | Carte 4] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-22 16:45:08,824 - INFO - [Page 1 | Carte 5] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-22 16:45:08,825 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-22 16:45:08,825 - INFO - Résultats cumulés: 5 / 5
+2025-08-22 16:45:08,825 - INFO - Nombre maximal de résultats atteint.
+2025-08-22 16:45:08,825 - INFO - Scraping terminé, total résultats: 5
+2025-08-22 16:46:07,452 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Corrèze'
+2025-08-22 16:46:07,452 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/corr%C3%A8ze/d%C3%A9bits+de+boissons?page=1
+2025-08-22 16:46:15,363 - INFO - 3 cartes détectées sur la page 1
+2025-08-22 16:46:16,220 - INFO - [Page 1 | Carte 1] Le Domino | Tél: 05 55 21 37 09 | Adresse: 1 route Bruyères 19800 Saint Priest de Gimel Voir le plan
+2025-08-22 16:46:17,118 - INFO - [Page 1 | Carte 2] Patati Patata | Tél: 05 55 20 65 99 | Adresse: 3 route Corrèze 19800 Sarran Voir le plan
+2025-08-22 16:46:17,987 - INFO - [Page 1 | Carte 3] LE SAINT AUGUSTIN | Tél: 05 55 94 00 51 | Adresse: 33 place Eglise 19390 Saint Augustin Voir le plan
+2025-08-22 16:46:17,987 - INFO - Résultats cumulés: 3 / 5
+2025-08-22 16:46:20,069 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/corr%C3%A8ze/d%C3%A9bits+de+boissons?page=2
+2025-08-22 16:46:41,259 - WARNING - Aucune carte trouvée sur la page 2
+2025-08-22 16:46:41,260 - INFO - Scraping terminé, total résultats: 3
+2025-08-25 09:06:30,395 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'

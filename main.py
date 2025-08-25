@@ -290,6 +290,76 @@ def list_all_historique( user: str = Depends(get_current_user)):
     rows = cursor.fetchall()
     return {"historique": rows}
 
+@app.get("/scraped_data")
+def list_scraped_data(
+    page: int = FQuery(1, ge=1),
+    per_page: int = FQuery(10, ge=1),
+    name: str = FQuery(None),
+    address: str = FQuery(None),
+    phone: str = FQuery(None),
+    website: str = FQuery(None),
+    source: str = FQuery(None),
+    date_from: str = FQuery(None),  # yyyy-mm-dd
+    date_to: str = FQuery(None),
+    user: str = Depends(get_current_user)
+):
+    offset = (page - 1) * per_page
+    cursor = db.cursor(dictionary=True)
+
+    filters = []
+    params = []
+
+    if name:
+        filters.append("name LIKE %s")
+        params.append(f"%{name}%")
+    if address:
+        filters.append("address LIKE %s")
+        params.append(f"%{address}%")
+    if phone:
+        filters.append("phone LIKE %s")
+        params.append(f"%{phone}%")
+    if website:
+        filters.append("website LIKE %s")
+        params.append(f"%{website}%")
+    if source:
+        filters.append("source LIKE %s")
+        params.append(f"%{source}%")
+
+    if date_from and date_to:
+        filters.append("scraped_at BETWEEN %s AND %s")
+        params.append(f"{date_from} 00:00:00")
+        params.append(f"{date_to} 23:59:59")
+    elif date_from:
+        filters.append("scraped_at >= %s")
+        params.append(f"{date_from} 00:00:00")
+    elif date_to:
+        filters.append("scraped_at <= %s")
+        params.append(f"{date_to} 23:59:59")
+
+    where_clause = f"WHERE {' AND '.join(filters)}" if filters else ""
+
+    # Total entries
+    cursor.execute(f"SELECT COUNT(*) AS total FROM scraped_data {where_clause}", params)
+    total = cursor.fetchone()["total"]
+
+    # Récupérer la page
+    cursor.execute(f"""
+        SELECT * 
+        FROM scraped_data
+        {where_clause}
+        ORDER BY scraped_at DESC
+        LIMIT %s OFFSET %s
+    """, params + [per_page, offset])
+
+    rows = cursor.fetchall()
+
+    return {
+        "page": page,
+        "per_page": per_page,
+        "total": total,
+        "data": rows
+    }
+
 
 @app.get("/historique")
 def list_historique_paginated(
@@ -298,7 +368,7 @@ def list_historique_paginated(
     query: str = FQuery(None),
     location: str = FQuery(None),
     source: str = FQuery(None),
-    date_from: str = FQuery(None),  # format attendu: yyyy-mm-dd
+    date_from: str = FQuery(None),
     date_to: str = FQuery(None), 
     user: str = Depends(get_current_user)
 ):
@@ -333,18 +403,37 @@ def list_historique_paginated(
 
     where_clause = f"WHERE {' AND '.join(filters)}" if filters else ""
 
-    # Total entries pour pagination
-    cursor.execute(f"SELECT COUNT(*) AS total FROM scrape_history h {where_clause}", params)
-    total = cursor.fetchone()['total']
+    # 1️⃣ Total distinct (name, phone, address) pour pagination
+    cursor.execute(f"""
+        SELECT COUNT(*) AS total
+        FROM (
+            SELECT d.name, d.phone, d.address
+            FROM scrape_history h
+            JOIN scraped_data d ON h.scraped_data_id = d.id
+            {where_clause}
+            GROUP BY d.name, d.phone, d.address
+        ) AS sub
+    """, params)
+    total = cursor.fetchone()["total"]
 
-    # Récupère uniquement la page demandée
+    # 2️⃣ Récupère uniquement la dernière entrée par combinaison (name, phone, address)
     cursor.execute(f"""
         SELECT h.id AS history_id, h.scraped_at, h.query, h.location, h.source,
-               d.id AS data_id, d.name, d.address, d.phone, d.website, d.plus_code, 
+               d.id AS data_id, d.name, d.phone, d.address, d.website, d.plus_code, 
                d.note, d.horaires
         FROM scrape_history h
         JOIN scraped_data d ON h.scraped_data_id = d.id
-        {where_clause}
+        INNER JOIN (
+            SELECT d.name, d.phone, d.address, MAX(h.scraped_at) AS max_date
+            FROM scrape_history h
+            JOIN scraped_data d ON h.scraped_data_id = d.id
+            {where_clause}
+            GROUP BY d.name, d.phone, d.address
+        ) latest 
+            ON d.name = latest.name 
+           AND d.phone = latest.phone 
+           AND d.address = latest.address
+           AND h.scraped_at = latest.max_date
         ORDER BY h.scraped_at DESC
         LIMIT %s OFFSET %s
     """, params + [per_page, offset])
@@ -356,6 +445,7 @@ def list_historique_paginated(
         "total": total,
         "historique": rows
     }
+
 
 
 def save_to_db(results, query, location, source="gmaps"):
