@@ -32,7 +32,7 @@ logging.getLogger('WDM').setLevel(logging.WARNING)
 logging.getLogger('selenium').setLevel(logging.WARNING)
 logging.getLogger('urllib3').setLevel(logging.WARNING)
 
-def configure_driver():
+def ___configure_driver():
     chrome_options = Options()
     
     # Anti-bot
@@ -68,6 +68,29 @@ def configure_driver():
         '''
     })
     return driver
+
+def configure_driver():
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--window-size=390,844")
+    chrome_options.add_argument(f"user-agent={random.choice(USER_AGENTS)}")
+
+    service = Service("/usr/local/bin/chromedriver")  # chemin fixe sous Docker/Linux
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+
+    # Anti-détection
+    driver.execute_cdp_cmd(
+        'Page.addScriptToEvaluateOnNewDocument',
+        {'source': 'Object.defineProperty(navigator, "webdriver", {get: () => undefined})'}
+    )
+
+    return driver
+
 
 def handle_cookies(driver):
     try:
