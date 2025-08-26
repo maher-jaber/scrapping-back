@@ -54,7 +54,7 @@ db_config = {
 
 # Connexion à la DB
 conn = mysql.connector.connect(**db_config)
-cursor = db.cursor(dictionary=True)
+cursor = conn.cursor(dictionary=True)
 
 
 app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
