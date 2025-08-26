@@ -37,12 +37,13 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 
 
-db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",
-    database="scrapping_db"
-)
+#db = mysql.connector.connect(
+ #   host="localhost",
+ #   user="root",
+ #   password="",
+  #  database="scrapping_db"
+#)
+db = mysql.connector.connect( host="maherjabeur.mysql.pythonanywhere-services.com", user="maherjabeur", password="Mirou@2020", database="scrapping_db" )
 cursor = db.cursor(dictionary=True)
 
 
