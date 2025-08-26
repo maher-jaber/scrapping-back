@@ -2,11 +2,11 @@ import mysql.connector
 
 # Paramètres DB (mettre ceux de Railway ou autre hébergeur)
 db_config = {
-    'host': 'mysql.railway.internal',
+    'host': 'switchback.proxy.rlwy.net',
     'user': 'root',
-    'password': 'aqpPBOExscQkWYqUPGQjQkpFJoIQlSPT',
-    'database': 'scrapping_db',
-    'port': 3306
+    'password': 'hWDpSRbnJWvAXRlvfDzkvIKSbEcAAvmn',
+    'database': 'railway',
+    'port': 54201
 }
 
 # Connexion à la DB

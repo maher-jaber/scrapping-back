@@ -43,7 +43,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
  #   password="",
   #  database="scrapping_db"
 #)
-db = mysql.connector.connect( host="mysql.railway.internal", user="root", password="aqpPBOExscQkWYqUPGQjQkpFJoIQlSPT", database="scrapping_db" )
+db = mysql.connector.connect( host="mysql.railway.internal", user="root", password="aqpPBOExscQkWYqUPGQjQkpFJoIQlSPT", database="railway" )
 cursor = db.cursor(dictionary=True)
 
 
