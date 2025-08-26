@@ -16452,3 +16452,383 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2025-08-25 17:19:45,214 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/culture+et+%C3%A9levage+associ%C3%A9s?page=1
 2025-08-25 17:20:07,060 - WARNING - Aucune carte trouvée sur la page 1
 2025-08-25 17:20:07,061 - INFO - Scraping terminé, total résultats: 0
+2025-08-26 11:09:20,667 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-26 11:10:49,130 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-26 11:10:49,131 - ERROR - Erreur majeure: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: /usr/local/bin/chromedriver
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\gmaps.py", line 284, in scrape_google_maps
+    driver = configure_driver()
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\gmaps.py", line 93, in configure_driver
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-08-26 11:10:49,177 - INFO - --- Recherche pour mot-clé: culture et élevage associés ---
+2025-08-26 11:10:49,177 - ERROR - Erreur majeure: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: /usr/local/bin/chromedriver
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\gmaps.py", line 284, in scrape_google_maps
+    driver = configure_driver()
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\wamp64\www\ScrappingNum-api\scrapping-back\gmaps.py", line 93, in configure_driver
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-08-26 11:11:50,375 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 11:11:55,606 - INFO - Recherche: café bar à Auvergne-Rhône-Alpes
+2025-08-26 11:12:30,057 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-26 11:13:53,141 - INFO - 1/100: Le Bar de Lyon
+2025-08-26 11:13:53,191 - INFO - Retour à la liste (mobile).
+2025-08-26 11:13:57,587 - INFO - 2/100: Le Café du Rhône
+2025-08-26 11:13:57,634 - INFO - Retour à la liste (mobile).
+2025-08-26 11:14:01,809 - INFO - 3/100: Cafe Bar Des Hautes Roches
+2025-08-26 11:14:01,849 - INFO - Retour à la liste (mobile).
+2025-08-26 11:14:05,918 - INFO - 4/100: Grand Café
+2025-08-26 11:14:05,958 - INFO - Retour à la liste (mobile).
+2025-08-26 11:14:10,376 - INFO - 5/100: Café Juliette - Restaurant - Bar - Cocktails - Lyon 6
+2025-08-26 11:14:10,417 - INFO - Retour à la liste (mobile).
+2025-08-26 11:14:14,209 - INFO - 6/100: Le Grand Café Neuf
+2025-08-26 11:14:14,254 - INFO - Retour à la liste (mobile).
+2025-08-26 11:14:17,970 - INFO - 7/100: Le Grand Café
+2025-08-26 11:14:18,010 - INFO - Retour à la liste (mobile).
+2025-08-26 11:14:24,106 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000188EF3A5310>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/a0d044dc4609f20fcf388786c021eb7a/element/f.AEBA8C735755503EAB14F87A03738B69.d.284D88F4F46E10A73C4BA1937C91DC75.e.499/click
+2025-08-26 11:14:38,567 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-26 11:15:27,267 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 11:15:29,784 - INFO - Recherche: café bar à Ain
+2025-08-26 11:15:48,577 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Île-de-France'
+2025-08-26 11:15:48,577 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=1
+2025-08-26 11:16:02,251 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 11:16:02,945 - INFO - [Page 1 | Carte 1] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-26 11:16:03,911 - INFO - [Page 1 | Carte 2] The Bitter End | Tél: 01 34 51 90 09, 09 61 32 14 12 | Adresse: 20 rue St Pierre 78100 Saint Germain en Laye Voir le plan
+2025-08-26 11:16:04,620 - INFO - [Page 1 | Carte 3] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-26 11:16:05,357 - INFO - [Page 1 | Carte 4] Niagara Cafe | Tél: 01 87 22 59 75 | Adresse: 20 r Hôtel de Ville 2 Bis boulevard St Denis 92400 Courbevoie Voir le plan
+2025-08-26 11:16:06,061 - INFO - [Page 1 | Carte 5] Les Editeurs | Tél: 01 43 26 67 76 | Adresse: 4 carrefour Odéon 75006 Paris Voir le plan
+2025-08-26 11:16:06,810 - INFO - [Page 1 | Carte 6] Le Florès | Tél:     01 73 71 59 71, 06 06 74 06 13, 06 17 48 30 85 | Adresse: 80 rue Grenelle 75007 Paris Voir le plan
+2025-08-26 11:16:07,774 - INFO - [Page 1 | Carte 7] Brassserie le Village | Tél:     01 34 29 84 63, 09 70 35 36 52 | Adresse: 47 avenue Charles de Gaulle 95700 Roissy en France Voir le plan
+2025-08-26 11:16:08,497 - INFO - [Page 1 | Carte 8] Mucha Café | Tél: 01 45 51 06 30, 09 66 90 63 65, 06 82 17 25 44 | Adresse: 227 boulevard St Germain 75007 Paris Voir le plan
+2025-08-26 11:16:09,460 - INFO - [Page 1 | Carte 9] Holiday Inn Paris CDG Airport | Tél: 01 84 28 07 00 | Adresse: 61 rue Houdart 95700 Roissy en France Voir le plan
+2025-08-26 11:16:10,109 - INFO - [Page 1 | Carte 10] Le Pavillon Du Lac | Tél: 01 42 00 07 21 | Adresse: Entrée Place Armand Carrel parc Buttes Chaumont 75019 Paris Voir le plan
+2025-08-26 11:16:10,694 - INFO - [Page 1 | Carte 11] Le Royal Indien | Tél: 01 39 35 97 17, 06 52 12 42 77 | Adresse: 19 rue Paris 95570 Moisselles Voir le plan
+2025-08-26 11:16:11,521 - INFO - [Page 1 | Carte 12] Tutti Quanti | Tél: 09 84 09 03 12 | Adresse: 13 avenue Europe 91210 Draveil Voir le plan
+2025-08-26 11:16:12,258 - INFO - [Page 1 | Carte 13] LouLou Montmartre | Tél: 01 42 55 04 55 | Adresse: 8 rue Lamarck 75018 Paris Voir le plan
+2025-08-26 11:16:13,303 - INFO - [Page 1 | Carte 14] Chez Pierre Au Bon Coin | Tél: 01 34 13 88 55, 01 34 13 88 89, 06 89 33 64 20 | Adresse: 154 rue Plessis Bouchard 95130 Franconville Voir le plan
+2025-08-26 11:16:14,238 - INFO - [Page 1 | Carte 15] Le Caveau de l'Isle | Tél: 01 43 25 10 26 | Adresse: 36 rue St Louis en l'Ile 75004 Paris Voir le plan
+2025-08-26 11:16:15,245 - INFO - [Page 1 | Carte 16] Tabac Le Jean Bart | Tél: 09 72 15 63 99 | Adresse: 32 rue Avron 75020 Paris Voir le plan
+2025-08-26 11:16:15,894 - INFO - [Page 1 | Carte 17] Le Gourmeur | Tél: 01 47 58 88 69 | Adresse: 40 rue Louise Michel 92300 Levallois Perret Voir le plan
+2025-08-26 11:16:16,976 - INFO - [Page 1 | Carte 18] Restaurant Bar Le Village | Tél:     01 64 93 80 00,     09 51 98 28 56 | Adresse: 16 rue Fitte 91830 Auvernaux Voir le plan
+2025-08-26 11:16:17,780 - INFO - [Page 1 | Carte 19] Les Eiders | Tél: 01 40 36 01 52 | Adresse: 142 avenue Flandre 75019 Paris Voir le plan
+2025-08-26 11:16:18,749 - INFO - [Page 1 | Carte 20] Le Coq & Fils The Poultry House | Tél: 01 42 59 82 89 | Adresse: 98 rue Lepic 75018 Paris Voir le plan
+2025-08-26 11:16:18,749 - INFO - Résultats cumulés: 20 / 50
+2025-08-26 11:16:20,777 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=2
+2025-08-26 11:16:22,369 - INFO - 20 cartes détectées sur la page 2
+2025-08-26 11:16:23,339 - INFO - [Page 2 | Carte 1] Le Café du Palais de Justice | Tél: 01 39 50 01 30, 06 48 48 00 82 | Adresse: 1 rue Jouvencel 78000 Versailles Voir le plan
+2025-08-26 11:16:24,384 - INFO - [Page 2 | Carte 2] IN VINO VIVO | Tél: 01 64 59 67 19 | Adresse: 12 rue Etampes 91410 Dourdan Voir le plan
+2025-08-26 11:16:25,286 - INFO - [Page 2 | Carte 3] Le Consul | Tél: 01 47 08 38 89, 01 73 63 57 76, 06 99 92 90 99 | Adresse: 18 rue Maurepas 92500 Rueil Malmaison Voir le plan
+2025-08-26 11:16:26,349 - INFO - [Page 2 | Carte 4] Café De La République | Tél: 01 60 77 37 72 | Adresse: 23 avenue République 91000 Evry Voir le plan
+2025-08-26 11:16:27,343 - INFO - [Page 2 | Carte 5] Le Segur | Tél: 01 47 83 85 31 | Adresse: 156 avenue Suffren 75015 Paris Voir le plan
+2025-08-26 11:16:27,379 - INFO - [Page 2 | Carte 6] Doublon détecté: Le Caveau de l'Isle
+2025-08-26 11:16:27,415 - INFO - [Page 2 | Carte 7] Doublon détecté: Tabac Le Jean Bart
+2025-08-26 11:16:27,453 - INFO - [Page 2 | Carte 8] Doublon détecté: Les Eiders
+2025-08-26 11:16:28,530 - INFO - [Page 2 | Carte 9] Résidence Hermès Paris Orly Aéroport | Tél: 06 16 64 86 44 | Adresse: 12 rue Edouard Branly 94290 Villeneuve le Roi Voir le plan
+2025-08-26 11:16:29,484 - INFO - [Page 2 | Carte 10] Sweet And Salty | Tél: 01 43 47 12 98 | Adresse: 7 rue Théophile Roussel 75012 Paris Voir le plan
+2025-08-26 11:16:29,523 - INFO - [Page 2 | Carte 11] Doublon détecté: Tutti Quanti
+2025-08-26 11:16:29,565 - INFO - [Page 2 | Carte 12] Doublon détecté: The Bitter End
+2025-08-26 11:16:30,294 - INFO - [Page 2 | Carte 13] LE LUTETIA | Tél: 01 34 71 00 29, 09 65 34 01 27 | Adresse: 1 rue Charles de Gaulle 95270 Luzarches Voir le plan
+2025-08-26 11:16:31,337 - INFO - [Page 2 | Carte 14] Copacabana | Tél:     01 88 28 10 59 | Adresse: 111 avenue Maurice Thorez 94200 Ivry sur Seine Voir le plan
+2025-08-26 11:16:32,204 - INFO - [Page 2 | Carte 15] Fuji San | Tél: 01 46 40 17 21 | Adresse: 31 rue Madeleine Michelis 92200 Neuilly sur Seine Voir le plan
+2025-08-26 11:16:32,955 - INFO - [Page 2 | Carte 16] Issy Irish Café | Tél: 01 46 62 02 40 | Adresse: 10 rue Rouget de Lisle 92130 Issy les Moulineaux Voir le plan
+2025-08-26 11:16:33,655 - INFO - [Page 2 | Carte 17] L'avanos | Tél: 09 83 54 75 92 | Adresse: 19 promenée Marat 94200 Ivry sur Seine Voir le plan
+2025-08-26 11:16:34,371 - INFO - [Page 2 | Carte 18] Etoile de l'Inde | Tél: 06 52 12 42 77, 09 52 31 64 21 | Adresse: 19 rue Paris 95570 Moisselles Voir le plan
+2025-08-26 11:16:35,183 - INFO - [Page 2 | Carte 19] La Briqueterie | Tél: 01 64 36 55 55 | Adresse: 2 rue Briqueterie 77470 Poincy Voir le plan
+2025-08-26 11:16:35,980 - INFO - [Page 2 | Carte 20] O Pata Negra | Tél: 01 42 83 39 37 | Adresse: 165 boulevard Gén Giraud 94100 Saint Maur des Fossés Voir le plan
+2025-08-26 11:16:35,980 - INFO - Résultats cumulés: 35 / 50
+2025-08-26 11:16:38,142 - INFO - Chargement de la page 3: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=3
+2025-08-26 11:16:39,771 - INFO - 20 cartes détectées sur la page 3
+2025-08-26 11:16:39,814 - INFO - [Page 3 | Carte 1] Doublon détecté: The Bitter End
+2025-08-26 11:16:40,810 - INFO - [Page 3 | Carte 2] Squash 95 | Tél: 01 34 64 50 50 | Adresse: 13 rue Limousin 95310 Saint Ouen l'Aumône Voir le plan
+2025-08-26 11:16:41,427 - INFO - [Page 3 | Carte 3] Am2a Services | Tél: 01 78 86 15 52,     06 11 46 59 15 | Adresse: Centre Commercial Colombier 15 rue Liberté 95470 Survilliers Voir le plan
+2025-08-26 11:16:42,306 - INFO - [Page 3 | Carte 4] Ledetendeur | Tél: 09 62 68 04 42 | Adresse: 101 boulevard Jean Jaurès 92100 Boulogne Billancourt Voir le plan
+2025-08-26 11:16:43,331 - INFO - [Page 3 | Carte 5] Fenjybar | Tél: 07 62 95 89 89 | Adresse: 2 rue Grande 77210 Samoreau Voir le plan
+2025-08-26 11:16:43,380 - INFO - [Page 3 | Carte 6] Doublon détecté: Issy Irish Café
+2025-08-26 11:16:44,018 - INFO - [Page 3 | Carte 7] Le Sauvage | Tél: 01 64 25 15 62 | Adresse: bât A 84 rue Gén Leclerc 77540 Rozay en Brie Voir le plan
+2025-08-26 11:16:44,063 - INFO - [Page 3 | Carte 8] Doublon détecté: Fuji San
+2025-08-26 11:16:44,662 - INFO - [Page 3 | Carte 9] Boisvers | Tél: 01 30 21 98 05 | Adresse: 4 rue Satory 78000 Versailles Voir le plan
+2025-08-26 11:16:45,632 - INFO - [Page 3 | Carte 10] Café De L'Opéra | Tél: 01 48 74 34 52 | Adresse: 9 rue Mogador 75009 Paris Voir le plan
+2025-08-26 11:16:46,478 - INFO - [Page 3 | Carte 11] Taverne Gambrinus | Tél: 09 67 28 85 72 | Adresse: 26 rue Enfer 91240 Saint Michel sur Orge Voir le plan
+2025-08-26 11:16:47,284 - INFO - [Page 3 | Carte 12] Le Train Bleu Gare de Lyon | Tél:     01 43 43 09 06 | Adresse: place Louis Armand 75012 Paris Voir le plan
+2025-08-26 11:16:48,222 - INFO - [Page 3 | Carte 13] Le Camondo | Tél: 01 45 63 40 40 | Adresse: 61 Bis rue Monceau 75008 Paris Voir le plan
+2025-08-26 11:16:48,821 - INFO - [Page 3 | Carte 14] LE MAUREPAS | Tél: 01 30 50 57 07 | Adresse: 31 avenue Forez 78310 Maurepas Voir le plan
+2025-08-26 11:16:49,810 - INFO - [Page 3 | Carte 15] Martin République | Tél: 01 71 18 38 88 | Adresse: 40 rue René Boulanger 75010 Paris Voir le plan
+2025-08-26 11:16:50,866 - INFO - [Page 3 | Carte 16] Eden Club | Tél:     01 34 72 88 64 | Adresse: 26 rue Paris 95380 Louvres Voir le plan
+2025-08-26 11:16:51,771 - INFO - [Page 3 | Carte 17] Félix Café | Tél: 09 80 89 72 75 | Adresse: 40 boulevard Reuilly 75012 Paris Voir le plan
+2025-08-26 11:16:52,659 - INFO - [Page 3 | Carte 18] Le Drapeau | Tél: 01 43 65 17 94 | Adresse: 18 avenue Paris BP 145 94300 Vincennes Voir le plan
+2025-08-26 11:16:52,659 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 11:16:52,659 - INFO - Résultats cumulés: 50 / 50
+2025-08-26 11:16:52,659 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 11:16:52,659 - INFO - Scraping terminé, total résultats: 50
+2025-08-26 11:17:30,426 - INFO - 1/100: LE GRAND CAFE
+2025-08-26 11:17:30,477 - INFO - Retour à la liste (mobile).
+2025-08-26 11:17:34,688 - INFO - 2/100: Le Trotteur
+2025-08-26 11:17:34,729 - INFO - Retour à la liste (mobile).
+2025-08-26 11:17:38,926 - INFO - 3/100: L'aincontournable
+2025-08-26 11:17:38,966 - INFO - Retour à la liste (mobile).
+2025-08-26 11:17:42,354 - INFO - 4/100: Café Du Champ De Foire
+2025-08-26 11:17:42,395 - INFO - Retour à la liste (mobile).
+2025-08-26 11:17:46,559 - INFO - 5/100: Brasserie l'Ain Pression - Malt Emoi
+2025-08-26 11:17:46,598 - INFO - Retour à la liste (mobile).
+2025-08-26 11:17:51,029 - INFO - 6/100: Le Central bar
+2025-08-26 11:17:51,068 - INFO - Retour à la liste (mobile).
+2025-08-26 11:17:55,767 - INFO - 7/100: Le Savarin
+2025-08-26 11:17:55,809 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:00,766 - INFO - 8/100: Le comptoir de charnoz
+2025-08-26 11:18:00,807 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:04,287 - INFO - 9/100: La Bicyclette Bleue
+2025-08-26 11:18:04,328 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:08,122 - INFO - 10/100: Bistrot 1900 Ain
+2025-08-26 11:18:08,166 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:12,455 - INFO - 11/100: Café Restaurant de la Préfecture
+2025-08-26 11:18:12,496 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:16,522 - INFO - 12/100: Café Bernolin - « Chez la Jeanne »
+2025-08-26 11:18:16,563 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:20,310 - INFO - 13/100: Le Club Café Bourg-en-bresse
+2025-08-26 11:18:20,353 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:23,770 - INFO - 14/100: Auberg'in Café Restaurant
+2025-08-26 11:18:23,810 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:28,830 - INFO - 15/100: Restaurant Le Terminus
+2025-08-26 11:18:28,875 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:33,580 - INFO - 16/100: Cafe de France
+2025-08-26 11:18:33,623 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:37,661 - INFO - 17/100: Restaurant le Troquet des amis
+2025-08-26 11:18:37,705 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:41,850 - INFO - 18/100: L'O à la bouche.
+2025-08-26 11:18:41,893 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:45,670 - INFO - 19/100: Le Bar À Créations
+2025-08-26 11:18:45,713 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:50,140 - INFO - 20/100: L'Ain Très Table
+2025-08-26 11:18:50,183 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:55,020 - INFO - Retour à la liste (mobile).
+2025-08-26 11:18:58,997 - INFO - 21/100: Café de Campagne
+2025-08-26 11:18:59,040 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:03,016 - INFO - 22/100: Le Carbet
+2025-08-26 11:19:03,060 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:07,021 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:11,259 - INFO - 23/100: L’Atelier
+2025-08-26 11:19:11,306 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:15,640 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:19,785 - INFO - 24/100: Rivière d'Ain (Brasserie artisanale)
+2025-08-26 11:19:19,827 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:24,439 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:28,805 - INFO - 25/100: Le loup
+2025-08-26 11:19:28,855 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:32,888 - INFO - 26/100: Le Bienvenu chez Francky
+2025-08-26 11:19:32,932 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:37,156 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:41,717 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:46,587 - INFO - 27/100: La Cour de Récré
+2025-08-26 11:19:46,631 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:50,974 - INFO - 28/100: La Leymentaise
+2025-08-26 11:19:51,017 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:55,274 - INFO - 29/100: La comédie
+2025-08-26 11:19:55,321 - INFO - Retour à la liste (mobile).
+2025-08-26 11:19:59,716 - INFO - 30/100: Ô Comptoir Bourg en Bresse
+2025-08-26 11:19:59,764 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:03,595 - INFO - 31/100: Le Salençon
+2025-08-26 11:20:03,639 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:07,664 - INFO - 32/100: La Capsule Gourmande Bourg en Bresse - Restaurant - Burger - Bar à cookie
+2025-08-26 11:20:07,715 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:11,517 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:16,614 - INFO - 33/100: Le Nabu
+2025-08-26 11:20:16,662 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:20,680 - INFO - 34/100: Le Verchère
+2025-08-26 11:20:20,727 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:25,031 - INFO - 35/100: La Fora Gîte et Café
+2025-08-26 11:20:25,077 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:29,139 - INFO - 36/100: Au Faisan Doré
+2025-08-26 11:20:29,185 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:33,637 - INFO - 37/100: Ain 2 3 salades
+2025-08-26 11:20:33,684 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:38,379 - INFO - 38/100: Au Fil du Temps
+2025-08-26 11:20:38,434 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:42,314 - INFO - 39/100: Restaurant le lion d'or
+2025-08-26 11:20:42,366 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:46,628 - INFO - 40/100: L'Aquarelle
+2025-08-26 11:20:46,680 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:50,347 - INFO - 41/100: Le Poncinois
+2025-08-26 11:20:50,400 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:53,966 - INFO - 42/100: Le Vieux Logis
+2025-08-26 11:20:54,024 - INFO - Retour à la liste (mobile).
+2025-08-26 11:20:59,108 - INFO - 43/100: L Akge Resto-Bar
+2025-08-26 11:20:59,156 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:04,242 - INFO - 44/100: Café de la Gare
+2025-08-26 11:21:04,292 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:09,159 - INFO - 45/100: Le Français
+2025-08-26 11:21:09,212 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:13,114 - INFO - 46/100: Le Catholard
+2025-08-26 11:21:13,161 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:17,282 - INFO - 47/100: La Grange du Pin
+2025-08-26 11:21:17,335 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:21,637 - INFO - 48/100: Restaurant de La Sorelle
+2025-08-26 11:21:21,679 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:26,507 - INFO - 49/100: Restaurant Le Saint Rémens pere et fils
+2025-08-26 11:21:26,556 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:30,665 - INFO - 50/100: Restaurant les alliés
+2025-08-26 11:21:30,721 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:35,719 - INFO - 51/100: Auberge du Mail
+2025-08-26 11:21:35,769 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:40,219 - INFO - 52/100: Le Bouchon Bressan
+2025-08-26 11:21:40,275 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:45,172 - INFO - 53/100: Le Rempart
+2025-08-26 11:21:45,223 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:49,317 - INFO - 54/100: L'Entracte
+2025-08-26 11:21:49,370 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:54,913 - INFO - 55/100: Le République
+2025-08-26 11:21:54,967 - INFO - Retour à la liste (mobile).
+2025-08-26 11:21:59,802 - INFO - 56/100: l'Anarchy Bar
+2025-08-26 11:21:59,857 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:04,474 - INFO - 57/100: Le Panoramique Restaurant Cerdon
+2025-08-26 11:22:04,528 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:08,811 - INFO - 58/100: Les Terrasses des Brottaux
+2025-08-26 11:22:08,861 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:13,087 - INFO - 59/100: Le POINT VERT - Bar / Restaurant / Plage
+2025-08-26 11:22:13,145 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:17,169 - INFO - 60/100: Bar, tabac la babilliere douvres 01500
+2025-08-26 11:22:17,224 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:22,058 - INFO - 61/100: Café Restaurant du Midi
+2025-08-26 11:22:22,108 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:26,127 - INFO - 62/100: Le Wagon Restaurant
+2025-08-26 11:22:26,179 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:29,614 - INFO - 63/100: Restaurant Les Terrasses de Pérouges
+2025-08-26 11:22:29,663 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:34,416 - INFO - 64/100: Restaurant Le Pressoir Coutelieu
+2025-08-26 11:22:34,467 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:38,775 - INFO - 65/100: The Papatissier
+2025-08-26 11:22:38,826 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:42,847 - INFO - 66/100: Meridio - Spécialités méditérranéennes Meximieux - Cuisine fusion
+2025-08-26 11:22:42,900 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:46,678 - INFO - 67/100: Restaurant Paquet
+2025-08-26 11:22:46,733 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:50,711 - INFO - 68/100: Food Hall Le beau marché
+2025-08-26 11:22:50,764 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:54,529 - INFO - 69/100: B52
+2025-08-26 11:22:54,580 - INFO - Retour à la liste (mobile).
+2025-08-26 11:22:58,209 - INFO - 70/100: A la Duchesse de Savoie
+2025-08-26 11:22:58,265 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:02,294 - INFO - 71/100: Golf de La Sorelle - Hôtel et Restaurant
+2025-08-26 11:23:02,351 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:07,610 - INFO - 72/100: Maison des Pays de l'Ain
+2025-08-26 11:23:07,663 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:11,721 - INFO - 73/100: Auberge de Montessuy
+2025-08-26 11:23:11,772 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:16,416 - INFO - 74/100: Restaurant le Relax
+2025-08-26 11:23:16,525 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:20,665 - INFO - 75/100: Le Bistrot
+2025-08-26 11:23:20,722 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:24,543 - INFO - 76/100: L'Adresse - Restaurant à Bourg-en-Bresse
+2025-08-26 11:23:24,595 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:29,179 - INFO - 77/100: Larcher
+2025-08-26 11:23:29,232 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:33,336 - INFO - 78/100: O Troll
+2025-08-26 11:23:33,389 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:37,697 - INFO - 79/100: Le Comptoir des Halles
+2025-08-26 11:23:37,749 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:41,736 - INFO - 80/100: Le Ménestrel
+2025-08-26 11:23:41,791 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:46,049 - INFO - 81/100: L'Embellie
+2025-08-26 11:23:46,106 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:49,689 - INFO - 82/100: Restaurant La Table Marbozienne
+2025-08-26 11:23:49,742 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:54,652 - INFO - 83/100: Auberge Du Coq Pérouges
+2025-08-26 11:23:54,705 - INFO - Retour à la liste (mobile).
+2025-08-26 11:23:59,090 - INFO - 84/100: Memphis - Restaurant Diner Viriat
+2025-08-26 11:23:59,148 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:03,616 - INFO - 85/100: Le Napoleon
+2025-08-26 11:24:03,674 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:07,780 - INFO - 86/100: Restaurant Le Jacques - Golf de la Bresse
+2025-08-26 11:24:07,842 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:12,536 - INFO - 87/100: Le Trock Café
+2025-08-26 11:24:12,593 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:17,324 - INFO - 88/100: Restaurant Golf du Clou
+2025-08-26 11:24:17,377 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:21,205 - INFO - 89/100: Café Français
+2025-08-26 11:24:21,258 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:25,826 - INFO - 90/100: Restaurant La Maison B
+2025-08-26 11:24:25,880 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:29,448 - INFO - 91/100: LUNATIK - Restaurant
+2025-08-26 11:24:29,506 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:33,480 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:38,237 - INFO - 92/100: Restaurant le Mornay
+2025-08-26 11:24:38,308 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:42,779 - INFO - 93/100: Restaurant Les Platanes
+2025-08-26 11:24:42,835 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:46,266 - INFO - 94/100: Restaurant Du Parc
+2025-08-26 11:24:46,322 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:49,946 - INFO - 95/100: Auberge du Suran
+2025-08-26 11:24:50,010 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:54,305 - INFO - 96/100: Restaurant Belle-Rive
+2025-08-26 11:24:54,363 - INFO - Retour à la liste (mobile).
+2025-08-26 11:24:59,043 - INFO - 97/100: Auberge De L'abbaye
+2025-08-26 11:24:59,103 - INFO - Retour à la liste (mobile).
+2025-08-26 11:25:03,504 - INFO - 98/100: Caveau la Grand'Cave
+2025-08-26 11:25:03,565 - INFO - Retour à la liste (mobile).
+2025-08-26 11:25:07,865 - INFO - 99/100: Mets et Vins
+2025-08-26 11:25:07,923 - INFO - Retour à la liste (mobile).
+2025-08-26 11:25:12,174 - INFO - 100/100: Le Loft Bar à Pizza
+2025-08-26 11:25:12,233 - INFO - Retour à la liste (mobile).
+2025-08-26 11:28:57,728 - INFO - --- Recherche pour mot-clé: culture du tabac ---
+2025-08-26 11:29:00,824 - INFO - Recherche: culture du tabac à Auvergne-Rhône-Alpes
+2025-08-26 11:29:12,251 - INFO - 1/3: Le Juliette Tabac Presse PMU, vape, cave à cigares
+2025-08-26 11:29:12,304 - INFO - Retour à la liste (mobile).
+2025-08-26 11:29:16,123 - INFO - 2/3: Tabac - Maison de la Presse (Tabac - FDJ - Vape - CBD - Réparation informatique) - Pc Relais
+2025-08-26 11:29:16,167 - INFO - Retour à la liste (mobile).
+2025-08-26 11:29:20,178 - INFO - 3/3: tabac de PUSIGNAN LA PLACE
+2025-08-26 11:29:20,219 - INFO - Retour à la liste (mobile).

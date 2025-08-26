@@ -20,6 +20,8 @@ from jose import JWTError, jwt
 from datetime import timedelta
 from typing import Optional
 from passlib.context import CryptContext
+import asyncio
+
 
 security = HTTPBasic()
 
@@ -37,24 +39,13 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 
 
-#db = mysql.connector.connect(
- #   host="localhost",
- #   user="root",
- #   password="",
-  #  database="scrapping_db"
-#)
-# Paramètres DB (mettre ceux de Railway ou autre hébergeur)
-db_config = {
-    'host': 'switchback.proxy.rlwy.net',
-    'user': 'root',
-    'password': 'hWDpSRbnJWvAXRlvfDzkvIKSbEcAAvmn',
-    'database': 'railway',
-    'port': 54201
-}
-
-# Connexion à la DB
-conn = mysql.connector.connect(**db_config)
-cursor = conn.cursor(dictionary=True)
+db = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="",
+    database="scrapping_db"
+)
+cursor = db.cursor(dictionary=True)
 
 
 app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
@@ -152,7 +143,7 @@ def get_current_user(token: str = Depends(oauth2_scheme)):
 
 # --- endpoint login ---
 @app.post("/token")
-def login(form_data: OAuth2PasswordRequestForm = Depends()):
+def login(form_data: OAuth2PasswordRequestForm = Depends(), device_info: str = Query(None)):
     cursor = db.cursor(dictionary=True)
     cursor.execute("SELECT * FROM users WHERE username=%s", (form_data.username,))
     user = cursor.fetchone()
@@ -161,19 +152,21 @@ def login(form_data: OAuth2PasswordRequestForm = Depends()):
         raise HTTPException(status_code=400, detail="Nom utilisateur ou mot de passe incorrect")
 
     # Création des tokens
-    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    access_token = create_access_token(
+        data={"sub": user["username"]},
+        expires_delta=timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    )
+    refresh_token = create_access_token(
+        data={"sub": user["username"], "type": "refresh"},
+        expires_delta=timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)
+    )
     refresh_token_expires = datetime.utcnow() + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)
 
-    access_token = create_access_token({"sub": user["username"]}, access_token_expires)
-    refresh_token = create_access_token({"sub": user["username"], "type": "refresh"},
-                                        timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS))
-
-    # Sauvegarde en DB
+    # Enregistrement dans user_tokens
     cursor.execute("""
-        UPDATE users 
-        SET refresh_token=%s, refresh_token_expiry=%s 
-        WHERE id=%s
-    """, (refresh_token, refresh_token_expires, user["id"]))
+        INSERT INTO user_tokens (user_id, refresh_token, expires_at, device_info)
+        VALUES (%s, %s, %s, %s)
+    """, (user["id"], refresh_token, refresh_token_expires, device_info))
     db.commit()
 
     return {
@@ -193,16 +186,23 @@ def refresh_token(token: str = Depends(oauth2_scheme)):
 
         username = payload.get("sub")
         cursor = db.cursor(dictionary=True)
-        cursor.execute("SELECT * FROM users WHERE username=%s", (username,))
+        cursor.execute("SELECT id FROM users WHERE username=%s", (username,))
         user = cursor.fetchone()
 
-        if not user or user["refresh_token"] != token:
-            raise HTTPException(status_code=401, detail="Refresh token invalide")
+        if not user:
+            raise HTTPException(status_code=401, detail="Utilisateur inexistant")
 
-        if datetime.utcnow() > user["refresh_token_expiry"]:
-            raise HTTPException(status_code=401, detail="Refresh token expiré")
+        # Vérifie que le refresh token existe et n’est pas expiré
+        cursor.execute("""
+            SELECT * FROM user_tokens
+            WHERE user_id=%s AND refresh_token=%s AND expires_at > NOW()
+        """, (user["id"], token))
+        token_entry = cursor.fetchone()
 
-        # Nouveau Access Token
+        if not token_entry:
+            raise HTTPException(status_code=401, detail="Refresh token invalide ou expiré")
+
+        # Nouveau access token
         new_access_token = create_access_token(
             {"sub": username},
             timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
@@ -213,13 +213,29 @@ def refresh_token(token: str = Depends(oauth2_scheme)):
         raise HTTPException(status_code=401, detail="Token invalide")
 
 
+
 # --- Endpoint Logout (révocation) ---
 @app.post("/logout")
-def logout(user: str = Depends(get_current_user)):
-    cursor = db.cursor()
-    cursor.execute("UPDATE users SET refresh_token=NULL, refresh_token_expiry=NULL WHERE username=%s", (user,))
-    db.commit()
-    return {"status": "logged_out"}
+def logout(token: str = Depends(oauth2_scheme)):
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        username = payload.get("sub")
+        cursor = db.cursor(dictionary=True)
+        cursor.execute("SELECT id FROM users WHERE username=%s", (username,))
+        user = cursor.fetchone()
+        if not user:
+            raise HTTPException(status_code=401, detail="Utilisateur inexistant")
+
+        # Supprime ce refresh token uniquement
+        cursor.execute("""
+            DELETE FROM user_tokens
+            WHERE user_id=%s AND refresh_token=%s
+        """, (user["id"], token))
+        db.commit()
+        return {"status": "logged_out"}
+
+    except JWTError:
+        raise HTTPException(status_code=401, detail="Token invalide")
 
 
 @app.post("/register")
@@ -247,40 +263,55 @@ def register(user_data: RegisterRequest, current_user: str = Depends(get_current
 
 
 @app.post("/scrape/googlemaps")
-def scrape_gmaps(request: SearchRequest, user: str = Depends(get_current_user)):
-    results = scrape_by_label(
-        label=request.query,
-        location=request.location,
-        max_results=request.max_results
+async def scrape_gmaps(request: SearchRequest, user: str = Depends(get_current_user)):
+    # 1️⃣ Exécute le scraping dans un thread séparé pour ne pas bloquer
+    results = await asyncio.to_thread(
+        scrape_by_label,
+        request.query,
+        request.location,
+        request.max_results
     )
+
     if not results:
         return {"status": "error", "message": "Aucun résultat trouvé"}
-    
+
+    # 2️⃣ Normalisation des résultats
     normalized = [normalize_result(r) for r in results]
-    
-    saved = save_to_db(normalized, request.query, request.location, source="gmaps")
-    return {
-        "status": "success",
-        **saved
-    }
+
+    # 3️⃣ Sauvegarde en DB (également dans un thread séparé)
+    saved = await asyncio.to_thread(
+        save_to_db,
+        normalized,
+        request.query,
+        request.location,
+        "gmaps"
+    )
+
+    return {"status": "success", **saved}
 
 @app.post("/scrape/pagesjaunes")
-def scrape_pj(request: SearchRequest, user: str = Depends(get_current_user)):
-    results = scrape_pages_jaunes(
-        query=request.query,
-        location=request.location,
-        max_results=request.max_results
+async def scrape_pj(request: SearchRequest, user: str = Depends(get_current_user)):
+    results = await asyncio.to_thread(
+        scrape_pages_jaunes,
+        request.query,
+        request.location,
+        request.max_results
     )
+
     if not results:
         return {"status": "error", "message": "Aucun résultat trouvé"}
-    
+
     normalized = [normalize_result(r) for r in results]
-    
-    saved = save_to_db(normalized, request.query, request.location, source="pagesjaunes")
-    return {
-        "status": "success",
-        **saved
-    }
+
+    saved = await asyncio.to_thread(
+        save_to_db,
+        normalized,
+        request.query,
+        request.location,
+        "pagesjaunes"
+    )
+
+    return {"status": "success", **saved}
 
 
 

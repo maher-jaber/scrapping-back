@@ -32,7 +32,7 @@ logging.getLogger('WDM').setLevel(logging.WARNING)
 logging.getLogger('selenium').setLevel(logging.WARNING)
 logging.getLogger('urllib3').setLevel(logging.WARNING)
 
-def ___configure_driver():
+def configure_driver():
     chrome_options = Options()
     
     # Anti-bot
@@ -69,7 +69,7 @@ def ___configure_driver():
     })
     return driver
 
-def configure_driver():
+def ____configure_driver():
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
