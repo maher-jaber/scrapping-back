@@ -43,7 +43,17 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
  #   password="",
   #  database="scrapping_db"
 #)
-db = mysql.connector.connect( host="mysql.railway.internal", user="root", password="aqpPBOExscQkWYqUPGQjQkpFJoIQlSPT", database="railway" )
+# Paramètres DB (mettre ceux de Railway ou autre hébergeur)
+db_config = {
+    'host': 'switchback.proxy.rlwy.net',
+    'user': 'root',
+    'password': 'hWDpSRbnJWvAXRlvfDzkvIKSbEcAAvmn',
+    'database': 'railway',
+    'port': 54201
+}
+
+# Connexion à la DB
+conn = mysql.connector.connect(**db_config)
 cursor = db.cursor(dictionary=True)
 
 
