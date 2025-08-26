@@ -16832,3 +16832,591 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2025-08-26 11:29:16,167 - INFO - Retour à la liste (mobile).
 2025-08-26 11:29:20,178 - INFO - 3/3: tabac de PUSIGNAN LA PLACE
 2025-08-26 11:29:20,219 - INFO - Retour à la liste (mobile).
+2025-08-26 11:32:23,222 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-26 11:38:50,139 - INFO - --- Recherche pour mot-clé: culture et elevage associes ---
+2025-08-26 11:38:52,037 - INFO - Recherche: culture et elevage associes à Auvergne-Rhône-Alpes
+2025-08-26 11:39:42,342 - INFO - 1/5: Conseil de la Filière Cheval Auvergne-Rhône-Alpes
+2025-08-26 11:39:42,395 - INFO - Retour à la liste (mobile).
+2025-08-26 11:39:46,767 - INFO - 2/5: AUVERGNE RHONE-ALPES ELEVAGE
+2025-08-26 11:39:46,806 - INFO - Retour à la liste (mobile).
+2025-08-26 11:39:50,650 - INFO - 3/5: Chambre Régionale d'Agriculture Auvergne-Rhône-Alpes
+2025-08-26 11:39:50,691 - INFO - Retour à la liste (mobile).
+2025-08-26 11:39:55,069 - INFO - 4/5: Addear du Rhône
+2025-08-26 11:39:55,112 - INFO - Retour à la liste (mobile).
+2025-08-26 11:39:59,121 - INFO - 5/5: CNEAP Auvergne Rhône-Alpes PACA
+2025-08-26 11:39:59,161 - INFO - Retour à la liste (mobile).
+2025-08-26 11:44:43,594 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-26 12:08:53,532 - INFO - Lancement du scraping pour 'Culture et élevage associés' à 'Auvergne-Rhône-Alpes'
+2025-08-26 12:08:53,532 - ERROR - ERREUR GLOBALE: name 'pj_in_progress' is not defined
+2025-08-26 12:09:59,414 - INFO - Lancement du scraping pour 'Culture et élevage associés' à 'Auvergne-Rhône-Alpes'
+2025-08-26 12:09:59,414 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/culture+et+%C3%A9levage+associ%C3%A9s?page=1
+2025-08-26 12:10:50,383 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-26 12:10:50,383 - INFO - Scraping terminé, total résultats: 0
+2025-08-26 12:11:17,705 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-26 12:11:17,705 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-26 12:11:31,652 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 12:11:32,619 - INFO - [Page 1 | Carte 1] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-26 12:11:33,513 - INFO - [Page 1 | Carte 2] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-26 12:11:34,199 - INFO - [Page 1 | Carte 3] LumberJacks | Tél: 04 79 27 31 64 | Adresse: 688 avenue Follaz 73000 Chambéry Voir le plan
+2025-08-26 12:11:34,856 - INFO - [Page 1 | Carte 4] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-26 12:11:35,908 - INFO - [Page 1 | Carte 5] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-26 12:11:35,908 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 12:11:35,909 - INFO - Résultats cumulés: 5 / 5
+2025-08-26 12:11:35,909 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 12:11:35,910 - INFO - Scraping terminé, total résultats: 5
+2025-08-26 12:14:18,369 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-26 12:14:18,370 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-26 12:14:21,849 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 12:14:22,636 - INFO - [Page 1 | Carte 1] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-26 12:14:23,647 - INFO - [Page 1 | Carte 2] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-26 12:14:24,552 - INFO - [Page 1 | Carte 3] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-26 12:14:25,146 - INFO - [Page 1 | Carte 4] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-26 12:14:26,021 - INFO - [Page 1 | Carte 5] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-26 12:14:26,021 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 12:14:26,022 - INFO - Résultats cumulés: 5 / 5
+2025-08-26 12:14:26,022 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 12:14:26,022 - INFO - Scraping terminé, total résultats: 5
+2025-08-26 12:19:24,119 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-26 12:19:24,120 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-26 12:19:24,499 - ERROR - ERREUR GLOBALE: ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+2025-08-26 12:19:28,551 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022DCA86C050>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3499cb191ed6bfc039e4c500fdeff3e5/screenshot
+2025-08-26 12:19:32,611 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022DCA83B290>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3499cb191ed6bfc039e4c500fdeff3e5/screenshot
+2025-08-26 12:19:36,663 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022DCA83A8D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3499cb191ed6bfc039e4c500fdeff3e5/screenshot
+2025-08-26 12:19:44,736 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022DCA86BED0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3499cb191ed6bfc039e4c500fdeff3e5
+2025-08-26 12:19:48,781 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022DCA86A1D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3499cb191ed6bfc039e4c500fdeff3e5
+2025-08-26 12:19:52,834 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022DCA868590>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3499cb191ed6bfc039e4c500fdeff3e5
+2025-08-26 12:20:17,612 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-26 12:20:17,612 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-26 12:20:37,716 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 12:20:38,326 - INFO - [Page 1 | Carte 1] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-26 12:20:39,035 - INFO - [Page 1 | Carte 2] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-26 12:20:39,836 - INFO - [Page 1 | Carte 3] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-26 12:20:40,505 - INFO - [Page 1 | Carte 4] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-26 12:20:41,215 - INFO - [Page 1 | Carte 5] LumberJacks | Tél: 04 79 27 31 64 | Adresse: 688 avenue Follaz 73000 Chambéry Voir le plan
+2025-08-26 12:20:41,216 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 12:20:41,216 - INFO - Résultats cumulés: 5 / 5
+2025-08-26 12:20:41,216 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 12:20:41,217 - INFO - Scraping terminé, total résultats: 5
+2025-08-26 12:31:23,336 - INFO - Lancement du scraping pour 'Culture et élevage associés' à 'Auvergne-Rhône-Alpes'
+2025-08-26 12:31:23,336 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/culture+et+%C3%A9levage+associ%C3%A9s?page=1
+2025-08-26 12:31:46,531 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-26 12:31:46,532 - INFO - Scraping terminé, total résultats: 0
+2025-08-26 12:31:46,532 - ERROR - ERREUR GLOBALE: list index out of range
+2025-08-26 12:32:15,758 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-26 12:32:15,758 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-26 12:32:22,034 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 12:32:23,031 - INFO - [Page 1 | Carte 1] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-26 12:32:23,800 - INFO - [Page 1 | Carte 2] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-26 12:32:24,476 - INFO - [Page 1 | Carte 3] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-26 12:32:25,345 - INFO - [Page 1 | Carte 4] LumberJacks | Tél: 04 79 27 31 64 | Adresse: 688 avenue Follaz 73000 Chambéry Voir le plan
+2025-08-26 12:32:26,313 - INFO - [Page 1 | Carte 5] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-26 12:32:27,331 - INFO - [Page 1 | Carte 6] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-26 12:32:28,385 - INFO - [Page 1 | Carte 7] Café Le Victor Hugo | Tél: 04 75 40 18 11, 06 48 72 41 66 | Adresse: 30 avenue Victor Hugo 26000 Valence Voir le plan
+2025-08-26 12:32:29,367 - INFO - [Page 1 | Carte 8] Lou Tassou | Tél: 04 73 26 00 47 | Adresse: 14 place Ramacles 63170 Aubière Voir le plan
+2025-08-26 12:32:30,345 - INFO - [Page 1 | Carte 9] KASSE LA BARAK | Tél: 04 79 06 44 68 | Adresse: 155 rue Nicolas Parent 73000 Chambéry Voir le plan
+2025-08-26 12:32:31,391 - INFO - [Page 1 | Carte 10] Happy Diner/Pub Le Jerry's | Tél: 09 83 36 13 68 | Adresse: 37 avenue Arcalod 74150 Rumilly Voir le plan
+2025-08-26 12:32:31,972 - INFO - [Page 1 | Carte 11] Le Berthelot | Tél: 04 73 36 33 16 | Adresse: 40 boulevard Berthelot 63000 Clermont Ferrand Voir le plan
+2025-08-26 12:32:32,727 - INFO - [Page 1 | Carte 12] Hotel-Restaurant Le Patio | Tél: 04 70 98 63 45 | Adresse: 8 rue Paris 03200 Vichy Voir le plan
+2025-08-26 12:32:33,374 - INFO - [Page 1 | Carte 13] Hôtel Restaurant De L'abbaye | Tél: 04 73 96 81 80 | Adresse: 15 place 8 Mai 63490 Sauxillanges Voir le plan
+2025-08-26 12:32:34,236 - INFO - [Page 1 | Carte 14] Le Sunset | Tél: 04 79 34 22 47 | Adresse: 2 rue Albert 1er 73100 Aix les Bains Voir le plan
+2025-08-26 12:32:34,940 - INFO - [Page 1 | Carte 15] Brasserie Brunet | Tél: 04 50 51 22 10 | Adresse: 10 rue Poste 74000 Annecy Voir le plan
+2025-08-26 12:32:34,941 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 12:32:34,941 - INFO - Résultats cumulés: 15 / 15
+2025-08-26 12:32:34,942 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 12:32:34,942 - INFO - Scraping terminé, total résultats: 15
+2025-08-26 12:32:49,104 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-26 12:32:49,104 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-26 12:32:51,640 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 12:32:52,421 - INFO - [Page 1 | Carte 1] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-26 12:32:53,056 - INFO - [Page 1 | Carte 2] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-26 12:32:53,735 - INFO - [Page 1 | Carte 3] LumberJacks | Tél: 04 79 27 31 64 | Adresse: 688 avenue Follaz 73000 Chambéry Voir le plan
+2025-08-26 12:32:54,617 - INFO - [Page 1 | Carte 4] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-26 12:32:55,638 - INFO - [Page 1 | Carte 5] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-26 12:32:56,568 - INFO - [Page 1 | Carte 6] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-26 12:32:57,322 - INFO - [Page 1 | Carte 7] Café Le Victor Hugo | Tél: 04 75 40 18 11, 06 48 72 41 66 | Adresse: 30 avenue Victor Hugo 26000 Valence Voir le plan
+2025-08-26 12:32:57,973 - INFO - [Page 1 | Carte 8] KASSE LA BARAK | Tél: 04 79 06 44 68 | Adresse: 155 rue Nicolas Parent 73000 Chambéry Voir le plan
+2025-08-26 12:32:58,738 - INFO - [Page 1 | Carte 9] Bouchon Dromois | Tél: 04 75 59 01 54, 06 71 78 90 19 | Adresse: 1 rue Gustave André 26120 Chabeuil Voir le plan
+2025-08-26 12:32:59,799 - INFO - [Page 1 | Carte 10] L' Actuel Brasserie | Tél: 04 79 44 32 75 | Adresse: 1 avenue Boisse 73000 Chambéry Voir le plan
+2025-08-26 12:33:00,738 - INFO - [Page 1 | Carte 11] Le Berthelot | Tél: 04 73 36 33 16 | Adresse: 40 boulevard Berthelot 63000 Clermont Ferrand Voir le plan
+2025-08-26 12:33:01,762 - INFO - [Page 1 | Carte 12] Bistrot Le Filanthrope | Tél: 09 83 90 38 66 | Adresse: 16 avenue Auguste Blanqui 69100 Villeurbanne Voir le plan
+2025-08-26 12:33:02,809 - INFO - [Page 1 | Carte 13] Happy Diner/Pub Le Jerry's | Tél: 09 83 36 13 68 | Adresse: 37 avenue Arcalod 74150 Rumilly Voir le plan
+2025-08-26 12:33:03,670 - INFO - [Page 1 | Carte 14] Maison Grand Large | Tél:     04 78 49 11 19 | Adresse: 60 rue Francisco Ferrer 69150 Décines Charpieu Voir le plan
+2025-08-26 12:33:04,650 - INFO - [Page 1 | Carte 15] La Taverne du Gobelin Farci | Tél: 04 77 32 53 32, 06 95 06 94 88 | Adresse: 39 rue 11 Novembre 42100 Saint Etienne Voir le plan
+2025-08-26 12:33:04,651 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 12:33:04,651 - INFO - Résultats cumulés: 15 / 15
+2025-08-26 12:33:04,651 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 12:33:04,652 - INFO - Scraping terminé, total résultats: 15
+2025-08-26 12:50:51,307 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 12:50:51,308 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 12:51:23,124 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 12:51:23,973 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 12:51:23,973 - ERROR - ERREUR GLOBALE: name 'current_index' is not defined
+2025-08-26 12:54:03,590 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 12:54:03,590 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 12:54:14,912 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 12:54:15,651 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 12:54:16,629 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 12:54:17,398 - INFO - [Page 1 | Carte 3] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 12:54:18,465 - INFO - [Page 1 | Carte 4] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 12:54:19,202 - INFO - [Page 1 | Carte 5] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 12:54:20,078 - INFO - [Page 1 | Carte 6] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 12:54:20,661 - INFO - [Page 1 | Carte 7] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 12:54:21,525 - INFO - [Page 1 | Carte 8] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 12:54:22,487 - INFO - [Page 1 | Carte 9] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 12:54:23,297 - INFO - [Page 1 | Carte 10] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 12:54:24,223 - INFO - [Page 1 | Carte 11] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-26 12:54:24,848 - INFO - [Page 1 | Carte 12] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-26 12:54:25,749 - INFO - [Page 1 | Carte 13] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 12:54:26,322 - INFO - [Page 1 | Carte 14] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-26 12:54:27,132 - INFO - [Page 1 | Carte 15] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 12:54:27,945 - INFO - [Page 1 | Carte 16] Le Central Bar | Tél: 06 21 09 85 23 | Adresse: 942 Grande Rue 01700 Miribel Voir le plan
+2025-08-26 12:54:28,824 - INFO - [Page 1 | Carte 17] "Belles Rives" Braises & Condiments | Tél: 04 74 00 22 07 | Adresse: 376 avenue Tuileries 01600 Trévoux Voir le plan
+2025-08-26 12:54:29,537 - INFO - [Page 1 | Carte 18] Restaurant Le Pavillon du Golf | Tél: 04 50 40 34 13 | Adresse: 604 rue Bains 01220 Divonne les Bains Voir le plan
+2025-08-26 12:54:30,498 - INFO - [Page 1 | Carte 19] Auberge De La Source | Tél: 09 87 11 69 22 | Adresse: 1 route Contrevoz 01300 Chazey Bons Voir le plan
+2025-08-26 12:54:31,285 - INFO - [Page 1 | Carte 20] V and B | Tél: 04 74 39 06 47 | Adresse: 37 avenue Libération 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 12:54:31,285 - INFO - Résultats cumulés: 20 / 20
+2025-08-26 12:54:31,286 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 12:54:31,286 - INFO - Scraping terminé, total résultats: 20
+2025-08-26 12:58:23,329 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 12:58:23,329 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 12:58:29,103 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 12:58:29,855 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 12:58:30,699 - INFO - [Page 1 | Carte 2] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 12:58:31,484 - INFO - [Page 1 | Carte 3] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 12:58:32,260 - INFO - [Page 1 | Carte 4] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 12:58:33,278 - INFO - [Page 1 | Carte 5] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 12:58:33,278 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 12:58:33,278 - INFO - Résultats cumulés: 5 / 5
+2025-08-26 12:58:33,278 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 12:58:33,279 - INFO - Scraping terminé, total résultats: 5
+2025-08-26 12:59:29,110 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 12:59:29,111 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 12:59:32,871 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 12:59:33,671 - INFO - [Page 1 | Carte 1] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 12:59:34,561 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 12:59:35,572 - INFO - [Page 1 | Carte 3] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 12:59:36,271 - INFO - [Page 1 | Carte 4] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 12:59:37,239 - INFO - [Page 1 | Carte 5] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 12:59:37,239 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 12:59:37,239 - INFO - Résultats cumulés: 5 / 5
+2025-08-26 12:59:37,239 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 12:59:37,239 - INFO - Scraping terminé, total résultats: 5
+2025-08-26 13:01:05,296 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 13:01:05,296 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 13:01:07,555 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 13:01:08,599 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 13:01:09,519 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 13:01:10,186 - INFO - [Page 1 | Carte 3] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 13:01:11,177 - INFO - [Page 1 | Carte 4] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 13:01:12,228 - INFO - [Page 1 | Carte 5] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 13:01:13,134 - INFO - [Page 1 | Carte 6] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 13:01:13,822 - INFO - [Page 1 | Carte 7] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 13:01:14,883 - INFO - [Page 1 | Carte 8] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 13:01:15,672 - INFO - [Page 1 | Carte 9] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 13:01:16,746 - INFO - [Page 1 | Carte 10] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 13:01:16,746 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 13:01:16,746 - INFO - Résultats cumulés: 10 / 10
+2025-08-26 13:01:16,746 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 13:01:16,746 - INFO - Scraping terminé, total résultats: 10
+2025-08-26 13:02:07,797 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 13:02:07,797 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 13:02:23,591 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 13:02:24,421 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 13:02:25,265 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 13:02:26,033 - INFO - [Page 1 | Carte 3] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 13:02:26,803 - INFO - [Page 1 | Carte 4] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 13:02:27,569 - INFO - [Page 1 | Carte 5] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 13:02:28,397 - INFO - [Page 1 | Carte 6] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 13:02:29,401 - INFO - [Page 1 | Carte 7] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 13:02:30,008 - INFO - [Page 1 | Carte 8] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 13:02:30,697 - INFO - [Page 1 | Carte 9] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 13:02:31,312 - INFO - [Page 1 | Carte 10] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-26 13:02:32,040 - INFO - [Page 1 | Carte 11] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 13:02:32,668 - INFO - [Page 1 | Carte 12] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 13:02:33,459 - INFO - [Page 1 | Carte 13] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-26 13:02:34,491 - INFO - [Page 1 | Carte 14] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-26 13:02:35,238 - INFO - [Page 1 | Carte 15] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 13:02:35,239 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 13:02:35,239 - INFO - Résultats cumulés: 15 / 15
+2025-08-26 13:02:35,239 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 13:02:35,239 - INFO - Scraping terminé, total résultats: 15
+2025-08-26 13:03:33,769 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 13:03:33,769 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 13:04:01,767 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 13:04:02,659 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 13:04:03,577 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 13:04:04,288 - INFO - [Page 1 | Carte 3] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 13:04:04,981 - INFO - [Page 1 | Carte 4] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 13:04:05,737 - INFO - [Page 1 | Carte 5] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 13:04:06,426 - INFO - [Page 1 | Carte 6] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 13:04:07,044 - INFO - [Page 1 | Carte 7] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 13:04:08,001 - INFO - [Page 1 | Carte 8] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 13:04:09,054 - INFO - [Page 1 | Carte 9] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 13:04:09,644 - INFO - [Page 1 | Carte 10] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 13:04:10,597 - INFO - [Page 1 | Carte 11] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 13:04:11,268 - INFO - [Page 1 | Carte 12] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-26 13:04:12,170 - INFO - [Page 1 | Carte 13] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-26 13:04:12,790 - INFO - [Page 1 | Carte 14] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 13:04:13,695 - INFO - [Page 1 | Carte 15] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-26 13:04:13,695 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 13:04:13,696 - INFO - Résultats cumulés: 15 / 15
+2025-08-26 13:04:13,696 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 13:04:13,696 - INFO - Scraping terminé, total résultats: 15
+2025-08-26 13:58:51,941 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 13:58:51,941 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 13:58:55,684 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 13:58:56,657 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 13:58:57,257 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 13:58:58,318 - INFO - [Page 1 | Carte 3] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 13:58:59,290 - INFO - [Page 1 | Carte 4] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 13:59:00,222 - INFO - [Page 1 | Carte 5] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 13:59:01,153 - INFO - [Page 1 | Carte 6] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 13:59:02,143 - INFO - [Page 1 | Carte 7] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 13:59:02,814 - INFO - [Page 1 | Carte 8] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 13:59:03,401 - INFO - [Page 1 | Carte 9] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 13:59:04,157 - INFO - [Page 1 | Carte 10] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 13:59:05,019 - INFO - [Page 1 | Carte 11] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-26 13:59:06,035 - INFO - [Page 1 | Carte 12] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 13:59:06,973 - INFO - [Page 1 | Carte 13] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-26 13:59:08,027 - INFO - [Page 1 | Carte 14] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 13:59:08,946 - INFO - [Page 1 | Carte 15] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-26 13:59:08,946 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 13:59:08,947 - INFO - Résultats cumulés: 15 / 15
+2025-08-26 13:59:08,947 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 13:59:08,947 - INFO - Scraping terminé, total résultats: 15
+2025-08-26 14:03:35,984 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 14:03:35,984 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 14:03:43,824 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 14:03:44,815 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 14:03:45,781 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 14:03:46,372 - INFO - [Page 1 | Carte 3] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 14:03:47,346 - INFO - [Page 1 | Carte 4] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 14:03:48,309 - INFO - [Page 1 | Carte 5] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 14:03:48,973 - INFO - [Page 1 | Carte 6] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 14:03:50,043 - INFO - [Page 1 | Carte 7] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 14:03:51,055 - INFO - [Page 1 | Carte 8] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 14:03:51,824 - INFO - [Page 1 | Carte 9] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 14:03:52,423 - INFO - [Page 1 | Carte 10] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 14:03:53,366 - INFO - [Page 1 | Carte 11] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 14:03:54,003 - INFO - [Page 1 | Carte 12] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-26 14:03:54,631 - INFO - [Page 1 | Carte 13] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-26 14:03:55,265 - INFO - [Page 1 | Carte 14] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-26 14:03:55,950 - INFO - [Page 1 | Carte 15] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 14:03:55,950 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 14:03:55,951 - INFO - Résultats cumulés: 15 / 15
+2025-08-26 14:03:55,952 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 14:03:55,952 - INFO - Scraping terminé, total résultats: 15
+2025-08-26 14:04:35,168 - INFO - Lancement du scraping pour 'Pratique dentaire' à 'Paris'
+2025-08-26 14:04:35,169 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/pratique+dentaire?page=1
+2025-08-26 14:05:26,113 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-26 14:05:26,113 - INFO - Scraping terminé, total résultats: 0
+2025-08-26 14:05:26,114 - ERROR - ERREUR GLOBALE: list indices must be integers or slices, not str
+2025-08-26 14:08:27,480 - INFO - Lancement du scraping pour 'Pratique dentaire' à 'Paris'
+2025-08-26 14:08:27,480 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/pratique+dentaire?page=1
+2025-08-26 14:08:49,777 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-26 14:08:49,777 - INFO - Scraping terminé, total résultats: 0
+2025-08-26 14:08:49,778 - ERROR - ERREUR GLOBALE: 'admin'
+2025-08-26 14:11:43,185 - INFO - Lancement du scraping pour 'Pratique dentaire' à 'Paris'
+2025-08-26 14:11:43,185 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/pratique+dentaire?page=1
+2025-08-26 14:12:35,729 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-26 14:12:35,729 - INFO - Scraping terminé, total résultats: 0
+2025-08-26 14:12:35,730 - ERROR - ERREUR GLOBALE: 'admin'
+2025-08-26 14:13:13,891 - INFO - Lancement du scraping pour 'Pratique dentaire' à 'Paris'
+2025-08-26 14:13:13,891 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/pratique+dentaire?page=1
+2025-08-26 14:13:35,961 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-26 14:13:35,961 - INFO - Scraping terminé, total résultats: 0
+2025-08-26 14:13:35,962 - ERROR - ERREUR GLOBALE: list index out of range
+2025-08-26 14:15:14,527 - INFO - Lancement du scraping pour 'Pratique dentaire' à 'Paris'
+2025-08-26 14:15:14,528 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/pratique+dentaire?page=1
+2025-08-26 14:15:36,661 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-26 14:15:36,661 - INFO - Scraping terminé, total résultats: 0
+2025-08-26 14:15:36,662 - ERROR - ERREUR GLOBALE: 'admin'
+2025-08-26 14:17:28,533 - INFO - Lancement du scraping pour 'Pratique dentaire' à 'Paris'
+2025-08-26 14:17:28,533 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/pratique+dentaire?page=1
+2025-08-26 14:17:51,973 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-26 14:17:51,973 - INFO - Scraping terminé, total résultats: 0
+2025-08-26 14:18:21,435 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-26 14:18:44,838 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 14:18:44,838 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 14:18:47,479 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 14:18:48,214 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 14:18:48,894 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 14:18:49,947 - INFO - [Page 1 | Carte 3] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 14:18:50,568 - INFO - [Page 1 | Carte 4] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 14:18:51,570 - INFO - [Page 1 | Carte 5] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 14:18:52,244 - INFO - [Page 1 | Carte 6] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 14:18:52,950 - INFO - [Page 1 | Carte 7] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 14:18:53,888 - INFO - [Page 1 | Carte 8] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 14:18:54,823 - INFO - [Page 1 | Carte 9] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 14:18:55,893 - INFO - [Page 1 | Carte 10] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 14:18:56,581 - INFO - [Page 1 | Carte 11] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 14:18:57,359 - INFO - [Page 1 | Carte 12] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 14:18:57,989 - INFO - [Page 1 | Carte 13] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-26 14:18:58,725 - INFO - [Page 1 | Carte 14] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-26 14:18:59,543 - INFO - [Page 1 | Carte 15] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-26 14:19:00,178 - INFO - [Page 1 | Carte 16] "Belles Rives" Braises & Condiments | Tél: 04 74 00 22 07 | Adresse: 376 avenue Tuileries 01600 Trévoux Voir le plan
+2025-08-26 14:19:00,871 - INFO - [Page 1 | Carte 17] Le Central Bar | Tél: 06 21 09 85 23 | Adresse: 942 Grande Rue 01700 Miribel Voir le plan
+2025-08-26 14:19:01,677 - INFO - [Page 1 | Carte 18] V and B | Tél: 04 74 39 06 47 | Adresse: 37 avenue Libération 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 14:19:02,508 - INFO - [Page 1 | Carte 19] Le Repère | Tél: 03 71 41 05 50 | Adresse: 2165 route Macon 01190 Gorrevod Voir le plan
+2025-08-26 14:19:03,162 - INFO - [Page 1 | Carte 20] O Comptoir | Tél: 04 74 25 59 76 | Adresse: 19 avenue Alphonse Baudin 01000 Bourg en Bresse Voir le plan
+2025-08-26 14:19:03,163 - INFO - Résultats cumulés: 20 / 25
+2025-08-26 14:19:06,763 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=2
+2025-08-26 14:19:08,042 - INFO - 20 cartes détectées sur la page 2
+2025-08-26 14:19:08,886 - INFO - [Page 2 | Carte 1] Auberge De La Source | Tél: 09 87 11 69 22 | Adresse: 1 route Contrevoz 01300 Chazey Bons Voir le plan
+2025-08-26 14:19:09,641 - INFO - [Page 2 | Carte 2] LES POTIONS DE LA CITE - ORGE ET HOUBLON MEXIMIEUX | Tél: 04 37 86 30 42 | Adresse: 4 avenue Doct Berthier 01800 Meximieux Voir le plan
+2025-08-26 14:19:09,680 - INFO - [Page 2 | Carte 3] Doublon détecté: V and B
+2025-08-26 14:19:10,751 - INFO - [Page 2 | Carte 4] Hotel Restaurant Marinet | Tél: 04 50 56 56 56, 06 88 50 10 64 | Adresse: 369 Rue du Bugey 01200 Bellegarde sur Valserine Voir le plan
+2025-08-26 14:19:11,649 - INFO - [Page 2 | Carte 5] Auberge Du Grand Thur SARL | Tél: 04 79 87 25 69 | Adresse: 21 rue Lauzes 01300 Izieu Voir le plan
+2025-08-26 14:19:12,249 - INFO - [Page 2 | Carte 6] Chez Nath | Tél: 04 50 48 04 75 | Adresse: 78 rue République 01200 Bellegarde sur Valserine Voir le plan
+2025-08-26 14:19:12,249 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 14:19:12,250 - INFO - Résultats cumulés: 25 / 25
+2025-08-26 14:19:12,250 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 14:19:12,250 - INFO - Scraping terminé, total résultats: 25
+2025-08-26 14:26:44,482 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 14:26:46,326 - INFO - Recherche: café bar à Ain
+2025-08-26 14:27:06,134 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F2554BAAD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/103a1d421aa5e7453176c6c6a91c73a0/element
+2025-08-26 14:33:42,166 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 14:33:44,097 - INFO - Recherche: café bar à Ain
+2025-08-26 14:34:07,449 - INFO - 1/15: LE GRAND CAFE
+2025-08-26 14:34:07,499 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:12,138 - INFO - 2/15: Le Trotteur
+2025-08-26 14:34:12,177 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:17,500 - INFO - 3/15: L'aincontournable
+2025-08-26 14:34:17,539 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:21,945 - INFO - 4/15: Café Du Champ De Foire
+2025-08-26 14:34:21,985 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:26,667 - INFO - 5/15: Brasserie l'Ain Pression - Malt Emoi
+2025-08-26 14:34:26,716 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:31,455 - INFO - 6/15: Le Savarin
+2025-08-26 14:34:31,500 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:35,159 - INFO - 7/15: La Bicyclette Bleue
+2025-08-26 14:34:35,197 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:38,540 - INFO - 8/15: Café Restaurant de la Préfecture
+2025-08-26 14:34:38,574 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:42,649 - INFO - 9/15: Bistrot 1900 Ain
+2025-08-26 14:34:42,688 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:46,396 - INFO - 10/15: Café Bernolin - « Chez la Jeanne »
+2025-08-26 14:34:46,441 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:50,526 - INFO - 11/15: Le Club Café Bourg-en-bresse
+2025-08-26 14:34:50,566 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:54,548 - INFO - 12/15: Le Central bar
+2025-08-26 14:34:54,588 - INFO - Retour à la liste (mobile).
+2025-08-26 14:34:58,754 - INFO - 13/15: Auberg'in Café Restaurant
+2025-08-26 14:34:58,793 - INFO - Retour à la liste (mobile).
+2025-08-26 14:35:02,728 - INFO - 14/15: Restaurant Le Terminus
+2025-08-26 14:35:02,768 - INFO - Retour à la liste (mobile).
+2025-08-26 14:35:07,068 - INFO - 15/15: Cafe de France
+2025-08-26 14:35:07,108 - INFO - Retour à la liste (mobile).
+2025-08-26 14:35:19,895 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 14:35:21,763 - INFO - Recherche: café bar à Ain
+2025-08-26 14:35:45,336 - INFO - 1/15: LE GRAND CAFE
+2025-08-26 14:35:45,385 - INFO - Retour à la liste (mobile).
+2025-08-26 14:35:50,141 - INFO - 2/15: Le Trotteur
+2025-08-26 14:35:50,186 - INFO - Retour à la liste (mobile).
+2025-08-26 14:35:54,113 - INFO - 3/15: L'aincontournable
+2025-08-26 14:35:54,154 - INFO - Retour à la liste (mobile).
+2025-08-26 14:35:57,507 - INFO - 4/15: Café Du Champ De Foire
+2025-08-26 14:35:57,546 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:01,753 - INFO - 5/15: Brasserie l'Ain Pression - Malt Emoi
+2025-08-26 14:36:01,795 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:06,163 - INFO - 6/15: Le Savarin
+2025-08-26 14:36:06,204 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:10,233 - INFO - 7/15: La Bicyclette Bleue
+2025-08-26 14:36:10,271 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:15,574 - INFO - 8/15: Café Restaurant de la Préfecture
+2025-08-26 14:36:15,614 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:19,926 - INFO - 9/15: Bistrot 1900 Ain
+2025-08-26 14:36:19,967 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:24,639 - INFO - 10/15: Café Bernolin - « Chez la Jeanne »
+2025-08-26 14:36:24,681 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:29,013 - INFO - 11/15: Le Club Café Bourg-en-bresse
+2025-08-26 14:36:29,055 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:33,187 - INFO - 12/15: Le Central bar
+2025-08-26 14:36:33,225 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:37,650 - INFO - 13/15: Auberg'in Café Restaurant
+2025-08-26 14:36:37,691 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:42,487 - INFO - 14/15: Restaurant Le Terminus
+2025-08-26 14:36:42,528 - INFO - Retour à la liste (mobile).
+2025-08-26 14:36:47,088 - INFO - 15/15: Cafe de France
+2025-08-26 14:36:47,129 - INFO - Retour à la liste (mobile).
+2025-08-26 14:39:58,845 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 14:40:00,752 - INFO - Recherche: café bar à Paris
+2025-08-26 14:40:41,319 - INFO - 1/30: Café de Paris V
+2025-08-26 14:40:41,369 - INFO - Retour à la liste (mobile).
+2025-08-26 14:40:46,441 - INFO - 2/30: Cubana Café , Soirées Salsa, Bar à Cocktails, Bar de nuit, Fumoir, Restaurant Montparnasse, Evjf,Evg.
+2025-08-26 14:40:46,492 - INFO - Retour à la liste (mobile).
+2025-08-26 14:40:50,638 - INFO - 3/30: L'Express Bar
+2025-08-26 14:40:50,680 - INFO - Retour à la liste (mobile).
+2025-08-26 14:40:54,771 - INFO - 4/30: Restaurant Café Joséphine Paris 1
+2025-08-26 14:40:54,816 - INFO - Retour à la liste (mobile).
+2025-08-26 14:40:58,903 - INFO - 5/30: Au Petit Bar
+2025-08-26 14:40:58,965 - INFO - Retour à la liste (mobile).
+2025-08-26 14:41:00,873 - ERROR - Erreur sur l'élément 6: Message: tab crashed
+  (Session info: chrome=139.0.7258.138)
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733dc0]
+	(No symbol) [0x0x724920]
+	(No symbol) [0x0x722904]
+	(No symbol) [0x0x7233cd]
+	(No symbol) [0x0x72fbf9]
+	(No symbol) [0x0x7410b5]
+	(No symbol) [0x0x746aa6]
+	(No symbol) [0x0x723a0d]
+	(No symbol) [0x0x740950]
+	(No symbol) [0x0x7c2ada]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 14:41:00,874 - WARNING - Error finding business cards: Message: tab crashed
+  (Session info: chrome=139.0.7258.138)
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733dc0]
+	(No symbol) [0x0x724920]
+	(No symbol) [0x0x722904]
+	(No symbol) [0x0x7233cd]
+	(No symbol) [0x0x72fbf9]
+	(No symbol) [0x0x7410b5]
+	(No symbol) [0x0x746aa6]
+	(No symbol) [0x0x723a0d]
+	(No symbol) [0x0x740950]
+	(No symbol) [0x0x7c2ada]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 14:41:00,874 - WARNING - Index 6 dépasse le nombre d'items (0)
+2025-08-26 14:41:02,981 - INFO - --- Recherche pour mot-clé: brasserie ---
+2025-08-26 14:41:04,856 - INFO - Recherche: brasserie à Paris
+2025-08-26 14:41:39,233 - INFO - 1/25: Brasserie Martin
+2025-08-26 14:41:39,282 - INFO - Retour à la liste (mobile).
+2025-08-26 14:41:43,476 - INFO - 2/25: Brasserie des Prés
+2025-08-26 14:41:43,517 - INFO - Retour à la liste (mobile).
+2025-08-26 14:41:48,074 - INFO - 3/25: Brasserie Bellanger
+2025-08-26 14:41:48,116 - INFO - Retour à la liste (mobile).
+2025-08-26 14:41:53,145 - INFO - 4/25: L'Alsace
+2025-08-26 14:41:53,184 - INFO - Retour à la liste (mobile).
+2025-08-26 14:41:57,580 - INFO - 5/25: Bofinger
+2025-08-26 14:41:57,620 - INFO - Retour à la liste (mobile).
+2025-08-26 14:42:06,713 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4AFE0DD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:42:10,751 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B083E90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:42:14,806 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B083D90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:42:22,946 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B082050>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:42:26,983 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B081C90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:42:31,026 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4AFF3E50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:42:39,109 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B016990>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:42:43,161 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B014750>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:42:47,191 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B00EED0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:42:55,276 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B087D50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:42:59,320 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B084A90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:43:03,416 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B085590>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:43:11,580 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B017550>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:43:15,650 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B014F50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:43:19,679 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4AFF15D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:43:27,767 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B082DD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:43:31,795 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B082710>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:43:35,873 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B0813D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:43:44,004 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B080B10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:43:48,060 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B0800D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:43:52,125 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B085890>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:44:00,269 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B0863D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:44:04,328 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B085A10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:44:08,354 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4AFF3A50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/element
+2025-08-26 14:44:16,456 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C4B015250>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/e81c5c7891aff9942291e2a434c570bf/elements
+2025-08-26 14:44:36,067 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Paris'
+2025-08-26 14:44:36,067 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=1
+2025-08-26 14:44:39,974 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 14:44:40,837 - INFO - [Page 1 | Carte 1] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-26 14:44:40,837 - ERROR - ERREUR GLOBALE: cannot access local variable 'pj_in_progress' where it is not associated with a value
+2025-08-26 14:47:40,491 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Paris'
+2025-08-26 14:47:40,491 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=1
+2025-08-26 14:47:44,492 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 14:47:45,368 - INFO - [Page 1 | Carte 1] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-26 14:47:45,954 - INFO - [Page 1 | Carte 2] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-26 14:47:46,636 - INFO - [Page 1 | Carte 3] Les Editeurs | Tél: 01 43 26 67 76 | Adresse: 4 carrefour Odéon 75006 Paris Voir le plan
+2025-08-26 14:47:47,773 - INFO - [Page 1 | Carte 4] Le Florès | Tél:     01 73 71 59 71, 06 06 74 06 13, 06 17 48 30 85 | Adresse: 80 rue Grenelle 75007 Paris Voir le plan
+2025-08-26 14:47:48,595 - INFO - [Page 1 | Carte 5] Le Pavillon Du Lac | Tél: 01 42 00 07 21 | Adresse: Entrée Place Armand Carrel parc Buttes Chaumont 75019 Paris Voir le plan
+2025-08-26 14:47:49,518 - INFO - [Page 1 | Carte 6] Le Caveau de l'Isle | Tél: 01 43 25 10 26 | Adresse: 36 rue St Louis en l'Ile 75004 Paris Voir le plan
+2025-08-26 14:47:50,260 - INFO - [Page 1 | Carte 7] Mucha Café | Tél: 01 45 51 06 30, 09 66 90 63 65, 06 82 17 25 44 | Adresse: 227 boulevard St Germain 75007 Paris Voir le plan
+2025-08-26 14:47:51,062 - INFO - [Page 1 | Carte 8] Le Fleurus | Tél: 01 45 81 02 10 | Adresse: 10 boulevard Jourdan 75014 Paris Voir le plan
+2025-08-26 14:47:52,087 - INFO - [Page 1 | Carte 9] Les Eiders | Tél: 01 40 36 01 52 | Adresse: 142 avenue Flandre 75019 Paris Voir le plan
+2025-08-26 14:47:52,732 - INFO - [Page 1 | Carte 10] Sweet And Salty | Tél: 01 43 47 12 98 | Adresse: 7 rue Théophile Roussel 75012 Paris Voir le plan
+2025-08-26 14:47:52,733 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 14:47:52,733 - INFO - Résultats cumulés: 10 / 10
+2025-08-26 14:47:52,733 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 14:47:52,733 - INFO - Scraping terminé, total résultats: 10
+2025-08-26 14:48:23,195 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 14:48:25,101 - INFO - Recherche: café bar à Paris
+2025-08-26 14:48:43,020 - INFO - 1/10: Mama Restaurant Paris West
+2025-08-26 14:48:43,089 - INFO - Retour à la liste (mobile).
+2025-08-26 14:48:47,671 - INFO - 2/10: Le Jules Verne
+2025-08-26 14:48:47,716 - INFO - Retour à la liste (mobile).
+2025-08-26 14:48:52,113 - INFO - 3/10: Café de Paris V
+2025-08-26 14:48:52,160 - INFO - Retour à la liste (mobile).
+2025-08-26 14:48:56,276 - INFO - 4/10: Cubana Café , Soirées Salsa, Bar à Cocktails, Bar de nuit, Fumoir, Restaurant Montparnasse, Evjf,Evg.
+2025-08-26 14:48:56,325 - INFO - Retour à la liste (mobile).
+2025-08-26 14:48:59,547 - INFO - 5/10: L'Express Bar
+2025-08-26 14:48:59,636 - INFO - Retour à la liste (mobile).
+2025-08-26 14:49:04,549 - INFO - 6/10: Restaurant Café Joséphine Paris 1
+2025-08-26 14:49:04,595 - INFO - Retour à la liste (mobile).
+2025-08-26 14:49:08,342 - INFO - 7/10: Au Petit Bar
+2025-08-26 14:49:08,388 - INFO - Retour à la liste (mobile).
+2025-08-26 14:49:12,645 - INFO - 8/10: Café QJ
+2025-08-26 14:49:12,689 - INFO - Retour à la liste (mobile).
+2025-08-26 14:49:17,496 - INFO - 9/10: Café A
+2025-08-26 14:49:17,542 - INFO - Retour à la liste (mobile).
+2025-08-26 14:49:21,789 - INFO - 10/10: Café Populaire
+2025-08-26 14:49:21,835 - INFO - Retour à la liste (mobile).
+2025-08-26 14:49:40,529 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 14:49:42,349 - INFO - Recherche: café bar à Paris
+2025-08-26 14:49:55,880 - INFO - 1/5: Coutume x Julhès Paris | Torréfacteur | Coffee shop
+2025-08-26 14:49:55,934 - INFO - Retour à la liste (mobile).
+2025-08-26 14:49:59,877 - INFO - 2/5: Café de Paris V
+2025-08-26 14:49:59,929 - INFO - Retour à la liste (mobile).
+2025-08-26 14:50:05,065 - INFO - 3/5: Cubana Café , Soirées Salsa, Bar à Cocktails, Bar de nuit, Fumoir, Restaurant Montparnasse, Evjf,Evg.
+2025-08-26 14:50:05,111 - INFO - Retour à la liste (mobile).
+2025-08-26 14:50:09,375 - INFO - 4/5: L'Express Bar
+2025-08-26 14:50:09,421 - INFO - Retour à la liste (mobile).
+2025-08-26 14:50:13,090 - INFO - 5/5: Restaurant Café Joséphine Paris 1
+2025-08-26 14:50:13,138 - INFO - Retour à la liste (mobile).

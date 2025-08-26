@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from gmaps import scrape_google_maps, scrape_by_label, save_results
-from pagesjaunes import scrape_pages_jaunes, save_pj_results
+from gmaps import scrape_google_maps, scrape_by_label, save_results,gmaps_in_progress
+from pagesjaunes import scrape_pages_jaunes, save_pj_results, pj_in_progress
 import os
 import glob
 from fastapi.responses import JSONResponse
@@ -269,7 +269,8 @@ async def scrape_gmaps(request: SearchRequest, user: str = Depends(get_current_u
         scrape_by_label,
         request.query,
         request.location,
-        request.max_results
+        request.max_results,
+        user
     )
 
     if not results:
@@ -295,7 +296,8 @@ async def scrape_pj(request: SearchRequest, user: str = Depends(get_current_user
         scrape_pages_jaunes,
         request.query,
         request.location,
-        request.max_results
+        request.max_results,
+        user
     )
 
     if not results:
@@ -314,9 +316,16 @@ async def scrape_pj(request: SearchRequest, user: str = Depends(get_current_user
     return {"status": "success", **saved}
 
 
+@app.get("/scrape/pagesjaunes/status")
+def get_pj_status(user: str = Depends(get_current_user)):
+    # Retourne la liste des entreprises en cours ou terminées pour l'utilisateur
+    return {"in_progress": pj_in_progress.get(user, [])}
 
 
-
+@app.get("/scrape/googlemaps/status")
+def get_pj_status(user: str = Depends(get_current_user)):
+    # Retourne la liste des entreprises en cours ou terminées pour l'utilisateur
+    return {"in_progress": gmaps_in_progress.get(user, [])}
 
 @app.get("/historique/all")
 def list_all_historique( user: str = Depends(get_current_user)):

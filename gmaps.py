@@ -16,6 +16,10 @@ import sys
 import json
 import os
 
+
+
+
+gmaps_in_progress = {}
 # ==== Chargement fichier NAF enrichi ====
 with open("naf-activity-gmaps.json", "r", encoding="utf-8") as f:
     naf_keywords_map = json.load(f)
@@ -278,7 +282,7 @@ def close_details_panel(driver):
         logger.warning(f"Impossible de fermer la fiche : {e}")
         return False
 
-def scrape_google_maps(query, location, max_results):
+def scrape_google_maps(query, location, max_results, user=None):
     driver = None
     try:
         driver = configure_driver()
@@ -328,6 +332,21 @@ def scrape_google_maps(query, location, max_results):
                     seen_names.add(business_data['Nom'])
                     results.append(business_data)
                     logger.info(f"{len(results)}/{max_results}: {business_data['Nom']}")
+                                        # --- Mise à jour de la progression ---
+                    if user:
+                        if user not in gmaps_in_progress or not isinstance(gmaps_in_progress[user], dict):
+                            gmaps_in_progress[user] = {
+                                "name": business_data["Nom"],
+                                "phone": business_data.get("Téléphone"),
+                                "address": business_data.get("Adresse"),
+                                "status": "en cours",
+                                "current_index": 0,
+                                "total": max_results
+                            }
+                        gmaps_in_progress[user]["name"] = business_data["Nom"]
+                        gmaps_in_progress[user]["phone"] = business_data.get("Téléphone")
+                        gmaps_in_progress[user]["address"] = business_data.get("Adresse")
+                        gmaps_in_progress[user]["current_index"] = len(results)
 
                 if not close_details_panel(driver):
                     # Si on ne peut pas fermer, on recharge la page
@@ -345,7 +364,21 @@ def scrape_google_maps(query, location, max_results):
                 # Essayer de continuer malgré l'erreur
             finally:
                 idx += 1
-
+                
+        # --- Fin du scraping ---
+        if user:
+            if user not in gmaps_in_progress:
+                gmaps_in_progress[user] = {
+                    "name": None,
+                    "phone": None,
+                    "address": None,
+                    "status": "terminé",
+                    "current_index": len(results),
+                    "total": max_results
+                }
+            else:
+                gmaps_in_progress[user]["status"] = "terminé"
+                
         return results[:max_results]  # Au cas où on aurait dépassé
 
     except Exception as e:
@@ -357,14 +390,14 @@ def scrape_google_maps(query, location, max_results):
 
 
 # ==== Scraping multi-requêtes à partir d'un label NAF ====
-def scrape_by_label(label, location, max_results):
+def scrape_by_label(label, location, max_results, user=None):
     keywords = get_keywords_for_label(label)
     all_results = []
     seen_names = set()
 
     for kw in keywords:
         logger.info(f"--- Recherche pour mot-clé: {kw} ---")
-        results = scrape_google_maps(kw, location, max_results - len(all_results))
+        results = scrape_google_maps(kw, location, max_results - len(all_results), user=user)
         for r in results:
             if r['Nom'] not in seen_names:
                 seen_names.add(r['Nom'])
@@ -373,7 +406,15 @@ def scrape_by_label(label, location, max_results):
                     break  # on sort juste de la boucle du mot-clé
         if len(all_results) >= max_results:
             break  # on sort si le quota global est atteint
-
+    # Mise à jour finale
+    if user:
+        if user not in gmaps_in_progress:
+            gmaps_in_progress[user] = {"status": "terminé", "current_index": len(all_results), "total": max_results}
+        else:
+            gmaps_in_progress[user]["status"] = "terminé"
+            
+    gmaps_in_progress.clear()        
+    
     return all_results
 
 

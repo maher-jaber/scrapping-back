@@ -16,6 +16,12 @@ import sys
 import os
 import json
 
+
+
+
+
+
+pj_in_progress = {} 
 # Configuration du logging
 logging.basicConfig(
     level=logging.INFO,
@@ -230,7 +236,7 @@ def extract_card_data(driver, card):
     data['Heure de scraping'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     return data
 
-def scrape_pages_jaunes(query, location, max_results=20):
+def scrape_pages_jaunes(query, location, max_results=20, user=None):
     driver = None
     try:
         driver = configure_driver()
@@ -242,7 +248,10 @@ def scrape_pages_jaunes(query, location, max_results=20):
         results = []
         seen_names = set()
         page_num = 1
+        
 
+            
+            
         while len(results) < max_results:
             url_page = f"{base_url}?page={page_num}"
             logger.info(f"Chargement de la page {page_num}: {url_page}")
@@ -273,6 +282,21 @@ def scrape_pages_jaunes(query, location, max_results=20):
                             f"[Page {page_num} | Carte {idx}] {data['Nom']} | "
                             f"Tél: {data.get('Téléphone','N/A')} | Adresse: {data.get('Adresse','N/A')}"
                         )
+                        # --- Mise à jour progressive pj_in_progress ---
+                        if user:
+                            if user not in pj_in_progress or not isinstance(pj_in_progress[user], dict):
+                                pj_in_progress[user] = {
+                                    "name": data["Nom"],
+                                    "phone": data.get("Téléphone"),
+                                    "address": data.get("Adresse"),
+                                    "status": "en cours",
+                                    "current_index": 0,
+                                    "total": max_results
+                                }
+                            pj_in_progress[user]["name"] = data["Nom"]
+                            pj_in_progress[user]["phone"] = data.get("Téléphone")
+                            pj_in_progress[user]["address"] = data.get("Adresse")
+                            pj_in_progress[user]["current_index"] = len(results)
                     else:
                         logger.info(f"[Page {page_num} | Carte {idx}] Doublon détecté: {data['Nom']}")
                 else:
@@ -287,6 +311,22 @@ def scrape_pages_jaunes(query, location, max_results=20):
             time.sleep(random.uniform(2, 4))  # pause anti-bot
 
         logger.info(f"Scraping terminé, total résultats: {len(results)}")
+        # Après sauvegarde ou traitement final pour cette carte
+        if user:
+            if user not in pj_in_progress:
+                pj_in_progress[user] = {
+                    "name": None,
+                    "phone": None,
+                    "address": None,
+                    "status": "terminé",
+                    "current_index": len(results),
+                    "total": max_results
+                }
+            else:
+                pj_in_progress[user]["status"] = "terminé"
+        
+        pj_in_progress.clear() 
+                
         return results[:max_results]
 
     except Exception as e:
