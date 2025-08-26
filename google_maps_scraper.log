@@ -17420,3 +17420,1298 @@ Stacktrace:
 2025-08-26 14:50:09,421 - INFO - Retour à la liste (mobile).
 2025-08-26 14:50:13,090 - INFO - 5/5: Restaurant Café Joséphine Paris 1
 2025-08-26 14:50:13,138 - INFO - Retour à la liste (mobile).
+2025-08-26 14:57:45,046 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-26 14:58:11,689 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 14:58:13,630 - INFO - Recherche: café bar à Paris
+2025-08-26 14:58:53,704 - INFO - 1/30: Café de Paris V
+2025-08-26 14:58:53,769 - INFO - Retour à la liste (mobile).
+2025-08-26 14:58:58,116 - INFO - 2/30: Cubana Café , Soirées Salsa, Bar à Cocktails, Bar de nuit, Fumoir, Restaurant Montparnasse, Evjf,Evg.
+2025-08-26 14:58:58,161 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:01,833 - INFO - 3/30: L'Express Bar
+2025-08-26 14:59:01,931 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:07,225 - INFO - 4/30: Restaurant Café Joséphine Paris 1
+2025-08-26 14:59:07,295 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:11,063 - INFO - 5/30: Au Petit Bar
+2025-08-26 14:59:11,110 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:16,113 - INFO - 6/30: Café QJ
+2025-08-26 14:59:16,165 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:20,178 - INFO - 7/30: Café A
+2025-08-26 14:59:20,229 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:23,917 - INFO - 8/30: Café Populaire
+2025-08-26 14:59:23,960 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:27,988 - INFO - 9/30: Le Café Rouge
+2025-08-26 14:59:28,032 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:32,104 - INFO - 10/30: Georges Café | Nightclub & Party Everyday
+2025-08-26 14:59:32,156 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:36,652 - INFO - 11/30: The Wellington
+2025-08-26 14:59:36,697 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:41,237 - INFO - 12/30: À Mon Café
+2025-08-26 14:59:41,287 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:45,076 - INFO - 13/30: la cave café
+2025-08-26 14:59:45,122 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:49,265 - INFO - 14/30: Le Peloton Café
+2025-08-26 14:59:49,334 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:53,381 - INFO - 15/30: Café Sans Nom - Brasserie Paris 20
+2025-08-26 14:59:53,426 - INFO - Retour à la liste (mobile).
+2025-08-26 14:59:58,556 - INFO - 16/30: Le Café du Village Paris
+2025-08-26 14:59:58,602 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:03,999 - INFO - 17/30: Bar La Petite
+2025-08-26 15:00:04,050 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:08,331 - INFO - 18/30: Happy Caffé
+2025-08-26 15:00:08,380 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:12,640 - INFO - 19/30: Le Piment Café
+2025-08-26 15:00:12,688 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:17,439 - INFO - 20/30: Café Oz Grands Boulevards - The Australian Bar
+2025-08-26 15:00:17,487 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:20,762 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:25,359 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:28,713 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:32,676 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:36,955 - INFO - 21/30: Le Bar de l'Avenue
+2025-08-26 15:00:37,002 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:41,322 - INFO - 22/30: CAFE DES HALLES
+2025-08-26 15:00:41,371 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:46,338 - INFO - 23/30: Bar Nouveau
+2025-08-26 15:00:46,385 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:51,008 - INFO - 24/30: BRASSERIE LE QUARTIER GÉNÉRAL
+2025-08-26 15:00:51,055 - INFO - Retour à la liste (mobile).
+2025-08-26 15:00:57,307 - INFO - 25/30: Harry's Bar Paris
+2025-08-26 15:00:57,355 - INFO - Retour à la liste (mobile).
+2025-08-26 15:01:01,773 - INFO - Retour à la liste (mobile).
+2025-08-26 15:01:06,681 - INFO - 26/30: Chouchou
+2025-08-26 15:01:06,734 - INFO - Retour à la liste (mobile).
+2025-08-26 15:01:10,715 - INFO - 27/30: ESCOCAFE
+2025-08-26 15:01:10,771 - INFO - Retour à la liste (mobile).
+2025-08-26 15:01:15,482 - INFO - 28/30: Le Globe Café
+2025-08-26 15:01:15,536 - INFO - Retour à la liste (mobile).
+2025-08-26 15:01:20,180 - INFO - 29/30: Paris Beaubourg
+2025-08-26 15:01:20,230 - INFO - Retour à la liste (mobile).
+2025-08-26 15:01:24,920 - INFO - 30/30: Social Bar
+2025-08-26 15:01:24,967 - INFO - Retour à la liste (mobile).
+2025-08-26 15:25:10,172 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Paris'
+2025-08-26 15:25:10,172 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=1
+2025-08-26 15:25:25,546 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 15:25:26,261 - INFO - [Page 1 | Carte 1] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-26 15:25:27,244 - INFO - [Page 1 | Carte 2] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-26 15:25:28,043 - INFO - [Page 1 | Carte 3] Les Editeurs | Tél: 01 43 26 67 76 | Adresse: 4 carrefour Odéon 75006 Paris Voir le plan
+2025-08-26 15:25:28,786 - INFO - [Page 1 | Carte 4] Le Florès | Tél:     01 73 71 59 71, 06 06 74 06 13, 06 17 48 30 85 | Adresse: 80 rue Grenelle 75007 Paris Voir le plan
+2025-08-26 15:25:29,876 - INFO - [Page 1 | Carte 5] Mucha Café | Tél: 01 45 51 06 30, 09 66 90 63 65, 06 82 17 25 44 | Adresse: 227 boulevard St Germain 75007 Paris Voir le plan
+2025-08-26 15:25:30,621 - INFO - [Page 1 | Carte 6] Les Eiders | Tél: 01 40 36 01 52 | Adresse: 142 avenue Flandre 75019 Paris Voir le plan
+2025-08-26 15:25:31,593 - INFO - [Page 1 | Carte 7] Le Pavillon Du Lac | Tél: 01 42 00 07 21 | Adresse: Entrée Place Armand Carrel parc Buttes Chaumont 75019 Paris Voir le plan
+2025-08-26 15:25:32,287 - INFO - [Page 1 | Carte 8] Tabac Le Jean Bart | Tél: 09 72 15 63 99 | Adresse: 32 rue Avron 75020 Paris Voir le plan
+2025-08-26 15:25:32,877 - INFO - [Page 1 | Carte 9] LouLou Montmartre | Tél: 01 42 55 04 55 | Adresse: 8 rue Lamarck 75018 Paris Voir le plan
+2025-08-26 15:25:33,782 - INFO - [Page 1 | Carte 10] Le Coq & Fils The Poultry House | Tél: 01 42 59 82 89 | Adresse: 98 rue Lepic 75018 Paris Voir le plan
+2025-08-26 15:25:34,742 - INFO - [Page 1 | Carte 11] Le Caveau de l'Isle | Tél: 01 43 25 10 26 | Adresse: 36 rue St Louis en l'Ile 75004 Paris Voir le plan
+2025-08-26 15:25:35,413 - INFO - [Page 1 | Carte 12] Le Segur | Tél: 01 47 83 85 31 | Adresse: 156 avenue Suffren 75015 Paris Voir le plan
+2025-08-26 15:25:36,318 - INFO - [Page 1 | Carte 13] Le Fleurus | Tél: 01 45 81 02 10 | Adresse: 10 boulevard Jourdan 75014 Paris Voir le plan
+2025-08-26 15:25:37,171 - INFO - [Page 1 | Carte 14] Sweet And Salty | Tél: 01 43 47 12 98 | Adresse: 7 rue Théophile Roussel 75012 Paris Voir le plan
+2025-08-26 15:25:38,059 - INFO - [Page 1 | Carte 15] Le Train Bleu Gare de Lyon | Tél:     01 43 43 09 06 | Adresse: place Louis Armand 75012 Paris Voir le plan
+2025-08-26 15:25:38,668 - INFO - [Page 1 | Carte 16] Félix Café | Tél: 09 80 89 72 75 | Adresse: 40 boulevard Reuilly 75012 Paris Voir le plan
+2025-08-26 15:25:39,622 - INFO - [Page 1 | Carte 17] Le Petit St Paul | Tél: 01 44 78 09 17 | Adresse: 40 rue St Paul 75004 Paris Voir le plan
+2025-08-26 15:25:40,352 - INFO - [Page 1 | Carte 18] Le Kleber | Tél: 01 47 27 95 93 | Adresse: 80 avenue Kléber 75116 Paris Voir le plan
+2025-08-26 15:25:41,021 - INFO - [Page 1 | Carte 19] Brique Machine - Brique House | Tél: 01 49 29 50 50 | Adresse: 161 rue Montmartre 75002 Paris Voir le plan
+2025-08-26 15:25:42,020 - INFO - [Page 1 | Carte 20] Emporio Armani Caffè | Tél: 01 45 48 62 15 | Adresse: 149 boulevard St Germain 75006 Paris Voir le plan
+2025-08-26 15:25:42,020 - INFO - Résultats cumulés: 20 / 1000
+2025-08-26 15:25:44,461 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=2
+2025-08-26 15:25:46,002 - INFO - 20 cartes détectées sur la page 2
+2025-08-26 15:25:46,701 - INFO - [Page 2 | Carte 1] La Coupole | Tél: 01 43 20 14 20 | Adresse: 102 boulevard Montparnasse 75014 Paris Voir le plan
+2025-08-26 15:25:47,569 - INFO - [Page 2 | Carte 2] Mojito Habana | Tél: 09 81 27 60 63 | Adresse: 19 rue Presbourg 75116 Paris Voir le plan
+2025-08-26 15:25:47,612 - INFO - [Page 2 | Carte 3] Doublon détecté: Félix Café
+2025-08-26 15:25:48,797 - INFO - [Page 2 | Carte 4] Café Millésimes | Tél:     09 85 12 85 24 | Adresse: 88 rue Picpus 75012 Paris Voir le plan
+2025-08-26 15:25:49,883 - INFO - [Page 2 | Carte 5] Café Palais Royal | Tél: 01 42 61 34 91 | Adresse: 202 rue St Honoré 75001 Paris Voir le plan
+2025-08-26 15:25:50,615 - INFO - [Page 2 | Carte 6] Le Camondo | Tél: 01 45 63 40 40 | Adresse: 61 Bis rue Monceau 75008 Paris Voir le plan
+2025-08-26 15:25:51,450 - INFO - [Page 2 | Carte 7] Le Comptoir GEnEral | Tél:     01 44 88 24 48 | Adresse: 84 quai Jemmapes 75010 Paris Voir le plan
+2025-08-26 15:25:52,194 - INFO - [Page 2 | Carte 8] RD FONTAINES | Tél:       01 46 51 93 13 | Adresse: 219 avenue Versailles 75016 Paris Voir le plan
+2025-08-26 15:25:52,970 - INFO - [Page 2 | Carte 9] Le Bistrot des Halles | Tél: 01 42 36 91 69 | Adresse: 15 rue Halles 75001 Paris Voir le plan
+2025-08-26 15:25:53,922 - INFO - [Page 2 | Carte 10] Le Marceau | Tél: 01 47 20 05 65 | Adresse: 39 avenue Marceau 75116 Paris Voir le plan
+2025-08-26 15:25:54,622 - INFO - [Page 2 | Carte 11] Nespresso | Tél: 0 800 55 52 53          1  2015          | Adresse: Gal Fresques Entre Hall 1 Et Hal 4 place Louis Armand 75012 Paris Voir le plan
+2025-08-26 15:25:55,457 - INFO - [Page 2 | Carte 12] La Pépinière | Tél: 01 45 22 85 00 | Adresse: 6 place St Augustin 75008 Paris Voir le plan
+2025-08-26 15:25:56,150 - INFO - [Page 2 | Carte 13] La Belle Quille | Tél: 01 48 74 93 09 | Adresse: 48 rue Amsterdam 75009 Paris Voir le plan
+2025-08-26 15:25:56,965 - INFO - [Page 2 | Carte 14] Hôtel Fauchon | Tél: 01 87 86 28 00 | Adresse: 4 boulevard Malesherbes 75008 Paris Voir le plan
+2025-08-26 15:25:57,004 - INFO - [Page 2 | Carte 15] Doublon détecté: Le Train Bleu Gare de Lyon
+2025-08-26 15:25:57,703 - INFO - [Page 2 | Carte 16] Auto Passion CafE | Tél: 01 45 43 20 20 | Adresse: 197 boulevard Brune 75014 Paris Voir le plan
+2025-08-26 15:25:58,778 - INFO - [Page 2 | Carte 17] La Réserve du Terroir | Tél: 01 47 07 55 14 | Adresse: 13 rue Quincampoix 75004 Paris Voir le plan
+2025-08-26 15:25:59,501 - INFO - [Page 2 | Carte 18] Delaville Café | Tél: 01 48 24 48 09 | Adresse: 34 boulevard Bonne Nouvelle 75010 Paris Voir le plan
+2025-08-26 15:26:00,222 - INFO - [Page 2 | Carte 19] Le Molière | Tél: 01 44 41 00 05 | Adresse: 12 rue Buci 75006 Paris Voir le plan
+2025-08-26 15:26:00,984 - INFO - [Page 2 | Carte 20] Le Boudoir | Tél: 01 43 20 70 03 | Adresse: 202 boulevard St Germain 75007 Paris Voir le plan
+2025-08-26 15:26:00,984 - INFO - Résultats cumulés: 38 / 1000
+2025-08-26 15:26:03,450 - INFO - Chargement de la page 3: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=3
+2025-08-26 15:26:04,858 - INFO - 20 cartes détectées sur la page 3
+2025-08-26 15:26:05,956 - INFO - [Page 3 | Carte 1] Café d'Albert | Tél: 01 42 64 71 92 | Adresse: 117 rue Ordener 75018 Paris Voir le plan
+2025-08-26 15:26:06,003 - INFO - [Page 3 | Carte 2] Doublon détecté: Le Bistrot des Halles
+2025-08-26 15:26:06,904 - INFO - [Page 3 | Carte 3] La Terrasse Maillot | Tél: 01 45 74 32 10 | Adresse: 76 avenue Grande Armée 75017 Paris Voir le plan
+2025-08-26 15:26:07,611 - INFO - [Page 3 | Carte 4] Auburn | Tél: 01 44 80 00 32 | Adresse: Hôtel Indigo Paris-Opéra 2 rue Edouard VII 75009 Paris Voir le plan
+2025-08-26 15:26:08,384 - INFO - [Page 3 | Carte 5] Jules | Tél: 01 83 98 84 21 | Adresse: 119 Bis rue Monge 75005 Paris Voir le plan
+2025-08-26 15:26:09,416 - INFO - [Page 3 | Carte 6] Café le Monte Carlo | Tél: 01 43 59 15 04 | Adresse: 118 rue La Boétie 75008 Paris Voir le plan
+2025-08-26 15:26:10,313 - INFO - [Page 3 | Carte 7] Musa Oberkampf | Tél: 06 44 63 28 50 | Adresse: 117 rue St Maur 75011 Paris Voir le plan
+2025-08-26 15:26:11,334 - INFO - [Page 3 | Carte 8] Le Tiki Rose | Tél: 01 40 28 03 35 | Adresse: 9 rue Berger 75001 Paris Voir le plan
+2025-08-26 15:26:12,174 - INFO - [Page 3 | Carte 9] Numero 41 | Tél: 01 45 03 65 16 | Adresse: 41 avenue Mozart 75016 Paris Voir le plan
+2025-08-26 15:26:12,769 - INFO - [Page 3 | Carte 10] Le Parvis | Tél: 01 44 41 14 34 | Adresse: 3 rue Arcole 75004 Paris Voir le plan
+2025-08-26 15:26:13,558 - INFO - [Page 3 | Carte 11] Brasserie Victor Hugo | Tél: 01 42 73 30 43 | Adresse: 4 place Victor Hugo 75116 Paris Voir le plan
+2025-08-26 15:26:14,621 - INFO - [Page 3 | Carte 12] Le Bar Long | Tél: 01 42 99 98 50 | Adresse: Hôtel Royal Monceau 37 avenue Hoche 75008 Paris Voir le plan
+2025-08-26 15:26:14,662 - INFO - [Page 3 | Carte 13] Doublon détecté: Nespresso
+2025-08-26 15:26:15,320 - INFO - [Page 3 | Carte 14] Restaurant Le Molière | Tél: 01 44 76 07 33 | Adresse: 40 rue St Honoré 75001 Paris Voir le plan
+2025-08-26 15:26:16,335 - INFO - [Page 3 | Carte 15] Galeries Lafayette Haussmann | Tél: 01 42 82 34 56 | Adresse: Magasin Coupole 6ème étage 40 boulevard Haussmann 75009 Paris Voir le plan
+2025-08-26 15:26:16,374 - INFO - [Page 3 | Carte 16] Doublon détecté: Félix Café
+2025-08-26 15:26:16,980 - INFO - [Page 3 | Carte 17] Le Paris Montparnasse | Tél: 01 43 20 93 02 | Adresse: 43 avenue Maine 75014 Paris Voir le plan
+2025-08-26 15:26:17,982 - INFO - [Page 3 | Carte 18] Au Vieux Châtelet | Tél: 01 42 33 79 27 | Adresse: 1 place Châtelet 75001 Paris Voir le plan
+2025-08-26 15:26:18,711 - INFO - [Page 3 | Carte 19] Madame Fan | Tél: 01 53 81 79 77 | Adresse: 18 rue Bayen 75017 Paris Voir le plan
+2025-08-26 15:26:19,447 - INFO - [Page 3 | Carte 20] Café Marco Polo | Tél: 01 43 87 36 05 | Adresse: 121 rue St Lazare 75008 Paris Voir le plan
+2025-08-26 15:26:19,447 - INFO - Résultats cumulés: 55 / 1000
+2025-08-26 15:26:21,675 - INFO - Chargement de la page 4: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=4
+2025-08-26 15:26:23,254 - INFO - 20 cartes détectées sur la page 4
+2025-08-26 15:26:24,318 - INFO - [Page 4 | Carte 1] Belushi's Canal | Tél: 01 40 34 34 40 | Adresse: 159 rue Crimée 75019 Paris Voir le plan
+2025-08-26 15:26:25,025 - INFO - [Page 4 | Carte 2] Café Brasserie Le Suffren | Tél: 01 45 66 97 86 | Adresse: 84 avenue Suffren 75015 Paris Voir le plan
+2025-08-26 15:26:25,768 - INFO - [Page 4 | Carte 3] Le Café Du Commerce | Tél: 01 45 75 03 27 | Adresse: 51 rue Commerce 75015 Paris Voir le plan
+2025-08-26 15:26:26,502 - INFO - [Page 4 | Carte 4] Valois | Tél: 01 42 25 03 85 | Adresse: PTE Droite 1 place Rio de Janeiro 75008 Paris Voir le plan
+2025-08-26 15:26:27,348 - INFO - [Page 4 | Carte 5] Le Zeyer | Tél: 01 45 40 43 88 | Adresse: 62 rue Alésia 75014 Paris Voir le plan
+2025-08-26 15:26:28,278 - INFO - [Page 4 | Carte 6] Le SolfErino | Tél: 01 45 51 55 14 | Adresse: 262 boulevard St Germain 75007 Paris Voir le plan
+2025-08-26 15:26:29,330 - INFO - [Page 4 | Carte 7] Brasserie Zimmer | Tél: 01 42 36 74 03 | Adresse: 1 place Châtelet 75001 Paris Voir le plan
+2025-08-26 15:26:30,300 - INFO - [Page 4 | Carte 8] O'Jules | Tél: 01 45 80 60 33 | Adresse: 2 rue Bobillot 75013 Paris Voir le plan
+2025-08-26 15:26:30,337 - INFO - [Page 4 | Carte 9] Doublon détecté: Jules
+2025-08-26 15:26:31,208 - INFO - [Page 4 | Carte 10] Big Fernand | Tél: 01 57 27 09 08 | Adresse: 8 promenade Claude Lévi Strauss 75013 Paris Voir le plan
+2025-08-26 15:26:32,064 - INFO - [Page 4 | Carte 11] Le Carrefour | Tél: 06 60 04 62 62 | Adresse: 50 rue Laborde 75008 Paris Voir le plan
+2025-08-26 15:26:33,012 - INFO - [Page 4 | Carte 12] Café Valentin | Tél:     01 47 20 09 33 | Adresse: 1 rue Chaillot 75116 Paris Voir le plan
+2025-08-26 15:26:33,936 - INFO - [Page 4 | Carte 13] L'imperatif | Tél: 01 53 90 70 34 | Adresse: 135 boulevard Brune 75014 Paris Voir le plan
+2025-08-26 15:26:33,976 - INFO - [Page 4 | Carte 14] Doublon détecté: Le Parvis
+2025-08-26 15:26:34,019 - INFO - [Page 4 | Carte 15] Doublon détecté: Café d'Albert
+2025-08-26 15:26:35,073 - INFO - [Page 4 | Carte 16] Café Le Pierrot | Tél: 01 40 15 91 18, 01 47 34 17 76, 06 73 36 62 20 | Adresse: 67 avenue La Motte Picquet 75015 Paris Voir le plan
+2025-08-26 15:26:35,690 - INFO - [Page 4 | Carte 17] Le Carignan | Tél: 01 49 25 16 01 | Adresse: 102 boulevard Rochechouart 75018 Paris Voir le plan
+2025-08-26 15:26:36,338 - INFO - [Page 4 | Carte 18] L'ASPHALTE | Tél:       01 89 32 62 91 | Adresse: 115 boulevard Grenelle 75015 Paris Voir le plan
+2025-08-26 15:26:37,278 - INFO - [Page 4 | Carte 19] Mama Shelter | Tél:   01 43 48 48 48 | Adresse: 109 rue Bagnolet 75020 Paris Voir le plan
+2025-08-26 15:26:37,909 - INFO - [Page 4 | Carte 20] LE COPERNIC | Tél:    01 83 91 60 32 | Adresse: 54 avenue Kléber 75116 Paris Voir le plan
+2025-08-26 15:26:37,909 - INFO - Résultats cumulés: 72 / 1000
+2025-08-26 15:26:41,476 - INFO - Chargement de la page 5: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=5
+2025-08-26 15:26:42,514 - INFO - 20 cartes détectées sur la page 5
+2025-08-26 15:26:42,559 - INFO - [Page 5 | Carte 1] Doublon détecté: Brique Machine - Brique House
+2025-08-26 15:26:43,570 - INFO - [Page 5 | Carte 2] Marco Polo | Tél: 01 43 43 26 19 | Adresse: 8 avenue Trône 75012 Paris Voir le plan
+2025-08-26 15:26:44,445 - INFO - [Page 5 | Carte 3] Café Saint Honoré | Tél: 01 42 61 49 31 | Adresse: 194 rue St Honoré 75001 Paris Voir le plan
+2025-08-26 15:26:44,483 - INFO - [Page 5 | Carte 4] Doublon détecté: Le Boudoir
+2025-08-26 15:26:45,128 - INFO - [Page 5 | Carte 5] Break | Tél: 01 58 62 14 39 | Adresse: 119 boulevard Pereire 75017 Paris Voir le plan
+2025-08-26 15:26:46,115 - INFO - [Page 5 | Carte 6] Le Bistro d'Edgar | Tél: 09 80 38 31 94 | Adresse: 17 boulevard Edgar Quinet 75014 Paris Voir le plan
+2025-08-26 15:26:46,928 - INFO - [Page 5 | Carte 7] Navy Pub | Tél: 01 45 62 18 17 | Adresse: 19 rue Colisée 75008 Paris Voir le plan
+2025-08-26 15:26:46,968 - INFO - [Page 5 | Carte 8] Doublon détecté: LE COPERNIC
+2025-08-26 15:26:47,851 - INFO - [Page 5 | Carte 9] French Coco | Tél: 06 56 72 34 10 | Adresse: 56 rue Balard 75015 Paris Voir le plan
+2025-08-26 15:26:48,771 - INFO - [Page 5 | Carte 10] Café 52 | Tél: 01 47 23 91 05 | Adresse: 52 rue François 1er 75008 Paris Voir le plan
+2025-08-26 15:26:49,562 - INFO - [Page 5 | Carte 11] Brasserie De La Tour Eiffel | Tél: 01 45 51 90 51 | Adresse: 2 avenue La Bourdonnais 75007 Paris Voir le plan
+2025-08-26 15:26:49,617 - INFO - [Page 5 | Carte 12] Doublon détecté: La Coupole
+2025-08-26 15:26:50,408 - INFO - [Page 5 | Carte 13] Dim Dim Sum | Tél: 09 74 97 43 41 | Adresse: 20 rue Grenier St Lazare 75003 Paris Voir le plan
+2025-08-26 15:26:50,446 - INFO - [Page 5 | Carte 14] Doublon détecté: Café Millésimes
+2025-08-26 15:26:51,449 - INFO - [Page 5 | Carte 15] Cardamome Café | Tél: 01 70 69 91 83 | Adresse: 207 rue Fbg St Antoine 75011 Paris Voir le plan
+2025-08-26 15:26:52,137 - INFO - [Page 5 | Carte 16] L'Atmosphère | Tél: 01 40 38 09 21 | Adresse: A L'angle Du 49 rue Lucien Sampaix 75010 Paris Voir le plan
+2025-08-26 15:26:52,178 - INFO - [Page 5 | Carte 17] Doublon détecté: Musa Oberkampf
+2025-08-26 15:26:53,206 - INFO - [Page 5 | Carte 18] La Station Rambuteau | Tél: 01 42 72 80 85 | Adresse: 20 rue Beaubourg 75004 Paris Voir le plan
+2025-08-26 15:26:54,032 - INFO - [Page 5 | Carte 19] VERTUS LE BAR A JUS | Tél: 06 13 80 27 77 | Adresse: 67 rue Rambuteau 75004 Paris Voir le plan
+2025-08-26 15:26:54,778 - INFO - [Page 5 | Carte 20] Ragazzi | Tél: 01 45 62 36 45 | Adresse: 83 rue Longchamp 75116 Paris Voir le plan
+2025-08-26 15:26:54,778 - INFO - Résultats cumulés: 86 / 1000
+2025-08-26 15:26:57,920 - INFO - Chargement de la page 6: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=6
+2025-08-26 15:26:59,149 - INFO - 20 cartes détectées sur la page 6
+2025-08-26 15:26:59,994 - INFO - [Page 6 | Carte 1] Café Tournon | Tél: 01 42 01 38 73 | Adresse: 18 rue Tournon 75006 Paris Voir le plan
+2025-08-26 15:27:00,683 - INFO - [Page 6 | Carte 2] L'Inédit Café | Tél: 01 43 43 21 80 | Adresse: 4 rue Taine 75012 Paris Voir le plan
+2025-08-26 15:27:00,720 - INFO - [Page 6 | Carte 3] Doublon détecté: Café Millésimes
+2025-08-26 15:27:01,667 - INFO - [Page 6 | Carte 4] Café Des Arts Et Métiers | Tél:     09 50 84 41 36 | Adresse: 51 rue Turbigo 75003 Paris Voir le plan
+2025-08-26 15:27:01,707 - INFO - [Page 6 | Carte 5] Doublon détecté: Mojito Habana
+2025-08-26 15:27:02,738 - INFO - [Page 6 | Carte 6] LES FACULTES SNC | Tél: 01 43 26 46 16 | Adresse: 110 rue Assas 75006 Paris Voir le plan
+2025-08-26 15:27:02,780 - INFO - [Page 6 | Carte 7] Doublon détecté: La Terrasse Maillot
+2025-08-26 15:27:03,708 - INFO - [Page 6 | Carte 8] L'arsenal Bastille | Tél: 01 42 50 21 76 | Adresse: 41 boulevard Bourdon 75004 Paris Voir le plan
+2025-08-26 15:27:04,313 - INFO - [Page 6 | Carte 9] Au Bougnat | Tél: 01 43 54 50 74 | Adresse: 26 rue Chanoinesse 75004 Paris Voir le plan
+2025-08-26 15:27:05,241 - INFO - [Page 6 | Carte 10] Hotel Sofiane | Tél: 01 43 73 57 39 | Adresse: 66 boulevard Charonne 75020 Paris Voir le plan
+2025-08-26 15:27:06,283 - INFO - [Page 6 | Carte 11] Starbucks | Tél: 01 56 68 92 03 | Adresse: ccal Les Boutiques du Palais 2 place Porte Maillot 75017 Paris Voir le plan
+2025-08-26 15:27:07,239 - INFO - [Page 6 | Carte 12] Ernest | Tél: 01 43 22 20 12 | Adresse: 35 rue Commandant René Mouchotte 75014 Paris Voir le plan
+2025-08-26 15:27:08,150 - INFO - [Page 6 | Carte 13] La Demeure Monceau | Tél: 01 43 87 28 34 | Adresse: 4 avenue Villiers 75017 Paris Voir le plan
+2025-08-26 15:27:08,188 - INFO - [Page 6 | Carte 14] Doublon détecté: O'Jules
+2025-08-26 15:27:08,917 - INFO - [Page 6 | Carte 15] La Mascotte | Tél: 01 42 27 75 26 | Adresse: 270 rue Faubourg St Honoré 75008 Paris Voir le plan
+2025-08-26 15:27:09,503 - INFO - [Page 6 | Carte 16] Doublon détecté: L'Entracte
+2025-08-26 15:27:10,178 - INFO - [Page 6 | Carte 17] Café Du Trône | Tél: 01 43 48 53 66 | Adresse: 3 avenue Trône 75011 Paris Voir le plan
+2025-08-26 15:27:11,009 - INFO - [Page 6 | Carte 18] Istr | Tél: 01 43 56 81 25 | Adresse: 41 rue N-D de Nazareth 75003 Paris Voir le plan
+2025-08-26 15:27:11,755 - INFO - [Page 6 | Carte 19] Café Joséphine | Tél: 01 89 19 59 89 | Adresse: 3 place Deux Ecus 75001 Paris Voir le plan
+2025-08-26 15:27:12,715 - INFO - [Page 6 | Carte 20] LES KOUPOLES LES K | Tél: 01 42 65 31 58 | Adresse: 55 rue Mathurins 75008 Paris Voir le plan
+2025-08-26 15:27:12,716 - INFO - Résultats cumulés: 101 / 1000
+2025-08-26 15:27:16,391 - INFO - Chargement de la page 7: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=7
+2025-08-26 15:27:17,486 - INFO - 20 cartes détectées sur la page 7
+2025-08-26 15:27:18,207 - INFO - [Page 7 | Carte 1] Le Café Plume | Tél: 01 42 96 86 05, 01 42 60 27 66 | Adresse: 164 rue St Honoré 75001 Paris Voir le plan
+2025-08-26 15:27:18,939 - INFO - [Page 7 | Carte 2] Chez Nous | Tél: 01 43 26 42 69 | Adresse: 10 rue Dauphine 75006 Paris Voir le plan
+2025-08-26 15:27:18,976 - INFO - [Page 7 | Carte 3] Doublon détecté: La Demeure Monceau
+2025-08-26 15:27:19,837 - INFO - [Page 7 | Carte 4] Mr Zhang | Tél: 01 45 62 15 81 | Adresse: 6 avenue Bugeaud 75116 Paris Voir le plan
+2025-08-26 15:27:20,482 - INFO - [Page 7 | Carte 5] Pley Hôtel | Tél: 01 42 25 26 27 | Adresse: 214 rue Faubourg St Honoré 75008 Paris Voir le plan
+2025-08-26 15:27:21,226 - INFO - [Page 7 | Carte 6] HARRY S NEW YORK BAR | Tél: 01 42 61 71 14 | Adresse: 5 rue Daunou 75002 Paris Voir le plan
+2025-08-26 15:27:21,838 - INFO - [Page 7 | Carte 7] Victoria Paris | Tél: 01 44 17 97 72 | Adresse: 12 rue Presbourg 75116 Paris Voir le plan
+2025-08-26 15:27:22,599 - INFO - [Page 7 | Carte 8] Cayo Coffee Roasters | Tél: 07 67 26 83 37 | Adresse: 1-9 9 rue Chevaleret 75013 Paris Voir le plan
+2025-08-26 15:27:23,510 - INFO - [Page 7 | Carte 9] Liebe | Tél:       01 72 60 80 40 | Adresse: 46 rue Fbg Montmartre 75009 Paris Voir le plan
+2025-08-26 15:27:23,557 - INFO - [Page 7 | Carte 10] Doublon détecté: Jules
+2025-08-26 15:27:24,616 - INFO - [Page 7 | Carte 11] Maison Edgar | Tél:     01 71 18 68 56 | Adresse: 232 boulevard Raspail 75014 Paris Voir le plan
+2025-08-26 15:27:24,656 - INFO - [Page 7 | Carte 12] Doublon détecté: Istr
+2025-08-26 15:27:24,693 - INFO - [Page 7 | Carte 13] Doublon détecté: La Réserve du Terroir
+2025-08-26 15:27:25,435 - INFO - [Page 7 | Carte 14] Le Denfert Café | Tél: 07 86 44 93 50 | Adresse: 58 boulevard St Jacques 75014 Paris Voir le plan
+2025-08-26 15:27:26,036 - INFO - [Page 7 | Carte 15] Le Petit Italien | Tél: 01 42 71 05 80 | Adresse: 5 Bis rue St Gilles 75003 Paris Voir le plan
+2025-08-26 15:27:27,033 - INFO - [Page 7 | Carte 16] Les Frangines | Tél: 01 43 21 11 80 | Adresse: 46 rue Raymond Losserand 75014 Paris Voir le plan
+2025-08-26 15:27:27,924 - INFO - [Page 7 | Carte 17] La Cave Café Jaja Associés | Tél: 01 53 41 61 83 | Adresse: 134 rue Marcadet 75018 Paris Voir le plan
+2025-08-26 15:27:28,639 - INFO - [Page 7 | Carte 18] Le Voltaire | Tél: 06 16 56 00 77 | Adresse: 18 boulevard Voltaire 75011 Paris Voir le plan
+2025-08-26 15:27:28,679 - INFO - [Page 7 | Carte 19] Doublon détecté: Musa Oberkampf
+2025-08-26 15:27:29,459 - INFO - [Page 7 | Carte 20] Le Wallace | Tél: 01 47 34 28 39 | Adresse: 18 rue Spontini 75116 Paris Voir le plan
+2025-08-26 15:27:29,459 - INFO - Résultats cumulés: 116 / 1000
+2025-08-26 15:27:31,958 - INFO - Chargement de la page 8: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=8
+2025-08-26 15:27:34,000 - INFO - 20 cartes détectées sur la page 8
+2025-08-26 15:27:34,846 - INFO - [Page 8 | Carte 1] Le Magnolia | Tél:     01 40 09 19 79 | Adresse: 29 rue St Blaise 75020 Paris Voir le plan
+2025-08-26 15:27:35,571 - INFO - [Page 8 | Carte 2] Café Séraphin | Tél:     01 56 24 41 00 | Adresse: 5 rue Mabillon 75006 Paris Voir le plan
+2025-08-26 15:27:35,611 - INFO - [Page 8 | Carte 3] Doublon détecté: L'ASPHALTE
+2025-08-26 15:27:36,492 - INFO - [Page 8 | Carte 4] Le Petit Monceau | Tél: 01 45 22 55 97 | Adresse: 93 rue Monceau 75008 Paris Voir le plan
+2025-08-26 15:27:36,535 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:27:36,560 - INFO - [Page 8 | Carte 5] O Beret Basque | Tél: None | Adresse: 4 boulevard Denain 75010 Paris Voir le plan
+2025-08-26 15:27:37,273 - INFO - [Page 8 | Carte 6] Gentlemen 1919 | Tél:     01 42 89 42 59 | Adresse: 11 rue Jean Mermoz 75008 Paris Voir le plan
+2025-08-26 15:27:38,260 - INFO - [Page 8 | Carte 7] Monsieur Bleu | Tél: 01 47 20 90 47 | Adresse: 20 avenue New York 75016 Paris Voir le plan
+2025-08-26 15:27:38,299 - INFO - [Page 8 | Carte 8] Doublon détecté: La Réserve du Terroir
+2025-08-26 15:27:39,233 - INFO - [Page 8 | Carte 9] L'Envol | Tél: 01 71 28 41 06 | Adresse: 221 avenue Jean Jaurès 75019 Paris Voir le plan
+2025-08-26 15:27:39,271 - INFO - [Page 8 | Carte 10] Doublon détecté: Marco Polo
+2025-08-26 15:27:40,042 - INFO - [Page 8 | Carte 11] The Good Game, bar à jeux | Tél: 09 87 45 49 16 | Adresse: 78 rue Cléry 75002 Paris Voir le plan
+2025-08-26 15:27:40,953 - INFO - [Page 8 | Carte 12] Le Café Zéphyr Le Café Zéphyr | Tél: 01 47 70 80 14 | Adresse: 12 boulevard Montmartre 75009 Paris Voir le plan
+2025-08-26 15:27:41,619 - INFO - [Page 8 | Carte 13] Péniche Antipode | Tél:   01 42 03 39 07 | Adresse: 55 quai Seine 75019 Paris Voir le plan
+2025-08-26 15:27:41,658 - INFO - [Page 8 | Carte 14] Doublon détecté: Café Marco Polo
+2025-08-26 15:27:41,698 - INFO - [Page 8 | Carte 15] Doublon détecté: Le Parvis
+2025-08-26 15:27:42,690 - INFO - [Page 8 | Carte 16] The Bombardier Charles Wells SARL | Tél: 01 43 54 79 22 | Adresse: 2 place Panthéon 75005 Paris Voir le plan
+2025-08-26 15:27:43,279 - INFO - [Page 8 | Carte 17] Gamma café | Tél: 01 43 45 72 35 | Adresse: 193 rue Bercy 75012 Paris Voir le plan
+2025-08-26 15:27:43,319 - INFO - [Page 8 | Carte 18] Doublon détecté: Mr Zhang
+2025-08-26 15:27:43,977 - INFO - [Page 8 | Carte 19] L'Impasse | Tél: 09 52 53 04 19 | Adresse: 4 cité Griset 75011 Paris Voir le plan
+2025-08-26 15:27:44,762 - INFO - [Page 8 | Carte 20] Brasserie Saint Augustin | Tél: 01 43 87 40 55 | Adresse: 114 boulevard Haussmann 75008 Paris Voir le plan
+2025-08-26 15:27:44,762 - INFO - Résultats cumulés: 130 / 1000
+2025-08-26 15:27:47,009 - INFO - Chargement de la page 9: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=9
+2025-08-26 15:27:48,050 - INFO - 20 cartes détectées sur la page 9
+2025-08-26 15:27:49,061 - INFO - [Page 9 | Carte 1] InterContinental Paris le Grand | Tél: 01 42 65 49 62 | Adresse: 2 rue Scribe 75009 Paris Voir le plan
+2025-08-26 15:27:49,078 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:27:49,103 - INFO - [Page 9 | Carte 2] Café Joyeux | Tél: None | Adresse: 87 passage Choiseul 75002 Paris Voir le plan
+2025-08-26 15:27:50,038 - INFO - [Page 9 | Carte 3] Le 12 Eme Cru | Tél: 01 43 14 02 32 | Adresse: 25 avenue Bel Air 75012 Paris Voir le plan
+2025-08-26 15:27:50,890 - INFO - [Page 9 | Carte 4] Grains Nobles | Tél: 01 75 57 89 07 | Adresse: 8 rue Boutebrie 75005 Paris Voir le plan
+2025-08-26 15:27:51,918 - INFO - [Page 9 | Carte 5] Café A | Tél:     09 81 29 83 38 | Adresse: 261 rue Fbg St Martin 75010 Paris Voir le plan
+2025-08-26 15:27:51,978 - INFO - [Page 9 | Carte 6] Doublon détecté: L'Impasse
+2025-08-26 15:27:52,999 - INFO - [Page 9 | Carte 7] Federation | Tél: 01 46 47 94 64 | Adresse: 15 avenue Gén Clavery 75016 Paris Voir le plan
+2025-08-26 15:27:53,815 - INFO - [Page 9 | Carte 8] L'Elysée Saint Honoré | Tél: 01 53 76 48 56 | Adresse: 205 rue Faubourg St Honoré 75008 Paris Voir le plan
+2025-08-26 15:27:54,748 - INFO - [Page 9 | Carte 9] Café Lamartine | Tél: 01 45 53 85 06 | Adresse: 182 avenue Victor Hugo 75116 Paris Voir le plan
+2025-08-26 15:27:55,455 - INFO - [Page 9 | Carte 10] L'Entracte Des Gobelins | Tél: 01 43 31 02 29 | Adresse: 75 avenue Gobelins 75013 Paris Voir le plan
+2025-08-26 15:27:56,361 - INFO - [Page 9 | Carte 11] Café d'Orléans | Tél: 01 43 21 25 69 | Adresse: 43 avenue Gén Leclerc 75014 Paris Voir le plan
+2025-08-26 15:27:56,960 - INFO - [Page 9 | Carte 12] Le Vrai Paris | Tél: 01 46 06 02 42 | Adresse: 33 rue Abbesses 75018 Paris Voir le plan
+2025-08-26 15:27:56,998 - INFO - [Page 9 | Carte 13] Doublon détecté: L'Atmosphère
+2025-08-26 15:27:57,804 - INFO - [Page 9 | Carte 14] Le Petit Bar | Tél: 01 40 08 44 44 | Adresse: 108 rue St Lazare 75008 Paris Voir le plan
+2025-08-26 15:27:58,473 - INFO - [Page 9 | Carte 15] Le Charles | Tél: 01 71 19 49 11 | Adresse: 6 8 6 rue Duphot 75001 Paris Voir le plan
+2025-08-26 15:27:59,472 - INFO - [Page 9 | Carte 16] Brasserie La Tour | Tél: 01 43 45 86 37 | Adresse: 193 rue Bercy 75012 Paris Voir le plan
+2025-08-26 15:28:00,088 - INFO - [Page 9 | Carte 17] Café Delmas | Tél: 01 43 26 51 26 | Adresse: 2 place Contrescarpe 75005 Paris Voir le plan
+2025-08-26 15:28:00,826 - INFO - [Page 9 | Carte 18] L Etoile Du Prado Royal Est | Tél: 01 46 07 05 00 | Adresse: 129 rue Fbg St Martin 75010 Paris Voir le plan
+2025-08-26 15:28:01,782 - INFO - [Page 9 | Carte 19] Pizzeria Vito | Tél: 01 42 74 08 84 | Adresse: 12 rue Archives 75004 Paris Voir le plan
+2025-08-26 15:28:02,789 - INFO - [Page 9 | Carte 20] Manko | Tél: 01 82 28 00 15 | Adresse: 15 avenue Montaigne 75008 Paris Voir le plan
+2025-08-26 15:28:02,789 - INFO - Résultats cumulés: 148 / 1000
+2025-08-26 15:28:06,527 - INFO - Chargement de la page 10: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=10
+2025-08-26 15:28:08,059 - INFO - 20 cartes détectées sur la page 10
+2025-08-26 15:28:08,106 - INFO - [Page 10 | Carte 1] Doublon détecté: Galeries Lafayette Haussmann
+2025-08-26 15:28:08,145 - INFO - [Page 10 | Carte 2] Doublon détecté: Café Delmas
+2025-08-26 15:28:08,186 - INFO - [Page 10 | Carte 3] Doublon détecté: Valois
+2025-08-26 15:28:09,071 - INFO - [Page 10 | Carte 4] Le Bout'chou | Tél: 01 47 63 73 56 | Adresse: 110 rue Courcelles 75017 Paris Voir le plan
+2025-08-26 15:28:09,110 - INFO - [Page 10 | Carte 5] Doublon détecté: Mama Shelter
+2025-08-26 15:28:09,151 - INFO - [Page 10 | Carte 6] Doublon détecté: Starbucks
+2025-08-26 15:28:10,182 - INFO - [Page 10 | Carte 7] Pub O'Prince | Tél: 01 43 54 56 45 | Adresse: 52 rue Monsieur le Prince 75006 Paris Voir le plan
+2025-08-26 15:28:10,225 - INFO - [Page 10 | Carte 8] Doublon détecté: Le Molière
+2025-08-26 15:28:10,264 - INFO - [Page 10 | Carte 9] Doublon détecté: La Cave Café Jaja Associés
+2025-08-26 15:28:10,305 - INFO - [Page 10 | Carte 10] Doublon détecté: Le Bistrot des Halles
+2025-08-26 15:28:10,959 - INFO - [Page 10 | Carte 11] The Frog & British Library | Tél:     01 45 84 34 26 | Adresse: 114 avenue France 75013 Paris Voir le plan
+2025-08-26 15:28:12,006 - INFO - [Page 10 | Carte 12] COMPTOIR GOURMET | Tél:     01 84 17 24 07 | Adresse: 51 rue Temple 75004 Paris Voir le plan
+2025-08-26 15:28:12,640 - INFO - [Page 10 | Carte 13] Cafe Boheme | Tél: 01 43 27 01 33 | Adresse: 19 boulevard Edgar Quinet 75014 Paris Voir le plan
+2025-08-26 15:28:13,472 - INFO - [Page 10 | Carte 14] LITTLE CAFE | Tél: 01 48 87 43 36 | Adresse: 62 rue Roi de Sicile 75004 Paris Voir le plan
+2025-08-26 15:28:14,067 - INFO - [Page 10 | Carte 15] Chez Marie | Tél: 01 42 59 25 47 | Adresse: 22 rue Lepic 75018 Paris Voir le plan
+2025-08-26 15:28:14,736 - INFO - [Page 10 | Carte 16] Le Ciel Bleu | Tél: 09 73 23 44 05 | Adresse: 173 boulevard Lefebvre 75015 Paris Voir le plan
+2025-08-26 15:28:15,561 - INFO - [Page 10 | Carte 17] Le Tub | Tél:     01 71 19 50 30 | Adresse: 26 rue Beaujolais 75001 Paris Voir le plan
+2025-08-26 15:28:15,601 - INFO - [Page 10 | Carte 18] Doublon détecté: Le Bar Long
+2025-08-26 15:28:16,577 - INFO - [Page 10 | Carte 19] Le Bistrot 1 | Tél: 01 42 01 56 49 | Adresse: 4 rue Ecole de Médecine 75006 Paris Voir le plan
+2025-08-26 15:28:16,622 - INFO - [Page 10 | Carte 20] Doublon détecté: Auto Passion CafE
+2025-08-26 15:28:16,622 - INFO - Résultats cumulés: 158 / 1000
+2025-08-26 15:28:20,569 - INFO - Chargement de la page 11: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=11
+2025-08-26 15:28:21,660 - INFO - 20 cartes détectées sur la page 11
+2025-08-26 15:28:22,552 - INFO - [Page 11 | Carte 1] Le Raspail | Tél: 01 45 48 34 14 | Adresse: 58 boulevard Raspail 75006 Paris Voir le plan
+2025-08-26 15:28:23,160 - INFO - [Page 11 | Carte 2] Le Sphinx Café | Tél:     01 43 22 13 85 | Adresse: 37 rue Gaîté 75014 Paris Voir le plan
+2025-08-26 15:28:24,024 - INFO - [Page 11 | Carte 3] Le Nul Part Ailleurs LES 2R | Tél: 01 43 26 64 55 | Adresse: 3 rue Haut Pavé 75005 Paris Voir le plan
+2025-08-26 15:28:24,067 - INFO - [Page 11 | Carte 4] Doublon détecté: Le 12 Eme Cru
+2025-08-26 15:28:24,874 - INFO - [Page 11 | Carte 5] Chez Jeanette | Tél: 01 42 01 11 05 | Adresse: 263 rue St Jacques 75005 Paris Voir le plan
+2025-08-26 15:28:24,975 - INFO - [Page 11 | Carte 6] Doublon détecté: Le Bar Long
+2025-08-26 15:28:25,035 - INFO - [Page 11 | Carte 7] Doublon détecté: Mr Zhang
+2025-08-26 15:28:25,975 - INFO - [Page 11 | Carte 8] Tabac Café de la Seine | Tél: 01 43 43 04 83 | Adresse: 21 avenue Ledru Rollin 75012 Paris Voir le plan
+2025-08-26 15:28:26,571 - INFO - [Page 11 | Carte 9] Café Dauphine | Tél: 01 43 26 56 16 | Adresse: 17 rue Dauphine 75006 Paris Voir le plan
+2025-08-26 15:28:27,185 - INFO - [Page 11 | Carte 10] Marmara | Tél:     09 86 60 51 00 | Adresse: 3 rue Petites Ecuries 75010 Paris Voir le plan
+2025-08-26 15:28:27,964 - INFO - [Page 11 | Carte 11] Aux Dés Calés 17 | Tél: 01 47 70 01 09 | Adresse: 181 rue Legendre 75017 Paris Voir le plan
+2025-08-26 15:28:28,949 - INFO - [Page 11 | Carte 12] A La Claire Fontaine | Tél: 01 42 36 03 01 | Adresse: 51 rue Arbre Sec 75001 Paris Voir le plan
+2025-08-26 15:28:29,781 - INFO - [Page 11 | Carte 13] À L'EN VERRE | Tél: 06 71 52 48 15 | Adresse: 19 rue Gérando 75009 Paris Voir le plan
+2025-08-26 15:28:30,647 - INFO - [Page 11 | Carte 14] Le SpeakArt Bar | Tél: 01 44 69 70 01 | Adresse: 1 3 rue Caulaincourt 75018 Paris Voir le plan
+2025-08-26 15:28:31,531 - INFO - [Page 11 | Carte 15] Laborde | Tél: 01 53 04 08 92 | Adresse: 44 rue Laborde 75008 Paris Voir le plan
+2025-08-26 15:28:32,184 - INFO - [Page 11 | Carte 16] Grand Café Fauchon | Tél: 01 87 86 28 23 | Adresse: 11 place Madeleine 75008 Paris Voir le plan
+2025-08-26 15:28:33,036 - INFO - [Page 11 | Carte 17] Chez Justin | Tél: 01 43 70 16 29 | Adresse: 127 Bis boulevard Voltaire 75011 Paris Voir le plan
+2025-08-26 15:28:34,069 - INFO - [Page 11 | Carte 18] Domani FRANKLIN RESTAURATION | Tél: 01 56 59 62 59 | Adresse: 8 avenue Franklin D Roosevelt 75008 Paris Voir le plan
+2025-08-26 15:28:34,916 - INFO - [Page 11 | Carte 19] Naï Brasserie | Tél: 01 43 80 52 16 | Adresse: 8 avenue Grande Armée 75017 Paris Voir le plan
+2025-08-26 15:28:34,957 - INFO - [Page 11 | Carte 20] Doublon détecté: La Mascotte
+2025-08-26 15:28:34,958 - INFO - Résultats cumulés: 174 / 1000
+2025-08-26 15:28:37,045 - INFO - Chargement de la page 12: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=12
+2025-08-26 15:28:38,108 - INFO - 20 cartes détectées sur la page 12
+2025-08-26 15:28:38,900 - INFO - [Page 12 | Carte 1] Le Pelleport Café | Tél: 01 88 61 65 62 | Adresse: 127 avenue Gambetta 75020 Paris Voir le plan
+2025-08-26 15:28:38,943 - INFO - [Page 12 | Carte 2] Doublon détecté: Le Sphinx Café
+2025-08-26 15:28:39,813 - INFO - [Page 12 | Carte 3] Caffe Baci Baci | Tél: 09 80 53 47 69 | Adresse: 20 boulevard St Martin 75010 Paris Voir le plan
+2025-08-26 15:28:40,514 - INFO - [Page 12 | Carte 4] Brasseries Volontaires | Tél: 01 44 49 03 17 | Adresse: 227 rue Vaugirard 75015 Paris Voir le plan
+2025-08-26 15:28:41,405 - INFO - [Page 12 | Carte 5] Le Zinc | Tél: 01 47 34 54 26 | Adresse: 20 avenue René Coty 75014 Paris Voir le plan
+2025-08-26 15:28:41,451 - INFO - [Page 12 | Carte 6] Doublon détecté: Café Séraphin
+2025-08-26 15:28:42,205 - INFO - [Page 12 | Carte 7] Starbucks Coffee France | Tél: 01 42 50 13 27 | Adresse: 297 rue Vaugirard 75015 Paris Voir le plan
+2025-08-26 15:28:42,868 - INFO - [Page 12 | Carte 8] LE NANT | Tél: 01 46 06 44 75 | Adresse: 58 rue Ruisseau 75018 Paris Voir le plan
+2025-08-26 15:28:43,631 - INFO - [Page 12 | Carte 9] Le Saint M | Tél:     01 43 42 27 28 | Adresse: 34 cour St Emilion 75012 Paris Voir le plan
+2025-08-26 15:28:43,648 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:28:43,675 - INFO - [Page 12 | Carte 10] Le Danton | Tél: None | Adresse: 103 boulevard St Germain 75006 Paris Voir le plan
+2025-08-26 15:28:43,714 - INFO - [Page 12 | Carte 11] Doublon détecté: Le Voltaire
+2025-08-26 15:28:44,564 - INFO - [Page 12 | Carte 12] Le Laurent | Tél: 01 42 25 00 39 | Adresse: 41 avenue Gabriel 75008 Paris Voir le plan
+2025-08-26 15:28:45,198 - INFO - [Page 12 | Carte 13] Le Hameau SARL | Tél: 01 45 74 33 35 | Adresse: 84 avenue Ternes 75017 Paris Voir le plan
+2025-08-26 15:28:45,830 - INFO - [Page 12 | Carte 14] Le Chalet | Tél: 01 45 04 34 07 | Adresse: 63 rue Pompe 75116 Paris Voir le plan
+2025-08-26 15:28:46,713 - INFO - [Page 12 | Carte 15] Columbus Café & Co | Tél: 09 67 38 52 71 | Adresse: 56 boulevard Diderot 75012 Paris Voir le plan
+2025-08-26 15:28:47,622 - INFO - [Page 12 | Carte 16] Bateau El Alamein | Tél:     01 45 86 41 60 | Adresse: 7 quai François Mauriac 75013 Paris Voir le plan
+2025-08-26 15:28:48,487 - INFO - [Page 12 | Carte 17] Cafe Eugene | Tél: 01 58 45 14 01 | Adresse: 49 boulevard Victor 75015 Paris Voir le plan
+2025-08-26 15:28:49,226 - INFO - [Page 12 | Carte 18] Prince Palace | Tél: 01 45 63 93 84 | Adresse: 59 rue Ponthieu 75008 Paris Voir le plan
+2025-08-26 15:28:50,155 - INFO - [Page 12 | Carte 19] Esméralda L' | Tél: 01 45 01 67 87 | Adresse: 38 avenue Victor Hugo 75116 Paris Voir le plan
+2025-08-26 15:28:50,999 - INFO - [Page 12 | Carte 20] LPC | Tél: 01 44 34 54 34 | Adresse: 1 rue Léo Delibes 75116 Paris Voir le plan
+2025-08-26 15:28:50,999 - INFO - Résultats cumulés: 191 / 1000
+2025-08-26 15:28:54,686 - INFO - Chargement de la page 13: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=13
+2025-08-26 15:28:55,797 - INFO - 20 cartes détectées sur la page 13
+2025-08-26 15:28:55,816 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:28:55,841 - INFO - [Page 13 | Carte 1] CAFE CAUMARTIN | Tél: None | Adresse: 13 rue Caumartin 75009 Paris Voir le plan
+2025-08-26 15:28:56,651 - INFO - [Page 13 | Carte 2] Le BarOmaitres La Petite Française SARL | Tél: 01 71 28 98 77 | Adresse: 24 rue Nicolaï 75012 Paris Voir le plan
+2025-08-26 15:28:57,631 - INFO - [Page 13 | Carte 3] La Pointe Drouot | Tél: 01 48 24 40 88 | Adresse: 34 rue Drouot 75009 Paris Voir le plan
+2025-08-26 15:28:58,276 - INFO - [Page 13 | Carte 4] Le Métro | Tél: 01 43 46 58 55 | Adresse: 1 boulevard Reuilly 75012 Paris Voir le plan
+2025-08-26 15:28:59,174 - INFO - [Page 13 | Carte 5] La Boissonniere Charonne | Tél: 07 67 14 71 93 | Adresse: 52 rue Léon Frot 75011 Paris Voir le plan
+2025-08-26 15:28:59,225 - INFO - [Page 13 | Carte 6] Doublon détecté: Grand Café Fauchon
+2025-08-26 15:29:00,203 - INFO - [Page 13 | Carte 7] L'Alsacien | Tél: 01 42 77 64 22 | Adresse: 6 rue St Bon A 0 75004 Paris Voir le plan
+2025-08-26 15:29:00,984 - INFO - [Page 13 | Carte 8] SAS Jim Et Lod | Tél: 01 43 37 78 76 | Adresse: 28 boulevard Hôpital 75005 Paris Voir le plan
+2025-08-26 15:29:01,664 - INFO - [Page 13 | Carte 9] Restaurant Waknine | Tél:     01 47 23 48 18 | Adresse: 9 avenue Pierre 1er de Serbie 75116 Paris Voir le plan
+2025-08-26 15:29:02,357 - INFO - [Page 13 | Carte 10] CAFE PIVOINE | Tél: 01 57 40 88 70 | Adresse: 8 rue Faidherbe 75011 Paris Voir le plan
+2025-08-26 15:29:02,393 - INFO - [Page 13 | Carte 11] Doublon détecté: Le Bistrot 1
+2025-08-26 15:29:03,139 - INFO - [Page 13 | Carte 12] Triadou Haussmann | Tél: 01 43 87 47 67 | Adresse: 80 boulevard Haussmann 75008 Paris Voir le plan
+2025-08-26 15:29:03,175 - INFO - [Page 13 | Carte 13] Doublon détecté: Musa Oberkampf
+2025-08-26 15:29:03,213 - INFO - [Page 13 | Carte 14] Doublon détecté: Au Bougnat
+2025-08-26 15:29:04,130 - INFO - [Page 13 | Carte 15] Café Varenne | Tél: 01 45 48 62 72 | Adresse: 36 rue Varenne 75007 Paris Voir le plan
+2025-08-26 15:29:04,194 - INFO - [Page 13 | Carte 16] Doublon détecté: Aux Dés Calés 17
+2025-08-26 15:29:05,023 - INFO - [Page 13 | Carte 17] Noglu | Tél: 01 42 36 52 50 | Adresse: 15 rue Basfroi 75011 Paris Voir le plan
+2025-08-26 15:29:05,038 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:29:05,070 - INFO - [Page 13 | Carte 18] Doublon détecté: Le Danton
+2025-08-26 15:29:05,700 - INFO - [Page 13 | Carte 19] Bar 55 | Tél: 01 77 10 26 24 | Adresse: 55 avenue Grande Armée 75116 Paris Voir le plan
+2025-08-26 15:29:06,392 - INFO - [Page 13 | Carte 20] Marie Suzy | Tél: 01 45 72 20 74 | Adresse: 26 avenue Friedland 75008 Paris Voir le plan
+2025-08-26 15:29:06,392 - INFO - Résultats cumulés: 205 / 1000
+2025-08-26 15:29:09,114 - INFO - Chargement de la page 14: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=14
+2025-08-26 15:29:10,261 - INFO - 20 cartes détectées sur la page 14
+2025-08-26 15:29:10,335 - INFO - [Page 14 | Carte 1] Doublon détecté: Le Magnolia
+2025-08-26 15:29:11,232 - INFO - [Page 14 | Carte 2] L'Express De Lyon | Tél: 01 43 43 21 32 | Adresse: 1 rue Lyon 75012 Paris Voir le plan
+2025-08-26 15:29:12,031 - INFO - [Page 14 | Carte 3] Crêperie l'Hermine | Tél: 07 49 16 63 50 | Adresse: 16 rue Roquette 75011 Paris Voir le plan
+2025-08-26 15:29:13,086 - INFO - [Page 14 | Carte 4] Le Café des Antiquaires | Tél: 01 48 00 99 92 | Adresse: 15 rue Grange Batelière 75009 Paris Voir le plan
+2025-08-26 15:29:13,747 - INFO - [Page 14 | Carte 5] Café Hugo | Tél: 01 42 72 64 04 | Adresse: 22 place Vosges 75004 Paris Voir le plan
+2025-08-26 15:29:14,385 - INFO - [Page 14 | Carte 6] La colline | Tél:     09 51 07 78 68 | Adresse: 10 rue Pixérécourt 75020 Paris Voir le plan
+2025-08-26 15:29:15,340 - INFO - [Page 14 | Carte 7] Frog XVI | Tél: 01 47 27 88 88 | Adresse: 110 Bis avenue Kléber 75116 Paris Voir le plan
+2025-08-26 15:29:16,188 - INFO - [Page 14 | Carte 8] Paris-Cy | Tél:     01 42 71 37 37 | Adresse: 8 rue Jouy 75004 Paris Voir le plan
+2025-08-26 15:29:16,878 - INFO - [Page 14 | Carte 9] Hôtel Dame des Arts | Tél: 01 81 69 00 60 | Adresse: 4 rue Danton 75006 Paris Voir le plan
+2025-08-26 15:29:17,598 - INFO - [Page 14 | Carte 10] Chouchou | Tél: 01 87 44 54 79 | Adresse: 11 rue Helder 75009 Paris Voir le plan
+2025-08-26 15:29:18,270 - INFO - [Page 14 | Carte 11] Masha | Tél: 01 47 04 10 35 | Adresse: 85 avenue Kléber 75116 Paris Voir le plan
+2025-08-26 15:29:19,330 - INFO - [Page 14 | Carte 12] Chez Georges | Tél: 01 43 26 79 15 | Adresse: 11 rue Canettes 75006 Paris Voir le plan
+2025-08-26 15:29:20,113 - INFO - [Page 14 | Carte 13] Break Time | Tél: 01 43 87 68 84 | Adresse: 1 2 rue Biot 75017 Paris Voir le plan
+2025-08-26 15:29:21,013 - INFO - [Page 14 | Carte 14] Bistrot De La Place | Tél: 01 42 78 21 32 | Adresse: 2 place Marché Ste Catherine 75004 Paris Voir le plan
+2025-08-26 15:29:21,054 - INFO - [Page 14 | Carte 15] Doublon détecté: Le Parvis
+2025-08-26 15:29:21,094 - INFO - [Page 14 | Carte 16] Doublon détecté: The Good Game, bar à jeux
+2025-08-26 15:29:21,132 - INFO - [Page 14 | Carte 17] Doublon détecté: SAS Jim Et Lod
+2025-08-26 15:29:21,171 - INFO - [Page 14 | Carte 18] Doublon détecté: Cayo Coffee Roasters
+2025-08-26 15:29:21,805 - INFO - [Page 14 | Carte 19] Le Point Et La Ligne | Tél: 01 77 15 62 00 | Adresse: 12 rue Bois le Vent 75016 Paris Voir le plan
+2025-08-26 15:29:22,610 - INFO - [Page 14 | Carte 20] Le Valois | Tél: 06 44 05 17 79 | Adresse: 52 rue Douai 75009 Paris Voir le plan
+2025-08-26 15:29:22,610 - INFO - Résultats cumulés: 220 / 1000
+2025-08-26 15:29:24,792 - INFO - Chargement de la page 15: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=15
+2025-08-26 15:29:25,818 - INFO - 20 cartes détectées sur la page 15
+2025-08-26 15:29:26,866 - INFO - [Page 15 | Carte 1] ZA Etoile | Tél: 01 43 80 09 18 | Adresse: 12 rue Anatole de la Forge 75017 Paris Voir le plan
+2025-08-26 15:29:27,749 - INFO - [Page 15 | Carte 2] Chez Céleste | Tél: 01 71 72 74 47 | Adresse: 23 rue De Cotte 75012 Paris Voir le plan
+2025-08-26 15:29:27,826 - INFO - [Page 15 | Carte 3] Doublon détecté: Péniche Antipode
+2025-08-26 15:29:27,866 - INFO - [Page 15 | Carte 4] Doublon détecté: Cafe Eugene
+2025-08-26 15:29:28,796 - INFO - [Page 15 | Carte 5] Les Tontons | Tél: 01 43 21 69 45 | Adresse: 38 rue Raymond Losserand 75014 Paris Voir le plan
+2025-08-26 15:29:29,585 - INFO - [Page 15 | Carte 6] Café des Dames | Tél: 09 55 34 55 01 | Adresse: 8 avenue Villiers 75017 Paris Voir le plan
+2025-08-26 15:29:30,540 - INFO - [Page 15 | Carte 7] LE VILLAGE DU 15 | Tél: 01 75 50 44 89 | Adresse: 11 rue Laos 75015 Paris Voir le plan
+2025-08-26 15:29:31,285 - INFO - [Page 15 | Carte 8] PRET A MANGER | Tél: 01 44 75 76 53 | Adresse: place Louis Armand 75012 Paris Voir le plan
+2025-08-26 15:29:32,056 - INFO - [Page 15 | Carte 9] Iguana Batignolles | Tél: 01 58 57 98 48 | Adresse: 20 rue Severiano de Heredia 75017 Paris Voir le plan
+2025-08-26 15:29:32,096 - INFO - [Page 15 | Carte 10] Doublon détecté: Brasserie Victor Hugo
+2025-08-26 15:29:32,839 - INFO - [Page 15 | Carte 11] Bar Edith Piaf | Tél: 07 62 13 00 55 | Adresse: à l'angle de la Place Edith Piaf 22 rue Py 75020 Paris Voir le plan
+2025-08-26 15:29:33,417 - INFO - [Page 15 | Carte 12] L'Art Brut Bistrot | Tél: 01 42 72 17 36 | Adresse: 78 rue Quincampoix 75003 Paris Voir le plan
+2025-08-26 15:29:34,032 - INFO - [Page 15 | Carte 13] The Long Hop | Tél:     01 43 29 40 54 | Adresse: 24 25 27 Rue Frederic Sauton Ang 24 rue Maître Albert 75005 Paris Voir le plan
+2025-08-26 15:29:34,073 - INFO - [Page 15 | Carte 14] Doublon détecté: Le Ciel Bleu
+2025-08-26 15:29:34,918 - INFO - [Page 15 | Carte 15] Ostra Paris | Tél: 01 43 54 01 00 | Adresse: 17 rue Petit Pont 75005 Paris Voir le plan
+2025-08-26 15:29:35,701 - INFO - [Page 15 | Carte 16] Le Sorbon | Tél: 01 43 54 40 19 | Adresse: 60 rue Ecoles 75005 Paris Voir le plan
+2025-08-26 15:29:36,677 - INFO - [Page 15 | Carte 17] Le Royal Daumesnil | Tél: 01 53 33 00 27 | Adresse: 216 Bis avenue Daumesnil 75012 Paris Voir le plan
+2025-08-26 15:29:36,718 - INFO - [Page 15 | Carte 18] Doublon détecté: L'Entracte Des Gobelins
+2025-08-26 15:29:37,617 - INFO - [Page 15 | Carte 19] Plaisance Café | Tél: 01 45 42 92 33 | Adresse: 203 rue Alésia 75014 Paris Voir le plan
+2025-08-26 15:29:38,293 - INFO - [Page 15 | Carte 20] Melting Pot | Tél: 09 51 30 29 82 | Adresse: 20 rue Jessaint 75018 Paris Voir le plan
+2025-08-26 15:29:38,293 - INFO - Résultats cumulés: 235 / 1000
+2025-08-26 15:29:41,352 - INFO - Chargement de la page 16: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=16
+2025-08-26 15:29:42,374 - INFO - 20 cartes détectées sur la page 16
+2025-08-26 15:29:42,418 - INFO - [Page 16 | Carte 1] Doublon détecté: La Cave Café Jaja Associés
+2025-08-26 15:29:43,329 - INFO - [Page 16 | Carte 2] La Grande Colette | Tél: 01 42 72 18 13 | Adresse: 10 rue St Martin 75004 Paris Voir le plan
+2025-08-26 15:29:43,373 - INFO - [Page 16 | Carte 3] Doublon détecté: Le Sphinx Café
+2025-08-26 15:29:44,202 - INFO - [Page 16 | Carte 4] Rosemonde | Tél: 01 53 19 82 70 | Adresse: 2 place Edmond Rostand 75006 Paris Voir le plan
+2025-08-26 15:29:44,222 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:29:44,247 - INFO - [Page 16 | Carte 5] Doublon détecté: Le Danton
+2025-08-26 15:29:44,931 - INFO - [Page 16 | Carte 6] O'SULLIVAN'S REBEL BAR O Sullivans Group | Tél: 01 42 71 42 00 | Adresse: 10 rue Lombards 75004 Paris Voir le plan
+2025-08-26 15:29:45,601 - INFO - [Page 16 | Carte 7] Au Maréchal Brune | Tél:     01 45 39 93 07 | Adresse: 9 boulevard Brune 75014 Paris Voir le plan
+2025-08-26 15:29:46,619 - INFO - [Page 16 | Carte 8] Restaurant Nonos & Comestibles par Paul Pairet | Tél: 01 44 71 16 16 | Adresse: Hôtel de Crillon 10 place Concorde 75008 Paris Voir le plan
+2025-08-26 15:29:47,374 - INFO - [Page 16 | Carte 9] Hotel Auteuil Tour Eiffel | Tél: 01 40 50 57 57 | Adresse: 8 rue Félicien David 75016 Paris Voir le plan
+2025-08-26 15:29:48,198 - INFO - [Page 16 | Carte 10] Le Central Café | Tél: 01 43 22 76 98 | Adresse: 57 boulevard Vaugirard 75015 Paris Voir le plan
+2025-08-26 15:29:49,009 - INFO - [Page 16 | Carte 11] Café Du Trocadéro | Tél: 01 44 05 37 00 | Adresse: 8 place Trocadéro et 11 Novembre 75116 Paris Voir le plan
+2025-08-26 15:29:49,844 - INFO - [Page 16 | Carte 12] Le Viaduc | Tél: 01 44 74 70 70 | Adresse: 43 avenue Daumesnil 75012 Paris Voir le plan
+2025-08-26 15:29:50,827 - INFO - [Page 16 | Carte 13] Le Camelia | Tél: 01 42 36 62 11 | Adresse: 2 Au 2b 2 Bis quai Mégisserie 75001 Paris Voir le plan
+2025-08-26 15:29:51,506 - INFO - [Page 16 | Carte 14] Banana CafE | Tél: 01 42 33 35 31 | Adresse: 13 rue Ferronnerie 75001 Paris Voir le plan
+2025-08-26 15:29:51,545 - INFO - [Page 16 | Carte 15] Doublon détecté: Le Point Et La Ligne
+2025-08-26 15:29:52,194 - INFO - [Page 16 | Carte 16] Café Convention | Tél:       01 73 75 04 94 | Adresse: 200 rue Convention 75015 Paris Voir le plan
+2025-08-26 15:29:52,233 - INFO - [Page 16 | Carte 17] Doublon détecté: Chez Céleste
+2025-08-26 15:29:53,299 - INFO - [Page 16 | Carte 18] Le Campanella | Tél: 01 45 55 73 15 | Adresse: 18 avenue Bosquet 75007 Paris Voir le plan
+2025-08-26 15:29:53,957 - INFO - [Page 16 | Carte 19] El Vecino Taqueria Paris | Tél: 01 42 71 77 15 | Adresse: 13 boulevard Temple 75003 Paris Voir le plan
+2025-08-26 15:29:54,812 - INFO - [Page 16 | Carte 20] Starbucks Coffee Capucines | Tél: 01 42 68 11 20 | Adresse: 3 boulevard Capucines 75002 Paris Voir le plan
+2025-08-26 15:29:54,813 - INFO - Résultats cumulés: 250 / 1000
+2025-08-26 15:29:58,472 - INFO - Chargement de la page 17: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=17
+2025-08-26 15:29:59,574 - INFO - 20 cartes détectées sur la page 17
+2025-08-26 15:30:00,554 - INFO - [Page 17 | Carte 1] Bataclan Café | Tél: 09 52 94 81 16 | Adresse: 50 boulevard Voltaire 75011 Paris Voir le plan
+2025-08-26 15:30:00,595 - INFO - [Page 17 | Carte 2] Doublon détecté: Chez Marie
+2025-08-26 15:30:00,644 - INFO - [Page 17 | Carte 3] Doublon détecté: Pley Hôtel
+2025-08-26 15:30:01,673 - INFO - [Page 17 | Carte 4] Chez Claude | Tél: 01 42 60 20 14 | Adresse: 166 rue St Honoré 75001 Paris Voir le plan
+2025-08-26 15:30:02,342 - INFO - [Page 17 | Carte 5] Doublon détecté: Starbucks
+2025-08-26 15:30:03,317 - INFO - [Page 17 | Carte 6] Chez Clara | Tél: 01 42 62 01 50 | Adresse: 6 place Albert Kahn 75018 Paris Voir le plan
+2025-08-26 15:30:03,362 - INFO - [Page 17 | Carte 7] Doublon détecté: Monsieur Bleu
+2025-08-26 15:30:04,173 - INFO - [Page 17 | Carte 8] Balagan | Tél: 01 40 20 72 14 | Adresse: 9 rue Alger 75001 Paris Voir le plan
+2025-08-26 15:30:04,212 - INFO - [Page 17 | Carte 9] Doublon détecté: Grand Café Fauchon
+2025-08-26 15:30:04,952 - INFO - [Page 17 | Carte 10] Aux Tables du Père Lachaise | Tél: 09 50 97 00 76 | Adresse: 44 boulevard Ménilmontant 75020 Paris Voir le plan
+2025-08-26 15:30:05,551 - INFO - [Page 17 | Carte 11] Mom Company | Tél: 01 40 68 72 71 | Adresse: 4 rue Pierre Demours 75017 Paris Voir le plan
+2025-08-26 15:30:06,414 - INFO - [Page 17 | Carte 12] Café Léone | Tél: 01 42 49 58 34 | Adresse: 5 rue Arcole 75004 Paris Voir le plan
+2025-08-26 15:30:07,280 - INFO - [Page 17 | Carte 13] Sansé | Tél: 09 83 07 34 28 | Adresse: 22 rue Moncey 75009 Paris Voir le plan
+2025-08-26 15:30:07,319 - INFO - [Page 17 | Carte 14] Doublon détecté: COMPTOIR GOURMET
+2025-08-26 15:30:07,356 - INFO - [Page 17 | Carte 15] Doublon détecté: La Mascotte
+2025-08-26 15:30:07,396 - INFO - [Page 17 | Carte 16] Doublon détecté: Chez Georges
+2025-08-26 15:30:08,373 - INFO - [Page 17 | Carte 17] Brasserie Le Bourbon | Tél: 01 45 51 58 27 | Adresse: 1 place Palais Bourbon 75007 Paris Voir le plan
+2025-08-26 15:30:09,380 - INFO - [Page 17 | Carte 18] Le Prince Racine | Tél: 01 43 29 83 35 | Adresse: 22 rue Monsieur le Prince 75006 Paris Voir le plan
+2025-08-26 15:30:09,418 - INFO - [Page 17 | Carte 19] Doublon détecté: Istr
+2025-08-26 15:30:09,455 - INFO - [Page 17 | Carte 20] Doublon détecté: Le Petit Bar
+2025-08-26 15:30:09,455 - INFO - Résultats cumulés: 260 / 1000
+2025-08-26 15:30:13,308 - INFO - Chargement de la page 18: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=18
+2025-08-26 15:30:14,559 - INFO - 20 cartes détectées sur la page 18
+2025-08-26 15:30:14,621 - INFO - [Page 18 | Carte 1] Doublon détecté: Le Viaduc
+2025-08-26 15:30:15,694 - INFO - [Page 18 | Carte 2] Les Sciences | Tél:     09 54 59 85 39 | Adresse: 21 rue Jussieu 75005 Paris Voir le plan
+2025-08-26 15:30:16,390 - INFO - [Page 18 | Carte 3] Le Sens Unique | Tél: 01 43 59 76 77 | Adresse: 47 rue Ponthieu 75008 Paris Voir le plan
+2025-08-26 15:30:16,461 - INFO - [Page 18 | Carte 4] Doublon détecté: Les Frangines
+2025-08-26 15:30:17,373 - INFO - [Page 18 | Carte 5] Bar Lounge Du Train Bleu | Tél:     01 43 43 09 06 | Adresse: Hall 1 Gare De Lyon place Louis Armand 75012 Paris Voir le plan
+2025-08-26 15:30:18,438 - INFO - [Page 18 | Carte 6] Le W | Tél: 01 45 61 82 08 | Adresse: 5 rue Berri 75008 Paris Voir le plan
+2025-08-26 15:30:19,330 - INFO - [Page 18 | Carte 7] Le Commerce Café | Tél: 01 48 28 77 01 | Adresse: 80 rue Commerce 75015 Paris Voir le plan
+2025-08-26 15:30:19,939 - INFO - [Page 18 | Carte 8] Le Parthenon | Tél: 01 42 56 23 25 | Adresse: 60 rue Courcelles 75008 Paris Voir le plan
+2025-08-26 15:30:20,752 - INFO - [Page 18 | Carte 9] Odette & Charlus Café | Tél: 06 35 44 04 63 | Adresse: 110 Rue Cambronne 232 rue Vaugirard 75015 Paris Voir le plan
+2025-08-26 15:30:21,478 - INFO - [Page 18 | Carte 10] 'Na Ruga | Tél:     01 42 72 38 34 | Adresse: 13 rue Beautreillis 75004 Paris Voir le plan
+2025-08-26 15:30:21,517 - INFO - [Page 18 | Carte 11] Doublon détecté: Le Raspail
+2025-08-26 15:30:22,436 - INFO - [Page 18 | Carte 12] Terres de Café Daguerre | Tél: 09 55 76 30 08 | Adresse: 32 rue Daguerre 75014 Paris Voir le plan
+2025-08-26 15:30:22,475 - INFO - [Page 18 | Carte 13] Doublon détecté: Le Ciel Bleu
+2025-08-26 15:30:23,166 - INFO - [Page 18 | Carte 14] Café Oz Châtelet | Tél: 01 40 39 00 18 | Adresse: 18 rue St Denis 75001 Paris Voir le plan
+2025-08-26 15:30:24,056 - INFO - [Page 18 | Carte 15] La Rhumerie | Tél: 01 43 54 28 94 | Adresse: 166 boulevard St Germain 75006 Paris Voir le plan
+2025-08-26 15:30:25,071 - INFO - [Page 18 | Carte 16] Le Pure Café | Tél: 01 43 71 47 22 | Adresse: 14 rue Jean Macé 75011 Paris Voir le plan
+2025-08-26 15:30:25,860 - INFO - [Page 18 | Carte 17] L'Olivier | Tél: 01 45 45 47 47 | Adresse: 181 boulevard Brune 75014 Paris Voir le plan
+2025-08-26 15:30:25,875 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:30:25,898 - INFO - [Page 18 | Carte 18] Oya | Tél: None | Adresse: 25 rue Reine Blanche 75013 Paris Voir le plan
+2025-08-26 15:30:26,879 - INFO - [Page 18 | Carte 19] Cabaret Michou | Tél: 01 46 06 16 04 | Adresse: 80 rue Martyrs 75018 Paris Voir le plan
+2025-08-26 15:30:27,745 - INFO - [Page 18 | Carte 20] Starbucks Coffee | Tél: 01 45 24 06 13 | Adresse: 53 rue Passy 75016 Paris Voir le plan
+2025-08-26 15:30:27,745 - INFO - Résultats cumulés: 276 / 1000
+2025-08-26 15:30:31,375 - INFO - Chargement de la page 19: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=19
+2025-08-26 15:30:32,578 - INFO - 20 cartes détectées sur la page 19
+2025-08-26 15:30:33,387 - INFO - [Page 19 | Carte 1] Maison Bes | Tél: 01 42 65 28 87 | Adresse: 31 boulevard Malesherbes 75008 Paris Voir le plan
+2025-08-26 15:30:34,329 - INFO - [Page 19 | Carte 2] Lutèce Café | Tél:     01 43 71 37 68 | Adresse: 50 boulevard Charonne 75020 Paris Voir le plan
+2025-08-26 15:30:34,935 - INFO - [Page 19 | Carte 3] Le Roch Hotel & Spa | Tél: 01 70 83 00 00 | Adresse: 28 rue St Roch 75001 Paris Voir le plan
+2025-08-26 15:30:34,952 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:30:34,975 - INFO - [Page 19 | Carte 4] Doublon détecté: CAFE CAUMARTIN
+2025-08-26 15:30:36,035 - INFO - [Page 19 | Carte 5] Bar à Bulles | Tél: 01 53 41 88 86 | Adresse: Cité Véron 90 boulevard Clichy 75018 Paris Voir le plan
+2025-08-26 15:30:36,869 - INFO - [Page 19 | Carte 6] LE BOYARD | Tél:       01 71 93 31 87 | Adresse: 117 avenue Félix Faure 75015 Paris Voir le plan
+2025-08-26 15:30:36,907 - INFO - [Page 19 | Carte 7] Doublon détecté: Café Du Trône
+2025-08-26 15:30:37,559 - INFO - [Page 19 | Carte 8] Café La Laverie SARL | Tél:     01 43 66 39 64 | Adresse: 70 R Ménilmontant 1 rue Sorbier 75020 Paris Voir le plan
+2025-08-26 15:30:37,596 - INFO - [Page 19 | Carte 9] Doublon détecté: Iguana Batignolles
+2025-08-26 15:30:38,285 - INFO - [Page 19 | Carte 10] 3H | Tél: 01 40 18 33 72 | Adresse: 49 rue Partants 75020 Paris Voir le plan
+2025-08-26 15:30:38,976 - INFO - [Page 19 | Carte 11] Charlotte Bar | Tél: 06 98 38 97 68 | Adresse: 10 rue Lappe 75011 Paris Voir le plan
+2025-08-26 15:30:40,011 - INFO - [Page 19 | Carte 12] McBrides Irish Pub | Tél: 01 40 26 46 70 | Adresse: 54 rue St Denis 75001 Paris Voir le plan
+2025-08-26 15:30:40,861 - INFO - [Page 19 | Carte 13] Relay Nord | Tél: 01 40 18 05 04 | Adresse: Gare Du Nord Banlieue Voie 30 18 rue Dunkerque 75010 Paris Voir le plan
+2025-08-26 15:30:40,894 - INFO - [Page 19 | Carte 14] Doublon détecté: Le Sorbon
+2025-08-26 15:30:41,645 - INFO - [Page 19 | Carte 15] L'office | Tél: 01 43 70 26 22 | Adresse: 148 boulevard Charonne 75020 Paris Voir le plan
+2025-08-26 15:30:42,495 - INFO - [Page 19 | Carte 16] The Canadian Embassy Pub | Tél: 09 81 89 39 93 | Adresse: 71 boulevard Gouvion Saint Cyr 75017 Paris Voir le plan
+2025-08-26 15:30:43,074 - INFO - [Page 19 | Carte 17] Le Mistral SARL | Tél:     01 42 26 75 28 | Adresse: 52 rue Guy Moquet 75017 Paris Voir le plan
+2025-08-26 15:30:43,904 - INFO - [Page 19 | Carte 18] La Timbale | Tél: 01 42 55 03 59 | Adresse: Rue du Mont Cenis 2 rue Versigny 75018 Paris Voir le plan
+2025-08-26 15:30:44,585 - INFO - [Page 19 | Carte 19] Street Food Original | Tél: 09 72 82 46 39 | Adresse: 17 rue Sedaine 75011 Paris Voir le plan
+2025-08-26 15:30:44,623 - INFO - [Page 19 | Carte 20] Doublon détecté: LITTLE CAFE
+2025-08-26 15:30:44,624 - INFO - Résultats cumulés: 291 / 1000
+2025-08-26 15:30:46,979 - INFO - Chargement de la page 20: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=20
+2025-08-26 15:30:48,450 - INFO - 20 cartes détectées sur la page 20
+2025-08-26 15:30:49,309 - INFO - [Page 20 | Carte 1] Jean Imbert au Plaza Athénée | Tél: 01 53 67 65 00 | Adresse: 25 avenue Montaigne 75008 Paris Voir le plan
+2025-08-26 15:30:50,166 - INFO - [Page 20 | Carte 2] Le Moulin A Café Café Pernety | Tél:     01 40 44 87 55 | Adresse: 8 rue Ste Léonie 75014 Paris Voir le plan
+2025-08-26 15:30:50,903 - INFO - [Page 20 | Carte 3] Kennedy | Tél: 01 42 88 22 39 | Adresse: 12 A 0 12 avenue Versailles 75016 Paris Voir le plan
+2025-08-26 15:30:50,943 - INFO - [Page 20 | Carte 4] Doublon détecté: Gentlemen 1919
+2025-08-26 15:30:51,818 - INFO - [Page 20 | Carte 5] SUNSET | Tél:     01 71 28 99 33 | Adresse: 100 rue Ordener 75018 Paris Voir le plan
+2025-08-26 15:30:51,857 - INFO - [Page 20 | Carte 6] Doublon détecté: Café Varenne
+2025-08-26 15:30:51,893 - INFO - [Page 20 | Carte 7] Doublon détecté: Le Pelleport Café
+2025-08-26 15:30:52,638 - INFO - [Page 20 | Carte 8] Restaurant La Confidente | Tél: 01 40 31 63 48 | Adresse: bât 125 125 avenue Gambetta 75020 Paris Voir le plan
+2025-08-26 15:30:52,677 - INFO - [Page 20 | Carte 9] Doublon détecté: Café 52
+2025-08-26 15:30:53,564 - INFO - [Page 20 | Carte 10] Café de l'Arc | Tél: 06 28 63 33 66 | Adresse: 3 boulevard St Denis 75003 Paris Voir le plan
+2025-08-26 15:30:53,601 - INFO - [Page 20 | Carte 11] Doublon détecté: InterContinental Paris le Grand
+2025-08-26 15:30:54,254 - INFO - [Page 20 | Carte 12] Bistro les Frangins | Tél: 01 42 00 95 87 | Adresse: 19 avenue Mathurin Moreau 75019 Paris Voir le plan
+2025-08-26 15:30:58,918 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D585425B90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/8c5289fd85bbd641585dcd1e3563e40b/execute/sync
+2025-08-26 15:31:02,988 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D5853E5550>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/8c5289fd85bbd641585dcd1e3563e40b/execute/sync
+2025-08-26 15:42:30,928 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 15:42:34,160 - INFO - Recherche: café bar à Paris
+2025-08-26 15:42:47,042 - INFO - 1/5: Coutume x Julhès Paris | Torréfacteur | Coffee shop
+2025-08-26 15:42:47,090 - INFO - Retour à la liste (mobile).
+2025-08-26 15:42:50,690 - INFO - 2/5: Café de Paris V
+2025-08-26 15:42:50,737 - INFO - Retour à la liste (mobile).
+2025-08-26 15:42:53,989 - INFO - 3/5: Café Populaire
+2025-08-26 15:42:54,037 - INFO - Retour à la liste (mobile).
+2025-08-26 15:42:58,967 - INFO - 4/5: Cubana Café , Soirées Salsa, Bar à Cocktails, Bar de nuit, Fumoir, Restaurant Montparnasse, Evjf,Evg.
+2025-08-26 15:42:59,015 - INFO - Retour à la liste (mobile).
+2025-08-26 15:43:03,357 - INFO - 5/5: L'Express Bar
+2025-08-26 15:43:03,402 - INFO - Retour à la liste (mobile).
+2025-08-26 15:44:15,502 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 15:44:17,430 - INFO - Recherche: café bar à Centre-Val de Loire
+2025-08-26 15:44:31,067 - INFO - 1/5: Chez Elles Café-Bar-Restaurant Tavers
+2025-08-26 15:44:31,117 - INFO - Retour à la liste (mobile).
+2025-08-26 15:44:35,549 - INFO - 2/5: Le Café Chaud
+2025-08-26 15:44:35,599 - INFO - Retour à la liste (mobile).
+2025-08-26 15:44:39,665 - INFO - 3/5: Bar De La Place-Cafe
+2025-08-26 15:44:39,706 - INFO - Retour à la liste (mobile).
+2025-08-26 15:44:43,570 - INFO - 4/5: Le Tandem Café-Vélo
+2025-08-26 15:44:43,612 - INFO - Retour à la liste (mobile).
+2025-08-26 15:44:47,214 - INFO - 5/5: Piraat
+2025-08-26 15:44:47,257 - INFO - Retour à la liste (mobile).
+2025-08-26 15:45:37,072 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Île-de-France'
+2025-08-26 15:45:37,073 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=1
+2025-08-26 15:45:41,214 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 15:45:42,001 - INFO - [Page 1 | Carte 1] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-26 15:45:42,682 - INFO - [Page 1 | Carte 2] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-26 15:45:43,490 - INFO - [Page 1 | Carte 3] The Bitter End | Tél: 01 34 51 90 09, 09 61 32 14 12 | Adresse: 20 rue St Pierre 78100 Saint Germain en Laye Voir le plan
+2025-08-26 15:45:44,336 - INFO - [Page 1 | Carte 4] Niagara Cafe | Tél: 01 87 22 59 75 | Adresse: 20 r Hôtel de Ville 2 Bis boulevard St Denis 92400 Courbevoie Voir le plan
+2025-08-26 15:45:45,380 - INFO - [Page 1 | Carte 5] Les Editeurs | Tél: 01 43 26 67 76 | Adresse: 4 carrefour Odéon 75006 Paris Voir le plan
+2025-08-26 15:45:45,997 - INFO - [Page 1 | Carte 6] Le Royal Indien | Tél: 01 39 35 97 17, 06 52 12 42 77 | Adresse: 19 rue Paris 95570 Moisselles Voir le plan
+2025-08-26 15:45:46,916 - INFO - [Page 1 | Carte 7] Mucha Café | Tél: 01 45 51 06 30, 09 66 90 63 65, 06 82 17 25 44 | Adresse: 227 boulevard St Germain 75007 Paris Voir le plan
+2025-08-26 15:45:47,662 - INFO - [Page 1 | Carte 8] Le Coq & Fils The Poultry House | Tél: 01 42 59 82 89 | Adresse: 98 rue Lepic 75018 Paris Voir le plan
+2025-08-26 15:45:48,462 - INFO - [Page 1 | Carte 9] Le Florès | Tél:     01 73 71 59 71, 06 06 74 06 13, 06 17 48 30 85 | Adresse: 80 rue Grenelle 75007 Paris Voir le plan
+2025-08-26 15:45:49,156 - INFO - [Page 1 | Carte 10] Le Caveau de l'Isle | Tél: 01 43 25 10 26 | Adresse: 36 rue St Louis en l'Ile 75004 Paris Voir le plan
+2025-08-26 15:45:50,050 - INFO - [Page 1 | Carte 11] Le Café du Palais de Justice | Tél: 01 39 50 01 30, 06 48 48 00 82 | Adresse: 1 rue Jouvencel 78000 Versailles Voir le plan
+2025-08-26 15:45:50,730 - INFO - [Page 1 | Carte 12] Brassserie le Village | Tél:     01 34 29 84 63, 09 70 35 36 52 | Adresse: 47 avenue Charles de Gaulle 95700 Roissy en France Voir le plan
+2025-08-26 15:45:51,661 - INFO - [Page 1 | Carte 13] Tabac Le Jean Bart | Tél: 09 72 15 63 99 | Adresse: 32 rue Avron 75020 Paris Voir le plan
+2025-08-26 15:45:52,478 - INFO - [Page 1 | Carte 14] Le Pavillon Du Lac | Tél: 01 42 00 07 21 | Adresse: Entrée Place Armand Carrel parc Buttes Chaumont 75019 Paris Voir le plan
+2025-08-26 15:45:53,113 - INFO - [Page 1 | Carte 15] Fratelli d'Italia | Tél: 01 39 89 20 02, 06 41 97 92 17 | Adresse: 1 Bis rue Libération 95880 Enghien les Bains Voir le plan
+2025-08-26 15:45:54,000 - INFO - [Page 1 | Carte 16] IN VINO VIVO | Tél: 01 64 59 67 19 | Adresse: 12 rue Etampes 91410 Dourdan Voir le plan
+2025-08-26 15:45:54,726 - INFO - [Page 1 | Carte 17] Le Gourmeur | Tél: 01 47 58 88 69 | Adresse: 40 rue Louise Michel 92300 Levallois Perret Voir le plan
+2025-08-26 15:45:55,644 - INFO - [Page 1 | Carte 18] Les Eiders | Tél: 01 40 36 01 52 | Adresse: 142 avenue Flandre 75019 Paris Voir le plan
+2025-08-26 15:45:56,262 - INFO - [Page 1 | Carte 19] LouLou Montmartre | Tél: 01 42 55 04 55 | Adresse: 8 rue Lamarck 75018 Paris Voir le plan
+2025-08-26 15:45:57,041 - INFO - [Page 1 | Carte 20] Tutti Quanti | Tél: 09 84 09 03 12 | Adresse: 13 avenue Europe 91210 Draveil Voir le plan
+2025-08-26 15:45:57,041 - INFO - Résultats cumulés: 20 / 1000
+2025-08-26 15:45:59,110 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=2
+2025-08-26 15:46:00,337 - INFO - 20 cartes détectées sur la page 2
+2025-08-26 15:46:00,990 - INFO - [Page 2 | Carte 1] Café De La République | Tél: 01 60 77 37 72 | Adresse: 23 avenue République 91000 Evry Voir le plan
+2025-08-26 15:46:01,032 - INFO - [Page 2 | Carte 2] Doublon détecté: IN VINO VIVO
+2025-08-26 15:46:02,037 - INFO - [Page 2 | Carte 3] FontaineBlues | Tél:     01 60 39 30 15 | Adresse: 70 rue Aristide Briand 77300 Fontainebleau Voir le plan
+2025-08-26 15:46:02,150 - INFO - [Page 2 | Carte 4] Doublon détecté: Isadora
+2025-08-26 15:46:02,241 - INFO - [Page 2 | Carte 5] Doublon détecté: Fratelli d'Italia
+2025-08-26 15:46:03,007 - INFO - [Page 2 | Carte 6] Le Consul | Tél: 01 47 08 38 89, 01 73 63 57 76, 06 99 92 90 99 | Adresse: 18 rue Maurepas 92500 Rueil Malmaison Voir le plan
+2025-08-26 15:46:03,914 - INFO - [Page 2 | Carte 7] Le Pep's | Tél: 01 56 83 82 82 | Adresse: 1 A 11 Rue Voltaire Et 15 place Liberté 92250 La Garenne Colombes Voir le plan
+2025-08-26 15:46:04,987 - INFO - [Page 2 | Carte 8] Adventure Boat | Tél: 06 15 18 89 25 | Adresse: square Tino Rossi 94130 Nogent sur Marne Voir le plan
+2025-08-26 15:46:06,046 - INFO - [Page 2 | Carte 9] Le Fleurus | Tél: 01 45 81 02 10 | Adresse: 10 boulevard Jourdan 75014 Paris Voir le plan
+2025-08-26 15:46:06,932 - INFO - [Page 2 | Carte 10] La Briqueterie | Tél: 01 64 36 55 55 | Adresse: 2 rue Briqueterie 77470 Poincy Voir le plan
+2025-08-26 15:46:07,963 - INFO - [Page 2 | Carte 11] Sweet And Salty | Tél: 01 43 47 12 98 | Adresse: 7 rue Théophile Roussel 75012 Paris Voir le plan
+2025-08-26 15:46:08,641 - INFO - [Page 2 | Carte 12] Bowling City | Tél: 01 60 63 78 26 | Adresse: La Cartonnerie 824 avenue Lys 77190 Dammarie les Lys Voir le plan
+2025-08-26 15:46:09,661 - INFO - [Page 2 | Carte 13] Squash 95 | Tél: 01 34 64 50 50 | Adresse: 13 rue Limousin 95310 Saint Ouen l'Aumône Voir le plan
+2025-08-26 15:46:10,269 - INFO - [Page 2 | Carte 14] L'avanos | Tél: 09 83 54 75 92 | Adresse: 19 promenée Marat 94200 Ivry sur Seine Voir le plan
+2025-08-26 15:46:10,898 - INFO - [Page 2 | Carte 15] Le Segur | Tél: 01 47 83 85 31 | Adresse: 156 avenue Suffren 75015 Paris Voir le plan
+2025-08-26 15:46:11,699 - INFO - [Page 2 | Carte 16] Etoile de l'Inde | Tél: 06 52 12 42 77, 09 52 31 64 21 | Adresse: 19 rue Paris 95570 Moisselles Voir le plan
+2025-08-26 15:46:11,742 - INFO - [Page 2 | Carte 17] Doublon détecté: The Bitter End
+2025-08-26 15:46:12,722 - INFO - [Page 2 | Carte 18] O Pata Negra | Tél: 01 42 83 39 37 | Adresse: 165 boulevard Gén Giraud 94100 Saint Maur des Fossés Voir le plan
+2025-08-26 15:46:13,679 - INFO - [Page 2 | Carte 19] Le Sauvage | Tél: 01 64 25 15 62 | Adresse: bât A 84 rue Gén Leclerc 77540 Rozay en Brie Voir le plan
+2025-08-26 15:46:14,469 - INFO - [Page 2 | Carte 20] Résidence Hermès Paris Orly Aéroport | Tél: 06 16 64 86 44 | Adresse: 12 rue Edouard Branly 94290 Villeneuve le Roi Voir le plan
+2025-08-26 15:46:14,469 - INFO - Résultats cumulés: 36 / 1000
+2025-08-26 15:46:17,478 - INFO - Chargement de la page 3: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=3
+2025-08-26 15:46:18,915 - INFO - 20 cartes détectées sur la page 3
+2025-08-26 15:46:19,540 - INFO - [Page 3 | Carte 1] Bon Sens | Tél: 01 48 95 22 45 | Adresse: bât A 64 rue Sadi Carnot 93170 Bagnolet Voir le plan
+2025-08-26 15:46:19,578 - INFO - [Page 3 | Carte 2] Doublon détecté: Adventure Boat
+2025-08-26 15:46:20,619 - INFO - [Page 3 | Carte 3] Issy Irish Café | Tél: 01 46 62 02 40 | Adresse: 10 rue Rouget de Lisle 92130 Issy les Moulineaux Voir le plan
+2025-08-26 15:46:20,657 - INFO - [Page 3 | Carte 4] Doublon détecté: Squash 95
+2025-08-26 15:46:21,413 - INFO - [Page 3 | Carte 5] Boisvers | Tél: 01 30 21 98 05 | Adresse: 4 rue Satory 78000 Versailles Voir le plan
+2025-08-26 15:46:22,388 - INFO - [Page 3 | Carte 6] LE LUTETIA | Tél: 01 34 71 00 29, 09 65 34 01 27 | Adresse: 1 rue Charles de Gaulle 95270 Luzarches Voir le plan
+2025-08-26 15:46:23,227 - INFO - [Page 3 | Carte 7] Ledetendeur | Tél: 09 62 68 04 42 | Adresse: 101 boulevard Jean Jaurès 92100 Boulogne Billancourt Voir le plan
+2025-08-26 15:46:23,268 - INFO - [Page 3 | Carte 8] Doublon détecté: Le Sauvage
+2025-08-26 15:46:24,242 - INFO - [Page 3 | Carte 9] Am2a Services | Tél: 01 78 86 15 52,     06 11 46 59 15 | Adresse: Centre Commercial Colombier 15 rue Liberté 95470 Survilliers Voir le plan
+2025-08-26 15:46:25,162 - INFO - [Page 3 | Carte 10] Taverne Gambrinus | Tél: 09 67 28 85 72 | Adresse: 26 rue Enfer 91240 Saint Michel sur Orge Voir le plan
+2025-08-26 15:46:25,907 - INFO - [Page 3 | Carte 11] Le Drapeau | Tél: 01 43 65 17 94 | Adresse: 18 avenue Paris BP 145 94300 Vincennes Voir le plan
+2025-08-26 15:46:26,657 - INFO - [Page 3 | Carte 12] Félix Café | Tél: 09 80 89 72 75 | Adresse: 40 boulevard Reuilly 75012 Paris Voir le plan
+2025-08-26 15:46:27,730 - INFO - [Page 3 | Carte 13] Le Camondo | Tél: 01 45 63 40 40 | Adresse: 61 Bis rue Monceau 75008 Paris Voir le plan
+2025-08-26 15:46:28,756 - INFO - [Page 3 | Carte 14] Le Clocher du Village | Tél: 01 40 92 70 97 | Adresse: 85 avenue Jean Baptiste Clément 92100 Boulogne Billancourt Voir le plan
+2025-08-26 15:46:29,367 - INFO - [Page 3 | Carte 15] Blanc Cœur | Tél: 01 43 28 21 72 | Adresse: 108 rue Fontenay 94300 Vincennes Voir le plan
+2025-08-26 15:46:30,119 - INFO - [Page 3 | Carte 16] Le Do Ré Mi | Tél: 01 45 61 06 35 | Adresse: 18 avenue Hoche 75008 Paris Voir le plan
+2025-08-26 15:46:30,900 - INFO - [Page 3 | Carte 17] Les 3 Brasseurs | Tél: 01 64 13 65 65 | Adresse: Ccal Carre Senart 63 galerie Carré Sénart 1 77127 Lieusaint Voir le plan
+2025-08-26 15:46:31,643 - INFO - [Page 3 | Carte 18] L'Eden | Tél: 01 48 74 27 12 | Adresse: 43 rue Chaussée d'Antin 75009 Paris Voir le plan
+2025-08-26 15:46:32,584 - INFO - [Page 3 | Carte 19] Central Parc | Tél: 01 74 50 09 03 | Adresse: 42 rue Four 94100 Saint Maur des Fossés Voir le plan
+2025-08-26 15:46:33,356 - INFO - [Page 3 | Carte 20] LE MAUREPAS | Tél: 01 30 50 57 07 | Adresse: 31 avenue Forez 78310 Maurepas Voir le plan
+2025-08-26 15:46:33,356 - INFO - Résultats cumulés: 53 / 1000
+2025-08-26 15:46:37,034 - INFO - Chargement de la page 4: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=4
+2025-08-26 15:46:38,449 - INFO - 20 cartes détectées sur la page 4
+2025-08-26 15:46:38,507 - INFO - [Page 4 | Carte 1] Doublon détecté: Le Clocher du Village
+2025-08-26 15:46:38,550 - INFO - [Page 4 | Carte 2] Doublon détecté: Le Camondo
+2025-08-26 15:46:38,589 - INFO - [Page 4 | Carte 3] Doublon détecté: Félix Café
+2025-08-26 15:46:39,466 - INFO - [Page 4 | Carte 4] Café Rive Droite | Tél: 01 42 33 81 62 | Adresse: 2 rue Berger 75001 Paris Voir le plan
+2025-08-26 15:46:39,503 - INFO - [Page 4 | Carte 5] Doublon détecté: Taverne Gambrinus
+2025-08-26 15:46:40,360 - INFO - [Page 4 | Carte 6] La Rogina | Tél: 01 43 96 13 77 | Adresse: 177 Bis rue Vaillant Couturier 94140 Alfortville Voir le plan
+2025-08-26 15:46:40,991 - INFO - [Page 4 | Carte 7] Au Vieux Châtelet | Tél: 01 42 33 79 27 | Adresse: 1 place Châtelet 75001 Paris Voir le plan
+2025-08-26 15:46:42,050 - INFO - [Page 4 | Carte 8] Le Château 95 | Tél: 06 05 53 61 19 | Adresse: 6 rue Aulnay 95500 Gonesse Voir le plan
+2025-08-26 15:46:42,674 - INFO - [Page 4 | Carte 9] Emporio Armani Caffè | Tél: 01 45 48 62 15 | Adresse: 149 boulevard St Germain 75006 Paris Voir le plan
+2025-08-26 15:46:43,458 - INFO - [Page 4 | Carte 10] LE 44 | Tél: 01 85 53 85 29 | Adresse: 44 rue Paul Lafargue 93160 Noisy le Grand Voir le plan
+2025-08-26 15:46:44,298 - INFO - [Page 4 | Carte 11] Le Petit Poucet | Tél: 01 45 22 36 76 | Adresse: 5 place Clichy 75017 Paris Voir le plan
+2025-08-26 15:46:44,912 - INFO - [Page 4 | Carte 12] Le Boléro De Ravel | Tél: 01 47 57 98 30 | Adresse: 37 rue Gabriel Péri 92300 Levallois Perret Voir le plan
+2025-08-26 15:46:45,892 - INFO - [Page 4 | Carte 13] Liomar Café | Tél: 01 47 57 15 84 | Adresse: 12 rue Clément Bayard 92300 Levallois Perret Voir le plan
+2025-08-26 15:46:45,928 - INFO - [Page 4 | Carte 14] Doublon détecté: Central Parc
+2025-08-26 15:46:46,943 - INFO - [Page 4 | Carte 15] Windo SkyBar | Tél: 01 40 68 51 90 | Adresse: 3 place Gén Koenig 75017 Paris Voir le plan
+2025-08-26 15:46:47,649 - INFO - [Page 4 | Carte 16] Café Brasserie Le Suffren | Tél: 01 45 66 97 86 | Adresse: 84 avenue Suffren 75015 Paris Voir le plan
+2025-08-26 15:46:48,304 - INFO - [Page 4 | Carte 17] Liquide | Tél: 01 42 36 50 05 | Adresse: 39 rue Arbre Sec 75001 Paris Voir le plan
+2025-08-26 15:46:49,050 - INFO - [Page 4 | Carte 18] Epicure | Tél: 01 53 43 43 40 | Adresse: 112 rue Faubourg St Honoré 75008 Paris Voir le plan
+2025-08-26 15:46:49,712 - INFO - [Page 4 | Carte 19] Auto Passion CafE | Tél: 01 45 43 20 20 | Adresse: 197 boulevard Brune 75014 Paris Voir le plan
+2025-08-26 15:46:50,397 - INFO - [Page 4 | Carte 20] Brique Machine - Brique House | Tél: 01 49 29 50 50 | Adresse: 161 rue Montmartre 75002 Paris Voir le plan
+2025-08-26 15:46:50,397 - INFO - Résultats cumulés: 68 / 1000
+2025-08-26 15:46:52,402 - INFO - Chargement de la page 5: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=5
+2025-08-26 15:46:55,741 - INFO - 20 cartes détectées sur la page 5
+2025-08-26 15:46:55,787 - INFO - [Page 5 | Carte 1] Doublon détecté: Le Petit Poucet
+2025-08-26 15:46:55,826 - INFO - [Page 5 | Carte 2] Doublon détecté: La Rogina
+2025-08-26 15:46:56,779 - INFO - [Page 5 | Carte 3] Brasserie De La Tour Eiffel | Tél: 01 45 51 90 51 | Adresse: 2 avenue La Bourdonnais 75007 Paris Voir le plan
+2025-08-26 15:46:57,425 - INFO - [Page 5 | Carte 4] Huatian Chinagora | Tél:     01 48 93 88 08 | Adresse: 1 place Confluent France Chine 94140 Alfortville Voir le plan
+2025-08-26 15:46:57,465 - INFO - [Page 5 | Carte 5] Doublon détecté: Central Parc
+2025-08-26 15:46:58,358 - INFO - [Page 5 | Carte 6] Mandarin Oriental Lutetia, Paris | Tél: 01 49 54 46 00 | Adresse: 45 boulevard Raspail 75006 Paris Voir le plan
+2025-08-26 15:46:59,289 - INFO - [Page 5 | Carte 7] Au Bureau | Tél: 01 64 37 94 21 | Adresse: ZAC de la Plaine rue Moulin à Vent 77240 Cesson Voir le plan
+2025-08-26 15:47:00,095 - INFO - [Page 5 | Carte 8] Cafe Panis | Tél: 01 43 54 19 71 | Adresse: 21 quai Montebello 75005 Paris Voir le plan
+2025-08-26 15:47:00,678 - INFO - [Page 5 | Carte 9] Café Marco Polo | Tél: 01 43 87 36 05 | Adresse: 121 rue St Lazare 75008 Paris Voir le plan
+2025-08-26 15:47:01,666 - INFO - [Page 5 | Carte 10] Le Milton Pub 2.0 | Tél: 01 64 52 36 92 | Adresse: 15 rue Grands Champs 77590 Bois le Roi Voir le plan
+2025-08-26 15:47:01,703 - INFO - [Page 5 | Carte 11] Doublon détecté: Auto Passion CafE
+2025-08-26 15:47:02,629 - INFO - [Page 5 | Carte 12] Le Boudoir | Tél: 01 43 20 70 03 | Adresse: 202 boulevard St Germain 75007 Paris Voir le plan
+2025-08-26 15:47:03,612 - INFO - [Page 5 | Carte 13] La Terrasse Maillot | Tél: 01 45 74 32 10 | Adresse: 76 avenue Grande Armée 75017 Paris Voir le plan
+2025-08-26 15:47:03,651 - INFO - [Page 5 | Carte 14] Doublon détecté: Emporio Armani Caffè
+2025-08-26 15:47:03,688 - INFO - [Page 5 | Carte 15] Doublon détecté: Le Boléro De Ravel
+2025-08-26 15:47:04,734 - INFO - [Page 5 | Carte 16] L'Arti Bar | Tél: 01 47 17 59 99 | Adresse: 11 avenue Arche 92400 Courbevoie Voir le plan
+2025-08-26 15:47:05,385 - INFO - [Page 5 | Carte 17] Le 85 Restaurant & Bar | Tél: 01 39 34 10 19 | Adresse: Hôtel Barrière Le Grand Hôtel 85 rue Gén de Gaulle 95880 Enghien les Bains Voir le plan
+2025-08-26 15:47:05,422 - INFO - [Page 5 | Carte 18] Doublon détecté: Le Clocher du Village
+2025-08-26 15:47:06,194 - INFO - [Page 5 | Carte 19] Navy Pub | Tél: 01 45 62 18 17 | Adresse: 19 rue Colisée 75008 Paris Voir le plan
+2025-08-26 15:47:07,114 - INFO - [Page 5 | Carte 20] Le Kleber | Tél: 01 47 27 95 93 | Adresse: 80 avenue Kléber 75116 Paris Voir le plan
+2025-08-26 15:47:07,114 - INFO - Résultats cumulés: 81 / 1000
+2025-08-26 15:47:10,817 - INFO - Chargement de la page 6: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=6
+2025-08-26 15:47:14,013 - INFO - 20 cartes détectées sur la page 6
+2025-08-26 15:47:14,820 - INFO - [Page 6 | Carte 1] Le Marceau | Tél: 01 47 20 05 65 | Adresse: 39 avenue Marceau 75116 Paris Voir le plan
+2025-08-26 15:47:15,578 - INFO - [Page 6 | Carte 2] Batistou | Tél: 01 40 21 13 35 | Adresse: 65 boulevard Ménilmontant 75011 Paris Voir le plan
+2025-08-26 15:47:16,437 - INFO - [Page 6 | Carte 3] Le Café Du Commerce | Tél: 01 45 75 03 27 | Adresse: 51 rue Commerce 75015 Paris Voir le plan
+2025-08-26 15:47:16,475 - INFO - [Page 6 | Carte 4] Doublon détecté: Brique Machine - Brique House
+2025-08-26 15:47:17,133 - INFO - [Page 6 | Carte 5] Café de la Gare | Tél: 01 46 61 10 44 | Adresse: 12 rue Gentil Bernard 92260 Fontenay aux Roses Voir le plan
+2025-08-26 15:47:18,177 - INFO - [Page 6 | Carte 6] Le Café de la Place | Tél: 01 69 35 07 84 | Adresse: 2 place Jules Ferry 91400 Saclay Voir le plan
+2025-08-26 15:47:18,760 - INFO - [Page 6 | Carte 7] La Coupole | Tél: 01 43 20 14 20 | Adresse: 102 boulevard Montparnasse 75014 Paris Voir le plan
+2025-08-26 15:47:19,406 - INFO - [Page 6 | Carte 8] Café Cassette | Tél:     01 45 48 53 78, 06 15 42 83 42 | Adresse: 73 rue Rennes 75006 Paris Voir le plan
+2025-08-26 15:47:20,123 - INFO - [Page 6 | Carte 9] New Rose Cocktail Bar | Tél: 01 42 37 71 25 | Adresse: La Seine Musicale 1 ile Seguin 92100 Boulogne Billancourt Voir le plan
+2025-08-26 15:47:21,026 - INFO - [Page 6 | Carte 10] Martin République | Tél: 01 71 18 38 88 | Adresse: 40 rue René Boulanger 75010 Paris Voir le plan
+2025-08-26 15:47:21,851 - INFO - [Page 6 | Carte 11] Rooftop Molitor | Tél: 01 56 07 08 82 | Adresse: 6 avenue Porte Molitor 75016 Paris Voir le plan
+2025-08-26 15:47:22,816 - INFO - [Page 6 | Carte 12] Pizzeria César | Tél:     01 39 53 02 29 | Adresse: Place des Manèges 8 avenue Gén de Gaulle 78000 Versailles Voir le plan
+2025-08-26 15:47:23,707 - INFO - [Page 6 | Carte 13] Café Signes | Tél: 01 45 39 37 40 | Adresse: 33 avenue Jean Moulin 75014 Paris Voir le plan
+2025-08-26 15:47:23,745 - INFO - [Page 6 | Carte 14] Doublon détecté: Liquide
+2025-08-26 15:47:24,689 - INFO - [Page 6 | Carte 15] Le Petit St Paul | Tél: 01 44 78 09 17 | Adresse: 40 rue St Paul 75004 Paris Voir le plan
+2025-08-26 15:47:25,419 - INFO - [Page 6 | Carte 16] Belushi's Canal | Tél: 01 40 34 34 40 | Adresse: 159 rue Crimée 75019 Paris Voir le plan
+2025-08-26 15:47:26,120 - INFO - [Page 6 | Carte 17] Anatole | Tél: 01 47 57 39 95 | Adresse: 50 rue Anatole France 92300 Levallois Perret Voir le plan
+2025-08-26 15:47:27,145 - INFO - [Page 6 | Carte 18] Mercure | Tél: 01 64 69 34 34 | Adresse: 41 rue Royale 77300 Fontainebleau Voir le plan
+2025-08-26 15:47:28,019 - INFO - [Page 6 | Carte 19] Le Café des Phares | Tél: 01 42 72 04 70 | Adresse: 7 place Bastille 75004 Paris Voir le plan
+2025-08-26 15:47:28,742 - INFO - [Page 6 | Carte 20] Hôtel Plaza Athénée | Tél: 01 53 67 66 65 | Adresse: 25 avenue Montaigne BP 0 75008 Paris Voir le plan
+2025-08-26 15:47:28,742 - INFO - Résultats cumulés: 99 / 1000
+2025-08-26 15:47:32,266 - INFO - Chargement de la page 7: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=7
+2025-08-26 15:47:33,782 - INFO - 20 cartes détectées sur la page 7
+2025-08-26 15:47:34,795 - INFO - [Page 7 | Carte 1] Bellechasse Café | Tél: 01 43 94 05 50 | Adresse: 76 Bis boulevard Bellechasse 94100 Saint Maur des Fossés Voir le plan
+2025-08-26 15:47:35,592 - INFO - [Page 7 | Carte 2] Chimère | Tél: 01 44 90 91 94 | Adresse: 22 rue Quatre Septembre 75002 Paris Voir le plan
+2025-08-26 15:47:36,412 - INFO - [Page 7 | Carte 3] Le Patio Opéra | Tél: 01 40 98 00 92, 06 67 29 73 37, 01 53 81 86 68 | Adresse: 5 rue Meyerbeer 75009 Paris Voir le plan
+2025-08-26 15:47:37,435 - INFO - [Page 7 | Carte 4] Caffé Créole | Tél: 01 55 28 50 76 | Adresse: 62 boulevard Beaumarchais 75011 Paris Voir le plan
+2025-08-26 15:47:38,349 - INFO - [Page 7 | Carte 5] Le Vieux Bourg | Tél:     01 46 61 81 26 | Adresse: 72 boulevard Mar Joffre 92340 Bourg la Reine Voir le plan
+2025-08-26 15:47:38,368 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:47:38,390 - INFO - [Page 7 | Carte 6] Coutume Café | Tél: None | Adresse: 47 rue Babylone 75007 Paris Voir le plan
+2025-08-26 15:47:38,429 - INFO - [Page 7 | Carte 7] Doublon détecté: Au Bureau
+2025-08-26 15:47:39,143 - INFO - [Page 7 | Carte 8] Les Colonnes | Tél:     01 46 42 25 33 | Adresse: 65 rue Gén Leclerc 92130 Issy les Moulineaux Voir le plan
+2025-08-26 15:47:39,834 - INFO - [Page 7 | Carte 9] Café Jacques | Tél: 01 47 53 68 01 | Adresse: 27 quai Branly 75007 Paris Voir le plan
+2025-08-26 15:47:40,880 - INFO - [Page 7 | Carte 10] Valois | Tél: 01 42 25 03 85 | Adresse: PTE Droite 1 place Rio de Janeiro 75008 Paris Voir le plan
+2025-08-26 15:47:41,675 - INFO - [Page 7 | Carte 11] Delaville Café | Tél: 01 48 24 48 09 | Adresse: 34 boulevard Bonne Nouvelle 75010 Paris Voir le plan
+2025-08-26 15:47:42,726 - INFO - [Page 7 | Carte 12] Café Oz Châtelet | Tél: 01 40 39 00 18 | Adresse: 18 rue St Denis 75001 Paris Voir le plan
+2025-08-26 15:47:43,504 - INFO - [Page 7 | Carte 13] Le Petit Monceau | Tél: 01 45 22 55 97 | Adresse: 93 rue Monceau 75008 Paris Voir le plan
+2025-08-26 15:47:44,345 - INFO - [Page 7 | Carte 14] Café Scribe | Tél: 01 44 71 24 24 | Adresse: 1 rue Scribe 75009 Paris Voir le plan
+2025-08-26 15:47:44,961 - INFO - [Page 7 | Carte 15] Le Carignan | Tél: 01 49 25 16 01 | Adresse: 102 boulevard Rochechouart 75018 Paris Voir le plan
+2025-08-26 15:47:45,665 - INFO - [Page 7 | Carte 16] L'Alsacien | Tél: 01 42 77 64 22 | Adresse: 6 rue St Bon A 0 75004 Paris Voir le plan
+2025-08-26 15:47:46,629 - INFO - [Page 7 | Carte 17] Le Saint Charles | Tél:     01 43 97 48 69 | Adresse: 143 quai Bonneuil 94210 La Varenne Saint Hilaire Voir le plan
+2025-08-26 15:47:47,233 - INFO - [Page 7 | Carte 18] Marché Ô Crêpes | Tél:     09 81 36 98 37 | Adresse: 26 rue Rosiers 93400 Saint Ouen sur Seine Voir le plan
+2025-08-26 15:47:48,048 - INFO - [Page 7 | Carte 19] Restaurant Le Molière | Tél: 01 44 76 07 33 | Adresse: 40 rue St Honoré 75001 Paris Voir le plan
+2025-08-26 15:47:49,011 - INFO - [Page 7 | Carte 20] Galeries Lafayette Haussmann | Tél: 01 42 82 34 56 | Adresse: Magasin Coupole 6ème étage 40 boulevard Haussmann 75009 Paris Voir le plan
+2025-08-26 15:47:49,012 - INFO - Résultats cumulés: 118 / 1000
+2025-08-26 15:47:51,324 - INFO - Chargement de la page 8: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=8
+2025-08-26 15:47:52,407 - INFO - 20 cartes détectées sur la page 8
+2025-08-26 15:47:53,319 - INFO - [Page 8 | Carte 1] Café Joséphine | Tél: 01 89 19 59 89 | Adresse: 3 place Deux Ecus 75001 Paris Voir le plan
+2025-08-26 15:47:54,134 - INFO - [Page 8 | Carte 2] Les Officiers SAS | Tél:     01 43 28 25 10 | Adresse: 3 avenue Nogent 94300 Vincennes Voir le plan
+2025-08-26 15:47:55,063 - INFO - [Page 8 | Carte 3] Café Le Pierrot | Tél: 01 40 15 91 18, 01 47 34 17 76, 06 73 36 62 20 | Adresse: 67 avenue La Motte Picquet 75015 Paris Voir le plan
+2025-08-26 15:47:55,106 - INFO - [Page 8 | Carte 4] Doublon détecté: Bellechasse Café
+2025-08-26 15:47:55,885 - INFO - [Page 8 | Carte 5] Tabac Café de la Seine | Tél: 01 43 43 04 83 | Adresse: 21 avenue Ledru Rollin 75012 Paris Voir le plan
+2025-08-26 15:47:56,750 - INFO - [Page 8 | Carte 6] Café Saint Honoré | Tél: 01 42 61 49 31 | Adresse: 194 rue St Honoré 75001 Paris Voir le plan
+2025-08-26 15:47:57,403 - INFO - [Page 8 | Carte 7] Le Chat Qui Prise | Tél: 01 39 50 11 72 | Adresse: 57 rue Paroisse 78000 Versailles Voir le plan
+2025-08-26 15:47:57,440 - INFO - [Page 8 | Carte 8] Doublon détecté: Le Petit Poucet
+2025-08-26 15:47:57,480 - INFO - [Page 8 | Carte 9] Doublon détecté: Chimère
+2025-08-26 15:47:58,348 - INFO - [Page 8 | Carte 10] Le Parvis | Tél: 01 44 41 14 34 | Adresse: 3 rue Arcole 75004 Paris Voir le plan
+2025-08-26 15:47:59,072 - INFO - [Page 8 | Carte 11] Vingko Bar & Food | Tél: 01 49 04 75 22 | Adresse: 18 rue Baudin 92400 Courbevoie Voir le plan
+2025-08-26 15:48:00,131 - INFO - [Page 8 | Carte 12] L Etoile Du Prado Royal Est | Tél: 01 46 07 05 00 | Adresse: 129 rue Fbg St Martin 75010 Paris Voir le plan
+2025-08-26 15:48:00,997 - INFO - [Page 8 | Carte 13] La Marina Café | Tél: 09 84 19 01 90 | Adresse: 2 place Grand Hunier 95000 Cergy Voir le plan
+2025-08-26 15:48:01,896 - INFO - [Page 8 | Carte 14] Le Nouveau Paris restaurant neuilly sur seine ile de la jatte | Tél: 01 46 24 66 12 | Adresse: Ile De La Jatte 204 boulevard Bineau 92200 Neuilly sur Seine Voir le plan
+2025-08-26 15:48:02,810 - INFO - [Page 8 | Carte 15] Cardamome Café | Tél: 01 70 69 91 83 | Adresse: 207 rue Fbg St Antoine 75011 Paris Voir le plan
+2025-08-26 15:48:03,450 - INFO - [Page 8 | Carte 16] Dim Dim Sum | Tél: 09 74 97 43 41 | Adresse: 20 rue Grenier St Lazare 75003 Paris Voir le plan
+2025-08-26 15:48:04,391 - INFO - [Page 8 | Carte 17] BRASSERIE 4807 | Tél: 01 43 64 57 10 | Adresse: 261 avenue Gambetta 75020 Paris Voir le plan
+2025-08-26 15:48:05,214 - INFO - [Page 8 | Carte 18] Café De Flore | Tél:     01 45 48 60 60 | Adresse: 172 boulevard St Germain 75006 Paris Voir le plan
+2025-08-26 15:48:05,231 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:48:05,253 - INFO - [Page 8 | Carte 19] Doublon détecté: Coutume Café
+2025-08-26 15:48:05,945 - INFO - [Page 8 | Carte 20] Saint James Paris | Tél: 01 44 05 81 81 | Adresse: 5 place Chancelier Adenauer 75116 Paris Voir le plan
+2025-08-26 15:48:05,946 - INFO - Résultats cumulés: 134 / 1000
+2025-08-26 15:48:08,650 - INFO - Chargement de la page 9: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=9
+2025-08-26 15:48:09,871 - INFO - 20 cartes détectées sur la page 9
+2025-08-26 15:48:10,525 - INFO - [Page 9 | Carte 1] Le Café de l'Eglise | Tél: 01 42 47 01 23 | Adresse: 2 place Franz Liszt 75010 Paris Voir le plan
+2025-08-26 15:48:10,563 - INFO - [Page 9 | Carte 2] Doublon détecté: Cafe Panis
+2025-08-26 15:48:10,602 - INFO - [Page 9 | Carte 3] Doublon détecté: Le Clocher du Village
+2025-08-26 15:48:11,245 - INFO - [Page 9 | Carte 4] Marco Polo | Tél: 01 43 43 26 19 | Adresse: 8 avenue Trône 75012 Paris Voir le plan
+2025-08-26 15:48:11,872 - INFO - [Page 9 | Carte 5] Cafe Boheme | Tél: 01 43 27 01 33 | Adresse: 19 boulevard Edgar Quinet 75014 Paris Voir le plan
+2025-08-26 15:48:12,788 - INFO - [Page 9 | Carte 6] Domani FRANKLIN RESTAURATION | Tél: 01 56 59 62 59 | Adresse: 8 avenue Franklin D Roosevelt 75008 Paris Voir le plan
+2025-08-26 15:48:13,476 - INFO - [Page 9 | Carte 7] Chez Jeanette | Tél: 01 42 01 11 05 | Adresse: 263 rue St Jacques 75005 Paris Voir le plan
+2025-08-26 15:48:14,171 - INFO - [Page 9 | Carte 8] Konfusius | Tél: 01 60 17 41 47 | Adresse: 20 cours Lacs 77200 Torcy Voir le plan
+2025-08-26 15:48:15,147 - INFO - [Page 9 | Carte 9] Chez Nous | Tél: 01 43 26 42 69 | Adresse: 10 rue Dauphine 75006 Paris Voir le plan
+2025-08-26 15:48:15,163 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:48:15,188 - INFO - [Page 9 | Carte 10] Doublon détecté: Coutume Café
+2025-08-26 15:48:16,269 - INFO - [Page 9 | Carte 11] Le Ballon d'Alsace | Tél: 01 47 76 11 33 | Adresse: La Defense 15 place Reflets 92400 Courbevoie Voir le plan
+2025-08-26 15:48:16,308 - INFO - [Page 9 | Carte 12] Doublon détecté: Café Signes
+2025-08-26 15:48:17,035 - INFO - [Page 9 | Carte 13] Starbucks Coffee | Tél: 01 42 93 60 97 | Adresse: 2 rue Pépinière 75008 Paris Voir le plan
+2025-08-26 15:48:17,074 - INFO - [Page 9 | Carte 14] Doublon détecté: Le Château 95
+2025-08-26 15:48:18,106 - INFO - [Page 9 | Carte 15] Le Choupinet | Tél: 01 42 03 09 93 | Adresse: 58 boulevard St Michel 75006 Paris Voir le plan
+2025-08-26 15:48:18,866 - INFO - [Page 9 | Carte 16] Aux Trois Mailletz | Tél: 01 43 54 00 79 | Adresse: 56 rue Galande 75005 Paris Voir le plan
+2025-08-26 15:48:19,935 - INFO - [Page 9 | Carte 17] Chez Clara | Tél: 01 42 62 01 50 | Adresse: 6 place Albert Kahn 75018 Paris Voir le plan
+2025-08-26 15:48:20,866 - INFO - [Page 9 | Carte 18] La Cave Café Jaja Associés | Tél: 01 53 41 61 83 | Adresse: 134 rue Marcadet 75018 Paris Voir le plan
+2025-08-26 15:48:20,902 - INFO - [Page 9 | Carte 19] Doublon détecté: L Etoile Du Prado Royal Est
+2025-08-26 15:48:21,959 - INFO - [Page 9 | Carte 20] Café Joyeux | Tél: 01 87 53 64 80 | Adresse: 23 rue St Augustin 75002 Paris Voir le plan
+2025-08-26 15:48:21,959 - INFO - Résultats cumulés: 148 / 1000
+2025-08-26 15:48:25,079 - INFO - Chargement de la page 10: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=10
+2025-08-26 15:48:26,227 - INFO - 20 cartes détectées sur la page 10
+2025-08-26 15:48:26,284 - INFO - [Page 10 | Carte 1] Doublon détecté: Café Oz Châtelet
+2025-08-26 15:48:26,873 - INFO - [Page 10 | Carte 2] Café Chambertin | Tél: 01 53 33 07 67 | Adresse: 38 boulevard Bercy 75012 Paris Voir le plan
+2025-08-26 15:48:26,912 - INFO - [Page 10 | Carte 3] Doublon détecté: Café Cassette
+2025-08-26 15:48:27,536 - INFO - [Page 10 | Carte 4] Novotel Paris Saclay | Tél: 01 69 35 66 00 | Adresse: rue Charles Thomassin 91400 Saclay Voir le plan
+2025-08-26 15:48:28,629 - INFO - [Page 10 | Carte 5] Le Tiki Rose | Tél: 01 40 28 03 35 | Adresse: 9 rue Berger 75001 Paris Voir le plan
+2025-08-26 15:48:29,241 - INFO - [Page 10 | Carte 6] Les Sans Culottes | Tél: 01 48 05 42 92 | Adresse: 27 rue Lappe 75011 Paris Voir le plan
+2025-08-26 15:48:29,983 - INFO - [Page 10 | Carte 7] Café A | Tél:     09 81 29 83 38 | Adresse: 261 rue Fbg St Martin 75010 Paris Voir le plan
+2025-08-26 15:48:30,024 - INFO - [Page 10 | Carte 8] Doublon détecté: Batistou
+2025-08-26 15:48:30,910 - INFO - [Page 10 | Carte 9] Le Perchoir Porte de Versailles | Tél: 01 76 35 11 80 | Adresse: 2 avenue Porte de la Plaine 75015 Paris Voir le plan
+2025-08-26 15:48:31,523 - INFO - [Page 10 | Carte 10] Oh Quai Latin | Tél:     01 42 49 64 24 | Adresse: 45 quai Grands Augustins 75006 Paris Voir le plan
+2025-08-26 15:48:32,430 - INFO - [Page 10 | Carte 11] Plaisance Café | Tél: 01 45 42 92 33 | Adresse: 203 rue Alésia 75014 Paris Voir le plan
+2025-08-26 15:48:32,468 - INFO - [Page 10 | Carte 12] Doublon détecté: Le Milton Pub 2.0
+2025-08-26 15:48:33,377 - INFO - [Page 10 | Carte 13] Arboré | Tél: 01 88 32 74 27 | Adresse: 29 rue Arcade 75008 Paris Voir le plan
+2025-08-26 15:48:34,187 - INFO - [Page 10 | Carte 14] Café Varenne | Tél: 01 45 48 62 72 | Adresse: 36 rue Varenne 75007 Paris Voir le plan
+2025-08-26 15:48:34,229 - INFO - [Page 10 | Carte 15] Doublon détecté: Café Joséphine
+2025-08-26 15:48:34,931 - INFO - [Page 10 | Carte 16] Le Bijou Bar | Tél:     01 64 45 91 68 | Adresse: 17 rue Murger 77780 Bourron Marlotte Voir le plan
+2025-08-26 15:48:35,543 - INFO - [Page 10 | Carte 17] Chantefable | Tél: 01 46 36 81 76 | Adresse: 93 avenue Gambetta 75020 Paris Voir le plan
+2025-08-26 15:48:36,537 - INFO - [Page 10 | Carte 18] Naï Brasserie | Tél: 01 43 80 52 16 | Adresse: 8 avenue Grande Armée 75017 Paris Voir le plan
+2025-08-26 15:48:37,521 - INFO - [Page 10 | Carte 19] Esméralda L' | Tél: 01 45 01 67 87 | Adresse: 38 avenue Victor Hugo 75116 Paris Voir le plan
+2025-08-26 15:48:38,596 - INFO - [Page 10 | Carte 20] Café Renaud | Tél: 09 86 27 43 54 | Adresse: 58 quai Georges Gorse 92100 Boulogne Billancourt Voir le plan
+2025-08-26 15:48:38,597 - INFO - Résultats cumulés: 163 / 1000
+2025-08-26 15:48:41,540 - INFO - Chargement de la page 11: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=11
+2025-08-26 15:48:42,690 - INFO - 20 cartes détectées sur la page 11
+2025-08-26 15:48:43,777 - INFO - [Page 11 | Carte 1] Café George V | Tél: 01 45 62 33 51 | Adresse: 120 avenue Champs Elysées 75008 Paris Voir le plan
+2025-08-26 15:48:43,814 - INFO - [Page 11 | Carte 2] Doublon détecté: Le Ballon d'Alsace
+2025-08-26 15:48:44,684 - INFO - [Page 11 | Carte 3] La Bigouden Crêperie Bar FDJ | Tél:     01 56 34 00 04 | Adresse: 13 rue Notre Dame 94150 Rungis Voir le plan
+2025-08-26 15:48:45,641 - INFO - [Page 11 | Carte 4] Brasserie Saint Augustin | Tél: 01 43 87 40 55 | Adresse: 114 boulevard Haussmann 75008 Paris Voir le plan
+2025-08-26 15:48:46,276 - INFO - [Page 11 | Carte 5] Mamamia | Tél: 06 95 70 32 28 | Adresse: 5 Bis rue Vernet 75008 Paris Voir le plan
+2025-08-26 15:48:47,203 - INFO - [Page 11 | Carte 6] L'Impasse | Tél: 09 52 53 04 19 | Adresse: 4 cité Griset 75011 Paris Voir le plan
+2025-08-26 15:48:48,031 - INFO - [Page 11 | Carte 7] Musa Oberkampf | Tél: 06 44 63 28 50 | Adresse: 117 rue St Maur 75011 Paris Voir le plan
+2025-08-26 15:48:48,977 - INFO - [Page 11 | Carte 8] Paul & Julienne | Tél: 01 47 70 57 46 | Adresse: 4 rue La Fayette 75009 Paris Voir le plan
+2025-08-26 15:48:48,993 - ERROR - Échec extraction téléphone: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.btn_tel"}
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x93ffc3+65331]
+	GetHandleVerifier [0x0x940004+65396]
+	(No symbol) [0x0x733f63]
+	(No symbol) [0x0x77c99e]
+	(No symbol) [0x0x77cd3b]
+	(No symbol) [0x0x7721b1]
+	(No symbol) [0x0x7a1524]
+	(No symbol) [0x0x7720d4]
+	(No symbol) [0x0x7a1754]
+	(No symbol) [0x0x7c2bcb]
+	(No symbol) [0x0x7a12d6]
+	(No symbol) [0x0x770910]
+	(No symbol) [0x0x771784]
+	GetHandleVerifier [0x0xb838b3+2439203]
+	GetHandleVerifier [0x0xb7eae2+2419282]
+	GetHandleVerifier [0x0x96712a+225434]
+	GetHandleVerifier [0x0x956e08+159096]
+	GetHandleVerifier [0x0x95dd5d+187597]
+	GetHandleVerifier [0x0x947ad8+96840]
+	GetHandleVerifier [0x0x947c62+97234]
+	GetHandleVerifier [0x0x93277a+9962]
+	BaseThreadInitThunk [0x0x76defcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77da82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77da827e+238]
+
+2025-08-26 15:48:49,018 - INFO - [Page 11 | Carte 9] Doublon détecté: Café Joyeux
+2025-08-26 15:48:49,678 - INFO - [Page 11 | Carte 10] The Good Game, bar à jeux | Tél: 09 87 45 49 16 | Adresse: 78 rue Cléry 75002 Paris Voir le plan
+2025-08-26 15:48:50,469 - INFO - [Page 11 | Carte 11] Jean Imbert au Plaza Athénée | Tél: 01 53 67 65 00 | Adresse: 25 avenue Montaigne 75008 Paris Voir le plan
+2025-08-26 15:48:51,410 - INFO - [Page 11 | Carte 12] Shamrock Kfé | Tél: 01 60 10 00 33 | Adresse: 225 rue Paris 91120 Palaiseau Voir le plan
+2025-08-26 15:48:52,404 - INFO - [Page 11 | Carte 13] L'Ecluse Madeleine | Tél: 01 42 65 34 69 | Adresse: 15 place Madeleine 75008 Paris Voir le plan
+2025-08-26 15:48:53,251 - INFO - [Page 11 | Carte 14] Le Café de l'Industrie | Tél: 09 67 36 87 82 | Adresse: 1 avenue Porte de Montreuil 75020 Paris Voir le plan
+2025-08-26 15:48:54,003 - INFO - [Page 11 | Carte 15] Le Soufflot | Tél: 01 43 26 57 56 | Adresse: 16 rue Soufflot 75005 Paris Voir le plan
+2025-08-26 15:48:54,904 - INFO - [Page 11 | Carte 16] El Vecino Taqueria Paris | Tél: 01 42 71 77 15 | Adresse: 13 boulevard Temple 75003 Paris Voir le plan
+2025-08-26 15:48:55,607 - INFO - [Page 11 | Carte 17] J'Peux Pas J'Ai Poney | Tél:     01 44 67 94 52 | Adresse: 197 avenue Daumesnil 75012 Paris Voir le plan
+2025-08-26 15:48:56,553 - INFO - [Page 11 | Carte 18] Le Magnolia | Tél:     01 40 09 19 79 | Adresse: 29 rue St Blaise 75020 Paris Voir le plan
+2025-08-26 15:48:57,584 - INFO - [Page 11 | Carte 19] Le Lutétia | Tél: 01 45 74 46 90 | Adresse: Pl Charles Michels 49 rue Linois 75015 Paris Voir le plan
+2025-08-26 15:48:57,621 - INFO - [Page 11 | Carte 20] Doublon détecté: Auto Passion CafE
+2025-08-26 15:48:57,621 - INFO - Résultats cumulés: 180 / 1000
+2025-08-26 15:49:00,057 - INFO - Chargement de la page 12: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=12
+2025-08-26 15:49:01,151 - INFO - 20 cartes détectées sur la page 12
+2025-08-26 15:49:01,920 - INFO - [Page 12 | Carte 1] Le Bistrot des Halles | Tél: 01 42 36 91 69 | Adresse: 15 rue Halles 75001 Paris Voir le plan
+2025-08-26 15:49:02,779 - INFO - [Page 12 | Carte 2] Le Bar Long | Tél: 01 42 99 98 50 | Adresse: Hôtel Royal Monceau 37 avenue Hoche 75008 Paris Voir le plan
+2025-08-26 15:49:03,592 - INFO - [Page 12 | Carte 3] Le Piaf | Tél: 01 34 08 40 62 | Adresse: 1 domaine Vanneaux 95590 Presles Voir le plan
+2025-08-26 15:49:04,405 - INFO - [Page 12 | Carte 4] Le Monastic | Tél: 01 87 53 65 70 | Adresse: 3 cours Reine Margot 92130 Issy les Moulineaux Voir le plan
+2025-08-26 15:49:05,462 - INFO - [Page 12 | Carte 5] Les Philosophes | Tél: 01 48 87 49 64 | Adresse: 28 rue Vieille du Temple 75004 Paris Voir le plan
+2025-08-26 15:49:06,053 - INFO - [Page 12 | Carte 6] LES MARRONNIERS | Tél: 01 45 34 30 05 | Adresse: 3 Grande Rue 92310 Sèvres Voir le plan
+2025-08-26 15:49:06,813 - INFO - [Page 12 | Carte 7] Le Pré en Bulles | Tél: 09 75 52 53 09 | Adresse: 78 avenue Edouard Vaillant 92100 Boulogne Billancourt Voir le plan
+2025-08-26 15:49:07,697 - INFO - [Page 12 | Carte 8] Au Bureau Suresnes | Tél: 01 41 38 28 56 | Adresse: 2 boulevard Henri Sellier 92150 Suresnes Voir le plan
+2025-08-26 15:49:08,626 - INFO - [Page 12 | Carte 9] Chez Justin | Tél: 01 43 70 16 29 | Adresse: 127 Bis boulevard Voltaire 75011 Paris Voir le plan
+2025-08-26 15:49:09,497 - INFO - [Page 12 | Carte 10] Macéo | Tél: 01 42 97 53 85 | Adresse: 15 rue Petits Champs 75001 Paris Voir le plan
+2025-08-26 15:49:10,223 - INFO - [Page 12 | Carte 11] Café 52 Paris 1er | Tél: 01 42 96 15 35 | Adresse: 40 avenue Pierre 1er de Serbie 75008 Paris Voir le plan
+2025-08-26 15:49:10,848 - INFO - [Page 12 | Carte 12] Café Lamartine | Tél: 01 45 53 85 06 | Adresse: 182 avenue Victor Hugo 75116 Paris Voir le plan
+2025-08-26 15:49:11,814 - INFO - [Page 12 | Carte 13] O'SULLIVANS F.D.R | Tél: 01 45 63 28 34 | Adresse: 63 avenue Franklin D Roosevelt 75008 Paris Voir le plan
+2025-08-26 15:49:12,413 - INFO - [Page 12 | Carte 14] Café Tournon | Tél: 01 42 01 38 73 | Adresse: 18 rue Tournon 75006 Paris Voir le plan
+2025-08-26 15:49:12,448 - INFO - [Page 12 | Carte 15] Doublon détecté: Domani FRANKLIN RESTAURATION
+2025-08-26 15:49:13,376 - INFO - [Page 12 | Carte 16] Le Chat Blanc | Tél: 01 45 61 04 72 | Adresse: 61 avenue Franklin D Roosevelt 75008 Paris Voir le plan
+2025-08-26 15:49:13,981 - INFO - [Page 12 | Carte 17] Paris Italie | Tél: 01 45 83 40 64 | Adresse: 29 avenue Italie 75013 Paris Voir le plan
+2025-08-26 15:49:14,757 - INFO - [Page 12 | Carte 18] Madame Fan | Tél: 01 53 81 79 77 | Adresse: 18 rue Bayen 75017 Paris Voir le plan
+2025-08-26 15:49:15,786 - INFO - [Page 12 | Carte 19] Doublon détecté: Le Lutétia
+2025-08-26 15:49:16,391 - INFO - [Page 12 | Carte 20] L'Express De Lyon | Tél: 01 43 43 21 32 | Adresse: 1 rue Lyon 75012 Paris Voir le plan
+2025-08-26 15:49:16,391 - INFO - Résultats cumulés: 198 / 1000
+2025-08-26 15:49:20,348 - INFO - Chargement de la page 13: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=13
+2025-08-26 15:49:21,431 - INFO - 20 cartes détectées sur la page 13
+2025-08-26 15:49:21,474 - INFO - [Page 13 | Carte 1] Doublon détecté: Café Jacques
+2025-08-26 15:49:21,514 - INFO - [Page 13 | Carte 2] Doublon détecté: Les Colonnes
+2025-08-26 15:49:22,261 - INFO - [Page 13 | Carte 3] Sanaga | Tél: 07 61 55 73 74 | Adresse: 35 rue Auguste Daix 94260 Fresnes Voir le plan
+2025-08-26 15:49:23,281 - INFO - [Page 13 | Carte 4] O'Jules | Tél: 01 45 80 60 33 | Adresse: 2 rue Bobillot 75013 Paris Voir le plan
+2025-08-26 15:49:23,956 - INFO - [Page 13 | Carte 5] Hôtel Providence | Tél: 01 46 34 34 04 | Adresse: 90 rue René Boulanger 75010 Paris Voir le plan
+2025-08-26 15:49:24,795 - INFO - [Page 13 | Carte 6] Café Millésimes | Tél:     09 85 12 85 24 | Adresse: 88 rue Picpus 75012 Paris Voir le plan
+2025-08-26 15:49:25,689 - INFO - [Page 13 | Carte 7] Bar les Ombres | Tél: 01 47 53 68 00 | Adresse: 27 quai Jacques Chirac 75007 Paris Voir le plan
+2025-08-26 15:49:26,597 - INFO - [Page 13 | Carte 8] Escale à Hanoi | Tél: 01 49 86 05 83 | Adresse: 32 avenue Gén Leclerc 92340 Bourg la Reine Voir le plan
+2025-08-26 15:49:27,538 - INFO - [Page 13 | Carte 9] Brasserie de la Liberté | Tél: 06 19 59 34 56 | Adresse: 82 avenue Pierre Larousse 92240 Malakoff Voir le plan
+2025-08-26 15:49:27,585 - INFO - [Page 13 | Carte 10] Doublon détecté: Café Le Pierrot
+2025-08-26 15:49:28,362 - INFO - [Page 13 | Carte 11] Café Dauphine | Tél: 01 43 26 56 16 | Adresse: 17 rue Dauphine 75006 Paris Voir le plan
+2025-08-26 15:49:29,071 - INFO - [Page 13 | Carte 12] Café le Monte Carlo | Tél: 01 43 59 15 04 | Adresse: 118 rue La Boétie 75008 Paris Voir le plan
+2025-08-26 15:49:30,058 - INFO - [Page 13 | Carte 13] Le Verbalon | Tél: 09 67 20 88 83 | Adresse: 198 Bis rue Tolbiac 75013 Paris Voir le plan
+2025-08-26 15:49:30,976 - INFO - [Page 13 | Carte 14] Loulou Boulogne | Tél: 01 46 94 58 27 | Adresse: 8 cours L'ile Seguin 92100 Boulogne Billancourt Voir le plan
+2025-08-26 15:49:31,829 - INFO - [Page 13 | Carte 15] Le Zeyer | Tél: 01 45 40 43 88 | Adresse: 62 rue Alésia 75014 Paris Voir le plan
+2025-08-26 15:49:32,616 - INFO - [Page 13 | Carte 16] L2J | Tél:       01 45 51 54 09 | Adresse: 36 rue Bellechasse 75007 Paris Voir le plan
+2025-08-26 15:49:33,456 - INFO - [Page 13 | Carte 17] Le Petit Italien | Tél: 01 42 71 05 80 | Adresse: 5 Bis rue St Gilles 75003 Paris Voir le plan
+2025-08-26 15:49:34,456 - INFO - [Page 13 | Carte 18] Auburn | Tél: 01 44 80 00 32 | Adresse: Hôtel Indigo Paris-Opéra 2 rue Edouard VII 75009 Paris Voir le plan
+2025-08-26 15:49:35,132 - INFO - [Page 13 | Carte 19] Restaurant l'Eden | Tél:     01 82 02 63 95 | Adresse: 57 avenue Capit Glarner 93400 Saint Ouen sur Seine Voir le plan
+2025-08-26 15:49:36,186 - INFO - [Page 13 | Carte 20] Bel Ami Café | Tél: 01 42 61 53 53 | Adresse: 7 11 7 rue St Benoît 75006 Paris Voir le plan
+2025-08-26 15:49:36,186 - INFO - Résultats cumulés: 215 / 1000
+2025-08-26 15:49:38,727 - INFO - Chargement de la page 14: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=14
+2025-08-26 15:49:39,938 - INFO - 20 cartes détectées sur la page 14
+2025-08-26 15:49:40,590 - INFO - [Page 14 | Carte 1] LeTemps Suspendu | Tél: 09 82 37 26 33 | Adresse: 38 quai Gaillon 78700 Conflans Sainte Honorine Voir le plan
+2025-08-26 15:49:41,684 - INFO - [Page 14 | Carte 2] Alfred'S Café PJB | Tél: 01 43 33 15 63 | Adresse: 47 avenue Gambetta 92400 Courbevoie Voir le plan
+2025-08-26 15:49:42,344 - INFO - [Page 14 | Carte 3] LE NANT | Tél: 01 46 06 44 75 | Adresse: 58 rue Ruisseau 75018 Paris Voir le plan
+2025-08-26 15:49:43,396 - INFO - [Page 14 | Carte 4] Bistro les Frangins | Tél: 01 42 00 95 87 | Adresse: 19 avenue Mathurin Moreau 75019 Paris Voir le plan
+2025-08-26 15:49:43,434 - INFO - [Page 14 | Carte 5] Doublon détecté: Le Petit Monceau
+2025-08-26 15:49:44,020 - INFO - [Page 14 | Carte 6] DE VOLTAIRE A ROUSSEAU | Tél:     01 42 60 88 36 | Adresse: 4 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-26 15:49:44,784 - INFO - [Page 14 | Carte 7] Big Fernand | Tél: 01 57 27 09 08 | Adresse: 8 promenade Claude Lévi Strauss 75013 Paris Voir le plan
+2025-08-26 15:49:44,823 - INFO - [Page 14 | Carte 8] Doublon détecté: The Good Game, bar à jeux
+2025-08-26 15:49:45,869 - INFO - [Page 14 | Carte 9] Victor | Tél: 01 72 84 56 54 | Adresse: 2 rue Jules Hémet 77144 Montévrain Voir le plan
+2025-08-26 15:49:46,748 - INFO - [Page 14 | Carte 10] Café La GranGe | Tél:     01 64 60 86 20 | Adresse: 1 rue Forêt 77970 Bannost Villegagnon Voir le plan
+2025-08-26 15:49:46,787 - INFO - [Page 14 | Carte 11] Doublon détecté: Le Café de la Place
+2025-08-26 15:49:46,825 - INFO - [Page 14 | Carte 12] Doublon détecté: Les Philosophes
+2025-08-26 15:49:47,505 - INFO - [Page 14 | Carte 13] Atelier 58 | Tél: 01 43 20 21 59 | Adresse: 58 rue Daguerre 75014 Paris Voir le plan
+2025-08-26 15:49:48,250 - INFO - [Page 14 | Carte 14] 73 ST. COFFEE | Tél: 01 69 39 41 44 | Adresse: 73 avenue Commdt Barré 91170 Viry Chatillon Voir le plan
+2025-08-26 15:49:48,289 - INFO - [Page 14 | Carte 15] Doublon détecté: O'Jules
+2025-08-26 15:49:49,247 - INFO - [Page 14 | Carte 16] Hilton Paris Charles de Gaulle Airport | Tél: 01 49 19 77 00 | Adresse: 8 rue Rome 93290 Tremblay en France Voir le plan
+2025-08-26 15:49:49,972 - INFO - [Page 14 | Carte 17] Café d'Orléans | Tél: 01 43 21 25 69 | Adresse: 43 avenue Gén Leclerc 75014 Paris Voir le plan
+2025-08-26 15:49:50,005 - INFO - [Page 14 | Carte 18] Doublon détecté: Oh Quai Latin
+2025-08-26 15:49:50,818 - INFO - [Page 14 | Carte 19] Le Comptoir GEnEral | Tél:     01 44 88 24 48 | Adresse: 84 quai Jemmapes 75010 Paris Voir le plan
+2025-08-26 15:49:50,858 - INFO - [Page 14 | Carte 20] Doublon détecté: Auto Passion CafE
+2025-08-26 15:49:50,859 - INFO - Résultats cumulés: 228 / 1000
+2025-08-26 15:49:54,004 - INFO - Chargement de la page 15: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=15
+2025-08-26 15:49:55,379 - INFO - 20 cartes détectées sur la page 15
+2025-08-26 15:49:56,058 - INFO - [Page 15 | Carte 1] La Belle Quille | Tél: 01 48 74 93 09 | Adresse: 48 rue Amsterdam 75009 Paris Voir le plan
+2025-08-26 15:49:56,103 - INFO - [Page 15 | Carte 2] Doublon détecté: Bistro les Frangins
+2025-08-26 15:49:56,978 - INFO - [Page 15 | Carte 3] LA Coupole d'Argent | Tél:   01 47 76 28 81 | Adresse: 1 rue Chante Coq 92800 Puteaux Voir le plan
+2025-08-26 15:49:57,719 - INFO - [Page 15 | Carte 4] Le Bout'chou | Tél: 01 47 63 73 56 | Adresse: 110 rue Courcelles 75017 Paris Voir le plan
+2025-08-26 15:49:58,609 - INFO - [Page 15 | Carte 5] Le Buron | Tél: 01 45 54 13 22 | Adresse: 119 avenue Félix Faure 75015 Paris Voir le plan
+2025-08-26 15:49:59,672 - INFO - [Page 15 | Carte 6] CORLEONE | Tél: 09 53 76 04 00 | Adresse: 19 rue Daru 75008 Paris Voir le plan
+2025-08-26 15:49:59,709 - INFO - [Page 15 | Carte 7] Doublon détecté: Mercure
+2025-08-26 15:50:00,341 - INFO - [Page 15 | Carte 8] Le Hameau SARL | Tél: 01 45 74 33 35 | Adresse: 84 avenue Ternes 75017 Paris Voir le plan
+2025-08-26 15:50:00,376 - INFO - [Page 15 | Carte 9] Doublon détecté: Anatole
+2025-08-26 15:50:05,223 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C7CD2FDA90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/07d37daadb5d1e03e16bd50da462ff8e/execute/sync
+2025-08-26 15:59:50,327 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 15:59:50,327 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 16:00:20,409 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 16:00:21,340 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 16:00:22,097 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 16:00:23,003 - INFO - [Page 1 | Carte 3] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 16:00:24,011 - INFO - [Page 1 | Carte 4] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 16:00:24,869 - INFO - [Page 1 | Carte 5] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 16:00:24,869 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 16:00:24,869 - INFO - Résultats cumulés: 5 / 5
+2025-08-26 16:00:24,870 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 16:00:24,870 - INFO - Scraping terminé, total résultats: 5
+2025-08-26 16:03:11,900 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 16:03:11,900 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 16:03:17,522 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 16:03:18,559 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 16:03:19,489 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 16:03:20,479 - INFO - [Page 1 | Carte 3] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 16:03:21,443 - INFO - [Page 1 | Carte 4] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 16:03:22,517 - INFO - [Page 1 | Carte 5] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 16:03:23,129 - INFO - [Page 1 | Carte 6] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 16:03:24,119 - INFO - [Page 1 | Carte 7] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 16:03:24,962 - INFO - [Page 1 | Carte 8] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 16:03:26,035 - INFO - [Page 1 | Carte 9] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 16:03:26,911 - INFO - [Page 1 | Carte 10] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 16:03:26,912 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 16:03:26,912 - INFO - Résultats cumulés: 10 / 10
+2025-08-26 16:03:26,912 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 16:03:26,912 - INFO - Scraping terminé, total résultats: 10
+2025-08-26 16:12:40,267 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 16:12:40,268 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 16:12:58,023 - ERROR - ERREUR GLOBALE: ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+2025-08-26 16:13:02,064 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023875DAFA10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/4be9a13ad4d35aa587f7d32facb8bb97/screenshot
+2025-08-26 16:13:06,122 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000238759AB190>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/4be9a13ad4d35aa587f7d32facb8bb97/screenshot
+2025-08-26 16:13:33,086 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 16:13:33,086 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 16:13:38,246 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 16:13:39,101 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 16:13:39,943 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 16:13:40,745 - INFO - [Page 1 | Carte 3] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 16:13:41,693 - INFO - [Page 1 | Carte 4] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 16:13:42,385 - INFO - [Page 1 | Carte 5] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 16:13:43,075 - INFO - [Page 1 | Carte 6] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 16:13:44,052 - INFO - [Page 1 | Carte 7] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 16:13:45,111 - INFO - [Page 1 | Carte 8] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 16:13:45,692 - INFO - [Page 1 | Carte 9] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 16:13:46,475 - INFO - [Page 1 | Carte 10] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 16:13:46,476 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 16:13:46,476 - INFO - Résultats cumulés: 10 / 10
+2025-08-26 16:13:46,476 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 16:13:46,476 - INFO - Scraping terminé, total résultats: 10
+2025-08-26 16:13:52,906 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 16:13:54,746 - INFO - Recherche: café bar à Ain
+2025-08-26 16:14:12,959 - INFO - 1/10: LE GRAND CAFE
+2025-08-26 16:14:13,011 - INFO - Retour à la liste (mobile).
+2025-08-26 16:14:17,723 - INFO - 2/10: Le Trotteur
+2025-08-26 16:14:17,764 - INFO - Retour à la liste (mobile).
+2025-08-26 16:14:21,577 - INFO - 3/10: L'aincontournable
+2025-08-26 16:14:21,619 - INFO - Retour à la liste (mobile).
+2025-08-26 16:14:26,012 - INFO - 4/10: Café Du Champ De Foire
+2025-08-26 16:14:26,061 - INFO - Retour à la liste (mobile).
+2025-08-26 16:14:29,314 - INFO - 5/10: Brasserie l'Ain Pression - Malt Emoi
+2025-08-26 16:14:29,359 - INFO - Retour à la liste (mobile).
+2025-08-26 16:14:33,476 - INFO - 6/10: Le Savarin
+2025-08-26 16:14:33,519 - INFO - Retour à la liste (mobile).
+2025-08-26 16:14:38,082 - INFO - 7/10: La Bicyclette Bleue
+2025-08-26 16:14:38,123 - INFO - Retour à la liste (mobile).
+2025-08-26 16:14:41,645 - INFO - 8/10: Café Bernolin - « Chez la Jeanne »
+2025-08-26 16:14:41,695 - INFO - Retour à la liste (mobile).
+2025-08-26 16:14:46,124 - INFO - 9/10: Le Central bar
+2025-08-26 16:14:46,165 - INFO - Retour à la liste (mobile).
+2025-08-26 16:14:50,249 - INFO - 10/10: Le Club Café Bourg-en-bresse
+2025-08-26 16:14:50,293 - INFO - Retour à la liste (mobile).

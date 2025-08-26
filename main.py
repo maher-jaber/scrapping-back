@@ -53,6 +53,7 @@ app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
 DATA_DIR = "data"
 # --- CORS ---
 origins = [
+    "https://scrapping-front-simple-1.onrender.com",
     "*",
     "http://localhost:4200",
     "http://localhost:8000",  # Ton front Symfony
