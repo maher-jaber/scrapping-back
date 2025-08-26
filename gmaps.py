@@ -394,7 +394,9 @@ def scrape_by_label(label, location, max_results, user=None):
     keywords = get_keywords_for_label(label)
     all_results = []
     seen_names = set()
-
+    if user:
+       gmaps_in_progress.clear()
+    
     for kw in keywords:
         logger.info(f"--- Recherche pour mot-clé: {kw} ---")
         results = scrape_google_maps(kw, location, max_results - len(all_results), user=user)

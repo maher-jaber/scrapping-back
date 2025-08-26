@@ -18715,3 +18715,179 @@ Stacktrace:
 2025-08-26 16:14:46,165 - INFO - Retour à la liste (mobile).
 2025-08-26 16:14:50,249 - INFO - 10/10: Le Club Café Bourg-en-bresse
 2025-08-26 16:14:50,293 - INFO - Retour à la liste (mobile).
+2025-08-26 17:15:36,094 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Paris'
+2025-08-26 17:15:36,094 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris/d%C3%A9bits+de+boissons?page=1
+2025-08-26 17:15:42,933 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 17:15:44,073 - INFO - [Page 1 | Carte 1] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-26 17:15:44,857 - INFO - [Page 1 | Carte 2] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-26 17:15:45,448 - INFO - [Page 1 | Carte 3] Les Editeurs | Tél: 01 43 26 67 76 | Adresse: 4 carrefour Odéon 75006 Paris Voir le plan
+2025-08-26 17:15:46,282 - INFO - [Page 1 | Carte 4] Le Florès | Tél:     01 73 71 59 71, 06 06 74 06 13, 06 17 48 30 85 | Adresse: 80 rue Grenelle 75007 Paris Voir le plan
+2025-08-26 17:15:46,960 - INFO - [Page 1 | Carte 5] Mucha Café | Tél: 01 45 51 06 30, 09 66 90 63 65, 06 82 17 25 44 | Adresse: 227 boulevard St Germain 75007 Paris Voir le plan
+2025-08-26 17:15:47,567 - INFO - [Page 1 | Carte 6] Le Caveau de l'Isle | Tél: 01 43 25 10 26 | Adresse: 36 rue St Louis en l'Ile 75004 Paris Voir le plan
+2025-08-26 17:15:48,292 - INFO - [Page 1 | Carte 7] Les Eiders | Tél: 01 40 36 01 52 | Adresse: 142 avenue Flandre 75019 Paris Voir le plan
+2025-08-26 17:15:49,346 - INFO - [Page 1 | Carte 8] Le Coq & Fils The Poultry House | Tél: 01 42 59 82 89 | Adresse: 98 rue Lepic 75018 Paris Voir le plan
+2025-08-26 17:15:50,296 - INFO - [Page 1 | Carte 9] Tabac Le Jean Bart | Tél: 09 72 15 63 99 | Adresse: 32 rue Avron 75020 Paris Voir le plan
+2025-08-26 17:15:50,910 - INFO - [Page 1 | Carte 10] Le Fleurus | Tél: 01 45 81 02 10 | Adresse: 10 boulevard Jourdan 75014 Paris Voir le plan
+2025-08-26 17:15:51,942 - INFO - [Page 1 | Carte 11] LouLou Montmartre | Tél: 01 42 55 04 55 | Adresse: 8 rue Lamarck 75018 Paris Voir le plan
+2025-08-26 17:15:52,728 - INFO - [Page 1 | Carte 12] Le Pavillon Du Lac | Tél: 01 42 00 07 21 | Adresse: Entrée Place Armand Carrel parc Buttes Chaumont 75019 Paris Voir le plan
+2025-08-26 17:15:53,547 - INFO - [Page 1 | Carte 13] Sweet And Salty | Tél: 01 43 47 12 98 | Adresse: 7 rue Théophile Roussel 75012 Paris Voir le plan
+2025-08-26 17:15:54,155 - INFO - [Page 1 | Carte 14] Le Segur | Tél: 01 47 83 85 31 | Adresse: 156 avenue Suffren 75015 Paris Voir le plan
+2025-08-26 17:15:54,812 - INFO - [Page 1 | Carte 15] Le Kleber | Tél: 01 47 27 95 93 | Adresse: 80 avenue Kléber 75116 Paris Voir le plan
+2025-08-26 17:15:55,836 - INFO - [Page 1 | Carte 16] Brique Machine - Brique House | Tél: 01 49 29 50 50 | Adresse: 161 rue Montmartre 75002 Paris Voir le plan
+2025-08-26 17:15:56,679 - INFO - [Page 1 | Carte 17] Le Train Bleu Gare de Lyon | Tél:     01 43 43 09 06 | Adresse: place Louis Armand 75012 Paris Voir le plan
+2025-08-26 17:15:57,656 - INFO - [Page 1 | Carte 18] Le Café Du Commerce | Tél: 01 45 75 03 27 | Adresse: 51 rue Commerce 75015 Paris Voir le plan
+2025-08-26 17:15:58,600 - INFO - [Page 1 | Carte 19] Le Petit St Paul | Tél: 01 44 78 09 17 | Adresse: 40 rue St Paul 75004 Paris Voir le plan
+2025-08-26 17:15:59,328 - INFO - [Page 1 | Carte 20] Cafe Panis | Tél: 01 43 54 19 71 | Adresse: 21 quai Montebello 75005 Paris Voir le plan
+2025-08-26 17:15:59,328 - INFO - Résultats cumulés: 20 / 20
+2025-08-26 17:15:59,328 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 17:15:59,329 - INFO - Scraping terminé, total résultats: 20
+2025-08-26 17:33:02,401 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 17:33:02,401 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 17:33:06,719 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 17:33:07,732 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 17:33:08,849 - INFO - [Page 1 | Carte 2] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 17:33:09,838 - INFO - [Page 1 | Carte 3] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 17:33:10,831 - INFO - [Page 1 | Carte 4] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 17:33:11,639 - INFO - [Page 1 | Carte 5] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 17:33:11,640 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 17:33:11,640 - INFO - Résultats cumulés: 5 / 5
+2025-08-26 17:33:11,640 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 17:33:11,640 - INFO - Scraping terminé, total résultats: 5
+2025-08-26 17:33:50,692 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 17:33:50,692 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 17:33:54,137 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 17:33:55,079 - INFO - [Page 1 | Carte 1] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 17:33:56,137 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 17:33:56,727 - INFO - [Page 1 | Carte 3] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 17:33:57,544 - INFO - [Page 1 | Carte 4] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 17:33:58,171 - INFO - [Page 1 | Carte 5] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 17:33:59,127 - INFO - [Page 1 | Carte 6] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 17:33:59,736 - INFO - [Page 1 | Carte 7] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 17:34:00,786 - INFO - [Page 1 | Carte 8] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 17:34:01,842 - INFO - [Page 1 | Carte 9] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 17:34:02,585 - INFO - [Page 1 | Carte 10] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 17:34:03,646 - INFO - [Page 1 | Carte 11] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-26 17:34:04,608 - INFO - [Page 1 | Carte 12] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-26 17:34:05,230 - INFO - [Page 1 | Carte 13] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 17:34:06,079 - INFO - [Page 1 | Carte 14] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-26 17:34:07,016 - INFO - [Page 1 | Carte 15] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 17:34:07,017 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 17:34:07,017 - INFO - Résultats cumulés: 15 / 15
+2025-08-26 17:34:07,017 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 17:34:07,017 - INFO - Scraping terminé, total résultats: 15
+2025-08-26 17:37:35,947 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 17:37:35,947 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 17:37:38,439 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 17:37:39,340 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 17:37:40,380 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 17:37:41,443 - INFO - [Page 1 | Carte 3] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 17:37:42,322 - INFO - [Page 1 | Carte 4] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 17:37:43,276 - INFO - [Page 1 | Carte 5] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 17:37:44,319 - INFO - [Page 1 | Carte 6] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 17:37:45,364 - INFO - [Page 1 | Carte 7] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 17:37:46,447 - INFO - [Page 1 | Carte 8] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 17:37:47,084 - INFO - [Page 1 | Carte 9] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 17:37:48,048 - INFO - [Page 1 | Carte 10] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-26 17:37:49,055 - INFO - [Page 1 | Carte 11] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 17:37:49,684 - INFO - [Page 1 | Carte 12] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-26 17:37:50,419 - INFO - [Page 1 | Carte 13] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 17:37:51,265 - INFO - [Page 1 | Carte 14] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-26 17:37:51,979 - INFO - [Page 1 | Carte 15] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 17:37:51,980 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 17:37:51,980 - INFO - Résultats cumulés: 15 / 15
+2025-08-26 17:37:51,980 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 17:37:51,980 - INFO - Scraping terminé, total résultats: 15
+2025-08-26 17:38:40,138 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 17:38:40,138 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 17:38:43,603 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 17:38:44,415 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 17:38:45,100 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 17:38:46,001 - INFO - [Page 1 | Carte 3] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 17:38:46,785 - INFO - [Page 1 | Carte 4] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 17:38:47,600 - INFO - [Page 1 | Carte 5] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 17:38:48,597 - INFO - [Page 1 | Carte 6] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 17:38:49,180 - INFO - [Page 1 | Carte 7] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 17:38:49,769 - INFO - [Page 1 | Carte 8] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 17:38:50,505 - INFO - [Page 1 | Carte 9] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 17:38:51,529 - INFO - [Page 1 | Carte 10] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 17:38:52,383 - INFO - [Page 1 | Carte 11] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 17:38:52,968 - INFO - [Page 1 | Carte 12] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-26 17:38:53,913 - INFO - [Page 1 | Carte 13] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-26 17:38:54,937 - INFO - [Page 1 | Carte 14] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 17:38:55,777 - INFO - [Page 1 | Carte 15] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-26 17:38:56,550 - INFO - [Page 1 | Carte 16] Restaurant La Gare | Tél: 04 50 20 44 02 | Adresse: 368 avenue Gare 01170 Gex Voir le plan
+2025-08-26 17:38:57,407 - INFO - [Page 1 | Carte 17] Restaurant Le Pavillon du Golf | Tél: 04 50 40 34 13 | Adresse: 604 rue Bains 01220 Divonne les Bains Voir le plan
+2025-08-26 17:38:58,043 - INFO - [Page 1 | Carte 18] Auberge De La Source | Tél: 09 87 11 69 22 | Adresse: 1 route Contrevoz 01300 Chazey Bons Voir le plan
+2025-08-26 17:38:58,768 - INFO - [Page 1 | Carte 19] Le Patio | Tél: 03 85 30 40 78 | Adresse: 60 place Puthod 01380 Bâgé le Châtel Voir le plan
+2025-08-26 17:38:59,480 - INFO - [Page 1 | Carte 20] Le Central Bar | Tél: 06 21 09 85 23 | Adresse: 942 Grande Rue 01700 Miribel Voir le plan
+2025-08-26 17:38:59,480 - INFO - Résultats cumulés: 20 / 20
+2025-08-26 17:38:59,480 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 17:38:59,481 - INFO - Scraping terminé, total résultats: 20
+2025-08-26 17:40:12,915 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-26 17:40:12,915 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-26 17:40:40,270 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 17:40:41,123 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-26 17:40:42,104 - INFO - [Page 1 | Carte 2] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-26 17:40:42,735 - INFO - [Page 1 | Carte 3] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-26 17:40:43,428 - INFO - [Page 1 | Carte 4] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-26 17:40:44,204 - INFO - [Page 1 | Carte 5] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-26 17:40:44,988 - INFO - [Page 1 | Carte 6] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-26 17:40:45,984 - INFO - [Page 1 | Carte 7] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-26 17:40:47,013 - INFO - [Page 1 | Carte 8] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-26 17:40:47,845 - INFO - [Page 1 | Carte 9] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 17:40:48,597 - INFO - [Page 1 | Carte 10] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-26 17:40:49,531 - INFO - [Page 1 | Carte 11] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-26 17:40:50,114 - INFO - [Page 1 | Carte 12] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 17:40:50,954 - INFO - [Page 1 | Carte 13] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-26 17:40:52,025 - INFO - [Page 1 | Carte 14] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-26 17:40:52,772 - INFO - [Page 1 | Carte 15] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-26 17:40:53,539 - INFO - [Page 1 | Carte 16] Auberge De La Source | Tél: 09 87 11 69 22 | Adresse: 1 route Contrevoz 01300 Chazey Bons Voir le plan
+2025-08-26 17:40:54,171 - INFO - [Page 1 | Carte 17] Le Central Bar | Tél: 06 21 09 85 23 | Adresse: 942 Grande Rue 01700 Miribel Voir le plan
+2025-08-26 17:40:54,888 - INFO - [Page 1 | Carte 18] Auberge Du Grand Thur SARL | Tél: 04 79 87 25 69 | Adresse: 21 rue Lauzes 01300 Izieu Voir le plan
+2025-08-26 17:40:55,619 - INFO - [Page 1 | Carte 19] Restaurant La Gare | Tél: 04 50 20 44 02 | Adresse: 368 avenue Gare 01170 Gex Voir le plan
+2025-08-26 17:40:56,201 - INFO - [Page 1 | Carte 20] V and B | Tél: 04 74 39 06 47 | Adresse: 37 avenue Libération 01500 Ambérieu en Bugey Voir le plan
+2025-08-26 17:40:56,201 - INFO - Résultats cumulés: 20 / 20
+2025-08-26 17:40:56,202 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 17:40:56,202 - INFO - Scraping terminé, total résultats: 20
+2025-08-26 17:42:01,462 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-26 17:42:04,206 - INFO - Recherche: café bar à Ain
+2025-08-26 17:42:34,725 - INFO - 1/20: LE GRAND CAFE
+2025-08-26 17:42:34,777 - INFO - Retour à la liste (mobile).
+2025-08-26 17:42:38,658 - INFO - 2/20: L'aincontournable
+2025-08-26 17:42:38,704 - INFO - Retour à la liste (mobile).
+2025-08-26 17:42:42,564 - INFO - 3/20: Le Trotteur
+2025-08-26 17:42:42,606 - INFO - Retour à la liste (mobile).
+2025-08-26 17:42:46,700 - INFO - 4/20: Café Du Champ De Foire
+2025-08-26 17:42:46,741 - INFO - Retour à la liste (mobile).
+2025-08-26 17:42:51,637 - INFO - 5/20: Brasserie l'Ain Pression - Malt Emoi
+2025-08-26 17:42:51,677 - INFO - Retour à la liste (mobile).
+2025-08-26 17:42:56,020 - INFO - 6/20: Le Central bar
+2025-08-26 17:42:56,061 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:00,411 - INFO - 7/20: Le Savarin
+2025-08-26 17:43:00,453 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:04,848 - INFO - 8/20: Café Bernolin - « Chez la Jeanne »
+2025-08-26 17:43:04,893 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:09,594 - INFO - 9/20: Auberg'in Café Restaurant
+2025-08-26 17:43:09,635 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:14,274 - INFO - 10/20: Le Club Café Bourg-en-bresse
+2025-08-26 17:43:14,316 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:18,244 - INFO - 11/20: La Bicyclette Bleue
+2025-08-26 17:43:18,287 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:22,320 - INFO - 12/20: Restaurant Le Terminus
+2025-08-26 17:43:22,359 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:26,846 - INFO - 13/20: Cafe de France
+2025-08-26 17:43:26,887 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:31,157 - INFO - 14/20: Bistrot 1900 Ain
+2025-08-26 17:43:31,204 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:36,033 - INFO - 15/20: Le Bar À Créations
+2025-08-26 17:43:36,076 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:39,931 - INFO - 16/20: Bar Le Sarrazin Restaurant
+2025-08-26 17:43:39,973 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:44,276 - INFO - 17/20: La Bressane - Brasserie Saint Clair
+2025-08-26 17:43:44,317 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:48,203 - INFO - 18/20: Café Restaurant de la Préfecture
+2025-08-26 17:43:48,247 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:52,435 - INFO - 19/20: La Buvette
+2025-08-26 17:43:52,479 - INFO - Retour à la liste (mobile).
+2025-08-26 17:43:57,095 - INFO - 20/20: La Capsule Gourmande Bourg en Bresse - Restaurant - Burger - Bar à cookie
+2025-08-26 17:43:57,140 - INFO - Retour à la liste (mobile).

@@ -249,7 +249,8 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
         seen_names = set()
         page_num = 1
         
-
+        if user: 
+           pj_in_progress.clear()
             
             
         while len(results) < max_results:
@@ -325,7 +326,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
             else:
                 pj_in_progress[user]["status"] = "terminé"
         
-        pj_in_progress.clear() 
+        
                 
         return results[:max_results]
 
