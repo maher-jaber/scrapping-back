@@ -33,5 +33,10 @@ COPY . .
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 ENV DISPLAY=:99
+# Copier le script SQL et Python
+COPY init_db.sql init_db.py ./
+
+# Exécuter le script d'initialisation avant de lancer l'app
+RUN python init_db.py
 
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
