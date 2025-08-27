@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from gmaps import scrape_google_maps, scrape_by_label, save_results,gmaps_in_progress
+from gmaps import  save_results,gmaps_in_progress,scrape_label_fusion
 from pagesjaunes import scrape_pages_jaunes, save_pj_results, pj_in_progress
 import os
 import glob
@@ -267,7 +267,7 @@ def register(user_data: RegisterRequest, current_user: str = Depends(get_current
 async def scrape_gmaps(request: SearchRequest, user: str = Depends(get_current_user)):
     # 1️⃣ Exécute le scraping dans un thread séparé pour ne pas bloquer
     results = await asyncio.to_thread(
-        scrape_by_label,
+        scrape_label_fusion,
         request.query,
         request.location,
         request.max_results,

@@ -18891,3 +18891,283 @@ Stacktrace:
 2025-08-26 17:43:52,479 - INFO - Retour à la liste (mobile).
 2025-08-26 17:43:57,095 - INFO - 20/20: La Capsule Gourmande Bourg en Bresse - Restaurant - Burger - Bar à cookie
 2025-08-26 17:43:57,140 - INFO - Retour à la liste (mobile).
+2025-08-26 17:52:10,223 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-26 17:56:33,024 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Île-de-France'
+2025-08-26 17:56:33,024 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/%C3%AEle-de-france/d%C3%A9bits+de+boissons?page=1
+2025-08-26 17:56:47,098 - INFO - 20 cartes détectées sur la page 1
+2025-08-26 17:56:47,958 - INFO - [Page 1 | Carte 1] The Bitter End | Tél: 01 34 51 90 09, 09 61 32 14 12 | Adresse: 20 rue St Pierre 78100 Saint Germain en Laye Voir le plan
+2025-08-26 17:56:48,568 - INFO - [Page 1 | Carte 2] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-26 17:56:49,422 - INFO - [Page 1 | Carte 3] L'Entracte | Tél: 01 47 42 26 25 | Adresse: 1 rue Auber 75009 Paris Voir le plan
+2025-08-26 17:56:50,202 - INFO - [Page 1 | Carte 4] Niagara Cafe | Tél: 01 87 22 59 75 | Adresse: 20 r Hôtel de Ville 2 Bis boulevard St Denis 92400 Courbevoie Voir le plan
+2025-08-26 17:56:51,089 - INFO - [Page 1 | Carte 5] Le Florès | Tél:     01 73 71 59 71, 06 06 74 06 13, 06 17 48 30 85 | Adresse: 80 rue Grenelle 75007 Paris Voir le plan
+2025-08-26 17:56:52,167 - INFO - [Page 1 | Carte 6] Les Editeurs | Tél: 01 43 26 67 76 | Adresse: 4 carrefour Odéon 75006 Paris Voir le plan
+2025-08-26 17:56:52,925 - INFO - [Page 1 | Carte 7] Brassserie le Village | Tél:     01 34 29 84 63, 09 70 35 36 52 | Adresse: 47 avenue Charles de Gaulle 95700 Roissy en France Voir le plan
+2025-08-26 17:56:53,756 - INFO - [Page 1 | Carte 8] Chez Pierre Au Bon Coin | Tél: 01 34 13 88 55, 01 34 13 88 89, 06 89 33 64 20 | Adresse: 154 rue Plessis Bouchard 95130 Franconville Voir le plan
+2025-08-26 17:56:54,773 - INFO - [Page 1 | Carte 9] Le Royal Indien | Tél: 01 39 35 97 17, 06 52 12 42 77 | Adresse: 19 rue Paris 95570 Moisselles Voir le plan
+2025-08-26 17:56:55,412 - INFO - [Page 1 | Carte 10] FontaineBlues | Tél:     01 60 39 30 15 | Adresse: 70 rue Aristide Briand 77300 Fontainebleau Voir le plan
+2025-08-26 17:56:55,413 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-26 17:56:55,413 - INFO - Résultats cumulés: 10 / 10
+2025-08-26 17:56:55,413 - INFO - Nombre maximal de résultats atteint.
+2025-08-26 17:56:55,413 - INFO - Scraping terminé, total résultats: 10
+2025-08-27 09:40:38,284 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-27 10:37:26,187 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-27 10:37:32,891 - INFO - Recherche: café bar à Auvergne-Rhône-Alpes
+2025-08-27 10:37:57,859 - INFO - 1/15: Le Bar de Lyon
+2025-08-27 10:37:57,916 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:02,547 - INFO - 2/15: Motown Cafe /Bar à cocktails/ coffee
+2025-08-27 10:38:02,592 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:06,598 - INFO - 3/15: Le Café du Rhône
+2025-08-27 10:38:06,660 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:11,134 - INFO - 4/15: Cafe Bar Des Hautes Roches
+2025-08-27 10:38:11,175 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:15,797 - INFO - 5/15: Grand Café
+2025-08-27 10:38:15,842 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:19,864 - INFO - 6/15: Café Juliette - Restaurant - Bar - Cocktails - Lyon 6
+2025-08-27 10:38:19,911 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:23,621 - INFO - 7/15: Le Grand Café Neuf
+2025-08-27 10:38:23,664 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:28,142 - INFO - 8/15: Le Grand Café
+2025-08-27 10:38:28,187 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:32,208 - INFO - 9/15: cafe des alpes bar et jeux
+2025-08-27 10:38:32,252 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:37,220 - INFO - 10/15: Bar Café Crème
+2025-08-27 10:38:37,264 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:41,273 - INFO - 11/15: Le Sainte-Anne
+2025-08-27 10:38:41,318 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:45,843 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:49,761 - INFO - 12/15: Le Club Café Saint Priest
+2025-08-27 10:38:49,806 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:53,873 - INFO - 13/15: Café du Rhône - Restaurant Lyon
+2025-08-27 10:38:53,918 - INFO - Retour à la liste (mobile).
+2025-08-27 10:38:57,885 - INFO - 14/15: Café Bar Tabac Le Bonheur
+2025-08-27 10:38:57,931 - INFO - Retour à la liste (mobile).
+2025-08-27 10:39:02,052 - INFO - 15/15: Café Oz Lyon - The Australian Bar
+2025-08-27 10:39:02,098 - INFO - Retour à la liste (mobile).
+2025-08-27 10:47:12,207 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-27 10:47:14,865 - INFO - Recherche: café bar à Auvergne-Rhône-Alpes
+2025-08-27 10:47:38,282 - INFO - 1/15: Le Bar de Lyon
+2025-08-27 10:47:38,334 - INFO - Retour à la liste (mobile).
+2025-08-27 10:47:42,379 - INFO - 2/15: Motown Cafe /Bar à cocktails/ coffee
+2025-08-27 10:47:42,423 - INFO - Retour à la liste (mobile).
+2025-08-27 10:47:46,817 - INFO - 3/15: Le Café du Rhône
+2025-08-27 10:47:46,868 - INFO - Retour à la liste (mobile).
+2025-08-27 10:47:51,216 - INFO - 4/15: Cafe Bar Des Hautes Roches
+2025-08-27 10:47:51,259 - INFO - Retour à la liste (mobile).
+2025-08-27 10:47:54,846 - INFO - 5/15: Grand Café
+2025-08-27 10:47:54,889 - INFO - Retour à la liste (mobile).
+2025-08-27 10:47:59,537 - INFO - 6/15: Café Juliette - Restaurant - Bar - Cocktails - Lyon 6
+2025-08-27 10:47:59,581 - INFO - Retour à la liste (mobile).
+2025-08-27 10:48:03,301 - INFO - 7/15: Le Grand Café Neuf
+2025-08-27 10:48:03,345 - INFO - Retour à la liste (mobile).
+2025-08-27 10:48:06,795 - INFO - 8/15: Le Grand Café
+2025-08-27 10:48:06,842 - INFO - Retour à la liste (mobile).
+2025-08-27 10:48:11,149 - INFO - 9/15: cafe des alpes bar et jeux
+2025-08-27 10:48:11,193 - INFO - Retour à la liste (mobile).
+2025-08-27 10:48:15,620 - INFO - 10/15: Bar Café Crème
+2025-08-27 10:48:15,661 - INFO - Retour à la liste (mobile).
+2025-08-27 10:48:19,927 - INFO - 11/15: Le Sainte-Anne
+2025-08-27 10:48:19,972 - INFO - Retour à la liste (mobile).
+2025-08-27 10:48:23,957 - INFO - Retour à la liste (mobile).
+2025-08-27 10:48:27,860 - INFO - 12/15: Le Club Café Saint Priest
+2025-08-27 10:48:27,907 - INFO - Retour à la liste (mobile).
+2025-08-27 10:48:31,653 - INFO - 13/15: Café du Rhône - Restaurant Lyon
+2025-08-27 10:48:31,699 - INFO - Retour à la liste (mobile).
+2025-08-27 10:48:35,900 - INFO - 14/15: Café Bar Tabac Le Bonheur
+2025-08-27 10:48:35,962 - INFO - Retour à la liste (mobile).
+2025-08-27 10:48:40,594 - INFO - 15/15: Café Oz Lyon - The Australian Bar
+2025-08-27 10:48:40,638 - INFO - Retour à la liste (mobile).
+2025-08-27 10:50:04,694 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-27 10:50:06,641 - INFO - Recherche: café bar à Auvergne-Rhône-Alpes
+2025-08-27 10:51:08,368 - INFO - 1/20: Le Bar de Lyon
+2025-08-27 10:51:08,420 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:12,720 - INFO - 2/20: Motown Cafe /Bar à cocktails/ coffee
+2025-08-27 10:51:12,763 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:16,279 - INFO - 3/20: Le Café du Rhône
+2025-08-27 10:51:16,325 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:20,747 - INFO - 4/20: Cafe Bar Des Hautes Roches
+2025-08-27 10:51:20,788 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:25,036 - INFO - 5/20: Grand Café
+2025-08-27 10:51:25,079 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:29,392 - INFO - 6/20: Le Grand Café
+2025-08-27 10:51:29,459 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:34,382 - INFO - 7/20: cafe des alpes bar et jeux
+2025-08-27 10:51:34,429 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:38,616 - INFO - 8/20: Bar Café Crème
+2025-08-27 10:51:38,657 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:43,156 - INFO - 9/20: Le Sainte-Anne
+2025-08-27 10:51:43,199 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:46,311 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:51,247 - INFO - 10/20: Café du Rhône - Restaurant Lyon
+2025-08-27 10:51:51,293 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:54,791 - INFO - 11/20: Café Bar Tabac Le Bonheur
+2025-08-27 10:51:54,839 - INFO - Retour à la liste (mobile).
+2025-08-27 10:51:59,639 - INFO - 12/20: Café Oz Lyon - The Australian Bar
+2025-08-27 10:51:59,686 - INFO - Retour à la liste (mobile).
+2025-08-27 10:52:03,785 - INFO - 13/20: Hive
+2025-08-27 10:52:03,834 - INFO - Retour à la liste (mobile).
+2025-08-27 10:52:07,577 - INFO - 14/20: La Loge - Bar Café Restaurant
+2025-08-27 10:52:07,621 - INFO - Retour à la liste (mobile).
+2025-08-27 10:52:11,959 - INFO - 15/20: Bar le Semple - Lyon
+2025-08-27 10:52:12,002 - INFO - Retour à la liste (mobile).
+2025-08-27 10:52:17,084 - INFO - 16/20: Cafe
+2025-08-27 10:52:17,132 - INFO - Retour à la liste (mobile).
+2025-08-27 10:52:21,913 - INFO - 17/20: Au Rendez-Vous Des Amis Cafe-Bar
+2025-08-27 10:52:21,957 - INFO - Retour à la liste (mobile).
+2025-08-27 10:52:26,456 - INFO - 18/20: Café de la Poste
+2025-08-27 10:52:26,501 - INFO - Retour à la liste (mobile).
+2025-08-27 10:52:27,037 - WARNING - Index 19 dépasse le nombre d'items (19)
+2025-08-27 10:52:29,183 - INFO - --- Recherche pour mot-clé: brasserie ---
+2025-08-27 10:52:30,969 - INFO - Recherche: brasserie à Auvergne-Rhône-Alpes
+2025-08-27 10:52:42,296 - INFO - 1/2: Brasserie du Sancy à Besse : Fabrication de Bières Artisanales et Softs BIO
+2025-08-27 10:52:42,347 - INFO - Retour à la liste (mobile).
+2025-08-27 10:52:46,386 - INFO - 2/2: Brasserie des Gaillards
+2025-08-27 10:52:46,428 - INFO - Retour à la liste (mobile).
+2025-08-27 10:59:41,371 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-27 11:33:49,828 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-27 11:34:05,293 - INFO - --- Recherche pour mot-clé: estampage ---
+2025-08-27 11:34:07,305 - INFO - Recherche: estampage à Auvergne-Rhône-Alpes
+2025-08-27 11:34:33,637 - ERROR - Timeout en attente des résultats
+2025-08-27 11:34:35,716 - INFO - --- Recherche pour mot-clé: forge ---
+2025-08-27 11:34:37,565 - INFO - Recherche: forge à Auvergne-Rhône-Alpes
+2025-08-27 11:35:35,105 - INFO - 1/20: La forge de Balhur
+2025-08-27 11:35:35,154 - INFO - Retour à la liste (mobile).
+2025-08-27 11:35:38,782 - INFO - 2/20: La Forge du Ronin
+2025-08-27 11:35:38,822 - INFO - Retour à la liste (mobile).
+2025-08-27 11:35:43,202 - INFO - 3/20: La Forge de Vulcain
+2025-08-27 11:35:43,244 - INFO - Retour à la liste (mobile).
+2025-08-27 11:35:48,285 - INFO - 4/20: Les forges de Volvic
+2025-08-27 11:35:48,327 - INFO - Retour à la liste (mobile).
+2025-08-27 11:35:53,608 - INFO - 5/20: Forge Horizon
+2025-08-27 11:35:53,650 - INFO - Retour à la liste (mobile).
+2025-08-27 11:35:58,333 - INFO - 6/20: Preciforge S A
+2025-08-27 11:35:58,375 - INFO - Retour à la liste (mobile).
+2025-08-27 11:36:02,848 - INFO - 7/20: Forge d'Outre-Temps
+2025-08-27 11:36:02,888 - INFO - Retour à la liste (mobile).
+2025-08-27 11:36:08,850 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000260E63C6C10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/12e970b92aad33ac63b63c49e1ad6e32/element/f.A32413AAFCA26284B49F261FCB8862C9.d.5F952EAD7E397882E0130C3B1D154466.e.428/click
+2025-08-27 11:38:45,876 - INFO - --- Recherche pour mot-clé: transports fluviaux de passagers ---
+2025-08-27 11:38:47,868 - INFO - Recherche: transports fluviaux de passagers à Auvergne-Rhône-Alpes
+2025-08-27 11:39:43,724 - INFO - 1/15: Promofluvia
+2025-08-27 11:39:43,785 - INFO - Retour à la liste (mobile).
+2025-08-27 11:39:48,346 - INFO - 2/15: Transports Faure Rhône
+2025-08-27 11:39:48,388 - INFO - Retour à la liste (mobile).
+2025-08-27 11:39:52,375 - INFO - 3/15: Le Vaporetto Lyon
+2025-08-27 11:39:52,419 - INFO - Retour à la liste (mobile).
+2025-08-27 11:39:56,534 - INFO - 4/15: UTV - Unité de Transport de Vaise - Dépôt de Saint-Simon TCL
+2025-08-27 11:39:56,578 - INFO - Retour à la liste (mobile).
+2025-08-27 11:39:57,520 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-27 11:42:21,675 - INFO - --- Recherche pour mot-clé: transports fluviaux de passagers ---
+2025-08-27 11:42:23,536 - INFO - Recherche: transports fluviaux de passagers à Auvergne-Rhône-Alpes
+2025-08-27 11:43:19,953 - INFO - 1/15: Promofluvia
+2025-08-27 11:43:20,017 - INFO - Retour à la liste (mobile).
+2025-08-27 11:43:24,620 - INFO - 2/15: Transports Faure Rhône
+2025-08-27 11:43:24,658 - INFO - Retour à la liste (mobile).
+2025-08-27 11:43:28,068 - INFO - 3/15: Le Vaporetto Lyon
+2025-08-27 11:43:28,104 - INFO - Retour à la liste (mobile).
+2025-08-27 11:43:32,410 - INFO - 4/15: UTV - Unité de Transport de Vaise - Dépôt de Saint-Simon TCL
+2025-08-27 11:43:32,452 - INFO - Retour à la liste (mobile).
+2025-08-27 11:43:33,383 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-27 11:47:27,425 - INFO - --- Recherche pour mot-clé: transports fluviaux de passagers ---
+2025-08-27 11:47:29,380 - INFO - Recherche: transports fluviaux de passagers à Auvergne-Rhône-Alpes
+2025-08-27 11:48:26,333 - INFO - 1/15: Promofluvia
+2025-08-27 11:48:26,385 - INFO - Retour à la liste (mobile).
+2025-08-27 11:48:30,108 - INFO - 2/15: Transports Faure Rhône
+2025-08-27 11:48:30,154 - INFO - Retour à la liste (mobile).
+2025-08-27 11:48:35,020 - INFO - 3/15: Le Vaporetto Lyon
+2025-08-27 11:48:35,063 - INFO - Retour à la liste (mobile).
+2025-08-27 11:48:38,474 - INFO - 4/15: UTV - Unité de Transport de Vaise - Dépôt de Saint-Simon TCL
+2025-08-27 11:48:38,518 - INFO - Retour à la liste (mobile).
+2025-08-27 11:48:39,460 - WARNING - Index 4 dépasse le nombre d'items (4)
+2025-08-27 11:56:40,289 - INFO - --- Recherche pour mot-clé: café bar ---
+2025-08-27 11:56:42,214 - INFO - Recherche: café bar à Auvergne-Rhône-Alpes
+2025-08-27 11:57:04,150 - INFO - 1/15: Le Bar de Lyon
+2025-08-27 11:57:04,201 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:08,469 - INFO - 2/15: Motown Cafe /Bar à cocktails/ coffee
+2025-08-27 11:57:08,510 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:12,821 - INFO - 3/15: Le Café du Rhône
+2025-08-27 11:57:12,863 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:17,327 - INFO - 4/15: Cafe Bar Des Hautes Roches
+2025-08-27 11:57:17,371 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:21,178 - INFO - 5/15: Grand Café
+2025-08-27 11:57:21,219 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:25,637 - INFO - 6/15: Café Juliette - Restaurant - Bar - Cocktails - Lyon 6
+2025-08-27 11:57:25,702 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:29,171 - INFO - 7/15: Le Grand Café Neuf
+2025-08-27 11:57:29,206 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:33,907 - INFO - 8/15: Le Grand Café
+2025-08-27 11:57:33,951 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:37,968 - INFO - 9/15: cafe des alpes bar et jeux
+2025-08-27 11:57:38,015 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:41,996 - INFO - 10/15: Bar Café Crème
+2025-08-27 11:57:42,037 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:46,008 - INFO - 11/15: Le Sainte-Anne
+2025-08-27 11:57:46,052 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:50,569 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:54,704 - INFO - 12/15: Le Club Café Saint Priest
+2025-08-27 11:57:54,746 - INFO - Retour à la liste (mobile).
+2025-08-27 11:57:58,621 - INFO - 13/15: Café du Rhône - Restaurant Lyon
+2025-08-27 11:57:58,684 - INFO - Retour à la liste (mobile).
+2025-08-27 11:58:02,819 - INFO - 14/15: Café Bar Tabac Le Bonheur
+2025-08-27 11:58:02,861 - INFO - Retour à la liste (mobile).
+2025-08-27 11:58:07,452 - INFO - 15/15: Café Oz Lyon - The Australian Bar
+2025-08-27 11:58:07,495 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:05,825 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:10,300 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:14,740 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:18,861 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:23,773 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:28,420 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:32,895 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:36,992 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:41,041 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:45,319 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:49,906 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:53,922 - INFO - Retour à la liste (mobile).
+2025-08-27 12:06:58,227 - INFO - Retour à la liste (mobile).
+2025-08-27 12:07:02,594 - INFO - Retour à la liste (mobile).
+2025-08-27 12:07:06,607 - INFO - Retour à la liste (mobile).
+2025-08-27 12:07:11,110 - INFO - Retour à la liste (mobile).
+2025-08-27 12:09:51,714 - INFO - 1/50: Le Bar de Lyon
+2025-08-27 12:09:51,765 - INFO - Retour à la liste (mobile).
+2025-08-27 12:09:55,757 - INFO - 2/50: Motown Cafe /Bar à cocktails/ coffee
+2025-08-27 12:09:55,819 - INFO - Retour à la liste (mobile).
+2025-08-27 12:09:59,867 - INFO - 3/50: Le Café du Rhône
+2025-08-27 12:09:59,914 - INFO - Retour à la liste (mobile).
+2025-08-27 12:10:03,956 - INFO - 4/50: Cafe Bar Des Hautes Roches
+2025-08-27 12:10:03,998 - INFO - Retour à la liste (mobile).
+2025-08-27 12:10:08,525 - INFO - 5/50: Grand Café
+2025-08-27 12:10:08,567 - INFO - Retour à la liste (mobile).
+2025-08-27 12:10:13,500 - INFO - 6/50: Café Juliette - Restaurant - Bar - Cocktails - Lyon 6
+2025-08-27 12:10:13,567 - INFO - Retour à la liste (mobile).
+2025-08-27 12:10:17,972 - INFO - 7/50: Le Grand Café Neuf
+2025-08-27 12:10:18,015 - INFO - Retour à la liste (mobile).
+2025-08-27 12:10:22,110 - INFO - 8/50: Le Grand Café
+2025-08-27 12:10:22,154 - INFO - Retour à la liste (mobile).
+2025-08-27 12:10:26,665 - INFO - 9/50: cafe des alpes bar et jeux
+2025-08-27 12:10:26,711 - INFO - Retour à la liste (mobile).
+2025-08-27 12:10:31,101 - INFO - 10/50: Bar Café Crème
+2025-08-27 12:10:31,141 - INFO - Retour à la liste (mobile).
+2025-08-27 12:10:35,442 - INFO - 11/50: Le Sainte-Anne
+2025-08-27 12:10:35,485 - INFO - Retour à la liste (mobile).
+2025-08-27 12:10:39,587 - INFO - Retour à la liste (mobile).
+2025-08-27 12:10:43,241 - INFO - 12/50: Le Club Café Saint Priest
+2025-08-27 12:10:43,288 - INFO - Retour à la liste (mobile).

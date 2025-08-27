@@ -282,7 +282,7 @@ def close_details_panel(driver):
         logger.warning(f"Impossible de fermer la fiche : {e}")
         return False
 
-def scrape_google_maps(query, location, max_results, user=None):
+def __scrape_google_maps(query, location, max_results, user=None):
     driver = None
     try:
         driver = configure_driver()
@@ -390,7 +390,7 @@ def scrape_google_maps(query, location, max_results, user=None):
 
 
 # ==== Scraping multi-requêtes à partir d'un label NAF ====
-def scrape_by_label(label, location, max_results, user=None):
+def ___scrape_by_label(label, location, max_results, user=None):
     keywords = get_keywords_for_label(label)
     all_results = []
     seen_names = set()
@@ -418,6 +418,91 @@ def scrape_by_label(label, location, max_results, user=None):
     gmaps_in_progress.clear()        
     
     return all_results
+
+
+def scrape_label_fusion(label, location, max_results, user=None):
+    keywords = get_keywords_for_label(label)
+    results = []
+    seen_names = set()
+    if user:
+        gmaps_in_progress.clear()
+
+    for kw in keywords:
+        driver = configure_driver()
+        encoded_query = urllib.parse.quote_plus(kw)
+        encoded_location = urllib.parse.quote_plus(location)
+        url = f"https://www.google.com/maps/search/{encoded_query}+{encoded_location}+France"
+        driver.get(url)
+        time.sleep(random.uniform(3, 5))
+        if not wait_for_results(driver):
+            driver.quit()
+            continue
+
+        scroll_to_load_results(driver, max_results * 2)
+        idx = 0
+        max_attempts = max_results * 2
+
+        while len(results) < max_results and idx < max_attempts:
+            try:
+                items = extract_all_businesses(driver)
+                if idx >= len(items):
+                    break
+
+                item = items[idx]
+                driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", item)
+                time.sleep(random.uniform(0.8, 1.5))
+
+                try:
+                    item.click()
+                except:
+                    driver.execute_script("arguments[0].click();", item)
+
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.DUwDvf, h1.fontHeadlineLarge'))
+                )
+                time.sleep(random.uniform(1.0, 2.0))
+
+                business_data = extract_business_details(driver)
+                if business_data.get("Nom") and business_data["Nom"] not in seen_names:
+                    seen_names.add(business_data["Nom"])
+                    results.append(business_data)
+                    logger.info(f"{len(results)}/{max_results}: {business_data['Nom']}")
+                    # --- MAJ progression ---
+                    if user:
+                        gmaps_in_progress[user] = {
+                            "current_index": len(results),
+                            "total": max_results,
+                            "name": business_data["Nom"],
+                            "phone": business_data.get("Téléphone"),
+                            "address": business_data.get("Adresse"),
+                            "status": "en cours" if len(results) < max_results else "terminé"
+                        }
+
+                if not close_details_panel(driver):
+                    driver.get(url)
+                    time.sleep(3)
+                    scroll_to_load_results(driver, max_results * 2)
+                    idx = 0
+                    continue
+
+                time.sleep(random.uniform(0.5, 1.2))
+            except Exception as e:
+                logger.error(f"Erreur élément {idx+1}: {e}")
+            finally:
+                idx += 1
+
+        driver.quit()
+        if len(results) >= max_results:
+            break
+
+    # --- Fin ---
+    if user:
+        if user not in gmaps_in_progress:
+            gmaps_in_progress[user] = {"current_index": len(results), "total": max_results, "status": "terminé"}
+        else:
+            gmaps_in_progress[user]["status"] = "terminé"
+
+    return results[:max_results]
 
 
 
