@@ -19,7 +19,9 @@ import json
 
 
 
-
+scraping_active_pj = {
+    "pagesjaunes": {}
+}
 
 pj_in_progress = {} 
 # Configuration du logging
@@ -239,6 +241,10 @@ def extract_card_data(driver, card):
 def scrape_pages_jaunes(query, location, max_results=20, user=None):
     driver = None
     try:
+        # Initialiser l'état de scraping pour cet utilisateur
+        if user:
+            scraping_active_pj["pagesjaunes"][user] = True
+        
         driver = configure_driver()
         encoded_query = urllib.parse.quote_plus(query.lower())
         encoded_location = urllib.parse.quote_plus(location.lower())
@@ -250,31 +256,56 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
         page_num = 1
         
         if user: 
-           pj_in_progress.clear()
-            
+            pj_in_progress.clear()
             
         while len(results) < max_results:
+            # Vérifier si le scraping a été arrêté (au début de chaque page)
+            if user and not scraping_active_pj["pagesjaunes"].get(user, True):
+                logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
+                return results
+            
             url_page = f"{base_url}?page={page_num}"
             logger.info(f"Chargement de la page {page_num}: {url_page}")
             driver.get(url_page)
 
+            # Vérification après le chargement de la page
+            if user and not scraping_active_pj["pagesjaunes"].get(user, True):
+                logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
+                return results
+
             try:
-                WebDriverWait(driver, 20).until(
+                # Timeout réduit pour pouvoir vérifier l'arrêt plus souvent
+                WebDriverWait(driver, 10).until(
                     EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'li.bi'))
                 )
             except:
                 logger.warning(f"Aucune carte trouvée sur la page {page_num}")
                 break
 
+            # Vérification après le chargement des cartes
+            if user and not scraping_active_pj["pagesjaunes"].get(user, True):
+                logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
+                return results
+
             cards = driver.find_elements(By.CSS_SELECTOR, 'li.bi')
             logger.info(f"{len(cards)} cartes détectées sur la page {page_num}")
 
             for idx, card in enumerate(cards, start=1):
+                # Vérification AVANT chaque carte
+                if user and not scraping_active_pj["pagesjaunes"].get(user, True):
+                    logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
+                    return results
+                
                 if len(results) >= max_results:
                     logger.info("Nombre maximal de résultats atteint, arrêt du scraping.")
-                    break  # arrête la boucle for sur les cartes
+                    break
     
-                data = extract_card_data(driver, card)
+                try:
+                    data = extract_card_data(driver, card)
+                except Exception as e:
+                    logger.warning(f"Erreur lors de l'extraction de la carte {idx}: {e}")
+                    continue
+                
                 if data:
                     if data['Nom'] not in seen_names:
                         results.append(data)
@@ -283,51 +314,59 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
                             f"[Page {page_num} | Carte {idx}] {data['Nom']} | "
                             f"Tél: {data.get('Téléphone','N/A')} | Adresse: {data.get('Adresse','N/A')}"
                         )
+                        
+                        # Vérification APRÈS l'ajout d'une carte
+                        if user and not scraping_active_pj["pagesjaunes"].get(user, True):
+                            logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
+                            return results
+                            
                         # --- Mise à jour progressive pj_in_progress ---
                         if user:
-                            if user not in pj_in_progress or not isinstance(pj_in_progress[user], dict):
-                                pj_in_progress[user] = {
-                                    "name": data["Nom"],
-                                    "phone": data.get("Téléphone"),
-                                    "address": data.get("Adresse"),
-                                    "status": "en cours",
-                                    "current_index": 0,
-                                    "total": max_results
-                                }
-                            pj_in_progress[user]["name"] = data["Nom"]
-                            pj_in_progress[user]["phone"] = data.get("Téléphone")
-                            pj_in_progress[user]["address"] = data.get("Adresse")
-                            pj_in_progress[user]["current_index"] = len(results)
+                            pj_in_progress[user] = {
+                                "name": data["Nom"],
+                                "phone": data.get("Téléphone"),
+                                "address": data.get("Adresse"),
+                                "status": "en cours",
+                                "current_index": len(results),
+                                "total": max_results
+                            }
                     else:
                         logger.info(f"[Page {page_num} | Carte {idx}] Doublon détecté: {data['Nom']}")
                 else:
                     logger.warning(f"[Page {page_num} | Carte {idx}] Impossible d'extraire les données")
 
             logger.info(f"Résultats cumulés: {len(results)} / {max_results}")
+            
+            # Vérification après le traitement de toutes les cartes de la page
+            if user and not scraping_active_pj["pagesjaunes"].get(user, True):
+                logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
+                return results
+                
             if len(results) >= max_results:
                 logger.info("Nombre maximal de résultats atteint.")
                 break
 
             page_num += 1
-            time.sleep(random.uniform(2, 4))  # pause anti-bot
+            # Pause anti-bot avec vérifications intermédiaires
+            for _ in range(8):  # Vérifier toutes les 0.5 secondes pendant 4 secondes
+                if user and not scraping_active_pj["pagesjaunes"].get(user, True):
+                    logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
+                    return results
+                time.sleep(0.5)
 
         logger.info(f"Scraping terminé, total résultats: {len(results)}")
-        # Après sauvegarde ou traitement final pour cette carte
+        
+        # Mise à jour finale du statut
         if user:
-            if user not in pj_in_progress:
-                pj_in_progress[user] = {
-                    "name": None,
-                    "phone": None,
-                    "address": None,
-                    "status": "terminé",
-                    "current_index": len(results),
-                    "total": max_results
-                }
-            else:
-                pj_in_progress[user]["status"] = "terminé"
+            pj_in_progress[user] = {
+                "name": None,
+                "phone": None,
+                "address": None,
+                "status": "terminé",
+                "current_index": len(results),
+                "total": max_results
+            }
         
-        
-                
         return results[:max_results]
 
     except Exception as e:
@@ -336,6 +375,10 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
             driver.save_screenshot('error_scraping.png')
         return []
     finally:
+        # Nettoyer l'état de scraping à la fin
+        if user and user in scraping_active_pj["pagesjaunes"]:
+            del scraping_active_pj["pagesjaunes"][user]
+            
         if driver:
             driver.quit()
 

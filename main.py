@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from gmaps import  save_results,gmaps_in_progress,scrape_label_fusion
-from pagesjaunes import scrape_pages_jaunes, save_pj_results, pj_in_progress
+from gmaps import  save_results,gmaps_in_progress,scrape_label_fusion,scraping_active_gmaps 
+from pagesjaunes import scrape_pages_jaunes, save_pj_results, pj_in_progress,scraping_active_pj 
 import os
 import glob
 from fastapi.responses import JSONResponse
@@ -37,7 +37,10 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-
+scraping_active = {
+    "gmaps": {},
+    "pagesjaunes": {}
+}
 
 db = mysql.connector.connect(
     host="localhost",
@@ -53,20 +56,16 @@ app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
 DATA_DIR = "data"
 # --- CORS ---
 origins = [
-    "https://scrapping-front-simple-1.onrender.com",
-    "*",
-    "http://localhost:4200",
-    "http://localhost:8000",  # Ton front Symfony
-    "http://127.0.0.1:8000",  # Variante localhost
-    # Tu peux ajouter d'autres domaines si besoin
+    "https://scrapping-front-simple-1.onrender.com",  # frontend Render
+    "http://localhost:4200",  # dev Angular
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=origins,     # liste précise
     allow_credentials=True,
-    allow_methods=["*"],   # GET, POST, etc.
-    allow_headers=["*"],   # Autorise tous les headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 # --- /CORS ---
 
@@ -261,7 +260,41 @@ def register(user_data: RegisterRequest, current_user: str = Depends(get_current
 
     return {"status": "success", "message": f"Utilisateur {user_data.username} créé avec succès"}
 
-
+@app.post("/scrape/stop")
+async def stop_scraping(
+    source: str = Query(..., description="Source à arrêter: 'gmaps' ou 'pagesjaunes'"),
+    user: str = Depends(get_current_user)
+):
+    """
+    Arrête le scraping en cours pour un utilisateur spécifique
+    """
+    if source == "gmaps":
+        if user in scraping_active_gmaps["gmaps"]:
+            scraping_active_gmaps["gmaps"][user] = False
+            return {"status": "success", "message": f"Scrapping {source} arrêté pour {user}"}
+        else:
+            return {"status": "info", "message": f"Aucun scraping {source} en cours pour {user}"}
+    
+    elif source == "pagesjaunes":
+        if user in scraping_active_pj["pagesjaunes"]:
+            scraping_active_pj["pagesjaunes"][user] = False
+            return {"status": "success", "message": f"Scrapping {source} arrêté pour {user}"}
+        else:
+            return {"status": "info", "message": f"Aucun scraping {source} en cours pour {user}"}
+    
+    else:
+        raise HTTPException(status_code=400, detail="Source doit être 'gmaps' ou 'pagesjaunes'")
+    
+@app.get("/scrape/status")
+async def get_scraping_status(user: str = Depends(get_current_user)):
+    """
+    Retourne l'état du scraping pour l'utilisateur
+    """
+    status = {
+        "gmaps": scraping_active_gmaps["gmaps"].get(user, False),
+        "pagesjaunes": scraping_active_pj["pagesjaunes"].get(user, False)
+    }
+    return {"status": "success", "scraping_active": status}  
 
 @app.post("/scrape/googlemaps")
 async def scrape_gmaps(request: SearchRequest, user: str = Depends(get_current_user)):
