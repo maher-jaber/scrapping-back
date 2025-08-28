@@ -21264,3 +21264,855 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2025-08-28 10:29:05,007 - INFO - Résultats cumulés: 5 / 5
 2025-08-28 10:29:05,007 - INFO - Nombre maximal de résultats atteint.
 2025-08-28 10:29:05,007 - INFO - Scraping terminé, total résultats: 5
+2025-08-28 10:40:42,943 - INFO - 1/5: LE GRAND CAFE
+2025-08-28 10:40:42,992 - INFO - Retour à la liste (mobile).
+2025-08-28 10:40:47,300 - INFO - 2/5: Le Trotteur
+2025-08-28 10:40:47,340 - INFO - Retour à la liste (mobile).
+2025-08-28 10:40:51,772 - INFO - 3/5: L'aincontournable
+2025-08-28 10:40:51,813 - INFO - Retour à la liste (mobile).
+2025-08-28 10:40:55,727 - INFO - 4/5: Café Du Champ De Foire
+2025-08-28 10:40:55,766 - INFO - Retour à la liste (mobile).
+2025-08-28 10:40:59,732 - INFO - 5/5: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 10:40:59,776 - INFO - Retour à la liste (mobile).
+2025-08-28 10:42:25,998 - INFO - 1/30: LE GRAND CAFE
+2025-08-28 10:42:26,047 - INFO - Retour à la liste (mobile).
+2025-08-28 10:42:31,148 - INFO - 2/30: Le Trotteur
+2025-08-28 10:42:31,187 - INFO - Retour à la liste (mobile).
+2025-08-28 10:42:35,313 - INFO - 3/30: L'aincontournable
+2025-08-28 10:42:35,355 - INFO - Retour à la liste (mobile).
+2025-08-28 10:42:39,881 - INFO - 4/30: Café Du Champ De Foire
+2025-08-28 10:42:39,921 - INFO - Retour à la liste (mobile).
+2025-08-28 10:42:43,720 - INFO - 5/30: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 10:42:43,778 - INFO - Retour à la liste (mobile).
+2025-08-28 10:42:48,111 - INFO - 6/30: Le Central bar
+2025-08-28 10:42:48,150 - INFO - Retour à la liste (mobile).
+2025-08-28 10:42:52,558 - INFO - 7/30: Le Savarin
+2025-08-28 10:42:52,602 - INFO - Retour à la liste (mobile).
+2025-08-28 10:42:56,982 - INFO - 8/30: Bistrot 1900 Ain
+2025-08-28 10:42:57,023 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:01,086 - INFO - 9/30: Aficionado coffee shop & brunch
+2025-08-28 10:43:01,157 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:06,069 - INFO - 10/30: Café Restaurant de la Préfecture
+2025-08-28 10:43:06,111 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:10,573 - INFO - 11/30: Le Bar'occ
+2025-08-28 10:43:10,615 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:15,003 - INFO - 12/30: Café Bernolin - « Chez la Jeanne »
+2025-08-28 10:43:15,046 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:19,682 - INFO - 13/30: Le Club Café Bourg-en-bresse
+2025-08-28 10:43:19,725 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:23,230 - INFO - 14/30: Auberg'in Café Restaurant
+2025-08-28 10:43:23,271 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:28,043 - INFO - 15/30: La Bicyclette Bleue
+2025-08-28 10:43:28,098 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:32,059 - INFO - 16/30: Restaurant Le Terminus
+2025-08-28 10:43:32,102 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:36,444 - INFO - 17/30: La Bressane - Brasserie Saint Clair
+2025-08-28 10:43:36,488 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:40,561 - INFO - 18/30: Cafe de France
+2025-08-28 10:43:40,610 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:45,289 - INFO - 19/30: Restaurant le Troquet des amis
+2025-08-28 10:43:45,333 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:49,657 - INFO - 20/30: L'O à la bouche.
+2025-08-28 10:43:49,699 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:54,206 - INFO - Retour à la liste (mobile).
+2025-08-28 10:43:57,964 - INFO - 21/30: L’Atelier
+2025-08-28 10:43:58,008 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:02,025 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:06,669 - INFO - 22/30: Rivière d'Ain (Brasserie artisanale)
+2025-08-28 10:44:06,713 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:10,919 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:15,506 - INFO - 23/30: Le loup
+2025-08-28 10:44:15,555 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:19,978 - INFO - 24/30: Le Bienvenu chez Francky
+2025-08-28 10:44:20,024 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:23,823 - INFO - 25/30: L'Ain Très Table
+2025-08-28 10:44:23,865 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:27,925 - INFO - 26/30: La Fora Gîte et Café
+2025-08-28 10:44:27,981 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:32,391 - INFO - 27/30: Le Seymard
+2025-08-28 10:44:32,434 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:37,161 - INFO - 28/30: L'Aquarelle
+2025-08-28 10:44:37,207 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:41,991 - INFO - 29/30: Au Bureau - Pub et Brasserie
+2025-08-28 10:44:42,038 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:46,533 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:50,806 - INFO - Retour à la liste (mobile).
+2025-08-28 10:44:55,357 - INFO - 30/30: La Cour de Récré
+2025-08-28 10:44:55,402 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:11,324 - INFO - 1/20: LE GRAND CAFE
+2025-08-28 11:11:11,382 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:15,207 - INFO - 2/20: Le Trotteur
+2025-08-28 11:11:15,245 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:19,023 - INFO - 3/20: L'aincontournable
+2025-08-28 11:11:19,065 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:23,921 - INFO - 4/20: Café Du Champ De Foire
+2025-08-28 11:11:23,957 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:27,948 - INFO - 5/20: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 11:11:27,993 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:31,619 - INFO - 6/20: Le Central bar
+2025-08-28 11:11:31,658 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:35,441 - INFO - 7/20: Le Savarin
+2025-08-28 11:11:35,478 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:39,509 - INFO - 8/20: Auberg'in Café Restaurant
+2025-08-28 11:11:39,545 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:43,242 - INFO - 9/20: Bistrot 1900 Ain
+2025-08-28 11:11:43,279 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:47,488 - INFO - 10/20: Aficionado coffee shop & brunch
+2025-08-28 11:11:47,526 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:51,150 - INFO - 11/20: Café Restaurant de la Préfecture
+2025-08-28 11:11:51,195 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:55,690 - INFO - 12/20: Café Bernolin - « Chez la Jeanne »
+2025-08-28 11:11:55,735 - INFO - Retour à la liste (mobile).
+2025-08-28 11:11:59,865 - INFO - 13/20: Le Club Café Bourg-en-bresse
+2025-08-28 11:11:59,906 - INFO - Retour à la liste (mobile).
+2025-08-28 11:12:04,387 - INFO - 14/20: La Bicyclette Bleue
+2025-08-28 11:12:04,425 - INFO - Retour à la liste (mobile).
+2025-08-28 11:12:08,725 - INFO - 15/20: Restaurant Le Terminus
+2025-08-28 11:12:08,761 - INFO - Retour à la liste (mobile).
+2025-08-28 11:12:13,093 - INFO - 16/20: Cafe de France
+2025-08-28 11:12:13,133 - INFO - Retour à la liste (mobile).
+2025-08-28 11:12:17,120 - INFO - 17/20: Restaurant le Troquet des amis
+2025-08-28 11:12:17,158 - INFO - Retour à la liste (mobile).
+2025-08-28 11:12:21,314 - INFO - 18/20: L'O à la bouche.
+2025-08-28 11:12:21,351 - INFO - Retour à la liste (mobile).
+2025-08-28 11:12:25,476 - INFO - 19/20: Le Bar À Créations
+2025-08-28 11:12:25,511 - INFO - Retour à la liste (mobile).
+2025-08-28 11:12:29,320 - INFO - 20/20: Bar Le Sarrazin Restaurant
+2025-08-28 11:12:29,356 - INFO - Retour à la liste (mobile).
+2025-08-28 11:13:06,632 - INFO - 1/10: LE GRAND CAFE
+2025-08-28 11:13:06,682 - INFO - Retour à la liste (mobile).
+2025-08-28 11:13:10,380 - INFO - 2/10: Le Trotteur
+2025-08-28 11:13:10,418 - INFO - Retour à la liste (mobile).
+2025-08-28 11:13:14,237 - INFO - 3/10: L'aincontournable
+2025-08-28 11:13:14,275 - INFO - Retour à la liste (mobile).
+2025-08-28 11:13:18,957 - INFO - 4/10: Café Du Champ De Foire
+2025-08-28 11:13:18,994 - INFO - Retour à la liste (mobile).
+2025-08-28 11:13:23,045 - INFO - 5/10: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 11:13:23,082 - INFO - Retour à la liste (mobile).
+2025-08-28 11:13:27,916 - INFO - 6/10: Le Central bar
+2025-08-28 11:13:27,953 - INFO - Retour à la liste (mobile).
+2025-08-28 11:13:32,551 - INFO - 7/10: Le Savarin
+2025-08-28 11:13:32,589 - INFO - Retour à la liste (mobile).
+2025-08-28 11:13:37,555 - INFO - 8/10: Auberg'in Café Restaurant
+2025-08-28 11:13:37,591 - INFO - Retour à la liste (mobile).
+2025-08-28 11:13:41,476 - INFO - 9/10: Bistrot 1900 Ain
+2025-08-28 11:13:41,513 - INFO - Retour à la liste (mobile).
+2025-08-28 11:13:45,199 - INFO - 10/10: Aficionado coffee shop & brunch
+2025-08-28 11:13:45,239 - INFO - Retour à la liste (mobile).
+2025-08-28 11:18:30,602 - INFO - 1/10: LE GRAND CAFE
+2025-08-28 11:18:30,646 - INFO - Retour à la liste (mobile).
+2025-08-28 11:18:34,945 - INFO - 2/10: Le Trotteur
+2025-08-28 11:18:34,984 - INFO - Retour à la liste (mobile).
+2025-08-28 11:18:39,421 - INFO - 3/10: L'aincontournable
+2025-08-28 11:18:39,459 - INFO - Retour à la liste (mobile).
+2025-08-28 11:18:43,873 - INFO - 4/10: Café Du Champ De Foire
+2025-08-28 11:18:43,910 - INFO - Retour à la liste (mobile).
+2025-08-28 11:18:48,375 - INFO - 5/10: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 11:18:48,414 - INFO - Retour à la liste (mobile).
+2025-08-28 11:18:51,984 - INFO - 6/10: Le Central bar
+2025-08-28 11:18:52,021 - INFO - Retour à la liste (mobile).
+2025-08-28 11:18:56,566 - INFO - 7/10: Le Savarin
+2025-08-28 11:18:56,607 - INFO - Retour à la liste (mobile).
+2025-08-28 11:19:00,901 - INFO - 8/10: Auberg'in Café Restaurant
+2025-08-28 11:19:00,937 - INFO - Retour à la liste (mobile).
+2025-08-28 11:19:04,886 - INFO - 9/10: Bistrot 1900 Ain
+2025-08-28 11:19:04,921 - INFO - Retour à la liste (mobile).
+2025-08-28 11:19:08,285 - INFO - 10/10: Aficionado coffee shop & brunch
+2025-08-28 11:19:08,330 - INFO - Retour à la liste (mobile).
+2025-08-28 11:28:51,766 - INFO - 1/10: LE GRAND CAFE
+2025-08-28 11:28:51,812 - INFO - Retour à la liste (mobile).
+2025-08-28 11:28:56,125 - INFO - 2/10: Le Trotteur
+2025-08-28 11:28:56,162 - INFO - Retour à la liste (mobile).
+2025-08-28 11:28:59,739 - INFO - 3/10: L'aincontournable
+2025-08-28 11:28:59,780 - INFO - Retour à la liste (mobile).
+2025-08-28 11:29:04,201 - INFO - 4/10: Café Du Champ De Foire
+2025-08-28 11:29:04,238 - INFO - Retour à la liste (mobile).
+2025-08-28 11:29:08,261 - INFO - 5/10: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 11:29:08,321 - INFO - Retour à la liste (mobile).
+2025-08-28 11:29:12,593 - INFO - 6/10: Le Central bar
+2025-08-28 11:29:12,630 - INFO - Retour à la liste (mobile).
+2025-08-28 11:29:16,599 - INFO - 7/10: Le Savarin
+2025-08-28 11:29:16,635 - INFO - Retour à la liste (mobile).
+2025-08-28 11:29:20,372 - INFO - 8/10: Auberg'in Café Restaurant
+2025-08-28 11:29:20,414 - INFO - Retour à la liste (mobile).
+2025-08-28 11:29:24,238 - INFO - 9/10: Le comptoir de charnoz
+2025-08-28 11:29:24,277 - INFO - Retour à la liste (mobile).
+2025-08-28 11:29:28,826 - INFO - 10/10: Bistrot 1900 Ain
+2025-08-28 11:29:28,864 - INFO - Retour à la liste (mobile).
+2025-08-28 11:41:48,280 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Aisne'
+2025-08-28 11:41:48,281 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/aisne/d%C3%A9bits+de+boissons?page=1
+2025-08-28 11:42:22,389 - INFO - 20 cartes détectées sur la page 1
+2025-08-28 11:42:23,259 - INFO - [Page 1 | Carte 1] Apero 02 | Tél: 06 34 15 35 54 | Adresse: place Hôtel de Ville 02100 Saint Quentin Voir le plan
+2025-08-28 11:42:24,042 - INFO - [Page 1 | Carte 2] Le Clovis | Tél:     03 23 59 40 79 | Adresse: 5 rue Commerce 02200 Soissons Voir le plan
+2025-08-28 11:42:24,744 - INFO - [Page 1 | Carte 3] Bar de la Vallée | Tél: 03 23 62 43 67 | Adresse: 28 Bis rue Chaussée Romaine 02100 Saint Quentin Voir le plan
+2025-08-28 11:42:25,618 - INFO - [Page 1 | Carte 4] Les étangs de Bussiares | Tél: 03 23 70 63 74 | Adresse: 1 route Licy Clignon 02810 Bussiares Voir le plan
+2025-08-28 11:42:26,507 - INFO - [Page 1 | Carte 5] L'Edito Saint Quentin | Tél: 03 23 05 50 40 | Adresse: 10 place Hôtel de Ville 02100 Saint Quentin Voir le plan
+2025-08-28 11:42:27,383 - INFO - [Page 1 | Carte 6] Le Havana Café | Tél: 03 60 53 09 45 | Adresse: 10 rue Charpentier 02200 Soissons Voir le plan
+2025-08-28 11:42:28,289 - INFO - [Page 1 | Carte 7] LA GRANGE | Tél: 03 23 64 15 90 | Adresse: 35 rue Vermand 02100 Saint Quentin Voir le plan
+2025-08-28 11:42:29,157 - INFO - [Page 1 | Carte 8] Pub Bossa Club | Tél:     03 60 38 19 50 | Adresse: 62 avenue Essômes 02400 Château Thierry Voir le plan
+2025-08-28 11:42:30,114 - INFO - [Page 1 | Carte 9] Chai N 5 | Tél: 03 23 62 21 15 | Adresse: 5 boulevard 12 Rue de Mulhouse 02100 Saint Quentin Voir le plan
+2025-08-28 11:42:31,165 - INFO - [Page 1 | Carte 10] O Divin - Bar à Vin & Tapas | Tél: 03 23 60 75 01 | Adresse: 22 place Hôtel de Ville 02100 Saint Quentin Voir le plan
+2025-08-28 11:42:32,013 - INFO - [Page 1 | Carte 11] Bar Des Deux Sources | Tél:     03 60 49 96 84 | Adresse: 2 rue Frédéric Viefville 02270 Chevresis Monceau Voir le plan
+2025-08-28 11:42:32,988 - INFO - [Page 1 | Carte 12] Le Bistrot Du Marché | Tél: 03 23 68 59 52 | Adresse: Ccal Intermarche rue Auguste Delaune 02430 Gauchy Voir le plan
+2025-08-28 11:42:33,575 - INFO - [Page 1 | Carte 13] Le Cyrano | Tél: 03 23 62 28 94 | Adresse: 147 rue Paris 02100 Saint Quentin Voir le plan
+2025-08-28 11:42:34,547 - INFO - [Page 1 | Carte 14] Le Rallye | Tél:     03 23 53 00 47 | Adresse: 10 boulevard Strasbourg 02200 Soissons Voir le plan
+2025-08-28 11:42:35,469 - INFO - [Page 1 | Carte 15] La Maison Blanche | Tél: 03 23 53 41 68 | Adresse: 2 route Compiègne 02200 Mercin et Vaux Voir le plan
+2025-08-28 11:42:36,420 - INFO - [Page 1 | Carte 16] BEER MONKEY BAR | Tél: 03 23 89 15 98 | Adresse: 11 rue Bonnot 02000 Laon Voir le plan
+2025-08-28 11:42:37,188 - INFO - [Page 1 | Carte 17] Les Marronniers | Tél: 03 23 53 29 05 | Adresse: 1 avenue Voltaire 02200 Soissons Voir le plan
+2025-08-28 11:42:37,833 - INFO - [Page 1 | Carte 18] Café Alexandre Dumas | Tél:     03 23 73 37 69 | Adresse: 4 place Doct Mouflier 02600 Villers Cotterêts Voir le plan
+2025-08-28 11:42:38,548 - INFO - [Page 1 | Carte 19] Le Milonais | Tél: 03 23 72 65 01 | Adresse: 13 rue Cite 02460 La Ferté Milon Voir le plan
+2025-08-28 11:42:39,613 - INFO - [Page 1 | Carte 20] Bar Le Carillon | Tél: 03 23 62 31 66 | Adresse: 7 rue Croix Belle Porte 02100 Saint Quentin Voir le plan
+2025-08-28 11:42:39,614 - INFO - Résultats cumulés: 20 / 20
+2025-08-28 11:42:39,614 - INFO - Nombre maximal de résultats atteint.
+2025-08-28 11:42:39,614 - INFO - Scraping terminé, total résultats: 20
+2025-08-28 11:47:53,409 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Allier'
+2025-08-28 11:47:53,409 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/allier/d%C3%A9bits+de+boissons?page=1
+2025-08-28 11:47:56,896 - INFO - 2 cartes détectées sur la page 1
+2025-08-28 11:47:57,556 - INFO - [Page 1 | Carte 1] Vinilia 65 | Tél: 06 03 92 85 15 | Adresse: 77 rue Pic du Midi 65310 Odos Voir le plan
+2025-08-28 11:47:58,418 - INFO - [Page 1 | Carte 2] Casino Cafétéria | Tél: 05 62 45 13 59 | Adresse: Centre commercial Géant route Bagnères 65310 Laloubère Voir le plan
+2025-08-28 11:47:58,418 - INFO - Résultats cumulés: 2 / 10
+2025-08-28 11:48:02,423 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/allier/d%C3%A9bits+de+boissons?page=2
+2025-08-28 11:48:13,681 - WARNING - Aucune carte trouvée sur la page 2
+2025-08-28 11:48:13,681 - INFO - Scraping terminé, total résultats: 2
+2025-08-28 11:49:10,533 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Alpes-de-Haute-Provence'
+2025-08-28 11:49:10,534 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/alpes-de-haute-provence/d%C3%A9bits+de+boissons?page=1
+2025-08-28 11:49:40,725 - INFO - 20 cartes détectées sur la page 1
+2025-08-28 11:49:41,449 - INFO - [Page 1 | Carte 1] Le Rallye | Tél: 04 92 61 00 03 | Adresse: 121 rue Provence 04200 Sisteron Voir le plan
+2025-08-28 11:49:42,234 - INFO - [Page 1 | Carte 2] L'Inattendu | Tél: 04 92 31 62 31, 06 84 39 52 01 | Adresse: les Souquets 04140 Le Vernet Voir le plan
+2025-08-28 11:49:43,233 - INFO - [Page 1 | Carte 3] Hotel Bel'Air | Tél: 04 92 81 06 35 | Adresse: 764 avenue Mexicains 04850 Jausiers Voir le plan
+2025-08-28 11:49:44,123 - INFO - [Page 1 | Carte 4] Café Des Alpes - Marylis | Tél: 04 92 77 87 96 | Adresse: 3 rue Villeneuve 04500 Roumoules Voir le plan
+2025-08-28 11:49:45,051 - INFO - [Page 1 | Carte 5] Megazone Laser Games | Tél: 04 92 75 11 05 | Adresse: ZI St Joseph 125 rue Industrie 04100 Manosque Voir le plan
+2025-08-28 11:49:45,051 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-28 11:49:45,051 - INFO - Résultats cumulés: 5 / 5
+2025-08-28 11:49:45,052 - INFO - Nombre maximal de résultats atteint.
+2025-08-28 11:49:45,052 - INFO - Scraping terminé, total résultats: 5
+2025-08-28 11:53:16,532 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-28 11:54:12,616 - INFO - 1/20: LE GRAND CAFE
+2025-08-28 11:54:12,662 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:17,856 - INFO - 2/20: Le Trotteur
+2025-08-28 11:54:17,897 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:21,952 - INFO - 3/20: L'aincontournable
+2025-08-28 11:54:21,995 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:26,477 - INFO - 4/20: Café Du Champ De Foire
+2025-08-28 11:54:26,515 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:30,125 - INFO - 5/20: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 11:54:30,164 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:34,280 - INFO - 6/20: Le Central bar
+2025-08-28 11:54:34,320 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:38,730 - INFO - 7/20: Le Savarin
+2025-08-28 11:54:38,778 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:43,042 - INFO - 8/20: Auberg'in Café Restaurant
+2025-08-28 11:54:43,080 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:46,547 - INFO - 9/20: Bistrot 1900 Ain
+2025-08-28 11:54:46,588 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:50,704 - INFO - 10/20: Aficionado coffee shop & brunch
+2025-08-28 11:54:50,747 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:54,656 - INFO - 11/20: Café Restaurant de la Préfecture
+2025-08-28 11:54:54,688 - INFO - Retour à la liste (mobile).
+2025-08-28 11:54:59,109 - INFO - 12/20: Café Bernolin - « Chez la Jeanne »
+2025-08-28 11:54:59,149 - INFO - Retour à la liste (mobile).
+2025-08-28 11:55:03,387 - INFO - 13/20: Le Club Café Bourg-en-bresse
+2025-08-28 11:55:03,428 - INFO - Retour à la liste (mobile).
+2025-08-28 11:55:08,111 - INFO - 14/20: La Capsule Gourmande Bourg en Bresse - Restaurant - Burger - Bar à cookie
+2025-08-28 11:55:08,152 - INFO - Retour à la liste (mobile).
+2025-08-28 11:55:11,839 - INFO - 15/20: La Bicyclette Bleue
+2025-08-28 11:55:11,879 - INFO - Retour à la liste (mobile).
+2025-08-28 11:55:15,407 - INFO - 16/20: Restaurant Le Terminus
+2025-08-28 11:55:15,448 - INFO - Retour à la liste (mobile).
+2025-08-28 11:55:19,197 - INFO - 17/20: Cafe de France
+2025-08-28 11:55:19,242 - INFO - Retour à la liste (mobile).
+2025-08-28 11:55:23,929 - INFO - 18/20: Restaurant le Troquet des amis
+2025-08-28 11:55:23,971 - INFO - Retour à la liste (mobile).
+2025-08-28 11:55:27,400 - INFO - 19/20: L'O à la bouche.
+2025-08-28 11:55:27,447 - INFO - Retour à la liste (mobile).
+2025-08-28 11:55:32,033 - INFO - 20/20: Le Bar À Créations
+2025-08-28 11:55:32,075 - INFO - Retour à la liste (mobile).
+2025-08-28 14:17:51,486 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-28 14:17:51,487 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-28 14:17:56,444 - INFO - 20 cartes détectées sur la page 1
+2025-08-28 14:17:57,356 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-28 14:17:58,260 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-28 14:17:59,300 - INFO - [Page 1 | Carte 3] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-28 14:18:00,048 - INFO - [Page 1 | Carte 4] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-28 14:18:01,009 - INFO - [Page 1 | Carte 5] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-28 14:18:02,058 - INFO - [Page 1 | Carte 6] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-28 14:18:03,116 - INFO - [Page 1 | Carte 7] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-28 14:18:03,845 - INFO - [Page 1 | Carte 8] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-28 14:18:04,655 - INFO - [Page 1 | Carte 9] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-28 14:18:05,367 - INFO - [Page 1 | Carte 10] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-28 14:18:06,434 - INFO - [Page 1 | Carte 11] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-28 14:18:07,196 - INFO - [Page 1 | Carte 12] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-28 14:18:08,274 - INFO - [Page 1 | Carte 13] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-28 14:18:09,303 - INFO - [Page 1 | Carte 14] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-28 14:18:09,897 - INFO - [Page 1 | Carte 15] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-28 14:18:10,852 - INFO - [Page 1 | Carte 16] Le Repère | Tél: 03 71 41 05 50 | Adresse: 2165 route Macon 01190 Gorrevod Voir le plan
+2025-08-28 14:18:11,834 - INFO - [Page 1 | Carte 17] Le Central Bar | Tél: 06 21 09 85 23 | Adresse: 942 Grande Rue 01700 Miribel Voir le plan
+2025-08-28 14:18:12,721 - INFO - [Page 1 | Carte 18] Hotel Restaurant Marinet | Tél: 04 50 56 56 56, 06 88 50 10 64 | Adresse: 369 Rue du Bugey 01200 Bellegarde sur Valserine Voir le plan
+2025-08-28 14:18:13,641 - INFO - [Page 1 | Carte 19] Auberge De La Source | Tél: 09 87 11 69 22 | Adresse: 1 route Contrevoz 01300 Chazey Bons Voir le plan
+2025-08-28 14:18:14,492 - INFO - [Page 1 | Carte 20] "Belles Rives" Braises & Condiments | Tél: 04 74 00 22 07 | Adresse: 376 avenue Tuileries 01600 Trévoux Voir le plan
+2025-08-28 14:18:14,492 - INFO - Résultats cumulés: 20 / 20
+2025-08-28 14:18:14,492 - INFO - Nombre maximal de résultats atteint.
+2025-08-28 14:18:14,492 - INFO - Scraping terminé, total résultats: 20
+2025-08-28 14:24:01,910 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-28 14:24:01,910 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-28 14:24:33,722 - INFO - 20 cartes détectées sur la page 1
+2025-08-28 14:24:34,576 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-28 14:24:35,585 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-28 14:24:36,484 - INFO - [Page 1 | Carte 3] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-28 14:24:37,093 - INFO - [Page 1 | Carte 4] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-28 14:24:37,880 - INFO - [Page 1 | Carte 5] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-28 14:24:38,661 - INFO - [Page 1 | Carte 6] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-28 14:24:39,569 - INFO - [Page 1 | Carte 7] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-28 14:24:40,413 - INFO - [Page 1 | Carte 8] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-28 14:24:41,196 - INFO - [Page 1 | Carte 9] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-28 14:24:42,137 - INFO - [Page 1 | Carte 10] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-28 14:24:42,978 - INFO - [Page 1 | Carte 11] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-28 14:24:43,770 - INFO - [Page 1 | Carte 12] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-28 14:24:44,436 - INFO - [Page 1 | Carte 13] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-28 14:24:45,277 - INFO - [Page 1 | Carte 14] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-28 14:24:46,267 - INFO - [Page 1 | Carte 15] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-28 14:24:47,335 - INFO - [Page 1 | Carte 16] Auberge De La Source | Tél: 09 87 11 69 22 | Adresse: 1 route Contrevoz 01300 Chazey Bons Voir le plan
+2025-08-28 14:24:48,033 - INFO - [Page 1 | Carte 17] Restaurant La Gare | Tél: 04 50 20 44 02 | Adresse: 368 avenue Gare 01170 Gex Voir le plan
+2025-08-28 14:24:48,701 - INFO - [Page 1 | Carte 18] Hotel Restaurant Marinet | Tél: 04 50 56 56 56, 06 88 50 10 64 | Adresse: 369 Rue du Bugey 01200 Bellegarde sur Valserine Voir le plan
+2025-08-28 14:24:49,565 - INFO - [Page 1 | Carte 19] Le Repère | Tél: 03 71 41 05 50 | Adresse: 2165 route Macon 01190 Gorrevod Voir le plan
+2025-08-28 14:24:50,350 - INFO - [Page 1 | Carte 20] Restaurant Le Pavillon du Golf | Tél: 04 50 40 34 13 | Adresse: 604 rue Bains 01220 Divonne les Bains Voir le plan
+2025-08-28 14:24:50,351 - INFO - Résultats cumulés: 20 / 20
+2025-08-28 14:24:50,351 - INFO - Nombre maximal de résultats atteint.
+2025-08-28 14:24:50,351 - INFO - Scraping terminé, total résultats: 20
+2025-08-28 14:28:57,029 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-28 14:28:57,030 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-28 14:29:00,676 - INFO - 20 cartes détectées sur la page 1
+2025-08-28 14:29:01,670 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-28 14:29:02,722 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-28 14:29:03,412 - INFO - [Page 1 | Carte 3] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-28 14:29:04,137 - INFO - [Page 1 | Carte 4] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-28 14:29:05,002 - INFO - [Page 1 | Carte 5] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-28 14:29:05,866 - INFO - [Page 1 | Carte 6] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-28 14:29:06,756 - INFO - [Page 1 | Carte 7] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-28 14:29:07,629 - INFO - [Page 1 | Carte 8] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-28 14:29:08,315 - INFO - [Page 1 | Carte 9] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-28 14:29:08,967 - INFO - [Page 1 | Carte 10] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-28 14:29:10,015 - INFO - [Page 1 | Carte 11] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-28 14:29:10,859 - INFO - [Page 1 | Carte 12] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-28 14:29:11,442 - INFO - [Page 1 | Carte 13] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-28 14:29:12,252 - INFO - [Page 1 | Carte 14] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-28 14:29:13,025 - INFO - [Page 1 | Carte 15] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-28 14:29:13,730 - INFO - [Page 1 | Carte 16] Auberge De La Source | Tél: 09 87 11 69 22 | Adresse: 1 route Contrevoz 01300 Chazey Bons Voir le plan
+2025-08-28 14:29:14,449 - INFO - [Page 1 | Carte 17] Restaurant La Gare | Tél: 04 50 20 44 02 | Adresse: 368 avenue Gare 01170 Gex Voir le plan
+2025-08-28 14:29:15,462 - INFO - [Page 1 | Carte 18] Le Repère | Tél: 03 71 41 05 50 | Adresse: 2165 route Macon 01190 Gorrevod Voir le plan
+2025-08-28 14:29:16,294 - INFO - [Page 1 | Carte 19] Hotel Restaurant Marinet | Tél: 04 50 56 56 56, 06 88 50 10 64 | Adresse: 369 Rue du Bugey 01200 Bellegarde sur Valserine Voir le plan
+2025-08-28 14:29:17,100 - INFO - [Page 1 | Carte 20] Le Patio | Tél: 03 85 30 40 78 | Adresse: 60 place Puthod 01380 Bâgé le Châtel Voir le plan
+2025-08-28 14:29:17,100 - INFO - Résultats cumulés: 20 / 20
+2025-08-28 14:29:17,100 - INFO - Nombre maximal de résultats atteint.
+2025-08-28 14:29:17,100 - INFO - Scraping terminé, total résultats: 20
+2025-08-28 14:35:43,807 - INFO - 1/10: LE GRAND CAFE
+2025-08-28 14:35:43,855 - INFO - Retour à la liste (mobile).
+2025-08-28 14:35:48,515 - INFO - 2/10: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 14:35:48,558 - INFO - Retour à la liste (mobile).
+2025-08-28 14:35:52,400 - INFO - 3/10: Le Trotteur
+2025-08-28 14:35:52,454 - INFO - Retour à la liste (mobile).
+2025-08-28 14:35:57,365 - INFO - 4/10: L'aincontournable
+2025-08-28 14:35:57,409 - INFO - Retour à la liste (mobile).
+2025-08-28 14:36:01,558 - INFO - 5/10: Café Du Champ De Foire
+2025-08-28 14:36:01,598 - INFO - Retour à la liste (mobile).
+2025-08-28 14:36:05,706 - INFO - 6/10: Le Savarin
+2025-08-28 14:36:05,745 - INFO - Retour à la liste (mobile).
+2025-08-28 14:36:09,957 - INFO - 7/10: Aficionado coffee shop & brunch
+2025-08-28 14:36:09,996 - INFO - Retour à la liste (mobile).
+2025-08-28 14:36:14,250 - INFO - 8/10: Café Restaurant de la Préfecture
+2025-08-28 14:36:14,291 - INFO - Retour à la liste (mobile).
+2025-08-28 14:36:17,818 - INFO - 9/10: Bistrot 1900 Ain
+2025-08-28 14:36:17,856 - INFO - Retour à la liste (mobile).
+2025-08-28 14:36:22,241 - INFO - 10/10: Café Bernolin - « Chez la Jeanne »
+2025-08-28 14:36:22,279 - INFO - Retour à la liste (mobile).
+2025-08-28 15:12:37,609 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-28 15:21:19,403 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-28 15:21:19,403 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-28 15:21:23,715 - INFO - 20 cartes détectées sur la page 1
+2025-08-28 15:21:24,702 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-28 15:21:25,508 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-28 15:21:26,134 - INFO - [Page 1 | Carte 3] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-28 15:21:26,740 - INFO - [Page 1 | Carte 4] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-28 15:21:27,799 - INFO - [Page 1 | Carte 5] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-28 15:21:28,485 - INFO - [Page 1 | Carte 6] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-28 15:21:29,270 - INFO - [Page 1 | Carte 7] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-28 15:21:29,999 - INFO - [Page 1 | Carte 8] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-28 15:21:30,931 - INFO - [Page 1 | Carte 9] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-28 15:21:31,606 - INFO - [Page 1 | Carte 10] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-28 15:21:31,606 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-28 15:21:31,607 - INFO - Résultats cumulés: 10 / 10
+2025-08-28 15:21:31,607 - INFO - Nombre maximal de résultats atteint.
+2025-08-28 15:21:31,607 - INFO - Scraping terminé, total résultats: 10
+2025-08-28 15:22:13,601 - INFO - 1/10: LE GRAND CAFE
+2025-08-28 15:22:13,646 - INFO - Retour à la liste (mobile).
+2025-08-28 15:22:17,055 - INFO - 2/10: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 15:22:17,099 - INFO - Retour à la liste (mobile).
+2025-08-28 15:22:20,944 - INFO - 3/10: Le Trotteur
+2025-08-28 15:22:20,980 - INFO - Retour à la liste (mobile).
+2025-08-28 15:22:24,563 - INFO - 4/10: L'aincontournable
+2025-08-28 15:22:24,603 - INFO - Retour à la liste (mobile).
+2025-08-28 15:22:28,625 - INFO - 5/10: Café Du Champ De Foire
+2025-08-28 15:22:28,661 - INFO - Retour à la liste (mobile).
+2025-08-28 15:22:32,978 - INFO - 6/10: Le Savarin
+2025-08-28 15:22:33,018 - INFO - Retour à la liste (mobile).
+2025-08-28 15:22:37,373 - INFO - 7/10: Aficionado coffee shop & brunch
+2025-08-28 15:22:37,412 - INFO - Retour à la liste (mobile).
+2025-08-28 15:22:41,015 - INFO - 8/10: Café Restaurant de la Préfecture
+2025-08-28 15:22:41,054 - INFO - Retour à la liste (mobile).
+2025-08-28 15:22:44,643 - INFO - 9/10: Bistrot 1900 Ain
+2025-08-28 15:22:44,699 - INFO - Retour à la liste (mobile).
+2025-08-28 15:22:48,592 - INFO - 10/10: Café Bernolin - « Chez la Jeanne »
+2025-08-28 15:22:48,632 - INFO - Retour à la liste (mobile).
+2025-08-28 15:32:47,204 - INFO - 1/30: LE GRAND CAFE
+2025-08-28 15:32:47,254 - INFO - Retour à la liste (mobile).
+2025-08-28 15:32:51,165 - INFO - 2/30: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 15:32:51,209 - INFO - Retour à la liste (mobile).
+2025-08-28 15:32:55,716 - INFO - 3/30: Le Trotteur
+2025-08-28 15:32:55,755 - INFO - Retour à la liste (mobile).
+2025-08-28 15:32:59,219 - INFO - 4/30: L'aincontournable
+2025-08-28 15:32:59,256 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:03,672 - INFO - 5/30: Café Du Champ De Foire
+2025-08-28 15:33:03,724 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:07,605 - INFO - 6/30: Le Savarin
+2025-08-28 15:33:07,650 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:12,698 - INFO - 7/30: Aficionado coffee shop & brunch
+2025-08-28 15:33:12,738 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:16,776 - INFO - 8/30: Café Restaurant de la Préfecture
+2025-08-28 15:33:16,832 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:18,767 - INFO - 1/30: LE GRAND CAFE
+2025-08-28 15:33:18,814 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:20,722 - INFO - 9/30: Café Bernolin - « Chez la Jeanne »
+2025-08-28 15:33:20,769 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:22,469 - INFO - 2/30: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 15:33:22,510 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:24,998 - INFO - 10/30: Le Club Café Bourg-en-bresse
+2025-08-28 15:33:25,042 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:26,209 - INFO - 3/30: Le Trotteur
+2025-08-28 15:33:26,249 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:29,627 - INFO - 11/30: Le Central bar
+2025-08-28 15:33:29,668 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:30,073 - INFO - 4/30: L'aincontournable
+2025-08-28 15:33:30,116 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:33,773 - INFO - 5/30: Café Du Champ De Foire
+2025-08-28 15:33:33,811 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:34,356 - INFO - 12/30: Auberg'in Café Restaurant
+2025-08-28 15:33:34,398 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:37,400 - INFO - 6/30: Le Savarin
+2025-08-28 15:33:37,443 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:38,789 - INFO - 13/30: La Bicyclette Bleue
+2025-08-28 15:33:38,832 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:41,146 - INFO - 7/30: Aficionado coffee shop & brunch
+2025-08-28 15:33:41,195 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:43,269 - INFO - 14/30: Restaurant Le Terminus
+2025-08-28 15:33:43,314 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:45,042 - INFO - 8/30: Café Restaurant de la Préfecture
+2025-08-28 15:33:45,080 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:47,332 - INFO - 15/30: La Bressane - Brasserie Saint Clair
+2025-08-28 15:33:47,406 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:50,201 - INFO - 9/30: Le Bar'occ
+2025-08-28 15:33:50,255 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:51,490 - INFO - 16/30: Cafe de France
+2025-08-28 15:33:51,534 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:54,047 - INFO - 10/30: Café Bernolin - « Chez la Jeanne »
+2025-08-28 15:33:54,101 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:55,569 - INFO - 17/30: Restaurant le Troquet des amis
+2025-08-28 15:33:55,612 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:58,600 - INFO - 11/30: Le Club Café Bourg-en-bresse
+2025-08-28 15:33:58,642 - INFO - Retour à la liste (mobile).
+2025-08-28 15:33:59,627 - INFO - 18/30: Bistrot 1900 Ain
+2025-08-28 15:33:59,669 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:02,575 - INFO - 12/30: Le Central bar
+2025-08-28 15:34:02,615 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:04,087 - INFO - 19/30: Le Bar À Créations
+2025-08-28 15:34:04,131 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:06,755 - INFO - 13/30: Auberg'in Café Restaurant
+2025-08-28 15:34:06,800 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:08,588 - INFO - 20/30: La Capsule Gourmande Bourg en Bresse - Restaurant - Burger - Bar à cookie
+2025-08-28 15:34:08,629 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:11,127 - INFO - 14/30: La Bicyclette Bleue
+2025-08-28 15:34:11,169 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:12,464 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:14,857 - INFO - 15/30: Restaurant Le Terminus
+2025-08-28 15:34:14,908 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:16,659 - INFO - 21/30: Rivière d'Ain (Brasserie artisanale)
+2025-08-28 15:34:16,698 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:19,067 - INFO - 16/30: La Bressane - Brasserie Saint Clair
+2025-08-28 15:34:19,113 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:21,129 - INFO - 22/30: La Fora Gîte et Café
+2025-08-28 15:34:21,173 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:22,856 - INFO - 17/30: Cafe de France
+2025-08-28 15:34:22,906 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:25,096 - INFO - 23/30: L'Aquarelle
+2025-08-28 15:34:25,136 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:27,510 - INFO - 18/30: Restaurant le Troquet des amis
+2025-08-28 15:34:27,561 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:29,305 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:31,504 - INFO - 19/30: Bistrot 1900 Ain
+2025-08-28 15:34:31,545 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:33,392 - INFO - 24/30: LE COFY
+2025-08-28 15:34:33,436 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:35,036 - INFO - 20/30: Le Bar À Créations
+2025-08-28 15:34:35,076 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:37,572 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:39,616 - INFO - 21/30: Rivière d'Ain (Brasserie artisanale)
+2025-08-28 15:34:39,659 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:42,216 - INFO - 25/30: Le Vieux Logis
+2025-08-28 15:34:42,261 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:43,813 - INFO - 22/30: La Fora Gîte et Café
+2025-08-28 15:34:43,855 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:46,868 - INFO - 26/30: Le Carbet
+2025-08-28 15:34:46,916 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:47,643 - INFO - 23/30: L'Aquarelle
+2025-08-28 15:34:47,689 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:50,924 - INFO - 27/30: La Cour de Récré
+2025-08-28 15:34:50,968 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:51,812 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:55,813 - INFO - 28/30: L Akge Resto-Bar
+2025-08-28 15:34:55,858 - INFO - Retour à la liste (mobile).
+2025-08-28 15:34:56,515 - INFO - Retour à la liste (mobile).
+2025-08-28 15:35:00,102 - INFO - 29/30: La Leymentaise
+2025-08-28 15:35:00,150 - INFO - Retour à la liste (mobile).
+2025-08-28 15:35:00,957 - INFO - 24/30: Le Vieux Logis
+2025-08-28 15:35:01,000 - INFO - Retour à la liste (mobile).
+2025-08-28 15:35:04,240 - INFO - 30/30: Ô Comptoir Bourg en Bresse
+2025-08-28 15:35:04,288 - INFO - Retour à la liste (mobile).
+2025-08-28 15:35:04,659 - INFO - 25/30: Le Carbet
+2025-08-28 15:35:04,702 - INFO - Retour à la liste (mobile).
+2025-08-28 15:35:10,077 - INFO - 26/30: La Cour de Récré
+2025-08-28 15:35:10,120 - INFO - Retour à la liste (mobile).
+2025-08-28 15:35:14,388 - INFO - 27/30: L Akge Resto-Bar
+2025-08-28 15:35:14,421 - INFO - Retour à la liste (mobile).
+2025-08-28 15:35:18,204 - INFO - 28/30: La Leymentaise
+2025-08-28 15:35:18,248 - INFO - Retour à la liste (mobile).
+2025-08-28 15:35:21,790 - INFO - 29/30: Ô Comptoir Bourg en Bresse
+2025-08-28 15:35:21,833 - INFO - Retour à la liste (mobile).
+2025-08-28 15:35:26,298 - INFO - 30/30: Le Salençon
+2025-08-28 15:35:26,340 - INFO - Retour à la liste (mobile).
+2025-08-28 15:35:48,318 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2D3C18990>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/cb84c2b809c194b411d28c47baafd42c/element
+2025-08-28 15:35:52,421 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2D0C7F690>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/cb84c2b809c194b411d28c47baafd42c/element
+2025-08-28 15:35:56,524 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2D3C8CD90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/cb84c2b809c194b411d28c47baafd42c/element
+2025-08-28 15:36:00,617 - WARNING - Error finding business cards: HTTPConnectionPool(host='localhost', port=53050): Max retries exceeded with url: /session/cb84c2b809c194b411d28c47baafd42c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2D3BF9390>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-28 15:37:26,160 - INFO - 1/30: LE GRAND CAFE
+2025-08-28 15:37:26,206 - INFO - Retour à la liste (mobile).
+2025-08-28 15:37:30,781 - INFO - 2/30: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 15:37:30,822 - INFO - Retour à la liste (mobile).
+2025-08-28 15:37:34,816 - INFO - 3/30: Le Trotteur
+2025-08-28 15:37:34,856 - INFO - Retour à la liste (mobile).
+2025-08-28 15:37:39,249 - INFO - 4/30: L'aincontournable
+2025-08-28 15:37:39,289 - INFO - Retour à la liste (mobile).
+2025-08-28 15:37:42,859 - INFO - 5/30: Café Du Champ De Foire
+2025-08-28 15:37:42,900 - INFO - Retour à la liste (mobile).
+2025-08-28 15:37:51,102 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F4C20BB090>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/d5109bce92fdf388ade8f5899939b165/element
+2025-08-28 15:37:55,201 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F4C20C4BD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/d5109bce92fdf388ade8f5899939b165/element
+2025-08-28 15:37:59,297 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F4C1CC0C90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/d5109bce92fdf388ade8f5899939b165/element
+2025-08-28 15:41:32,818 - INFO - 1/49: LE GRAND CAFE
+2025-08-28 15:41:32,886 - INFO - Retour à la liste (mobile).
+2025-08-28 15:41:37,093 - INFO - 2/49: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 15:41:37,130 - INFO - Retour à la liste (mobile).
+2025-08-28 15:41:41,786 - INFO - 3/49: Le Trotteur
+2025-08-28 15:41:41,821 - INFO - Retour à la liste (mobile).
+2025-08-28 15:41:46,368 - INFO - 4/49: L'aincontournable
+2025-08-28 15:41:46,405 - INFO - Retour à la liste (mobile).
+2025-08-28 15:41:51,209 - INFO - 5/49: Café Du Champ De Foire
+2025-08-28 15:41:51,249 - INFO - Retour à la liste (mobile).
+2025-08-28 15:41:55,252 - INFO - 6/49: Le Savarin
+2025-08-28 15:41:55,283 - INFO - Retour à la liste (mobile).
+2025-08-28 15:41:59,379 - INFO - 7/49: Aficionado coffee shop & brunch
+2025-08-28 15:41:59,417 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:04,037 - INFO - 8/49: Café Restaurant de la Préfecture
+2025-08-28 15:42:04,074 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:08,212 - INFO - 9/49: Le Bar'occ
+2025-08-28 15:42:08,258 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:12,164 - INFO - 10/49: Café Bernolin - « Chez la Jeanne »
+2025-08-28 15:42:12,203 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:16,847 - INFO - 11/49: Le Club Café Bourg-en-bresse
+2025-08-28 15:42:16,889 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:21,503 - INFO - 12/49: Le Central bar
+2025-08-28 15:42:21,541 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:25,476 - INFO - 13/49: Auberg'in Café Restaurant
+2025-08-28 15:42:25,513 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:29,338 - INFO - 14/49: La Bicyclette Bleue
+2025-08-28 15:42:29,381 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:33,417 - INFO - 15/49: Restaurant Le Terminus
+2025-08-28 15:42:33,456 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:37,082 - INFO - 16/49: La Bressane - Brasserie Saint Clair
+2025-08-28 15:42:37,113 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:41,465 - INFO - 17/49: Cafe de France
+2025-08-28 15:42:41,503 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:44,722 - INFO - 18/49: Restaurant le Troquet des amis
+2025-08-28 15:42:44,761 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:49,141 - INFO - 19/49: Bistrot 1900 Ain
+2025-08-28 15:42:49,180 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:53,138 - INFO - 20/49: Le Bar À Créations
+2025-08-28 15:42:53,181 - INFO - Retour à la liste (mobile).
+2025-08-28 15:42:57,375 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:01,719 - INFO - 21/49: Rivière d'Ain (Brasserie artisanale)
+2025-08-28 15:43:01,758 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:06,401 - INFO - 22/49: La Fora Gîte et Café
+2025-08-28 15:43:06,439 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:10,843 - INFO - 23/49: L'Aquarelle
+2025-08-28 15:43:10,886 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:15,993 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:20,860 - INFO - 24/49: LE COFY
+2025-08-28 15:43:20,899 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:25,409 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:29,810 - INFO - 25/49: Le Vieux Logis
+2025-08-28 15:43:29,851 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:33,891 - INFO - 26/49: Le Carbet
+2025-08-28 15:43:33,932 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:38,138 - INFO - 27/49: La Cour de Récré
+2025-08-28 15:43:38,179 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:42,077 - INFO - 28/49: L Akge Resto-Bar
+2025-08-28 15:43:42,118 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:45,457 - INFO - 29/49: La Leymentaise
+2025-08-28 15:43:45,495 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:49,925 - INFO - 30/49: Ô Comptoir Bourg en Bresse
+2025-08-28 15:43:49,961 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:53,661 - INFO - 31/49: Le Salençon
+2025-08-28 15:43:53,703 - INFO - Retour à la liste (mobile).
+2025-08-28 15:43:58,480 - INFO - 32/49: Le Verchère
+2025-08-28 15:43:58,523 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:02,215 - INFO - 33/49: L'O à la bouche.
+2025-08-28 15:44:02,259 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:06,600 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:11,455 - INFO - 34/49: La Capsule Gourmande Bourg en Bresse - Restaurant - Burger - Bar à cookie
+2025-08-28 15:44:11,496 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:15,710 - INFO - 35/49: Les Terrasses des Brottaux
+2025-08-28 15:44:15,752 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:20,214 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:24,825 - INFO - 36/49: La Grange du Pin
+2025-08-28 15:44:24,867 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:28,649 - INFO - 37/49: L'Ain Très Table
+2025-08-28 15:44:28,685 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:32,608 - INFO - 38/49: Le Nabu
+2025-08-28 15:44:32,661 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:36,368 - INFO - 39/49: Le barbara
+2025-08-28 15:44:36,411 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:40,515 - INFO - 40/49: Le loup
+2025-08-28 15:44:40,559 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:44,873 - INFO - 41/49: Au Faisan Doré
+2025-08-28 15:44:44,918 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:49,062 - INFO - 42/49: Ain 2 3 salades
+2025-08-28 15:44:49,107 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:54,076 - INFO - 43/49: Restaurant le lion d'or
+2025-08-28 15:44:54,120 - INFO - Retour à la liste (mobile).
+2025-08-28 15:44:57,990 - INFO - 44/49: L’Atelier
+2025-08-28 15:44:58,034 - INFO - Retour à la liste (mobile).
+2025-08-28 15:45:03,182 - INFO - 45/49: Le Poncinois
+2025-08-28 15:45:03,227 - INFO - Retour à la liste (mobile).
+2025-08-28 15:45:07,132 - INFO - 46/49: Le Seymard
+2025-08-28 15:45:07,176 - INFO - Retour à la liste (mobile).
+2025-08-28 15:45:11,168 - INFO - 47/49: La comédie
+2025-08-28 15:45:11,214 - INFO - Retour à la liste (mobile).
+2025-08-28 15:45:15,573 - INFO - 48/49: Le Bienvenu chez Francky
+2025-08-28 15:45:15,640 - INFO - Retour à la liste (mobile).
+2025-08-28 15:45:20,063 - INFO - 49/49: Diner 66
+2025-08-28 15:45:20,107 - INFO - Retour à la liste (mobile).
+2025-08-28 16:23:08,503 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-28 16:25:07,771 - INFO - 1/20: Café QJ
+2025-08-28 16:25:07,820 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:11,864 - INFO - 2/20: Au Petit Bar
+2025-08-28 16:25:11,911 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:15,803 - INFO - 3/20: Café Oz Châtelet - The Australian Bar
+2025-08-28 16:25:15,847 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:19,465 - INFO - 4/20: CAFE DES HALLES
+2025-08-28 16:25:19,508 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:24,209 - INFO - 5/20: Le Fumoir
+2025-08-28 16:25:24,249 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:28,595 - INFO - 6/20: L'Amphi Quai de Seine
+2025-08-28 16:25:28,640 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:32,712 - INFO - 7/20: Le Café Plume
+2025-08-28 16:25:32,758 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:37,068 - INFO - 8/20: CAFE SAINT HONORÉ
+2025-08-28 16:25:37,109 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:41,774 - INFO - 9/20: Café du Louvre
+2025-08-28 16:25:41,819 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:46,407 - INFO - 10/20: Le Zimmer
+2025-08-28 16:25:46,455 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:50,557 - INFO - 11/20: Velvet Bar Paris
+2025-08-28 16:25:50,598 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:53,982 - INFO - 12/20: L'Envers - Cave et Bar à Vin - Wine bar and Wine shop
+2025-08-28 16:25:54,024 - INFO - Retour à la liste (mobile).
+2025-08-28 16:25:57,973 - INFO - 13/20: Café Étienne
+2025-08-28 16:25:58,015 - INFO - Retour à la liste (mobile).
+2025-08-28 16:26:02,068 - INFO - 14/20: Reset
+2025-08-28 16:26:02,109 - INFO - Retour à la liste (mobile).
+2025-08-28 16:26:05,961 - INFO - 15/20: L'Officine du Louvre
+2025-08-28 16:26:06,026 - INFO - Retour à la liste (mobile).
+2025-08-28 16:26:10,637 - INFO - 16/20: Café des Initiés
+2025-08-28 16:26:10,686 - INFO - Retour à la liste (mobile).
+2025-08-28 16:26:15,069 - INFO - 17/20: L'Excuse Bar
+2025-08-28 16:26:15,109 - INFO - Retour à la liste (mobile).
+2025-08-28 16:26:19,598 - INFO - 18/20: Upper Café Les Halles
+2025-08-28 16:26:19,643 - INFO - Retour à la liste (mobile).
+2025-08-28 16:26:23,899 - INFO - 19/20: Le Tiki Rose
+2025-08-28 16:26:23,945 - INFO - Retour à la liste (mobile).
+2025-08-28 16:26:27,442 - INFO - 20/20: Café de Paris
+2025-08-28 16:26:27,490 - INFO - Retour à la liste (mobile).
+2025-08-28 16:27:40,751 - INFO - 1/20: Les Grands Gamins - Bar à jeux de société et Boutique
+2025-08-28 16:27:40,800 - INFO - Retour à la liste (mobile).
+2025-08-28 16:27:44,220 - INFO - 2/20: Le Café Noir
+2025-08-28 16:27:44,263 - INFO - Retour à la liste (mobile).
+2025-08-28 16:27:47,818 - INFO - 3/20: Restaurant Café Père & Fils - Brasserie Terrasse Paris 2
+2025-08-28 16:27:47,860 - INFO - Retour à la liste (mobile).
+2025-08-28 16:27:52,033 - INFO - 4/20: Hoppy Corner
+2025-08-28 16:27:52,074 - INFO - Retour à la liste (mobile).
+2025-08-28 16:27:56,545 - INFO - 5/20: L'Express Bar
+2025-08-28 16:27:56,588 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:01,187 - INFO - 6/20: Café Montorgueil
+2025-08-28 16:28:01,227 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:05,943 - INFO - 7/20: Le Bar Chaumont
+2025-08-28 16:28:05,986 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:10,363 - INFO - 8/20: Danico Cocktail Bar
+2025-08-28 16:28:10,407 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:14,460 - INFO - 9/20: Le Café
+2025-08-28 16:28:14,507 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:18,151 - INFO - 10/20: Café Frappé
+2025-08-28 16:28:18,195 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:22,185 - INFO - 11/20: Le Biscornu
+2025-08-28 16:28:22,227 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:27,073 - INFO - 12/20: Monsieur M
+2025-08-28 16:28:27,116 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:31,903 - INFO - 13/20: Café du centre
+2025-08-28 16:28:31,944 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:36,668 - INFO - 14/20: Le tipsy
+2025-08-28 16:28:36,718 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:40,386 - INFO - 15/20: Bar du Moulin
+2025-08-28 16:28:40,432 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:44,117 - INFO - 16/20: Le Cœur Fou
+2025-08-28 16:28:44,159 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:48,296 - INFO - 17/20: Capitole café - Sébastopol
+2025-08-28 16:28:48,339 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:51,798 - INFO - 18/20: Brasserie Madeleine
+2025-08-28 16:28:51,842 - INFO - Retour à la liste (mobile).
+2025-08-28 16:28:56,272 - INFO - 19/20: Les Barrés
+2025-08-28 16:28:56,305 - INFO - Retour à la liste (mobile).
+2025-08-28 16:29:00,729 - INFO - 20/20: Café Joyeux
+2025-08-28 16:29:00,771 - INFO - Retour à la liste (mobile).
+2025-08-28 16:34:30,097 - INFO - 1/49: LE GRAND CAFE
+2025-08-28 16:34:30,144 - INFO - Retour à la liste (mobile).
+2025-08-28 16:34:34,530 - INFO - 2/49: L'aincontournable
+2025-08-28 16:34:34,570 - INFO - Retour à la liste (mobile).
+2025-08-28 16:34:38,416 - INFO - 3/49: Brasserie l'Ain Pression - Malt Emoi
+2025-08-28 16:34:38,457 - INFO - Retour à la liste (mobile).
+2025-08-28 16:34:42,301 - INFO - 4/49: Le Trotteur
+2025-08-28 16:34:42,342 - INFO - Retour à la liste (mobile).
+2025-08-28 16:34:46,519 - INFO - 5/49: Café Du Champ De Foire
+2025-08-28 16:34:46,562 - INFO - Retour à la liste (mobile).
+2025-08-28 16:34:51,278 - INFO - 6/49: Le Central bar
+2025-08-28 16:34:51,318 - INFO - Retour à la liste (mobile).
+2025-08-28 16:34:54,881 - INFO - 7/49: Le Savarin
+2025-08-28 16:34:54,921 - INFO - Retour à la liste (mobile).
+2025-08-28 16:34:59,774 - INFO - 8/49: Aficionado coffee shop & brunch
+2025-08-28 16:34:59,815 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:03,452 - INFO - 9/49: Le Bar'occ
+2025-08-28 16:35:03,501 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:07,417 - INFO - 10/49: Café Bernolin - « Chez la Jeanne »
+2025-08-28 16:35:07,468 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:11,553 - INFO - 11/49: Le Club Café Bourg-en-bresse
+2025-08-28 16:35:11,593 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:15,735 - INFO - 12/49: Auberg'in Café Restaurant
+2025-08-28 16:35:15,774 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:20,124 - INFO - 13/49: La Bicyclette Bleue
+2025-08-28 16:35:20,165 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:24,079 - INFO - 14/49: Restaurant Le Terminus
+2025-08-28 16:35:24,122 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:28,053 - INFO - 15/49: Café Restaurant de la Préfecture
+2025-08-28 16:35:28,098 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:32,054 - INFO - 16/49: La Bressane - Brasserie Saint Clair
+2025-08-28 16:35:32,107 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:36,478 - INFO - 17/49: Cafe de France
+2025-08-28 16:35:36,522 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:39,780 - INFO - 18/49: Restaurant le Troquet des amis
+2025-08-28 16:35:39,829 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:44,351 - INFO - 19/49: Bistrot 1900 Ain
+2025-08-28 16:35:44,393 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:48,415 - INFO - 20/49: Le Bar À Créations
+2025-08-28 16:35:48,451 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:52,396 - INFO - 21/49: Rivière d'Ain (Brasserie artisanale)
+2025-08-28 16:35:52,437 - INFO - Retour à la liste (mobile).
+2025-08-28 16:35:57,113 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:01,037 - INFO - 22/49: La Fora Gîte et Café
+2025-08-28 16:36:01,079 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:04,730 - INFO - 23/49: L'Aquarelle
+2025-08-28 16:36:04,777 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:08,788 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:13,051 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:17,804 - INFO - 24/49: Le Vieux Logis
+2025-08-28 16:36:17,845 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:21,870 - INFO - 25/49: Le Carbet
+2025-08-28 16:36:21,914 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:25,881 - INFO - 26/49: La Cour de Récré
+2025-08-28 16:36:25,925 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:30,385 - INFO - 27/49: L Akge Resto-Bar
+2025-08-28 16:36:30,427 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:34,189 - INFO - 28/49: La Leymentaise
+2025-08-28 16:36:34,239 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:38,458 - INFO - 29/49: Ô Comptoir Bourg en Bresse
+2025-08-28 16:36:38,506 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:41,849 - INFO - 30/49: Le Salençon
+2025-08-28 16:36:41,890 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:45,602 - INFO - 31/49: Ain 2 3 salades
+2025-08-28 16:36:45,644 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:49,969 - INFO - 32/49: L'O à la bouche.
+2025-08-28 16:36:50,014 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:54,334 - INFO - 33/49: La Capsule Gourmande Bourg en Bresse - Restaurant - Burger - Bar à cookie
+2025-08-28 16:36:54,379 - INFO - Retour à la liste (mobile).
+2025-08-28 16:36:59,435 - INFO - 34/49: The Papatissier
+2025-08-28 16:36:59,481 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:04,027 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:08,084 - INFO - 35/49: La Grange du Pin
+2025-08-28 16:37:08,130 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:12,492 - INFO - 36/49: L'Ain Très Table
+2025-08-28 16:37:12,535 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:16,990 - INFO - 37/49: Le Nabu
+2025-08-28 16:37:17,038 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:21,229 - INFO - 38/49: Le barbara
+2025-08-28 16:37:21,276 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:25,130 - INFO - 39/49: Le loup
+2025-08-28 16:37:25,179 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:29,533 - INFO - 40/49: Au Faisan Doré
+2025-08-28 16:37:29,576 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:33,077 - INFO - 41/49: Restaurant le lion d'or
+2025-08-28 16:37:33,124 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:37,226 - INFO - 42/49: L’Atelier
+2025-08-28 16:37:37,273 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:41,772 - INFO - 43/49: Le Poncinois
+2025-08-28 16:37:41,817 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:46,351 - INFO - 44/49: Le Seymard
+2025-08-28 16:37:46,388 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:50,654 - INFO - 45/49: La comédie
+2025-08-28 16:37:50,701 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:54,535 - INFO - 46/49: Le Bienvenu chez Francky
+2025-08-28 16:37:54,579 - INFO - Retour à la liste (mobile).
+2025-08-28 16:37:59,230 - INFO - 47/49: Diner 66
+2025-08-28 16:37:59,276 - INFO - Retour à la liste (mobile).
+2025-08-28 16:38:04,093 - INFO - 48/49: Café de la Gare
+2025-08-28 16:38:04,141 - INFO - Retour à la liste (mobile).
+2025-08-28 16:38:08,678 - INFO - 49/49: Le Français
+2025-08-28 16:38:08,725 - INFO - Retour à la liste (mobile).
+2025-08-28 16:53:22,089 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-28 17:22:11,523 - INFO - 1/2: Florida
+2025-08-28 17:22:11,573 - INFO - Retour à la liste (mobile).
+2025-08-28 17:22:15,247 - INFO - 2/2: Café QJ
+2025-08-28 17:22:15,290 - INFO - Retour à la liste (mobile).

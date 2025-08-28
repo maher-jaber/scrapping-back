@@ -324,6 +324,25 @@ async def scrape_gmaps(request: SearchRequest, user: str = Depends(get_current_u
 
     return {"status": "success", **saved}
 
+@app.get("/locations")
+def list_locations(user: str = Depends(get_current_user)):
+    """
+    Retourne la liste des locations déjà présentes dans l'historique
+    avec le nombre de fois scrapées
+    """
+    cursor = db.cursor(dictionary=True)
+    cursor.execute("""
+                SELECT location, COUNT(DISTINCT scraped_at) AS times_scraped
+                FROM scrape_history
+                WHERE location IS NOT NULL AND location <> ''
+                GROUP BY location
+                ORDER BY location ASC
+    """)
+    rows = cursor.fetchall()
+    # Exemple de sortie : [{"location": "Paris", "times_scraped": 5}, ...]
+    return {"locations": rows}
+
+
 @app.post("/scrape/pagesjaunes")
 async def scrape_pj(request: SearchRequest, user: str = Depends(get_current_user)):
     results = await asyncio.to_thread(
