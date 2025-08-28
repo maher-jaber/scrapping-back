@@ -262,7 +262,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
             # Vérifier si le scraping a été arrêté (au début de chaque page)
             if user and not scraping_active_pj["pagesjaunes"].get(user, True):
                 logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
-                return results
+                return results[:max_results]
             
             url_page = f"{base_url}?page={page_num}"
             logger.info(f"Chargement de la page {page_num}: {url_page}")
@@ -271,7 +271,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
             # Vérification après le chargement de la page
             if user and not scraping_active_pj["pagesjaunes"].get(user, True):
                 logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
-                return results
+                return results[:max_results]
 
             try:
                 # Timeout réduit pour pouvoir vérifier l'arrêt plus souvent
@@ -285,7 +285,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
             # Vérification après le chargement des cartes
             if user and not scraping_active_pj["pagesjaunes"].get(user, True):
                 logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
-                return results
+                return results[:max_results]
 
             cards = driver.find_elements(By.CSS_SELECTOR, 'li.bi')
             logger.info(f"{len(cards)} cartes détectées sur la page {page_num}")
@@ -294,7 +294,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
                 # Vérification AVANT chaque carte
                 if user and not scraping_active_pj["pagesjaunes"].get(user, True):
                     logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
-                    return results
+                    return results[:max_results]
                 
                 if len(results) >= max_results:
                     logger.info("Nombre maximal de résultats atteint, arrêt du scraping.")
@@ -318,7 +318,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
                         # Vérification APRÈS l'ajout d'une carte
                         if user and not scraping_active_pj["pagesjaunes"].get(user, True):
                             logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
-                            return results
+                            return results[:max_results]
                             
                         # --- Mise à jour progressive pj_in_progress ---
                         if user:
@@ -340,7 +340,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
             # Vérification après le traitement de toutes les cartes de la page
             if user and not scraping_active_pj["pagesjaunes"].get(user, True):
                 logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
-                return results
+                return results[:max_results]
                 
             if len(results) >= max_results:
                 logger.info("Nombre maximal de résultats atteint.")
@@ -351,7 +351,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
             for _ in range(8):  # Vérifier toutes les 0.5 secondes pendant 4 secondes
                 if user and not scraping_active_pj["pagesjaunes"].get(user, True):
                     logger.info(f"🛑 Scrapping Pages Jaunes arrêté par l'utilisateur {user}")
-                    return results
+                    return results[:max_results]
                 time.sleep(0.5)
 
         logger.info(f"Scraping terminé, total résultats: {len(results)}")

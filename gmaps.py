@@ -455,7 +455,7 @@ def scrape_label_fusion(label, location, max_results, user=None):
                     # Vérifier régulièrement si on doit arrêter
                     if user and not scraping_active_gmaps["gmaps"].get(user, True):
                         print(f"🛑 Scrapping arrêté par l'utilisateur {user}")
-                        return results
+                        return results[:max_results]
 
                     items = extract_all_businesses(driver)
                     if idx >= len(items):
@@ -484,7 +484,7 @@ def scrape_label_fusion(label, location, max_results, user=None):
                         # Vérifier à nouveau après l'ajout
                         if user and not scraping_active_gmaps["gmaps"].get(user, True):
                             print(f"🛑 Scrapping arrêté par l'utilisateur {user}")
-                            return results
+                            return results[:max_results]
                             
                         # --- MAJ progression ---
                         if user:
