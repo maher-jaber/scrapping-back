@@ -404,45 +404,47 @@ async def scrape_pj(request: SearchRequest, user: str = Depends(get_current_user
             detail=f"Un scraping Pages Jaunes est déjà en cours pour {user}."
         )
 
-    try:
-        # Marquer comme actif
-        scraping_active_pj["pagesjaunes"][user] = True
+    # Marquer comme actif
+    scraping_active_pj["pagesjaunes"][user] = True
 
-        # Lancer le scraping dans un thread séparé
-        communes = get_communes_from_location(request.location)
-        results = []
+    # Lancer le scraping dans un thread séparé
+    communes = get_communes_from_location(request.location)
+    results = []
 
-        for commune in communes:
-            res = await asyncio.to_thread(
-                scrape_pages_jaunes, 
-                request.query,
-                commune,
-                request.max_results,
-                user
-            )
-            results.extend(res)
-
-        if not results:
-            return {"status": "error", "message": "Aucun résultat trouvé"}
-
-        # Normaliser les résultats
-        normalized = [normalize_result(r) for r in results]
-
-        # Sauvegarder en DB
-        saved = await asyncio.to_thread(
-            save_to_db,
-            normalized,
+    for commune in communes:
+        res = await asyncio.to_thread(
+            scrape_pages_jaunes, 
             request.query,
-            request.location,
-            "pagesjaunes"
+            commune,
+            request.max_results,
+            user
         )
+        results.extend(res)
 
-        return {"status": "success", **saved}
+    if not results:
+        return {"status": "error", "message": "Aucun résultat trouvé"}
 
-    finally:
-        # ❌ Pas mettre False → on supprime la clé pour rester cohérent
-        if user in scraping_active_pj["pagesjaunes"]:
-            del scraping_active_pj["pagesjaunes"][user]
+    # Normaliser les résultats
+    normalized = [normalize_result(r) for r in results]
+
+    # Sauvegarder en DB
+    saved = await asyncio.to_thread(
+        save_to_db,
+        normalized,
+        request.query,
+        request.location,
+        "pagesjaunes"
+    )
+
+    # Retirer le flag actif
+    if user in scraping_active_pj["pagesjaunes"]:
+        del scraping_active_pj["pagesjaunes"][user]
+
+    return {"status": "success", **saved}
+
+
+
+
 
 
 

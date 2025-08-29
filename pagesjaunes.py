@@ -323,6 +323,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
                         # --- Mise à jour progressive pj_in_progress ---
                         if user:
                             pj_in_progress[user] = {
+                                "commune": location,
                                 "name": data["Nom"],
                                 "phone": data.get("Téléphone"),
                                 "address": data.get("Adresse"),
@@ -359,6 +360,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
         # Mise à jour finale du statut
         if user:
             pj_in_progress[user] = {
+                "commune": location,
                 "name": None,
                 "phone": None,
                 "address": None,
@@ -375,9 +377,7 @@ def scrape_pages_jaunes(query, location, max_results=20, user=None):
             driver.save_screenshot('error_scraping.png')
         return []
     finally:
-        # Nettoyer l'état de scraping à la fin
-        if user and user in scraping_active_pj["pagesjaunes"]:
-            del scraping_active_pj["pagesjaunes"][user]
+
             
         if driver:
             driver.quit()
