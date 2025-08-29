@@ -22116,3 +22116,473 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2025-08-28 17:22:11,573 - INFO - Retour à la liste (mobile).
 2025-08-28 17:22:15,247 - INFO - 2/2: Café QJ
 2025-08-28 17:22:15,290 - INFO - Retour à la liste (mobile).
+2025-08-28 17:30:16,035 - INFO - 1/3: Florida
+2025-08-28 17:30:16,085 - INFO - Retour à la liste (mobile).
+2025-08-28 17:30:20,299 - INFO - 2/3: Café QJ
+2025-08-28 17:30:20,343 - INFO - Retour à la liste (mobile).
+2025-08-28 17:30:24,973 - INFO - 3/3: Au Petit Bar
+2025-08-28 17:30:25,015 - INFO - Retour à la liste (mobile).
+2025-08-29 09:02:48,210 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-29 09:03:35,320 - INFO - 1/5: Le Bar de Lyon
+2025-08-29 09:03:35,374 - INFO - Retour à la liste (mobile).
+2025-08-29 09:03:39,818 - INFO - 2/5: Motown Cafe
+2025-08-29 09:03:39,869 - INFO - Retour à la liste (mobile).
+2025-08-29 09:03:43,821 - INFO - 3/5: Le Café du Rhône
+2025-08-29 09:03:43,865 - INFO - Retour à la liste (mobile).
+2025-08-29 09:03:47,850 - INFO - 4/5: Cafe Bar Des Hautes Roches
+2025-08-29 09:03:47,898 - INFO - Retour à la liste (mobile).
+2025-08-29 09:03:52,255 - INFO - 5/5: Grand Café
+2025-08-29 09:03:52,302 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:10,104 - INFO - 1/10: Le Bar de Lyon
+2025-08-29 09:05:10,159 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:11,436 - INFO - 1/10: LE GRAND CAFE
+2025-08-29 09:05:11,484 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:14,367 - INFO - 2/10: Motown Cafe
+2025-08-29 09:05:14,413 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:15,117 - INFO - 2/10: Le Trotteur
+2025-08-29 09:05:15,161 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:18,368 - INFO - 3/10: Le Café du Rhône
+2025-08-29 09:05:18,412 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:19,089 - INFO - 3/10: L'aincontournable
+2025-08-29 09:05:19,138 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:21,766 - INFO - 4/10: Cafe Bar Des Hautes Roches
+2025-08-29 09:05:21,815 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:22,595 - INFO - 4/10: Café Du Champ De Foire
+2025-08-29 09:05:22,639 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:26,119 - INFO - 5/10: Grand Café
+2025-08-29 09:05:26,163 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:27,016 - INFO - 5/10: Brasserie l'Ain Pression - Malt Emoi
+2025-08-29 09:05:27,058 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:30,482 - INFO - 6/10: Café Juliette - Restaurant - Bar - Cocktails - Lyon 6
+2025-08-29 09:05:30,538 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:31,376 - INFO - 6/10: Le Savarin
+2025-08-29 09:05:31,419 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:35,005 - INFO - 7/10: Le Grand Café Neuf
+2025-08-29 09:05:35,050 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:35,759 - INFO - 7/10: Bistrot 1900 Ain
+2025-08-29 09:05:35,802 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:39,497 - INFO - 8/10: Le Grand Café
+2025-08-29 09:05:39,540 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:39,844 - INFO - 8/10: Aficionado coffee shop & brunch
+2025-08-29 09:05:39,889 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:43,296 - INFO - 9/10: cafe des alpes bar et jeux
+2025-08-29 09:05:43,339 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:43,792 - INFO - 9/10: Café Restaurant de la Préfecture
+2025-08-29 09:05:43,834 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:47,300 - INFO - 10/10: Bar Café Crème
+2025-08-29 09:05:47,343 - INFO - Retour à la liste (mobile).
+2025-08-29 09:05:48,065 - INFO - 10/10: Le Bar'occ
+2025-08-29 09:05:48,106 - INFO - Retour à la liste (mobile).
+2025-08-29 09:06:11,807 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-29 09:06:11,807 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-29 09:06:19,189 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 09:06:20,152 - INFO - [Page 1 | Carte 1] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-29 09:06:20,897 - INFO - [Page 1 | Carte 2] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-29 09:06:21,784 - INFO - [Page 1 | Carte 3] LumberJacks | Tél: 04 79 27 31 64 | Adresse: 688 avenue Follaz 73000 Chambéry Voir le plan
+2025-08-29 09:06:22,397 - INFO - [Page 1 | Carte 4] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-29 09:06:22,982 - INFO - [Page 1 | Carte 5] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-29 09:06:23,782 - INFO - [Page 1 | Carte 6] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-29 09:06:24,612 - INFO - [Page 1 | Carte 7] Café Le Victor Hugo | Tél: 04 75 40 18 11, 06 48 72 41 66 | Adresse: 30 avenue Victor Hugo 26000 Valence Voir le plan
+2025-08-29 09:06:25,552 - INFO - [Page 1 | Carte 8] KASSE LA BARAK | Tél: 04 79 06 44 68 | Adresse: 155 rue Nicolas Parent 73000 Chambéry Voir le plan
+2025-08-29 09:06:26,532 - INFO - [Page 1 | Carte 9] L' Actuel Brasserie | Tél: 04 79 44 32 75 | Adresse: 1 avenue Boisse 73000 Chambéry Voir le plan
+2025-08-29 09:06:27,207 - INFO - [Page 1 | Carte 10] Lou Tassou | Tél: 04 73 26 00 47 | Adresse: 14 place Ramacles 63170 Aubière Voir le plan
+2025-08-29 09:06:27,830 - INFO - [Page 1 | Carte 11] Le Berthelot | Tél: 04 73 36 33 16 | Adresse: 40 boulevard Berthelot 63000 Clermont Ferrand Voir le plan
+2025-08-29 09:06:28,536 - INFO - [Page 1 | Carte 12] Bouchon Dromois | Tél: 04 75 59 01 54, 06 71 78 90 19 | Adresse: 1 rue Gustave André 26120 Chabeuil Voir le plan
+2025-08-29 09:06:29,400 - INFO - [Page 1 | Carte 13] Hôtel Restaurant De L'abbaye | Tél: 04 73 96 81 80 | Adresse: 15 place 8 Mai 63490 Sauxillanges Voir le plan
+2025-08-29 09:06:30,011 - INFO - [Page 1 | Carte 14] Bistrot Le Filanthrope | Tél: 09 83 90 38 66 | Adresse: 16 avenue Auguste Blanqui 69100 Villeurbanne Voir le plan
+2025-08-29 09:06:30,647 - INFO - [Page 1 | Carte 15] Hotel-Restaurant Le Patio | Tél: 04 70 98 63 45 | Adresse: 8 rue Paris 03200 Vichy Voir le plan
+2025-08-29 09:06:31,678 - INFO - [Page 1 | Carte 16] L'AVIATEUR DE LA RN6 | Tél: 06 81 22 77 87 | Adresse: 565 route Nationale 6 69380 Dommartin Voir le plan
+2025-08-29 09:06:32,628 - INFO - [Page 1 | Carte 17] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-29 09:06:33,335 - INFO - [Page 1 | Carte 18] Café Des Sports | Tél: 04 76 91 85 80 | Adresse: 80 place Eglise 73240 Saint Genix sur Guiers Voir le plan
+2025-08-29 09:06:33,988 - INFO - [Page 1 | Carte 19] Happy Diner/Pub Le Jerry's | Tél: 09 83 36 13 68 | Adresse: 37 avenue Arcalod 74150 Rumilly Voir le plan
+2025-08-29 09:06:34,870 - INFO - [Page 1 | Carte 20] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-29 09:06:34,871 - INFO - Résultats cumulés: 20 / 50
+2025-08-29 09:06:38,504 - INFO - 1/20: LE GRAND CAFE
+2025-08-29 09:06:38,556 - INFO - Retour à la liste (mobile).
+2025-08-29 09:06:38,838 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=2
+2025-08-29 09:06:39,977 - INFO - 20 cartes détectées sur la page 2
+2025-08-29 09:06:40,032 - INFO - [Page 2 | Carte 1] Doublon détecté: Hôtel Restaurant De L'abbaye
+2025-08-29 09:06:41,024 - INFO - [Page 2 | Carte 2] Brasserie Park | Tél: 04 78 89 32 03 | Adresse: 77 boulevard Stalingrad 69100 Villeurbanne Voir le plan
+2025-08-29 09:06:41,071 - INFO - [Page 2 | Carte 3] Doublon détecté: Bouchon Dromois
+2025-08-29 09:06:41,980 - INFO - [Page 2 | Carte 4] Hôtel Le Palladior | Tél:     04 76 06 47 47 | Adresse: 4 rue Alphonse Bouffard Roupe 38500 Voiron Voir le plan
+2025-08-29 09:06:42,020 - INFO - [Page 2 | Carte 5] Doublon détecté: Café Des Sports
+2025-08-29 09:06:42,159 - INFO - 2/20: Le Trotteur
+2025-08-29 09:06:42,203 - INFO - Retour à la liste (mobile).
+2025-08-29 09:06:42,818 - INFO - [Page 2 | Carte 6] Le Comptoir De Marcelle | Tél: 04 79 60 85 13 | Adresse: 2 avenue Chevaliers Tireurs 73000 Chambéry Voir le plan
+2025-08-29 09:06:43,785 - INFO - [Page 2 | Carte 7] L'ENTRE POTES | Tél: 06 74 05 30 51 | Adresse: 5 rue St Pourcain 03500 Châtel de Neuvre Voir le plan
+2025-08-29 09:06:44,528 - INFO - [Page 2 | Carte 8] Hôtel le Relais des Sites | Tél: 04 71 23 47 80 | Adresse: le Bourg Faverolles Faverolles 15320 Val d'Arcomie Voir le plan
+2025-08-29 09:06:45,176 - INFO - [Page 2 | Carte 9] Malto | Tél: 06 29 39 04 26 | Adresse: 2 rue Chaponnay 69003 Lyon Voir le plan
+2025-08-29 09:06:45,900 - INFO - [Page 2 | Carte 10] Alpy Bières | Tél: 04 50 32 40 20 | Adresse: Zone des Césardes 50 chemin Croix 74600 Seynod Voir le plan
+2025-08-29 09:06:46,395 - INFO - 3/20: L'aincontournable
+2025-08-29 09:06:46,445 - INFO - Retour à la liste (mobile).
+2025-08-29 09:06:46,585 - INFO - [Page 2 | Carte 11] Les Epicurieuz | Tél: 06 44 95 79 86 | Adresse: 1 rue Soeurs 63710 Saint Nectaire Voir le plan
+2025-08-29 09:06:47,477 - INFO - [Page 2 | Carte 12] Camping la Prade | Tél: 06 89 58 02 76, 04 75 36 83 54 | Adresse: 1978 route d' Aubenas quartier Ginestet 07110 Largentière Voir le plan
+2025-08-29 09:06:48,501 - INFO - [Page 2 | Carte 13] Les Ursulines | Tél: 04 74 83 60 35 | Adresse: 4 côte Chausson 38460 Crémieu Voir le plan
+2025-08-29 09:06:49,451 - INFO - [Page 2 | Carte 14] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-29 09:06:50,095 - INFO - [Page 2 | Carte 15] Onat | Tél:     04 73 77 08 11 | Adresse: 93 avenue Aubière 63800 Cournon d'Auvergne Voir le plan
+2025-08-29 09:06:50,142 - INFO - [Page 2 | Carte 16] Doublon détecté: Le Français
+2025-08-29 09:06:50,350 - INFO - 4/20: Café Du Champ De Foire
+2025-08-29 09:06:50,393 - INFO - Retour à la liste (mobile).
+2025-08-29 09:06:50,879 - INFO - [Page 2 | Carte 17] Le Shamrock 73 | Tél: 04 79 31 78 10 | Adresse: 218 rue Mont Blanc 73590 Flumet Voir le plan
+2025-08-29 09:06:51,553 - INFO - [Page 2 | Carte 18] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-29 09:06:52,278 - INFO - [Page 2 | Carte 19] Bar Du Commerce | Tél: 04 79 25 41 15 | Adresse: 139 avenue Costa de Beauregard 73290 La Motte Servolex Voir le plan
+2025-08-29 09:06:53,200 - INFO - [Page 2 | Carte 20] Oïshi | Tél: 04 73 28 45 49 | Adresse: 49 avenue Lavoisier 63170 Aubière Voir le plan
+2025-08-29 09:06:53,201 - INFO - Résultats cumulés: 36 / 50
+2025-08-29 09:06:54,228 - INFO - 5/20: Brasserie l'Ain Pression - Malt Emoi
+2025-08-29 09:06:54,277 - INFO - Retour à la liste (mobile).
+2025-08-29 09:06:57,167 - INFO - Chargement de la page 3: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=3
+2025-08-29 09:06:58,309 - INFO - 6/20: Le Savarin
+2025-08-29 09:06:58,370 - INFO - 20 cartes détectées sur la page 3
+2025-08-29 09:06:58,371 - INFO - Retour à la liste (mobile).
+2025-08-29 09:06:59,245 - INFO - [Page 3 | Carte 1] Au Taco Tac | Tél: 09 52 09 20 71 | Adresse: 9 rue Denfert Rochereau 38000 Grenoble Voir le plan
+2025-08-29 09:07:00,230 - INFO - [Page 3 | Carte 2] LE BAROQUE | Tél: 04 50 26 45 15 | Adresse: 10 place Arts 74200 Thonon les Bains Voir le plan
+2025-08-29 09:07:00,943 - INFO - [Page 3 | Carte 3] Pizzéria Restaurant Gloria | Tél: 04 70 35 01 00 | Adresse: 11 r Wagram 1 rue Couteliers 03000 Moulins Voir le plan
+2025-08-29 09:07:00,983 - INFO - [Page 3 | Carte 4] Doublon détecté: Hôtel le Relais des Sites
+2025-08-29 09:07:01,946 - INFO - [Page 3 | Carte 5] Brasserie Brunet | Tél: 04 50 51 22 10 | Adresse: 10 rue Poste 74000 Annecy Voir le plan
+2025-08-29 09:07:01,996 - INFO - [Page 3 | Carte 6] Doublon détecté: Café Des Sports
+2025-08-29 09:07:02,000 - INFO - 7/20: Le comptoir de charnoz
+2025-08-29 09:07:02,038 - INFO - [Page 3 | Carte 7] Doublon détecté: Les Ursulines
+2025-08-29 09:07:02,047 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:02,828 - INFO - [Page 3 | Carte 8] Les Châtaignier | Tél: 04 75 66 39 60 | Adresse: côte Baron 07000 Privas Voir le plan
+2025-08-29 09:07:02,883 - INFO - [Page 3 | Carte 9] Doublon détecté: Bar Du Commerce
+2025-08-29 09:07:03,701 - INFO - [Page 3 | Carte 10] Le Daguet | Tél: 04 71 57 16 50 | Adresse: 27 place Marché 43490 Costaros Voir le plan
+2025-08-29 09:07:04,310 - INFO - [Page 3 | Carte 11] Le Family | Tél: 06 27 41 05 07 | Adresse: 43 rue Graves 63570 Brassac les Mines Voir le plan
+2025-08-29 09:07:05,378 - INFO - [Page 3 | Carte 12] Restaurant Le Furet | Tél: 06 79 87 92 38 | Adresse: 440 chemin Furet 26160 Eyzahut Voir le plan
+2025-08-29 09:07:06,303 - INFO - [Page 3 | Carte 13] Chez Régina | Tél: 04 50 22 80 46, 06 20 78 51 58 | Adresse: Plateau des Glières route Glières 74130 Le Petit Bornand les Glières Voir le plan
+2025-08-29 09:07:06,340 - INFO - [Page 3 | Carte 14] Doublon détecté: Alpy Bières
+2025-08-29 09:07:06,379 - INFO - [Page 3 | Carte 15] Doublon détecté: L'ENTRE POTES
+2025-08-29 09:07:06,431 - INFO - 8/20: Bistrot 1900 Ain
+2025-08-29 09:07:06,475 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:06,994 - INFO - [Page 3 | Carte 16] Le Cosy | Tél:     04 50 22 16 15, 09 66 91 16 15 | Adresse: 344 avenue Centre Epagny 74330 Epagny Metz Tessy Voir le plan
+2025-08-29 09:07:07,032 - INFO - [Page 3 | Carte 17] Doublon détecté: Le Panoramique
+2025-08-29 09:07:08,076 - INFO - [Page 3 | Carte 18] La Tribu | Tél: 09 83 01 47 79 | Adresse: 35 rue Centrale 69970 Marennes Voir le plan
+2025-08-29 09:07:08,807 - INFO - [Page 3 | Carte 19] Hotel Restaurant du Grand-Mont | Tél: 04 79 38 33 36, 06 88 92 88 43 | Adresse: 4 place Eglise 73270 Beaufort sur Doron Voir le plan
+2025-08-29 09:07:09,801 - INFO - [Page 3 | Carte 20] La Piste | Tél: 04 75 41 11 07 | Adresse: 99 avenue Lyon 26500 Bourg lès Valence Voir le plan
+2025-08-29 09:07:09,802 - INFO - Résultats cumulés: 49 / 50
+2025-08-29 09:07:11,464 - INFO - 9/20: Aficionado coffee shop & brunch
+2025-08-29 09:07:11,509 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:13,769 - INFO - Chargement de la page 4: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=4
+2025-08-29 09:07:14,857 - INFO - 20 cartes détectées sur la page 4
+2025-08-29 09:07:15,702 - INFO - [Page 4 | Carte 1] Le Singuliers Café-Resto | Tél: 04 74 60 72 06 | Adresse: 3 boulevard Joseph Rosselli 69220 Belleville Voir le plan
+2025-08-29 09:07:15,703 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 09:07:15,703 - INFO - Résultats cumulés: 50 / 50
+2025-08-29 09:07:15,703 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 09:07:15,704 - INFO - Scraping terminé, total résultats: 50
+2025-08-29 09:07:16,076 - INFO - 10/20: Café Restaurant de la Préfecture
+2025-08-29 09:07:16,120 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:19,667 - INFO - 11/20: Le Bar'occ
+2025-08-29 09:07:19,708 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:23,837 - INFO - 12/20: Café Bernolin - « Chez la Jeanne »
+2025-08-29 09:07:23,878 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:27,566 - INFO - 13/20: Le Club Café Bourg-en-bresse
+2025-08-29 09:07:27,612 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:32,078 - INFO - 14/20: Le Central bar
+2025-08-29 09:07:32,117 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:36,208 - INFO - 15/20: Auberg'in Café Restaurant
+2025-08-29 09:07:36,248 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:40,028 - INFO - 16/20: La Bicyclette Bleue
+2025-08-29 09:07:40,070 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:44,623 - INFO - 17/20: Restaurant Le Terminus
+2025-08-29 09:07:44,666 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:48,179 - INFO - 18/20: Cafe de France
+2025-08-29 09:07:48,221 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:52,889 - INFO - 19/20: La Bressane - Brasserie Saint Clair
+2025-08-29 09:07:52,929 - INFO - Retour à la liste (mobile).
+2025-08-29 09:07:57,027 - INFO - 20/20: Restaurant le Troquet des amis
+2025-08-29 09:07:57,072 - INFO - Retour à la liste (mobile).
+2025-08-29 09:25:44,369 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-29 09:26:24,662 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-29 09:26:24,662 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-29 09:26:29,195 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 09:26:30,254 - INFO - [Page 1 | Carte 1] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-29 09:26:31,129 - INFO - [Page 1 | Carte 2] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-29 09:26:32,125 - INFO - [Page 1 | Carte 3] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-29 09:26:32,763 - INFO - [Page 1 | Carte 4] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-29 09:26:33,628 - INFO - [Page 1 | Carte 5] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-29 09:26:33,628 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 09:26:33,629 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 09:26:33,629 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 09:26:33,629 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 09:28:30,549 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-29 09:28:30,549 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-29 09:29:00,200 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 09:29:01,174 - INFO - [Page 1 | Carte 1] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-29 09:29:01,906 - INFO - [Page 1 | Carte 2] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-29 09:29:02,638 - INFO - [Page 1 | Carte 3] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-29 09:29:03,342 - INFO - [Page 1 | Carte 4] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-29 09:29:04,106 - INFO - [Page 1 | Carte 5] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-29 09:29:04,107 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 09:29:04,107 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 09:29:04,107 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 09:29:04,107 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 09:29:18,258 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-29 09:29:18,259 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-29 09:29:20,657 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 09:29:21,704 - INFO - [Page 1 | Carte 1] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-29 09:29:22,724 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-29 09:29:23,966 - INFO - [Page 1 | Carte 3] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-29 09:29:24,776 - INFO - [Page 1 | Carte 4] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-29 09:29:25,545 - INFO - [Page 1 | Carte 5] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-29 09:29:25,545 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 09:29:25,545 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 09:29:25,545 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 09:29:25,545 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 09:29:27,635 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-29 09:29:27,635 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-29 09:29:31,287 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 09:29:32,103 - INFO - [Page 1 | Carte 1] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-29 09:29:32,776 - INFO - [Page 1 | Carte 2] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-29 09:29:33,560 - INFO - [Page 1 | Carte 3] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-29 09:29:34,505 - INFO - [Page 1 | Carte 4] LumberJacks | Tél: 04 79 27 31 64 | Adresse: 688 avenue Follaz 73000 Chambéry Voir le plan
+2025-08-29 09:29:35,494 - INFO - [Page 1 | Carte 5] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-29 09:29:35,495 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 09:29:35,495 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 09:29:35,495 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 09:29:35,495 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 09:29:43,664 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-29 09:29:43,664 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-29 09:30:10,385 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 09:30:11,233 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-29 09:30:11,820 - INFO - [Page 1 | Carte 2] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-29 09:30:12,785 - INFO - [Page 1 | Carte 3] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-29 09:30:13,464 - INFO - [Page 1 | Carte 4] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-29 09:30:14,390 - INFO - [Page 1 | Carte 5] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-29 09:30:14,391 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 09:30:14,391 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 09:30:14,391 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 09:30:14,391 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 09:38:52,977 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-29 09:38:52,977 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-29 09:39:24,869 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 09:39:25,824 - INFO - [Page 1 | Carte 1] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-29 09:39:26,424 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-29 09:39:27,341 - INFO - [Page 1 | Carte 3] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-29 09:39:28,427 - INFO - [Page 1 | Carte 4] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-29 09:39:29,111 - INFO - [Page 1 | Carte 5] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-29 09:39:29,112 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 09:39:29,112 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 09:39:29,112 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 09:39:29,112 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 10:02:54,488 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-29 10:02:54,488 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-29 10:02:58,774 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 10:02:59,783 - INFO - [Page 1 | Carte 1] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-29 10:03:00,509 - INFO - [Page 1 | Carte 2] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-29 10:03:01,235 - INFO - [Page 1 | Carte 3] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-29 10:03:02,174 - INFO - [Page 1 | Carte 4] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-29 10:03:03,170 - INFO - [Page 1 | Carte 5] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-29 10:03:03,796 - INFO - [Page 1 | Carte 6] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-29 10:03:04,477 - INFO - [Page 1 | Carte 7] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-29 10:03:05,577 - INFO - [Page 1 | Carte 8] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-29 10:03:06,395 - INFO - [Page 1 | Carte 9] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-29 10:03:07,283 - INFO - [Page 1 | Carte 10] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-29 10:03:08,280 - INFO - [Page 1 | Carte 11] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-29 10:03:09,107 - INFO - [Page 1 | Carte 12] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-29 10:03:10,017 - INFO - [Page 1 | Carte 13] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-29 10:03:11,039 - INFO - [Page 1 | Carte 14] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-29 10:03:12,069 - INFO - [Page 1 | Carte 15] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-29 10:03:12,903 - INFO - [Page 1 | Carte 16] Restaurant Le Pavillon du Golf | Tél: 04 50 40 34 13 | Adresse: 604 rue Bains 01220 Divonne les Bains Voir le plan
+2025-08-29 10:03:13,724 - INFO - [Page 1 | Carte 17] Auberge De La Source | Tél: 09 87 11 69 22 | Adresse: 1 route Contrevoz 01300 Chazey Bons Voir le plan
+2025-08-29 10:03:14,461 - INFO - [Page 1 | Carte 18] Le Repère | Tél: 03 71 41 05 50 | Adresse: 2165 route Macon 01190 Gorrevod Voir le plan
+2025-08-29 10:03:15,398 - INFO - [Page 1 | Carte 19] V and B | Tél: 04 74 39 06 47 | Adresse: 37 avenue Libération 01500 Ambérieu en Bugey Voir le plan
+2025-08-29 10:03:16,291 - INFO - [Page 1 | Carte 20] Restaurant La Gare | Tél: 04 50 20 44 02 | Adresse: 368 avenue Gare 01170 Gex Voir le plan
+2025-08-29 10:03:16,292 - INFO - Résultats cumulés: 20 / 20
+2025-08-29 10:03:16,292 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 10:03:16,292 - INFO - Scraping terminé, total résultats: 20
+2025-08-29 10:05:05,028 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Allier'
+2025-08-29 10:05:05,028 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/allier/d%C3%A9bits+de+boissons?page=1
+2025-08-29 10:05:08,696 - INFO - 2 cartes détectées sur la page 1
+2025-08-29 10:05:09,608 - INFO - [Page 1 | Carte 1] Vinilia 65 | Tél: 06 03 92 85 15 | Adresse: 77 rue Pic du Midi 65310 Odos Voir le plan
+2025-08-29 10:05:10,383 - INFO - [Page 1 | Carte 2] Casino Cafétéria | Tél: 05 62 45 13 59 | Adresse: Centre commercial Géant route Bagnères 65310 Laloubère Voir le plan
+2025-08-29 10:05:10,383 - INFO - Résultats cumulés: 2 / 10
+2025-08-29 10:05:14,389 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/allier/d%C3%A9bits+de+boissons?page=2
+2025-08-29 10:05:25,086 - WARNING - Aucune carte trouvée sur la page 2
+2025-08-29 10:05:25,086 - INFO - Scraping terminé, total résultats: 2
+2025-08-29 10:24:00,709 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-29 10:24:00,709 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-29 10:24:04,799 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 10:24:05,831 - INFO - [Page 1 | Carte 1] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-29 10:24:06,733 - INFO - [Page 1 | Carte 2] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-29 10:24:07,593 - INFO - [Page 1 | Carte 3] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-29 10:24:08,478 - INFO - [Page 1 | Carte 4] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-29 10:24:09,445 - INFO - [Page 1 | Carte 5] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-29 10:24:10,251 - INFO - [Page 1 | Carte 6] LumberJacks | Tél: 04 79 27 31 64 | Adresse: 688 avenue Follaz 73000 Chambéry Voir le plan
+2025-08-29 10:24:11,295 - INFO - [Page 1 | Carte 7] KASSE LA BARAK | Tél: 04 79 06 44 68 | Adresse: 155 rue Nicolas Parent 73000 Chambéry Voir le plan
+2025-08-29 10:24:12,536 - INFO - [Page 1 | Carte 8] Café Le Victor Hugo | Tél: 04 75 40 18 11, 06 48 72 41 66 | Adresse: 30 avenue Victor Hugo 26000 Valence Voir le plan
+2025-08-29 10:24:13,407 - INFO - [Page 1 | Carte 9] Lou Tassou | Tél: 04 73 26 00 47 | Adresse: 14 place Ramacles 63170 Aubière Voir le plan
+2025-08-29 10:24:14,075 - INFO - [Page 1 | Carte 10] L' Actuel Brasserie | Tél: 04 79 44 32 75 | Adresse: 1 avenue Boisse 73000 Chambéry Voir le plan
+2025-08-29 10:24:14,803 - INFO - [Page 1 | Carte 11] Bouchon Dromois | Tél: 04 75 59 01 54, 06 71 78 90 19 | Adresse: 1 rue Gustave André 26120 Chabeuil Voir le plan
+2025-08-29 10:24:15,701 - INFO - [Page 1 | Carte 12] Le Berthelot | Tél: 04 73 36 33 16 | Adresse: 40 boulevard Berthelot 63000 Clermont Ferrand Voir le plan
+2025-08-29 10:24:16,724 - INFO - [Page 1 | Carte 13] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-29 10:24:17,571 - INFO - [Page 1 | Carte 14] Happy Diner/Pub Le Jerry's | Tél: 09 83 36 13 68 | Adresse: 37 avenue Arcalod 74150 Rumilly Voir le plan
+2025-08-29 10:24:18,356 - INFO - [Page 1 | Carte 15] The Cooker | Tél: 04 79 72 44 20, 06 59 64 14 80 | Adresse: 632 route Departementale 1006 73490 La Ravoire Voir le plan
+2025-08-29 10:24:18,356 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 10:24:18,357 - INFO - Résultats cumulés: 15 / 15
+2025-08-29 10:24:18,357 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 10:24:18,357 - INFO - Scraping terminé, total résultats: 15
+2025-08-29 10:25:51,732 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-29 10:25:51,732 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-29 10:26:21,014 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 10:26:21,665 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-29 10:26:22,291 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-29 10:26:23,022 - INFO - [Page 1 | Carte 3] La Bicyclette Bleue | Tél:     04 74 98 21 48 | Adresse: le Pont 01800 Joyeux Voir le plan
+2025-08-29 10:26:24,014 - INFO - [Page 1 | Carte 4] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-29 10:26:24,662 - INFO - [Page 1 | Carte 5] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-29 10:26:25,290 - INFO - [Page 1 | Carte 6] Domaine du Pont Pyrimont | Tél: 07 86 03 21 47 | Adresse: 2 chemin Croix Meunier 01420 Chanay Voir le plan
+2025-08-29 10:26:26,126 - INFO - [Page 1 | Carte 7] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-29 10:26:27,053 - INFO - [Page 1 | Carte 8] Feillens Brasserie | Tél: 06 11 98 15 79 | Adresse: 500 route Ternant 01570 Feillens Voir le plan
+2025-08-29 10:26:27,676 - INFO - [Page 1 | Carte 9] Hôtel Restaurant De La Couronne | Tél: 04 50 41 32 65, 09 75 86 78 53 | Adresse: 8207 Col de la Faucille 01170 Gex Voir le plan
+2025-08-29 10:26:28,319 - INFO - [Page 1 | Carte 10] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-29 10:26:29,158 - INFO - [Page 1 | Carte 11] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-29 10:26:30,233 - INFO - [Page 1 | Carte 12] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-29 10:26:31,111 - INFO - [Page 1 | Carte 13] Le Relais De La Tour | Tél:    04 74 61 01 03 | Adresse: place Tilleul 01800 Pérouges Voir le plan
+2025-08-29 10:26:32,051 - INFO - [Page 1 | Carte 14] Le Nabu | Tél: 04 74 61 62 57 | Adresse: 1 place Vavres 01800 Saint Jean de Niost Voir le plan
+2025-08-29 10:26:32,854 - INFO - [Page 1 | Carte 15] RESTAURANT DU MIDI | Tél: 04 78 55 34 57 | Adresse: 572 rue Centrale 01700 Beynost Voir le plan
+2025-08-29 10:26:32,854 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 10:26:32,854 - INFO - Résultats cumulés: 15 / 15
+2025-08-29 10:26:32,855 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 10:26:32,855 - INFO - Scraping terminé, total résultats: 15
+2025-08-29 10:26:49,614 - INFO - Lancement du scraping pour 'Élevage de chevaux et d'autres équidés' à 'Ain'
+2025-08-29 10:26:49,615 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/%C3%A9levage+de+chevaux+et+d%27autres+%C3%A9quid%C3%A9s?page=1
+2025-08-29 10:27:01,237 - INFO - 1/20: Café des Forges
+2025-08-29 10:27:01,290 - INFO - Retour à la liste (mobile).
+2025-08-29 10:27:05,635 - INFO - 2/20: Barbar Café
+2025-08-29 10:27:05,687 - INFO - Retour à la liste (mobile).
+2025-08-29 10:27:10,194 - INFO - 3/20: Le Café Café
+2025-08-29 10:27:10,258 - INFO - Retour à la liste (mobile).
+2025-08-29 10:27:14,845 - INFO - 4/20: Café Chez Nous
+2025-08-29 10:27:14,890 - INFO - Retour à la liste (mobile).
+2025-08-29 10:27:17,212 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 10:27:17,915 - INFO - [Page 1 | Carte 1] Les Ecuries De Mury | Tél:    06 52 41 62 17, 04 50 41 57 66 | Adresse: 1354 route Mury 01170 Echenevex Voir le plan
+2025-08-29 10:27:18,782 - INFO - [Page 1 | Carte 2] Dominique Chanoz | Tél: 04 74 34 71 34 | Adresse: Les Cordelières 01800 Faramans Voir le plan
+2025-08-29 10:27:19,534 - INFO - [Page 1 | Carte 3] La Ferme des Bois de But Guillemot SCEA | Tél: 04 74 14 80 49 | Adresse: 80 chemin But 01440 Viriat Voir le plan
+2025-08-29 10:27:20,385 - INFO - [Page 1 | Carte 4] Domaine de La Rena | Tél: 06 10 92 02 53 | Adresse: 987 route Route de la Forêt 01800 Le Montellier Voir le plan
+2025-08-29 10:27:21,019 - INFO - [Page 1 | Carte 5] Domaine Equestre La Mauriniere | Tél: 06 71 85 63 34 | Adresse: Domaine Equestre La Mauriniere 440 route Champdor 01110 Brénod Voir le plan
+2025-08-29 10:27:21,019 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 10:27:21,020 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 10:27:21,020 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 10:27:21,020 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 10:27:49,220 - INFO - 5/20: Brasserie La Source
+2025-08-29 10:27:49,270 - INFO - Retour à la liste (mobile).
+2025-08-29 10:27:53,535 - INFO - 6/20: Brasserie Artisanale de Bourgogne (BAB)
+2025-08-29 10:27:53,574 - INFO - Retour à la liste (mobile).
+2025-08-29 10:27:58,227 - INFO - 7/20: La Franche
+2025-08-29 10:27:58,269 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:01,854 - INFO - 8/20: Brasserie Belgo-Comtoise
+2025-08-29 10:28:01,897 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:06,434 - INFO - 9/20: La Brasserie de la Comté
+2025-08-29 10:28:06,480 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:10,826 - INFO - 10/20: BRASSERIE DU MORVAN
+2025-08-29 10:28:10,867 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:15,539 - INFO - 11/20: Brasserie des Trois Fontaines
+2025-08-29 10:28:15,634 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:20,041 - INFO - 12/20: Brasserie La Bourgogne
+2025-08-29 10:28:20,087 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:24,377 - INFO - 13/20: Brasserie de Flavigny
+2025-08-29 10:28:24,425 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:28,464 - INFO - 14/20: Gangloff Brasserie - Fabrique de bière
+2025-08-29 10:28:28,509 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:31,935 - INFO - 15/20: Bière du Doubs
+2025-08-29 10:28:31,980 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:35,512 - INFO - 16/20: Brasserie Cuc
+2025-08-29 10:28:35,559 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:39,262 - INFO - 17/20: Brasserie La Kanopée
+2025-08-29 10:28:39,304 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:43,153 - INFO - Lancement du scraping pour 'Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses' à 'Auvergne-Rhône-Alpes'
+2025-08-29 10:28:43,153 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/culture+de+c%C3%A9r%C3%A9ales+%28%C3%A0+l%27exception+du+riz%29%2C+de+l%C3%A9gumineuses+et+de+graines+ol%C3%A9agineuses?page=1
+2025-08-29 10:28:43,960 - INFO - 18/20: BRASSERIE DES DUCS bières artisanales
+2025-08-29 10:28:44,010 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:48,001 - INFO - 19/20: Les Brassages du Meix
+2025-08-29 10:28:48,051 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:51,680 - INFO - 20/20: Brasserie artisanale La Hocheuse
+2025-08-29 10:28:51,729 - INFO - Retour à la liste (mobile).
+2025-08-29 10:28:57,376 - WARNING - Aucune carte trouvée sur la page 1
+2025-08-29 10:28:57,376 - INFO - Scraping terminé, total résultats: 0
+2025-08-29 10:29:32,974 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-29 10:29:32,975 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-29 10:29:36,905 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 10:29:37,839 - INFO - [Page 1 | Carte 1] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-29 10:29:38,715 - INFO - [Page 1 | Carte 2] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-29 10:29:39,461 - INFO - [Page 1 | Carte 3] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-29 10:29:40,120 - INFO - [Page 1 | Carte 4] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-29 10:29:41,197 - INFO - [Page 1 | Carte 5] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-29 10:29:41,197 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 10:29:41,198 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 10:29:41,198 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 10:29:41,198 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 10:29:58,896 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-29 10:29:58,896 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-29 10:30:02,912 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 10:30:03,605 - INFO - [Page 1 | Carte 1] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-29 10:30:04,386 - INFO - [Page 1 | Carte 2] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-29 10:30:05,236 - INFO - [Page 1 | Carte 3] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-29 10:30:06,706 - INFO - [Page 1 | Carte 4] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-29 10:30:07,676 - INFO - [Page 1 | Carte 5] LumberJacks | Tél: 04 79 27 31 64 | Adresse: 688 avenue Follaz 73000 Chambéry Voir le plan
+2025-08-29 10:30:07,676 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 10:30:07,676 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 10:30:07,676 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 10:30:07,676 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 10:30:09,994 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ain'
+2025-08-29 10:30:09,995 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ain/d%C3%A9bits+de+boissons?page=1
+2025-08-29 10:30:13,999 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 10:30:14,692 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-29 10:30:15,642 - INFO - [Page 1 | Carte 2] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-29 10:30:16,532 - INFO - [Page 1 | Carte 3] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-29 10:30:17,192 - INFO - [Page 1 | Carte 4] Le Panoramique | Tél: 04 74 37 38 20 | Adresse: Rte Nationale 84 Le Belvédère 01450 Cerdon Voir le plan
+2025-08-29 10:30:17,948 - INFO - [Page 1 | Carte 5] Espace candide | Tél: 04 50 99 60 43 | Adresse: Espace Candide route Meyrin 01210 Ferney Voltaire Voir le plan
+2025-08-29 10:30:17,948 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 10:30:17,948 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 10:30:17,949 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 10:30:17,949 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 10:30:29,463 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Auvergne-Rhône-Alpes'
+2025-08-29 10:30:29,464 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=1
+2025-08-29 10:30:34,395 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 10:30:35,345 - INFO - [Page 1 | Carte 1] Kerry'S Pub | Tél: 04 63 22 20 68 | Adresse: 2 rue Eminée 63000 Clermont Ferrand Voir le plan
+2025-08-29 10:30:36,846 - INFO - [Page 1 | Carte 2] LumberJacks | Tél: 04 79 27 31 64 | Adresse: 688 avenue Follaz 73000 Chambéry Voir le plan
+2025-08-29 10:30:37,756 - INFO - [Page 1 | Carte 3] Hôtel La Savoyarde | Tél: 04 79 06 01 55, 04 79 41 11 29, 04 79 06 89 04 | Adresse: Chef Lieu rue Noel Machet 73150 Val d'Isère Voir le plan
+2025-08-29 10:30:38,590 - INFO - [Page 1 | Carte 4] Labelle Bière | Tél:    04 79 84 01 62 | Adresse: 267 rue Sébastien Charléty 73490 La Ravoire Voir le plan
+2025-08-29 10:30:39,491 - INFO - [Page 1 | Carte 5] RDV lounge | Tél: 06 51 45 07 16 | Adresse: 30 rue Annonciade 69001 Lyon Voir le plan
+2025-08-29 10:30:40,143 - INFO - [Page 1 | Carte 6] Free Ride | Tél: 06 75 08 96 93 | Adresse: L'Alpe D'Huez 38750 Alpe d'Huez Voir le plan
+2025-08-29 10:30:41,194 - INFO - [Page 1 | Carte 7] Café Le Victor Hugo | Tél: 04 75 40 18 11, 06 48 72 41 66 | Adresse: 30 avenue Victor Hugo 26000 Valence Voir le plan
+2025-08-29 10:30:42,002 - INFO - [Page 1 | Carte 8] Le Berthelot | Tél: 04 73 36 33 16 | Adresse: 40 boulevard Berthelot 63000 Clermont Ferrand Voir le plan
+2025-08-29 10:30:43,053 - INFO - [Page 1 | Carte 9] Bistrot Le Filanthrope | Tél: 09 83 90 38 66 | Adresse: 16 avenue Auguste Blanqui 69100 Villeurbanne Voir le plan
+2025-08-29 10:30:43,787 - INFO - [Page 1 | Carte 10] La Réserve | Tél: 04 74 73 44 84 | Adresse: 86 cours Verdun 01100 Oyonnax Voir le plan
+2025-08-29 10:30:44,775 - INFO - [Page 1 | Carte 11] L' Actuel Brasserie | Tél: 04 79 44 32 75 | Adresse: 1 avenue Boisse 73000 Chambéry Voir le plan
+2025-08-29 10:30:45,585 - INFO - [Page 1 | Carte 12] L'AVIATEUR DE LA RN6 | Tél: 06 81 22 77 87 | Adresse: 565 route Nationale 6 69380 Dommartin Voir le plan
+2025-08-29 10:30:46,552 - INFO - [Page 1 | Carte 13] La Taverne du Gobelin Farci | Tél: 04 77 32 53 32, 06 95 06 94 88 | Adresse: 39 rue 11 Novembre 42100 Saint Etienne Voir le plan
+2025-08-29 10:30:47,569 - INFO - [Page 1 | Carte 14] Happy Diner/Pub Le Jerry's | Tél: 09 83 36 13 68 | Adresse: 37 avenue Arcalod 74150 Rumilly Voir le plan
+2025-08-29 10:30:48,553 - INFO - [Page 1 | Carte 15] Hotel-Restaurant Le Patio | Tél: 04 70 98 63 45 | Adresse: 8 rue Paris 03200 Vichy Voir le plan
+2025-08-29 10:30:49,473 - INFO - [Page 1 | Carte 16] Le Français | Tél: 04 74 22 55 14 | Adresse: 7 avenue Alsace Lorraine 01000 Bourg en Bresse Voir le plan
+2025-08-29 10:30:50,104 - INFO - [Page 1 | Carte 17] MAMACITA | Tél: 09 55 58 82 31 | Adresse: 36 Bis boulevard Manlière 63500 Issoire Voir le plan
+2025-08-29 10:30:51,042 - INFO - [Page 1 | Carte 18] Lou Tassou | Tél: 04 73 26 00 47 | Adresse: 14 place Ramacles 63170 Aubière Voir le plan
+2025-08-29 10:30:51,646 - INFO - [Page 1 | Carte 19] KASSE LA BARAK | Tél: 04 79 06 44 68 | Adresse: 155 rue Nicolas Parent 73000 Chambéry Voir le plan
+2025-08-29 10:30:52,374 - INFO - [Page 1 | Carte 20] Café Des Sports | Tél: 04 76 91 85 80 | Adresse: 80 place Eglise 73240 Saint Genix sur Guiers Voir le plan
+2025-08-29 10:30:52,374 - INFO - Résultats cumulés: 20 / 30
+2025-08-29 10:30:56,379 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/auvergne-rh%C3%B4ne-alpes/d%C3%A9bits+de+boissons?page=2
+2025-08-29 10:30:57,783 - INFO - 20 cartes détectées sur la page 2
+2025-08-29 10:30:58,774 - INFO - [Page 2 | Carte 1] Brasserie Brunet | Tél: 04 50 51 22 10 | Adresse: 10 rue Poste 74000 Annecy Voir le plan
+2025-08-29 10:30:58,814 - INFO - [Page 2 | Carte 2] Doublon détecté: Le Français
+2025-08-29 10:30:59,876 - INFO - [Page 2 | Carte 3] L'Estaminet | Tél: 04 50 45 88 83 | Adresse: 8 rue Ste Claire 74000 Annecy Voir le plan
+2025-08-29 10:31:00,569 - INFO - [Page 2 | Carte 4] Terrapadel | Tél: 04 77 92 93 12 | Adresse: 4 allée Icare 42160 Andrézieux Bouthéon Voir le plan
+2025-08-29 10:31:01,541 - INFO - [Page 2 | Carte 5] Logis Hôtel Marina Adelphia | Tél: 04 79 88 72 72 | Adresse: 215 boulevard Robert Barrier 73100 Aix les Bains Voir le plan
+2025-08-29 10:31:01,578 - INFO - [Page 2 | Carte 6] Doublon détecté: La Réserve
+2025-08-29 10:31:02,641 - INFO - [Page 2 | Carte 7] Au Taco Tac | Tél: 09 52 09 20 71 | Adresse: 9 rue Denfert Rochereau 38000 Grenoble Voir le plan
+2025-08-29 10:31:03,509 - INFO - [Page 2 | Carte 8] Le Grand Café Neuf | Tél: 04 78 60 58 14 | Adresse: 70 avenue Félix Faure 69003 Lyon Voir le plan
+2025-08-29 10:31:04,522 - INFO - [Page 2 | Carte 9] Le Before Kfé | Tél: 06 99 23 24 06 | Adresse: 9 impasse Château Rouge 69530 Brignais Voir le plan
+2025-08-29 10:31:05,547 - INFO - [Page 2 | Carte 10] Les Baladins | Tél: 04 73 88 51 35 | Adresse: St Nectaire Le Bas Est 23 avenue Doct Roux 63710 Saint Nectaire Voir le plan
+2025-08-29 10:31:06,459 - INFO - [Page 2 | Carte 11] Le Cosy | Tél:     04 50 22 16 15, 09 66 91 16 15 | Adresse: 344 avenue Centre Epagny 74330 Epagny Metz Tessy Voir le plan
+2025-08-29 10:31:07,138 - INFO - [Page 2 | Carte 12] Bistrot Du Coin | Tél: 04 50 01 03 35 | Adresse: 28 route Chevaline 74210 Doussard Voir le plan
+2025-08-29 10:31:07,139 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 10:31:07,139 - INFO - Résultats cumulés: 30 / 30
+2025-08-29 10:31:07,139 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 10:31:07,139 - INFO - Scraping terminé, total résultats: 30

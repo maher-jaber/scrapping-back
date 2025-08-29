@@ -298,31 +298,42 @@ async def get_scraping_status(user: str = Depends(get_current_user)):
 
 @app.post("/scrape/googlemaps")
 async def scrape_gmaps(request: SearchRequest, user: str = Depends(get_current_user)):
-    # 1️⃣ Exécute le scraping dans un thread séparé pour ne pas bloquer
-    results = await asyncio.to_thread(
-        scrape_label_fusion,
-        request.query,
-        request.location,
-        request.max_results,
-        user
-    )
+    if user in scraping_active_gmaps["gmaps"]:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Un scraping Google Maps est déjà en cours sur la source pour {user}."
+        )
 
-    if not results:
-        return {"status": "error", "message": "Aucun résultat trouvé"}
+    try:
+        scraping_active_gmaps["gmaps"][user] = True
 
-    # 2️⃣ Normalisation des résultats
-    normalized = [normalize_result(r) for r in results]
+        results = await asyncio.to_thread(
+            scrape_label_fusion,
+            request.query,
+            request.location,
+            request.max_results,
+            user
+        )
 
-    # 3️⃣ Sauvegarde en DB (également dans un thread séparé)
-    saved = await asyncio.to_thread(
-        save_to_db,
-        normalized,
-        request.query,
-        request.location,
-        "gmaps"
-    )
+        if not results:
+            return {"status": "error", "message": "Aucun résultat trouvé"}
 
-    return {"status": "success", **saved}
+        normalized = [normalize_result(r) for r in results]
+        saved = await asyncio.to_thread(
+            save_to_db,
+            normalized,
+            request.query,
+            request.location,
+            "gmaps"
+        )
+        return {"status": "success", **saved}
+
+    finally:
+        # ❌ ne pas mettre False → respecter la logique du scraper
+        if user in scraping_active_gmaps["gmaps"]:
+            del scraping_active_gmaps["gmaps"][user]
+
+
 
 @app.get("/locations")
 def list_locations(user: str = Depends(get_current_user)):
@@ -345,28 +356,49 @@ def list_locations(user: str = Depends(get_current_user)):
 
 @app.post("/scrape/pagesjaunes")
 async def scrape_pj(request: SearchRequest, user: str = Depends(get_current_user)):
-    results = await asyncio.to_thread(
-        scrape_pages_jaunes,
-        request.query,
-        request.location,
-        request.max_results,
-        user
-    )
+    # Vérifie si ce user a déjà un scraping PJ actif
+    if user in scraping_active_pj["pagesjaunes"]:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Un scraping Pages Jaunes est déjà en cours pour {user}."
+        )
 
-    if not results:
-        return {"status": "error", "message": "Aucun résultat trouvé"}
+    try:
+        # Marquer comme actif
+        scraping_active_pj["pagesjaunes"][user] = True
 
-    normalized = [normalize_result(r) for r in results]
+        # Lancer le scraping dans un thread séparé
+        results = await asyncio.to_thread(
+            scrape_pages_jaunes,
+            request.query,
+            request.location,
+            request.max_results,
+            user
+        )
 
-    saved = await asyncio.to_thread(
-        save_to_db,
-        normalized,
-        request.query,
-        request.location,
-        "pagesjaunes"
-    )
+        if not results:
+            return {"status": "error", "message": "Aucun résultat trouvé"}
 
-    return {"status": "success", **saved}
+        # Normaliser les résultats
+        normalized = [normalize_result(r) for r in results]
+
+        # Sauvegarder en DB
+        saved = await asyncio.to_thread(
+            save_to_db,
+            normalized,
+            request.query,
+            request.location,
+            "pagesjaunes"
+        )
+
+        return {"status": "success", **saved}
+
+    finally:
+        # ❌ Pas mettre False → on supprime la clé pour rester cohérent
+        if user in scraping_active_pj["pagesjaunes"]:
+            del scraping_active_pj["pagesjaunes"][user]
+
+
 
 
 @app.get("/scrape/pagesjaunes/status")
