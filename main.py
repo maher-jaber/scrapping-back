@@ -18,7 +18,7 @@ from fastapi.openapi.docs import get_swagger_ui_html
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import JWTError, jwt
 from datetime import timedelta
-from typing import Optional
+from typing import Optional,List, Dict
 from passlib.context import CryptContext
 import asyncio
 
@@ -69,6 +69,19 @@ app.add_middleware(
 )
 # --- /CORS ---
 
+# --- Charger les JSON une seule fois au démarrage ---
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+with open(os.path.join(BASE_DIR, "data/communes_clean.json"), "r", encoding="utf-8") as f:
+    COMMUNES = json.load(f)
+
+with open(os.path.join(BASE_DIR, "data/departements_communes_clean.json"), "r", encoding="utf-8") as f:
+    DEPARTEMENTS = json.load(f)
+
+with open(os.path.join(BASE_DIR, "data/regions_communes_clean.json"), "r", encoding="utf-8") as f:
+    REGIONS = json.load(f)
+    
+    
 class SearchRequest(BaseModel):
     query: str
     location: str
@@ -140,6 +153,28 @@ def get_current_user(token: str = Depends(oauth2_scheme)):
         return username
     except JWTError:
         raise HTTPException(status_code=401, detail="Token invalide")
+
+
+def get_communes_from_location(location: str) -> List[str]:
+    """
+    Retourne la liste des communes pour une location donnée
+    location peut être : commune, département ou région
+    """
+    # 1. Chercher comme commune directe
+    if location in COMMUNES:
+        return [location]
+
+    # 2. Chercher comme code ou nom de département
+    for code, dep in DEPARTEMENTS.items():
+        if location == code or location.lower() == dep["nom_departement"].lower():
+            return dep["communes"]
+
+    # 3. Chercher comme nom de région
+    if location in REGIONS:
+        return REGIONS[location]
+
+    # Sinon aucune commune trouvée
+    return []
 
 # --- endpoint login ---
 @app.post("/token")
@@ -306,14 +341,20 @@ async def scrape_gmaps(request: SearchRequest, user: str = Depends(get_current_u
 
     try:
         scraping_active_gmaps["gmaps"][user] = True
+        communes = get_communes_from_location(request.location)
+        results = []
 
-        results = await asyncio.to_thread(
-            scrape_label_fusion,
-            request.query,
-            request.location,
-            request.max_results,
-            user
-        )
+        for commune in communes:
+            res = await asyncio.to_thread(
+                scrape_label_fusion,  
+                request.query,
+                commune,
+                request.max_results,
+                user
+            )
+            results.extend(res)
+            
+       
 
         if not results:
             return {"status": "error", "message": "Aucun résultat trouvé"}
@@ -368,13 +409,18 @@ async def scrape_pj(request: SearchRequest, user: str = Depends(get_current_user
         scraping_active_pj["pagesjaunes"][user] = True
 
         # Lancer le scraping dans un thread séparé
-        results = await asyncio.to_thread(
-            scrape_pages_jaunes,
-            request.query,
-            request.location,
-            request.max_results,
-            user
-        )
+        communes = get_communes_from_location(request.location)
+        results = []
+
+        for commune in communes:
+            res = await asyncio.to_thread(
+                scrape_pages_jaunes, 
+                request.query,
+                commune,
+                request.max_results,
+                user
+            )
+            results.extend(res)
 
         if not results:
             return {"status": "error", "message": "Aucun résultat trouvé"}
@@ -583,6 +629,61 @@ def list_historique_paginated(
     }
 
 
+    
+    
+# --- 1️⃣ Liste des communes ---
+@app.get("/geo/communes", response_model=List[str])
+def get_communes():
+    """Retourne la liste des communes triées"""
+    return sorted(COMMUNES)
+
+
+# --- 2️⃣ Liste des départements ---
+@app.get("/geo/departements", response_model=List[Dict])
+def get_departements():
+    """
+    Retourne la liste des départements avec leur code, nom, région
+    """
+    return [
+        {
+            "code_departement": code,
+            "nom_departement": data["nom_departement"],
+            "code_region": data["code_region"],
+            "nom_region": data["nom_region"]
+        }
+        for code, data in DEPARTEMENTS.items()
+    ]
+
+
+# --- 3️⃣ Communes par département ---
+@app.get("/geo/departements/{code}/communes", response_model=List[str])
+def get_communes_by_departement(code: str):
+    """
+    Retourne la liste des communes d’un département
+    """
+    dep = DEPARTEMENTS.get(code)
+    if not dep:
+        return []
+    return sorted(dep["communes"])
+
+
+# --- 4️⃣ Régions ---
+@app.get("/geo/regions", response_model=List[str])
+def get_regions():
+    """
+    Retourne la liste des régions
+    """
+    return sorted(list(REGIONS.keys()))
+
+
+# --- 5️⃣ Communes par région ---
+@app.get("/geo/regions/{nom_region}/communes", response_model=List[str])
+def get_communes_by_region(nom_region: str):
+    """
+    Retourne la liste des communes d’une région
+    """
+    return sorted(REGIONS.get(nom_region, []))
+
 
 def save_to_db(results, query, location, source="gmaps"):
     cursor = db.cursor(dictionary=True)
@@ -685,5 +786,4 @@ def custom_swagger_ui(user: str = Depends(get_current_user_docs)):
 @app.get("/secure-openapi.json", include_in_schema=False)
 def custom_openapi(user: str = Depends(get_current_user_docs)):
     return app.openapi()
-
 

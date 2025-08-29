@@ -22586,3 +22586,94 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2025-08-29 10:31:07,139 - INFO - Résultats cumulés: 30 / 30
 2025-08-29 10:31:07,139 - INFO - Nombre maximal de résultats atteint.
 2025-08-29 10:31:07,139 - INFO - Scraping terminé, total résultats: 30
+2025-08-29 14:22:38,631 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-29 15:40:20,137 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-29 15:44:58,159 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-29 15:45:17,135 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\mjaber\AppData\Local\Programs\Python\Python311\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-29 16:31:30,557 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Paris 1er Arrondissement'
+2025-08-29 16:31:30,557 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/paris+1er+arrondissement/d%C3%A9bits+de+boissons?page=1
+2025-08-29 16:32:02,861 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 16:32:03,833 - INFO - [Page 1 | Carte 1] Isadora | Tél: 09 53 13 67 70 | Adresse: 60 rue Jean Jacques Rousseau 75001 Paris Voir le plan
+2025-08-29 16:32:04,698 - INFO - [Page 1 | Carte 2] Café Rive Droite | Tél: 01 42 33 81 62 | Adresse: 2 rue Berger 75001 Paris Voir le plan
+2025-08-29 16:32:05,592 - INFO - [Page 1 | Carte 3] Liquide | Tél: 01 42 36 50 05 | Adresse: 39 rue Arbre Sec 75001 Paris Voir le plan
+2025-08-29 16:32:06,496 - INFO - [Page 1 | Carte 4] Chez Claude | Tél: 01 42 60 20 14 | Adresse: 166 rue St Honoré 75001 Paris Voir le plan
+2025-08-29 16:32:07,158 - INFO - [Page 1 | Carte 5] Au Vieux Châtelet | Tél: 01 42 33 79 27 | Adresse: 1 place Châtelet 75001 Paris Voir le plan
+2025-08-29 16:32:07,158 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 16:32:07,158 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 16:32:07,158 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 16:32:07,158 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 16:52:35,995 - INFO - Lancement du scraping pour 'Débits de boissons' à 'L'Abergement-Clémenciat'
+2025-08-29 16:52:35,995 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/l%27abergement-cl%C3%A9menciat/d%C3%A9bits+de+boissons?page=1
+2025-08-29 16:53:11,331 - INFO - 1 cartes détectées sur la page 1
+2025-08-29 16:53:12,202 - INFO - [Page 1 | Carte 1] LE FRANCAIS | Tél: 04 74 30 46 03 | Adresse: 14 place République 01400 Châtillon sur Chalaronne Voir le plan
+2025-08-29 16:53:12,203 - INFO - Résultats cumulés: 1 / 5
+2025-08-29 16:53:16,207 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/l%27abergement-cl%C3%A9menciat/d%C3%A9bits+de+boissons?page=2
+2025-08-29 16:53:27,141 - WARNING - Aucune carte trouvée sur la page 2
+2025-08-29 16:53:27,141 - INFO - Scraping terminé, total résultats: 1
+2025-08-29 16:53:31,143 - INFO - Lancement du scraping pour 'Débits de boissons' à 'L'Abergement-de-Varey'
+2025-08-29 16:53:31,143 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/l%27abergement-de-varey/d%C3%A9bits+de+boissons?page=1
+2025-08-29 16:54:01,991 - INFO - 3 cartes détectées sur la page 1
+2025-08-29 16:54:02,651 - INFO - [Page 1 | Carte 1] Le H S | Tél: 04 37 86 09 58 | Adresse: 1 place Armes 01640 Jujurieux Voir le plan
+2025-08-29 16:54:03,298 - INFO - [Page 1 | Carte 2] Dominique Gaillot | Tél:     09 51 46 97 50 | Adresse: 55 Grande Rue 01500 Ambronay Voir le plan
+2025-08-29 16:54:04,046 - INFO - [Page 1 | Carte 3] Gaëtan Fargeot | Tél: 04 37 86 17 47 | Adresse: 25 place Babilliere 01500 Douvres Voir le plan
+2025-08-29 16:54:04,047 - INFO - Résultats cumulés: 3 / 5
+2025-08-29 16:54:08,054 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/l%27abergement-de-varey/d%C3%A9bits+de+boissons?page=2
+2025-08-29 16:54:19,112 - WARNING - Aucune carte trouvée sur la page 2
+2025-08-29 16:54:19,112 - INFO - Scraping terminé, total résultats: 3
+2025-08-29 16:54:23,137 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ambérieu-en-Bugey'
+2025-08-29 16:54:23,138 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/amb%C3%A9rieu-en-bugey/d%C3%A9bits+de+boissons?page=1
+2025-08-29 16:54:25,420 - INFO - 7 cartes détectées sur la page 1
+2025-08-29 16:54:26,169 - INFO - [Page 1 | Carte 1] Bar'occ | Tél: 04 74 38 14 70 | Adresse: avenue Roger Vailland 01500 Ambérieu en Bugey Voir le plan
+2025-08-29 16:54:26,985 - INFO - [Page 1 | Carte 2] La Casaque D'Or | Tél: 04 74 46 43 60 | Adresse: 19 rue Alexandre Bérard 01500 Ambérieu en Bugey Voir le plan
+2025-08-29 16:54:27,928 - INFO - [Page 1 | Carte 3] V and B | Tél: 04 74 39 06 47 | Adresse: 37 avenue Libération 01500 Ambérieu en Bugey Voir le plan
+2025-08-29 16:54:28,612 - INFO - [Page 1 | Carte 4] Sans Pression | Tél: 04 74 61 95 26 | Adresse: 10 allée Louis Mouthier 01500 Ambérieu en Bugey Voir le plan
+2025-08-29 16:54:29,388 - INFO - [Page 1 | Carte 5] CAFE DE LA GARE SAS | Tél:     04 69 18 37 67 | Adresse: 10 avenue Gén Sarrail 01500 Ambérieu en Bugey Voir le plan
+2025-08-29 16:54:29,388 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 16:54:29,388 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 16:54:29,388 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 16:54:29,388 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 16:54:33,382 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ambérieux-en-Dombes'
+2025-08-29 16:54:33,382 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/amb%C3%A9rieux-en-dombes/d%C3%A9bits+de+boissons?page=1
+2025-08-29 16:55:00,800 - INFO - 20 cartes détectées sur la page 1
+2025-08-29 16:55:01,791 - INFO - [Page 1 | Carte 1] La Terrasse | Tél: 04 72 26 10 33 | Adresse: 132 place Croix Blanche 01390 Saint André de Corcy Voir le plan
+2025-08-29 16:55:02,717 - INFO - [Page 1 | Carte 2] Kantina | Tél: 04 87 64 19 39 | Adresse: 56 route Dombes 01390 Civrieux Voir le plan
+2025-08-29 16:55:03,399 - INFO - [Page 1 | Carte 3] Un Cygne de Gourmandises | Tél: 07 63 66 67 06 | Adresse: 25 route Lyon 01390 Civrieux Voir le plan
+2025-08-29 16:55:04,447 - INFO - [Page 1 | Carte 4] Domino | Tél: 04 74 98 08 94 | Adresse: 132 rue Gilbert Boullier 01330 Villars les Dombes Voir le plan
+2025-08-29 16:55:05,229 - INFO - [Page 1 | Carte 5] Le Chaudron | Tél:     04 74 00 43 52 | Adresse: 6 rue Port 01600 Trévoux Voir le plan
+2025-08-29 16:55:05,229 - INFO - Nombre maximal de résultats atteint, arrêt du scraping.
+2025-08-29 16:55:05,230 - INFO - Résultats cumulés: 5 / 5
+2025-08-29 16:55:05,230 - INFO - Nombre maximal de résultats atteint.
+2025-08-29 16:55:05,230 - INFO - Scraping terminé, total résultats: 5
+2025-08-29 16:55:09,148 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ambléon'
+2025-08-29 16:55:09,148 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ambl%C3%A9on/d%C3%A9bits+de+boissons?page=1
+2025-08-29 16:55:12,349 - INFO - 2 cartes détectées sur la page 1
+2025-08-29 16:55:13,229 - INFO - [Page 1 | Carte 1] L'auberge de Lhuis | Tél: 04 37 61 18 67 | Adresse: 9 rue Ruel 01680 Lhuis Voir le plan
+2025-08-29 16:55:14,237 - INFO - [Page 1 | Carte 2] Temporel Bonheur du Temps | Tél: 09 81 51 23 57 | Adresse: 18 rue St Martin 01300 Belley Voir le plan
+2025-08-29 16:55:14,237 - INFO - Résultats cumulés: 2 / 5
+2025-08-29 16:55:18,241 - INFO - Chargement de la page 2: https://www.pagesjaunes.fr/recherche/ambl%C3%A9on/d%C3%A9bits+de+boissons?page=2
+2025-08-29 16:55:29,210 - WARNING - Aucune carte trouvée sur la page 2
+2025-08-29 16:55:29,210 - INFO - Scraping terminé, total résultats: 2
+2025-08-29 16:55:33,105 - INFO - Lancement du scraping pour 'Débits de boissons' à 'Ambronay'
+2025-08-29 16:55:33,105 - INFO - Chargement de la page 1: https://www.pagesjaunes.fr/recherche/ambronay/d%C3%A9bits+de+boissons?page=1
+2025-08-29 16:55:36,038 - ERROR - ERREUR GLOBALE: ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+2025-08-29 16:55:40,101 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024D70070990>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/3f99b9947addabc4cdc82c90a43e9aea/screenshot
